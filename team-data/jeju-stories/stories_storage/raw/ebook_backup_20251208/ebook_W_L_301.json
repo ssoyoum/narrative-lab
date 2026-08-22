@@ -1,0 +1,50 @@
+{
+  "code": "W-L-301",
+  "title": "설문대할망",
+  "category": "전설",
+  "sub_category": "인물",
+  "type": "현지조사",
+  "content": {
+    "text": "W_L_301 설문대할망  2017년 3월 21일,  조천읍 조천리 조천경로당,  강수경 조사.  양기순(여,  1929년생,  조천읍 조천리)  ∙ 줄거리:  설문대할망은 바다에서 못 가는 데가 없었다.  그래서 제주 사람들이 육지에 갈   수 있도록 바다를 메워달라고 하였다.  설문대할망이 소중이 하나만 만들어주면   바다를 메워준다고 하였으나 제주 사람들은 가난하여 해줄 수 없었다.  설문대할   망은 물장오리에 들어가서 빠져 죽었다.   [제보자] 바당으로  못  가는  디가  엇엇어.  경  허난  제주선  이젠  “육지  가게시리  바당  메와  도렌.”    허난,  “소중이  헐  거,  소중이  하나만  헤  주민  헤  주켄.”    허난,    하도  못 살아노난  소중이 엇언  못헤줫다  허여. 경  헨 허난  어디 저  한로산에  물장    오리에  들어갓단,  그디  간  빠젼  죽어불엇젠  허주.   [조사자] 그  옛날부터  그건  설문대할망이렌  헹  들어난마씨?   [제보자] 응.   ∙ 핵심어 : 설문대할망,  소중이,  물장오리,  바다 -  200  -",
+    "char_count": 561,
+    "text_cleaned": "W_L_301 설문대할망 2017년 3월 21일, 조천읍 조천리 조천경로당, 강수경 조사. 양기순(여, 1929년생, 조천읍 조천리) ∙ 줄거리: 설문대할망은 바다에서 못 가는 데가 없었다. 그래서 제주 사람들이 육지에 갈 수 있도록 바다를 메워달라고 하였다. 설문대할망이 소중이 하나만 만들어주면 바다를 메워준다고 하였으나 제주 사람들은 가난하여 해줄 수 없었다. 설문대할 망은 물장오리에 들어가서 빠져 죽었다. [제보자] 바당으로 못 가는 디가 엇엇어. 경 허난 제주선 이젠 “육지 가게시리 바당 메와 도렌.” 허난, “소중이 헐 거, 소중이 하나만 헤 주민 헤 주켄.” 허난, 하도 못 살아노난 소중이 엇언 못헤줫다 허여. 경 헨 허난 어디 저 한로산에 물장 오리에 들어갓단, 그디 간 빠젼 죽어불엇젠 허주. [조사자] 그 옛날부터 그건 설문대할망이렌 헹 들어난마씨? [제보자] 응. ∙ 핵심어 : 설문대할망, 소중이, 물장오리, 바다 - 200 -",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "68개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 561,
+      "cleaned_char_count": 478
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_301/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_301/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:40:35.311840",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T15:57:59.876275",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T19:04:00.607546"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Lack",
+    "object_link": "Cliff",
+    "emotion_keyword": "Sweet_Potato",
+    "modern_summary": "제주 사람들의 가난으로 인해 바다를 메우는 소중한 일을 하지 못하는 상황에서 발생하는 갈등",
+    "location_context": {
+      "primary_place": "조천읍 조천리",
+      "admin_region": "Unknown"
+    },
+    "emotion_confidence": "high",
+    "emotion_method": "cot+simple_agree"
+  }
+}

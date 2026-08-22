@@ -1,0 +1,139 @@
+{
+  "id": "L_046",
+  "title": "방선문",
+  "category": "전설",
+  "content": {
+    "clean": "방선문\n\n[분류] 전설 > 자연\n\n[채록정보] 북제주군 제주시 오라동 강석봉(남·57) 제보, 김영돈.\n\n[본문]\n옛날 천상의 옥황상제에게는 일곱 선녀 따님이 있었다. 하루는 이 선녀들이 한라산 천지연에 내려와서 목욕을 하고 놀았다. 그때 선문이라는 총각이 그 광경을 몰래 엿보았다. 엿보던 것을 옥황상제가 알고 그 처벌로 선문을 흰 사슴으로 만들었다. 그 사슴은 백록담에 살면서 그 못을 지켰다.\n\n방선문은 신선 선(仙) 자가 들어가는 이름을 지니고 있었다.\n\n[출처] 제주도, 제주도전설지, 1985, p.41.\n\n[관련정보] '용연의 선녀'(1책 21면)와 동일 내용이다.",
+    "raw": "T_L_046   방선문 옛날  천상의  옥황상제에게는  일곱  선녀  따님이  있었다.  하루는  이  선녀들이  한라산  천지연에   내려와서  목욕을  하고  놀았다.  그때  선문이라는  총각이  그  광경을  몰래  엿보았다.  엿보던  것을   옥황상제가  알고  그  처벌로  선문을  흰  사슴으로  만들었다.  그  사슴은  백록담에  살면서  그  못을   지켰다. 방선문은  신선  선(仙)자가  들어가는  이름을  지니고  있었다.   북제주군  제주시  오라동  강석봉(남·57)제보,  김영돈. 제주도, 제주도전설지, 1985, p.41.\n\n'용연의  선녀'(1책  21면)와  동일  내용이다.",
+    "commentary": null
+  },
+  "attributes": {
+    "summary": "옥황상제의 일곱 선녀가 한라산 천지연에서 목욕할 때 방선문이란 총각이 엿보았다. 옥황상제가 처벌로 그를 흰 사슴으로 만들어 백록담을 지키게 했다.",
+    "emotion": "Sweet_Potato",
+    "conflict": "Taboo",
+    "keywords": [
+      "방선문",
+      "선녀",
+      "옥황상제",
+      "백록담",
+      "흰사슴",
+      "천지연",
+      "처벌",
+      "변신"
+    ],
+    "entities": [
+      {
+        "name": "방선문",
+        "description": "선녀 목욕을 엿본 총각",
+        "type": "Human"
+      },
+      {
+        "name": "옥황상제",
+        "description": "천상의 지배자, 처벌자",
+        "type": "Deity"
+      },
+      {
+        "name": "일곱 선녀",
+        "description": "옥황상제의 따님들",
+        "type": "Deity"
+      },
+      {
+        "name": "흰 사슴",
+        "description": "방선문이 변한 모습",
+        "type": "Animal"
+      }
+    ],
+    "roles": [
+      {
+        "entity_name": "방선문",
+        "type": "Victim"
+      },
+      {
+        "entity_name": "옥황상제",
+        "type": "Antagonist"
+      },
+      {
+        "entity_name": "일곱 선녀",
+        "type": "Other"
+      }
+    ],
+    "terrains": [
+      {
+        "type": "Mountain",
+        "description": "한라산 천지연 - 선녀 목욕 장소"
+      },
+      {
+        "type": "Mountain",
+        "description": "백록담 - 사슴의 거처"
+      }
+    ],
+    "location_context": {
+      "primary_place": "백록담",
+      "admin_region": "한라산"
+    },
+    "plot_points": [
+      {
+        "beat": "Ki",
+        "event": "옛날 천상의 옥황상제에게는 일곱 선녀 따님이 있었다",
+        "function": "배경 설정/천상 세계 소개"
+      },
+      {
+        "beat": "Shō",
+        "event": "하루는 이 선녀들이 한라산 천지연에 내려와서 목욕을 하고 놀았다",
+        "function": "사건 발생/선녀 강림"
+      },
+      {
+        "beat": "Trial",
+        "event": "그때 선문이라는 총각이 그 광경을 몰래 엿보았다",
+        "function": "금기 위반/관음 행위"
+      },
+      {
+        "beat": "Crisis",
+        "event": "엿보던 것을 옥황상제가 알고",
+        "function": "발각/위기 도래"
+      },
+      {
+        "beat": "Climax",
+        "event": "그 처벌로 선문을 흰 사슴으로 만들었다",
+        "function": "처벌 집행/변신"
+      },
+      {
+        "beat": "Ketsu",
+        "event": "그 사슴은 백록담에 살면서 그 못을 지켰다. 방선문은 신선 선(仙) 자가 들어가는 이름을 지니고 있었다",
+        "function": "새로운 역할/이름의 운명"
+      }
+    ],
+    "story_dna": {
+      "wounds_addressed": [
+        "fear",
+        "restlessness"
+      ],
+      "desires_fulfilled": [
+        "transformation",
+        "legacy"
+      ],
+      "primary_wound": "fear",
+      "primary_desire": "transformation",
+      "resonance_triggers": [
+        "방선문",
+        "선녀",
+        "옥황상제",
+        "백록담",
+        "흰사슴",
+        "천지연",
+        "처벌",
+        "변신",
+        "금기",
+        "백록"
+      ],
+      "emotional_arc": "선녀 목욕 엿봄 → 금기 위반 발각 → 사슴으로 변신 → 백록담 수호자",
+      "narrative_themes": [
+        "금기 위반",
+        "변신",
+        "처벌",
+        "새로운 역할",
+        "이름의 운명"
+      ]
+    }
+  }
+}

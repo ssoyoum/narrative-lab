@@ -1,0 +1,70 @@
+{
+  "id": "folktale_tokki_seonsaeng",
+  "title": "토끼선생",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "본격담",
+
+  "content": {
+    "summary": "천계의 이치와 세상사를 놀라운 명철함으로 이해하는 초자연적 능력을 지닌 인물의 이야기.",
+
+    "episodes": [
+      {
+        "title": "탄생",
+        "content": "토끼 같은 외모를 한 채 인간으로 환생한 천상의 존재."
+      },
+      {
+        "title": "계모의 박해",
+        "content": "어머니 사후 계모가 여러 계략으로 그를 죽이려 한다."
+      },
+      {
+        "title": "아이 구출",
+        "content": "마법의 주문으로 죽어가는 아이를 살려 초자연적 능력을 보인다."
+      },
+      {
+        "title": "가뭄 해결",
+        "content": "악한 천상의 용을 벌하여 가뭄을 해결하고, 옥황상제가 소원을 들어준다."
+      },
+      {
+        "title": "역설적 죽음",
+        "content": "우주적 지식에도 불구하고 자신의 죽음을 예견하지 못한다. 오히려 평범한 농부가 그의 죽음을 알려준다."
+      }
+    ],
+
+    "themes": ["초자연적 능력과 인간의 한계", "천상 강림 신화", "계모 모티프"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "토끼선생", "role": "주인공"},
+      {"name": "계모", "role": "악역"},
+      {"name": "옥황상제", "role": "천상의 존재"},
+      {"name": "농부", "role": "죽음을 알려주는 자"}
+    ],
+    "locations": [
+      {"name": "삼도2동", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["초자연적 능력", "천상 강림", "계모", "역설"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00702450",
+      "item_id": "GC00702450"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도 민담』, 1996",
+      "informant": {"name": "김호준", "age": 30, "location": "삼도2동"},
+      "recorded": "1959년 10월",
+      "collector": "현용준"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

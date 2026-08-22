@@ -1,0 +1,69 @@
+{
+  "id": "folktale_piga_heureun_eomeoni",
+  "title": "피가 흐른 어머니 조상",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "세속담",
+
+  "content": {
+    "summary": "효심 깊은 아들의 헌신에 어머니의 영혼이 흙상에 응답한 이야기.",
+
+    "episodes": [
+      {
+        "title": "어머니의 죽음",
+        "content": "효심 깊은 아들이 어머니 사후 깊은 슬픔에 빠진다."
+      },
+      {
+        "title": "초상화와 흙상",
+        "content": "먼저 초상화를 그리고, 나중에 흙으로 상을 빚는다."
+      },
+      {
+        "title": "매일 공양",
+        "content": "매일 공양과 애도 의식을 유지한다."
+      },
+      {
+        "title": "친구들의 파괴",
+        "content": "방문한 친구들이 조롱하며 흙상을 부순다."
+      },
+      {
+        "title": "기적",
+        "content": "'흙상에서 피가 흘렀다'는 기적이 일어난다."
+      }
+    ],
+
+    "themes": ["효도", "영혼의 응답", "원시 신앙"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "효자", "role": "주인공"},
+      {"name": "어머니", "role": "영혼"},
+      {"name": "친구들", "role": "파괴자"}
+    ],
+    "locations": [
+      {"name": "용담동", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["효도", "흙상", "피", "기적"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00702492",
+      "item_id": "GC00702492"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도 민담』, 1996",
+      "informant": {"name": "김", "age": 60, "location": "용담동"},
+      "recorded": "1968년 3월",
+      "collector": "현용준"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

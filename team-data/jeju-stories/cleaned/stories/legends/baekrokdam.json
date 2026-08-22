@@ -1,0 +1,70 @@
+{
+  "id": "legend_baekrokdam",
+  "title": "백록담 전설",
+  "title_alt": ["백록 전설", "흰 사슴 전설"],
+  "type": "legend",
+  "category": "지명유래",
+
+  "content": {
+    "summary": "한라산에 사는 신선의 탈것인 백록(흰 사슴)을 실수로 해친 사냥꾼이 정성스러운 참회로 목숨을 건지고 장수했다는 이야기.",
+
+    "episodes": [
+      {
+        "title": "신선의 산",
+        "content": "한라산은 원래 신선이 노는 산이다. 신선들은 흰 사슴을 타고 정상에 있는 백록담의 맑은 물을 사슴에게 먹인다고 한다. 백록담의 이름은 이 백록에서 유래했다."
+      },
+      {
+        "title": "사냥꾼의 실수",
+        "content": "사냥꾼 안씨가 무의식적으로 백록을 쏘고 칼로 찔렀다."
+      },
+      {
+        "title": "정성스러운 참회",
+        "content": "안씨는 그 자리에 엎드려 극진히 빌었다."
+      },
+      {
+        "title": "초자연적 구원",
+        "content": "정성스러운 참회로 목숨을 건지고 140세까지 장수했다."
+      }
+    ],
+
+    "themes": [
+      "신성한 동물을 해치면 목숨까지 잃을 수 있다는 경고(터부)",
+      "정성스러운 참회의 힘",
+      "신선 사상"
+    ],
+
+    "narrative_structure": "우연한 과오 → 정성스러운 참회 → 초자연적 구원"
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "안씨 사냥꾼", "role": "주인공"},
+      {"name": "백록(흰 사슴)", "role": "신선의 탈것, 신성한 동물"},
+      {"name": "신선", "role": "한라산의 존재"}
+    ],
+    "locations": [
+      {"name": "백록담", "type": "화구호", "description": "남북 400m, 동서 600m, 깊이 108m"},
+      {"name": "한라산", "type": "산", "description": "신선이 노는 산"}
+    ],
+    "keywords": ["지명유래", "백록", "신선", "참회", "장수", "금기"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00700855",
+      "item_id": "GC00700855"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도 전설지』, 1985",
+      "informant": {"name": "김두익", "age": 78, "location": "제주시 구좌읍 송당리"}
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

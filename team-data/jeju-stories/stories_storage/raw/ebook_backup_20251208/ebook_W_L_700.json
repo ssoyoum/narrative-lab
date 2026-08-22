@@ -1,0 +1,50 @@
+{
+  "code": "W_L_700",
+  "title": "표선리 설문대할망",
+  "category": "전설",
+  "sub_category": "자연",
+  "type": "현지조사",
+  "content": {
+    "text": "W_L_700 표선리  설문대할망  2017년 10월 31일,  표선면 표선1리 표선1리노인복지회관,  문순덕(김은정·정이슬)  조사.  고옥년(여,  1936년생,  표선면 표선1리)  ∙ 줄거리: 설문대할망이 자신의 속옷을 만들어 주면 표선리와 군데기라는 곳까지 다리를 만들   어주겠다고 했는데,  속옷을 만들 천이 없어 다리를 놓지 못했다.   [조사자] 이  마을에  설문대할망하고  관련뒌  얘기  잇우과?   [제보자] 그건  우리가  두린  때  검질매면서  할머니신디  들은  말.  설문대할망이렌  헌  거는  설문대할망이  속곳을  만들어  주면  군데기영  여기영    깊은  여하고  표선리하고  다리를  놓아주켄  헷인디  속곳을  만들  천이  엇엇어.  다리    를  못  만들엇덴.  게난  천이  있어가지고  할망  속곳  만들어  줫이믄  다리가  잇엇일  건디.   ∙ 핵심어:  설문대할망,  속곳(속옷),  표선리,  군데기,  다리,  천 -  314  -",
+    "char_count": 503,
+    "text_cleaned": "W_L_700 표선리 설문대할망 2017년 10월 31일, 표선면 표선1리 표선1리노인복지회관, 문순덕(김은정·정이슬) 조사. 고옥년(여, 1936년생, 표선면 표선1리) ∙ 줄거리: 설문대할망이 자신의 속옷을 만들어 주면 표선리와 군데기라는 곳까지 다리를 만들 어주겠다고 했는데, 속옷을 만들 천이 없어 다리를 놓지 못했다. [조사자] 이 마을에 설문대할망하고 관련뒌 얘기 잇우과? [제보자] 그건 우리가 두린 때 검질매면서 할머니신디 들은 말. 설문대할망이렌 헌 거는 설문대할망이 속곳을 만들어 주면 군데기영 여기영 깊은 여하고 표선리하고 다리를 놓아주켄 헷인디 속곳을 만들 천이 엇엇어. 다리 를 못 만들엇덴. 게난 천이 있어가지고 할망 속곳 만들어 줫이믄 다리가 잇엇일 건디. ∙ 핵심어: 설문대할망, 속곳(속옷), 표선리, 군데기, 다리, 천 - 314 -",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "67개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 503,
+      "cleaned_char_count": 428
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_700/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_700/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:42:43.570975",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T16:47:55.002600",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T20:16:21.657444"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Lack",
+    "object_link": "None",
+    "emotion_keyword": "Healing",
+    "modern_summary": "속옷 부족으로 인한 다리 건설 실패",
+    "location_context": {
+      "primary_place": "표선리",
+      "admin_region": "Unknown"
+    },
+    "emotion_confidence": "medium",
+    "emotion_method": "cot_priority"
+  }
+}

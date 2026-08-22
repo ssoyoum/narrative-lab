@@ -1,0 +1,57 @@
+{
+  "id": "legend_biyangdo",
+  "title": "비양도 전설",
+  "title_alt": ["떠다니는 섬", "비양도 유래"],
+  "type": "legend",
+  "category": "지명유래",
+
+  "content": {
+    "summary": "중국에서 떠내려오던 섬이 임신한 해녀의 행위로 인해 제주 앞바다에 고정되었다는 전설.",
+
+    "episodes": [
+      {
+        "title": "떠도는 섬",
+        "content": "비양도는 원래 중국 방향에서 떠돌던 섬이었다. 조류에 밀려 제주까지 흘러오고 있었다."
+      },
+      {
+        "title": "해녀의 발견",
+        "content": "임신한 해녀가 바다에서 해초를 캐다가 이 섬을 발견했다."
+      },
+      {
+        "title": "섬의 고정",
+        "content": "해녀가 '섬이 떠내려 온다!'고 손가락질하거나, 섬에 올라 소변을 봤다. 이 행위로 인해 움직이던 섬이 그 자리에서 움직이지 않게 되었다."
+      }
+    ],
+
+    "symbolism": "여성의 행위가 우주 창조 완성을 의미하지만, 임신과 속된 행위로 간주되어 부정적 이미지로 표현되는 민간신앙적 특성"
+  },
+
+  "elements": {
+    "characters": ["임신한 해녀"],
+    "locations": [
+      {"name": "비양도", "type": "섬", "coords": {"region": "제주시 한림읍"}},
+      {"name": "중국", "type": "출발지", "relation": "섬의 원래 위치"}
+    ],
+    "keywords": ["지명유래", "섬", "해녀", "이동하는 섬", "고정"],
+    "motifs": ["부유섬", "여성의 주술적 행위", "금기"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00711368",
+      "item_id": "GC00711368"
+    },
+    {
+      "type": "book",
+      "reference": "현용준, 『제주도 전설』, 1976",
+      "informants": ["현주선(한림리)", "김영(수원리)"]
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

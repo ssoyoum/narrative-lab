@@ -1,0 +1,3 @@
+# 제주 설화 PDF → JSON 변환기 의존성
+PyMuPDF>=1.26.0
+easyocr>=1.7.0

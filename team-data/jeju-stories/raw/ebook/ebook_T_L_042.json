@@ -1,0 +1,35 @@
+{
+  "code": "T_L_042",
+  "title": "모동장에 돌담 두른 안익생",
+  "category": "전설",
+  "sub_category": "역사",
+  "type": "원문",
+  "content": {
+    "text": "T_L_042   모동장에  돌담  두른  안익생 안익생은  礪山人으로  조선  시대  국우에게  낙인  찍기  위하여  해마다  모동장(毛洞場)에  목책을   두르노라고  주민들의  노고가  매우  심했으므로  그가  서둘러  목장  주변을  돌로  둘러  쌓아  노역을   제하였다. “목장  소가  상함이  없고,  마을  사람들이  편했다.”는  찬문을  내린  바  있다.  <마을  사람들  이양기  종합>   오성찬, 제주의 마을 신도리, 도서출판 반석, 2002, p.150.",
+    "char_count": 276,
+    "text_cleaned": "T_L_042 모동장에 돌담 두른 안익생 안익생은 礪山人으로 조선 시대 국우에게 낙인 찍기 위하여 해마다 모동장(毛洞場)에 목책을 두르노라고 주민들의 노고가 매우 심했으므로 그가 서둘러 목장 주변을 돌로 둘러 쌓아 노역을 제하였다. “목장 소가 상함이 없고, 마을 사람들이 편했다.”는 찬문을 내린 바 있다. <마을 사람들 이양기 종합> 오성찬, 제주의 마을 신도리, 도서출판 반석, 2002, p.150.",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "43개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 276,
+      "cleaned_char_count": 229
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/T_L_042/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/T_L_042/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:37:59.273644",
+    "crawler_version": "1.0.0"
+  }
+}

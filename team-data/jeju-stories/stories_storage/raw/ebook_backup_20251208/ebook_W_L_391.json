@@ -1,0 +1,50 @@
+{
+  "code": "W-L-391",
+  "title": "설문대할망과 오름",
+  "category": "전설",
+  "sub_category": "인물",
+  "type": "현지조사",
+  "content": {
+    "text": "W_L_391 설문대할망과  오름(#)  2017년 5월 25일,  조천읍 선흘2리 이문자 씨,  강수경 조사.  이문자(여,  1929년생,  조천읍 선흘2리)  ∙ 줄거리:  설문대할망이 치마에 흙을 싸서 다니다가 흙이 한 주먹 떨어지면 그것이 오름이   되었다.   여기저기에 있는 오름들은 설문대할망이 다니면서 치마의 흙이 떨어져서 만들어   진 것이라고 하였다.   [제보자] 설문대할망도  말만  들엇주,  무신.   [조사자] 거난,  말로.  어떵  들어낫수강?   [제보자] 영  치메에  흑  싸그네엥,  영영,  저  우에레  영  아가단  영   주먹  주룩기  털어지    믄  저  오름  뒛젠.  경  헌  말  들어낫주.  영 치메 쌍 가당 또 이젠 요만이 가민, 또 주룩기 털어지곡 영허단 보난, 그게 몬    설문대할망  멘든  오름이엔.  그  말  들어낫주.  그런  말.   ∙ 핵심어 : 설문대할망,  흙,  오름,  치마 -  349  -",
+    "char_count": 494,
+    "text_cleaned": "W_L_391 설문대할망과 오름(#) 2017년 5월 25일, 조천읍 선흘2리 이문자 씨, 강수경 조사. 이문자(여, 1929년생, 조천읍 선흘2리) ∙ 줄거리: 설문대할망이 치마에 흙을 싸서 다니다가 흙이 한 주먹 떨어지면 그것이 오름이 되었다. 여기저기에 있는 오름들은 설문대할망이 다니면서 치마의 흙이 떨어져서 만들어 진 것이라고 하였다. [제보자] 설문대할망도 말만 들엇주, 무신. [조사자] 거난, 말로. 어떵 들어낫수강? [제보자] 영 치메에 흑 싸그네엥, 영영, 저 우에레 영 아가단 영  주먹 주룩기 털어지 믄 저 오름 뒛젠. 경 헌 말 들어낫주. 영 치메 쌍 가당 또 이젠 요만이 가민, 또 주룩기 털어지곡 영허단 보난, 그게 몬 설문대할망 멘든 오름이엔. 그 말 들어낫주. 그런 말. ∙ 핵심어 : 설문대할망, 흙, 오름, 치마 - 349 -",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "56개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 494,
+      "cleaned_char_count": 427
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_391/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_391/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:41:07.567261",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T16:06:03.393389",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T19:15:17.265788"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Lack",
+    "object_link": "Basalt_Rock",
+    "emotion_keyword": "Sweet_Potato",
+    "modern_summary": "설문대할망이 치마에 흙을 싸서 다니다가 흙이 한 주먹 떨어지면 그것이 오름이 되었다.",
+    "location_context": {
+      "primary_place": "설문대",
+      "admin_region": "조천읍"
+    },
+    "emotion_confidence": "high",
+    "emotion_method": "cot+simple_agree"
+  }
+}

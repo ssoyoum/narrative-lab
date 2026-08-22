@@ -1,0 +1,62 @@
+{
+  "id": "myth_naju_gimin_bonpuri",
+  "title": "나주기민창조상본풀이",
+  "title_alt": ["안씨 조상본풀이"],
+  "type": "myth",
+  "category": "조상본풀이",
+
+  "content": {
+    "summary": "제주시 조천읍 선흘리 안씨집안의 조상신, 곧 수호신의 본풀이. 뱀신 신앙을 설화화한 서사무가.",
+
+    "episodes": [
+      {
+        "title": "안씨 삼형제 정착",
+        "content": "안씨 삼형제가 제주도에 정착하여 선주(배의 주인)가 된다."
+      },
+      {
+        "title": "칠년 가뭄과 쌀 구매",
+        "content": "칠년 가뭄 중에 나주의 기민창에서 쌀을 구매한다."
+      },
+      {
+        "title": "폭풍과 뱀신의 도움",
+        "content": "폭풍으로 배가 파손되자 뱀신이 나타나 구멍을 막아준다."
+      },
+      {
+        "title": "뱀신의 정체",
+        "content": "뱀신은 꿈속에서 기민창의 쌀을 지키던 신임이 밝혀진다."
+      },
+      {
+        "title": "조상신 좌정",
+        "content": "뱀신이 안씨 집안의 수호신이자 어업의 수호신으로 모셔진다."
+      }
+    ],
+
+    "themes": ["뱀신 신앙", "해상 교통", "조상신", "어업 수호"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "안씨 삼형제", "role": "선주"},
+      {"name": "뱀신", "role": "기민창 수호신 → 안씨 조상신"}
+    ],
+    "locations": [
+      {"name": "선흘리", "type": "마을", "region": "조천읍"},
+      {"name": "나주 기민창", "type": "창고"}
+    ],
+    "keywords": ["나주기민창", "조상본풀이", "뱀신", "어업", "해상"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "한국민족문화대백과사전",
+      "url": "https://encykorea.aks.ac.kr/Article/E0011463",
+      "article_id": "E0011463"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

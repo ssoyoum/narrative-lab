@@ -1,0 +1,4044 @@
+{
+  "created_at": "2025-12-03T18:24:19.243347",
+  "description": "E-BOOK 텍스트 추출 실패 항목 → OCR 매칭 정보",
+  "total_failed": 224,
+  "summary": {
+    "ocr_found": 0,
+    "ocr_missing": 224,
+    "has_content_pair": 0
+  },
+  "items": [
+    {
+      "ebook_code": "W_F_600",
+      "normalized_code": "W_F_600",
+      "title": "가마솥에 빠진 설문대할망",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_600/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226077&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_600.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_601",
+      "normalized_code": "W_F_601",
+      "title": "감은장아기와 작은마퉁이",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_601/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226079&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_601.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_602",
+      "normalized_code": "W_F_602",
+      "title": "감투 쓴 설문대할망",
+      "category": "민담",
+      "sub_category": "본격담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_602/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226080&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_602.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_603",
+      "normalized_code": "W_F_603",
+      "title": "강시화 하르방",
+      "category": "민담",
+      "sub_category": "본격담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_603/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226081&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_603.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_604",
+      "normalized_code": "W_F_604",
+      "title": "거북이와 폐동밭",
+      "category": "민담",
+      "sub_category": "소담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_604/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226083&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_604.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_605",
+      "normalized_code": "W_F_605",
+      "title": "경주 김씨 명당터 육반드기왓",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_605/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226084&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_605.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_606",
+      "normalized_code": "W_F_606",
+      "title": "고종달과 차귀도",
+      "category": "민담",
+      "sub_category": "소담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_606/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226105&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_606.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_607",
+      "normalized_code": "W_F_607",
+      "title": "관덕정 상량식",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_607/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226106&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_607.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_608",
+      "normalized_code": "W_F_608",
+      "title": "광명을 주는 꽃",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_608/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226107&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_608.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_609",
+      "normalized_code": "W_F_609",
+      "title": "궤에깃동산의 비둘기",
+      "category": "민담",
+      "sub_category": "소담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_609/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226108&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_609.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_610",
+      "normalized_code": "W_F_610",
+      "title": "그슨새를 넘어간 할아버지",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_610/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226109&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_610.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_611",
+      "normalized_code": "W_F_611",
+      "title": "남선비와 노일저데귀일이딸",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_611/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226110&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_611.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_612",
+      "normalized_code": "W_F_612",
+      "title": "노일저데의 최후",
+      "category": "민담",
+      "sub_category": "본격담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_612/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226111&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_612.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_613",
+      "normalized_code": "W_F_613",
+      "title": "돗다리와 귀신",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_613/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226112&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_613.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_614",
+      "normalized_code": "W_F_614",
+      "title": "뒤를 돌아본 목사의 최후",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_614/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226113&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_614.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_615",
+      "normalized_code": "W_F_615",
+      "title": "말똥 방울",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_615/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226114&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_615.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_616",
+      "normalized_code": "W_F_616",
+      "title": "문수렝이 산터",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_616/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226115&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_616.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_617",
+      "normalized_code": "W_F_617",
+      "title": "문전하르방",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_617/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226116&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_617.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_618",
+      "normalized_code": "W_F_618",
+      "title": "보섭장시와 도둑놈",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_618/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226117&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_618.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_619",
+      "normalized_code": "W_F_619",
+      "title": "사람으로 변신한 여우",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_619/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226118&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_619.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_620",
+      "normalized_code": "W_F_620",
+      "title": "삼승할망과 구삼승할망",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_620/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226119&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_620.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_621",
+      "normalized_code": "W_F_621",
+      "title": "서목사와 고전적",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_621/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226120&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_621.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_622",
+      "normalized_code": "W_F_622",
+      "title": "서천꽃밭 꽃감관",
+      "category": "민담",
+      "sub_category": "소담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_622/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226121&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_622.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_623",
+      "normalized_code": "W_F_623",
+      "title": "설문대할망과 소중이 끈",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_623/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226122&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_623.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_624",
+      "normalized_code": "W_F_624",
+      "title": "소복을 입은 귀신과 청년",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_624/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226123&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_624.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_625",
+      "normalized_code": "W_F_625",
+      "title": "소침 하르방",
+      "category": "민담",
+      "sub_category": "동물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_625/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226124&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_625.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_626",
+      "normalized_code": "W_F_626",
+      "title": "수수못",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_626/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226125&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_626.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_627",
+      "normalized_code": "W_F_627",
+      "title": "신안과 강칩",
+      "category": "민담",
+      "sub_category": "소담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_627/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226126&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_627.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_628",
+      "normalized_code": "W_F_628",
+      "title": "싸움 난 도깨비동산",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_628/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226127&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_628.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_629",
+      "normalized_code": "W_F_629",
+      "title": "아들 낳게 해주는 설문대할망",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_629/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226128&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_629.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_630",
+      "normalized_code": "W_F_630",
+      "title": "애기업게와 불미질",
+      "category": "민담",
+      "sub_category": "소담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_630/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226129&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_630.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_631",
+      "normalized_code": "W_F_631",
+      "title": "여우로 태어난 누이",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_631/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226130&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_631.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_632",
+      "normalized_code": "W_F_632",
+      "title": "영리헌 족은아들",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_632/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226131&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_632.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_633",
+      "normalized_code": "W_F_633",
+      "title": "오드승방 정씨",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_633/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226132&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_633.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_634",
+      "normalized_code": "W_F_634",
+      "title": "용모루 칼자국",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_634/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226133&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_634.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_635",
+      "normalized_code": "W_F_635",
+      "title": "용소와 영천 이목사",
+      "category": "민담",
+      "sub_category": "소담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_635/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226134&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_635.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_636",
+      "normalized_code": "W_F_636",
+      "title": "웨눈벡이 바위",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_636/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226135&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_636.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_637",
+      "normalized_code": "W_F_637",
+      "title": "일곱 성제의 간",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_637/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226136&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_637.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_638",
+      "normalized_code": "W_F_638",
+      "title": "저승문 갔다 온 아들",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_638/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226137&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_638.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_639",
+      "normalized_code": "W_F_639",
+      "title": "저승사자와 할머니",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_639/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226138&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_639.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_640",
+      "normalized_code": "W_F_640",
+      "title": "조천 행기물과 고종달",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_640/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226139&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_640.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_641",
+      "normalized_code": "W_F_641",
+      "title": "처녀 대신 돼지 바치는 굴",
+      "category": "민담",
+      "sub_category": "소담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_641/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226140&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_641.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_642",
+      "normalized_code": "W_F_642",
+      "title": "처녀와 총각",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_642/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226141&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_642.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_643",
+      "normalized_code": "W_F_643",
+      "title": "천지연 귀신",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_643/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226142&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_643.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_644",
+      "normalized_code": "W_F_644",
+      "title": "천지왕과 수명장자",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_644/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226143&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_644.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_645",
+      "normalized_code": "W_F_645",
+      "title": "천하장사 금상또",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_645/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226144&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_645.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_646",
+      "normalized_code": "W_F_646",
+      "title": "치마 두른 헛게",
+      "category": "민담",
+      "sub_category": "소담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_646/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226145&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_646.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_647",
+      "normalized_code": "W_F_647",
+      "title": "콩데기의 꽃신",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_647/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226146&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_647.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_648",
+      "normalized_code": "W_F_648",
+      "title": "토산 웃당과 알당",
+      "category": "민담",
+      "sub_category": "소담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_648/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226149&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_648.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_649",
+      "normalized_code": "W_F_649",
+      "title": "토산 일뤠당과 요왕국 딸아기",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_649/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226150&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_649.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_650",
+      "normalized_code": "W_F_650",
+      "title": "한라산 산신 설문대할망",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_650/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226151&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_650.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_651",
+      "normalized_code": "W_F_651",
+      "title": "해도 달도 둘",
+      "category": "민담",
+      "sub_category": "소담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_651/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226152&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_651.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_652",
+      "normalized_code": "W_F_652",
+      "title": "허수와 허수아비",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_652/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226153&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_652.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_653",
+      "normalized_code": "W_F_653",
+      "title": "허웅애기와 강림차사",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_653/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226154&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_653.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_654",
+      "normalized_code": "W_F_654",
+      "title": "황다리궤당",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_654/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226155&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_654.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_700",
+      "normalized_code": "W_F_700",
+      "title": "기우제 지내는 쇠소깍",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_700/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226222&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_700.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_701",
+      "normalized_code": "W_F_701",
+      "title": "강정 구미호",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_701/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226223&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_701.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_702",
+      "normalized_code": "W_F_702",
+      "title": "꿩과 두꺼비",
+      "category": "민담",
+      "sub_category": "동물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_702/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226224&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_702.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_703",
+      "normalized_code": "W_F_703",
+      "title": "날개 달린 쌍둥이",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_703/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226265&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_703.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_704",
+      "normalized_code": "W_F_704",
+      "title": "남장 자청비",
+      "category": "민담",
+      "sub_category": "본격담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_704/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226266&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_704.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_705",
+      "normalized_code": "W_F_705",
+      "title": "다슴어멍의 심술",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_705/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226267&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_705.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_706",
+      "normalized_code": "W_F_706",
+      "title": "대정현의 은혜 갚은 개",
+      "category": "민담",
+      "sub_category": "동물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_706/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226268&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_706.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_707",
+      "normalized_code": "W_F_707",
+      "title": "도체비 김참봉",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_707/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226269&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_707.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_708",
+      "normalized_code": "W_F_708",
+      "title": "막내아들의 지혜",
+      "category": "민담",
+      "sub_category": "본격담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_708/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226270&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_708.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_709",
+      "normalized_code": "W_F_709",
+      "title": "메밀 빙떡",
+      "category": "민담",
+      "sub_category": "본격담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_709/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226271&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_709.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_710",
+      "normalized_code": "W_F_710",
+      "title": "모기로 환생한 계모",
+      "category": "민담",
+      "sub_category": "본격담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_710/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226272&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_710.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_711",
+      "normalized_code": "W_F_711",
+      "title": "법호촌 헛게",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_711/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226273&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_711.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_712",
+      "normalized_code": "W_F_712",
+      "title": "법환 여우물",
+      "category": "민담",
+      "sub_category": "동물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_712/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226274&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_712.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_713",
+      "normalized_code": "W_F_713",
+      "title": "서홍리 샘물과 고종달",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_713/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226275&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_713.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_714",
+      "normalized_code": "W_F_714",
+      "title": "소 몰고 가다 만난 헛것",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_714/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226277&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_714.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_715",
+      "normalized_code": "W_F_715",
+      "title": "소장사꾼과 헛게",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_715/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226278&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_715.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_716",
+      "normalized_code": "W_F_716",
+      "title": "식겟날 찾아간 할망",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_716/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226279&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_716.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_717",
+      "normalized_code": "W_F_717",
+      "title": "아들만 일곱 성제",
+      "category": "민담",
+      "sub_category": "본격담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_717/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226280&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_717.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_718",
+      "normalized_code": "W_F_718",
+      "title": "암꿩의 예지몽",
+      "category": "민담",
+      "sub_category": "동물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_718/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226282&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_718.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_719",
+      "normalized_code": "W_F_719",
+      "title": "애기 구덕 엎은 할아버지",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_719/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226283&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_719.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_720",
+      "normalized_code": "W_F_720",
+      "title": "여섯 성제와 다슴어멍",
+      "category": "민담",
+      "sub_category": "본격담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_720/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226284&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_720.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_721",
+      "normalized_code": "W_F_721",
+      "title": "여의주를 찾지 못한 이무기",
+      "category": "민담",
+      "sub_category": "동물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_721/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226285&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_721.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_722",
+      "normalized_code": "W_F_722",
+      "title": "운전기사와 할머니 귀신",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_722/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226286&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_722.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_723",
+      "normalized_code": "W_F_723",
+      "title": "저승 갓당 돌아온 오칩 어른",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_723/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226287&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_723.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_724",
+      "normalized_code": "W_F_724",
+      "title": "저승사자가 잡은 사만이",
+      "category": "민담",
+      "sub_category": "본격담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_724/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226288&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_724.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_725",
+      "normalized_code": "W_F_725",
+      "title": "정제와 돗통",
+      "category": "민담",
+      "sub_category": "본격담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_725/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226289&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_725.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_726",
+      "normalized_code": "W_F_726",
+      "title": "지성이면 감천",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_726/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226290&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_726.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_727",
+      "normalized_code": "W_F_727",
+      "title": "천지연 교룡과 여의주",
+      "category": "민담",
+      "sub_category": "동물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_727/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226291&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_727.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_728",
+      "normalized_code": "W_F_728",
+      "title": "큰내 여자 귀신",
+      "category": "민담",
+      "sub_category": "세속담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_728/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226292&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_728.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_729",
+      "normalized_code": "W_F_729",
+      "title": "풀떡풀떡",
+      "category": "민담",
+      "sub_category": "소담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_729/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226293&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_729.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_730",
+      "normalized_code": "W_F_730",
+      "title": "한맺힌 섶섬 뱀",
+      "category": "민담",
+      "sub_category": "동물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_730/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226294&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_730.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_F_731",
+      "normalized_code": "W_F_731",
+      "title": "허웅애기",
+      "category": "민담",
+      "sub_category": "본격담",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_731/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226295&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_F_731.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W-L-395",
+      "normalized_code": "W_L_395",
+      "title": "연자방아에 들른 하르방",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "원문",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/W_L_395/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1110002&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_395.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_622",
+      "normalized_code": "W_L_622",
+      "title": "소 먹은 막산이",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "원문",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/W_L_622/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1117804&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_622.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_800",
+      "normalized_code": "W_L_800",
+      "title": "갈치 낚은 장사 송별감",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_800/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225829&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_800.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_801",
+      "normalized_code": "W_L_801",
+      "title": "강을 건너지 못해 다시 살아난 사람",
+      "category": "전설",
+      "sub_category": "자연",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_801/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225830&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_801.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_802",
+      "normalized_code": "W_L_802",
+      "title": "개로 환생한 어머니",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_802/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225831&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_802.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_803",
+      "normalized_code": "W_L_803",
+      "title": "개미 살려서 명이 길어진 아이",
+      "category": "전설",
+      "sub_category": "자연",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_803/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225832&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_803.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_804",
+      "normalized_code": "W_L_804",
+      "title": "게으른 머슴",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_804/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225833&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_804.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_805",
+      "normalized_code": "W_L_805",
+      "title": "고종달과 농부",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_805/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225834&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_805.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_806",
+      "normalized_code": "W_L_806",
+      "title": "고종달과 수수못",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "원문",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/W_L_806/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225835&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_806.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_807",
+      "normalized_code": "W_L_807",
+      "title": "그 시어멍에 그 며느리",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "원문",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/W_L_807/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225836&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_807.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_808",
+      "normalized_code": "W_L_808",
+      "title": "기가 센 한라산",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_808/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225837&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_808.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_809",
+      "normalized_code": "W_L_809",
+      "title": "김녕사굴과 제주 목사",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_809/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225841&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_809.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_810",
+      "normalized_code": "W_L_810",
+      "title": "김통정과 아기업게의 말(言)",
+      "category": "전설",
+      "sub_category": "자연",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_810/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225842&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_810.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_811",
+      "normalized_code": "W_L_811",
+      "title": "꼬부랑나무와 행기물",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_811/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225843&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_811.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_812",
+      "normalized_code": "W_L_812",
+      "title": "남선비와 노일저데",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_812/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225844&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_812.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_813",
+      "normalized_code": "W_L_813",
+      "title": "다섯 형제와 금덩어리",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_813/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225865&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_813.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_814",
+      "normalized_code": "W_L_814",
+      "title": "도체비 내쫓은 주인",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_814/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225866&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_814.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_815",
+      "normalized_code": "W_L_815",
+      "title": "도체비 모시는 집",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_815/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225867&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_815.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_816",
+      "normalized_code": "W_L_816",
+      "title": "도체비를 위한 제물",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_816/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225868&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_816.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_817",
+      "normalized_code": "W_L_817",
+      "title": "도체비조상과 백말 피",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_817/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225869&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_817.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_818",
+      "normalized_code": "W_L_818",
+      "title": "도통한 스님",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_818/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225871&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_818.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_819",
+      "normalized_code": "W_L_819",
+      "title": "돌 주으러 간 곳에 나타난 뱀",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_819/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225872&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_819.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_820",
+      "normalized_code": "W_L_820",
+      "title": "돌무더기와 금덩어리",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_820/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225873&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_820.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_821",
+      "normalized_code": "W_L_821",
+      "title": "돌이 된 오백장군",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_821/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225901&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_821.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_822",
+      "normalized_code": "W_L_822",
+      "title": "매고할망의 복수",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_822/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225902&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_822.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_823",
+      "normalized_code": "W_L_823",
+      "title": "모관 사람 정의 사람",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_823/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225903&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_823.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_824",
+      "normalized_code": "W_L_824",
+      "title": "문전하르방과 고팡할망",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_824/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225904&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_824.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_825",
+      "normalized_code": "W_L_825",
+      "title": "물장오리와 설문대할망",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_825/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225925&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_825.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_826",
+      "normalized_code": "W_L_826",
+      "title": "민오름 도체비",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_826/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225926&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_826.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_827",
+      "normalized_code": "W_L_827",
+      "title": "밥이 일한다",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_827/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225927&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_827.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_828",
+      "normalized_code": "W_L_828",
+      "title": "배 형국인 용강동",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_828/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225928&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_828.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_829",
+      "normalized_code": "W_L_829",
+      "title": "뱀과 열녀",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_829/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225929&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_829.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_830",
+      "normalized_code": "W_L_830",
+      "title": "뱀을 없앤 목사",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_830/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225930&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_830.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "풍수전설",
+      "normalized_code": "풍수전설",
+      "title": "버렝이깍에 사는 큰 거북이",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/%ED%92%8D%EC%88%98%EC%A0%84%EC%84%A4/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225931&no=1",
+      "ocr_mapping": {
+        "expected_file": "풍수전설.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_832",
+      "normalized_code": "W_L_832",
+      "title": "베염 장수",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_832/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225932&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_832.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_833",
+      "normalized_code": "W_L_833",
+      "title": "변신하는 도체비",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_833/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225933&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_833.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_834",
+      "normalized_code": "W_L_834",
+      "title": "별도봉 애기업은돌",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_834/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225934&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_834.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_835",
+      "normalized_code": "W_L_835",
+      "title": "부자와 팥죽 장수",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_835/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225935&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_835.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_836",
+      "normalized_code": "W_L_836",
+      "title": "부잣집 영감과 돈보따리",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_836/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225936&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_836.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_837",
+      "normalized_code": "W_L_837",
+      "title": "사또의 죽음",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_837/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225937&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_837.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_838",
+      "normalized_code": "W_L_838",
+      "title": "산새미오름 심방구신",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_838/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225940&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_838.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_839",
+      "normalized_code": "W_L_839",
+      "title": "산에서 만난 귀신",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_839/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225941&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_839.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_840",
+      "normalized_code": "W_L_840",
+      "title": "선행 베푼 김좌랑",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_840/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225942&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_840.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_841",
+      "normalized_code": "W_L_841",
+      "title": "설문대할망과 산짓물",
+      "category": "전설",
+      "sub_category": "자연",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_841/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225943&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_841.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_842",
+      "normalized_code": "W_L_842",
+      "title": "세 밧 디로 갈라진 베염",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_842/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225944&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_842.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_843",
+      "normalized_code": "W_L_843",
+      "title": "소 낙인법 만든 고억지",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_843/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225965&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_843.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_844",
+      "normalized_code": "W_L_844",
+      "title": "숯장수를 따라간 부잣님 마나님",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_844/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225966&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_844.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_845",
+      "normalized_code": "W_L_845",
+      "title": "쉐방석과 부대각",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_845/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225967&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_845.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_846",
+      "normalized_code": "W_L_846",
+      "title": "스님과 아이",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_846/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225968&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_846.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_847",
+      "normalized_code": "W_L_847",
+      "title": "식게에 심술부린 귀신",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_847/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225969&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_847.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_848",
+      "normalized_code": "W_L_848",
+      "title": "신촌 김씨댁 효부",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_848/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225970&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_848.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_849",
+      "normalized_code": "W_L_849",
+      "title": "신촌리의 강초관물",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_849/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225972&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_849.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_850",
+      "normalized_code": "W_L_850",
+      "title": "아들의 지혜",
+      "category": "전설",
+      "sub_category": "효자",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_850/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225973&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_850.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_851",
+      "normalized_code": "W_L_851",
+      "title": "안개 낄 때 나타나는 그슨새",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_851/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225974&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_851.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_852",
+      "normalized_code": "W_L_852",
+      "title": "여자귀신들의 싸움",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_852/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225975&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_852.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_853",
+      "normalized_code": "W_L_853",
+      "title": "용강동 강망숭이굴",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_853/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225976&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_853.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_854",
+      "normalized_code": "W_L_854",
+      "title": "용흥리 쇠죽이못",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_854/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225977&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_854.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_855",
+      "normalized_code": "W_L_855",
+      "title": "이형상 목사와 내도할망당",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_855/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225978&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_855.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_856",
+      "normalized_code": "W_L_856",
+      "title": "일곱 성제와 노일저데",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_856/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225979&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_856.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_857",
+      "normalized_code": "W_L_857",
+      "title": "장사 문소랑",
+      "category": "전설",
+      "sub_category": "자연",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_857/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225981&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_857.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_858",
+      "normalized_code": "W_L_858",
+      "title": "장우리물에 빠져 죽은 설문대할망",
+      "category": "전설",
+      "sub_category": "자연",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_858/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225982&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_858.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_859",
+      "normalized_code": "W_L_859",
+      "title": "제삿날에 싸운 두가시",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_859/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225983&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_859.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_860",
+      "normalized_code": "W_L_860",
+      "title": "주인집 딸과 결혼한 머슴",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_860/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225984&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_860.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_861",
+      "normalized_code": "W_L_861",
+      "title": "지게와 아들",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_861/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225985&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_861.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_862",
+      "normalized_code": "W_L_862",
+      "title": "창 터진 물장오리",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_862/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225986&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_862.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_863",
+      "normalized_code": "W_L_863",
+      "title": "축지법 쓰는 권초시 하르방",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_863/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225987&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_863.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_864",
+      "normalized_code": "W_L_864",
+      "title": "칠성애기의 여행",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_864/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225988&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_864.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_865",
+      "normalized_code": "W_L_865",
+      "title": "폐총귀신이 도운 사또",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_865/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225989&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_865.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_866",
+      "normalized_code": "W_L_866",
+      "title": "폭낭 도체비",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_866/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225990&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_866.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_867",
+      "normalized_code": "W_L_867",
+      "title": "피 묻은 치마",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_867/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225991&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_867.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_868",
+      "normalized_code": "W_L_868",
+      "title": "하르방과 녹디죽",
+      "category": "전설",
+      "sub_category": "자연",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_868/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225992&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_868.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_869",
+      "normalized_code": "W_L_869",
+      "title": "한내 바위 앞 처녀귀신",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_869/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225993&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_869.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_870",
+      "normalized_code": "W_L_870",
+      "title": "한라산 불칸터",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_870/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225994&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_870.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_871",
+      "normalized_code": "W_L_871",
+      "title": "할망 귀신",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_871/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225997&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_871.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_872",
+      "normalized_code": "W_L_872",
+      "title": "호랑이와 오누이",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_872/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225998&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_872.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_873",
+      "normalized_code": "W_L_873",
+      "title": "W_L_873",
+      "category": "전설",
+      "sub_category": "자연",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_873/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1225999&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_873.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1000",
+      "normalized_code": "W_L_1000",
+      "title": "강서장에게 귀가 잘린 여우",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1000/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226002&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1000.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1001",
+      "normalized_code": "W_L_1001",
+      "title": "거짓말 잘하는 벤인태",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1001/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226003&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1001.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1002",
+      "normalized_code": "W_L_1002",
+      "title": "고종달과 쉐질메",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1002/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226004&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1002.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1003",
+      "normalized_code": "W_L_1003",
+      "title": "고종달과 지장샘물",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1003/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226005&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1003.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1004",
+      "normalized_code": "W_L_1004",
+      "title": "고종달이 끊은 혈맥",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1004/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226006&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1004.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1005",
+      "normalized_code": "W_L_1005",
+      "title": "군산 구시물",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1005/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226007&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1005.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1006",
+      "normalized_code": "W_L_1006",
+      "title": "군산의 금산지터",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1006/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226009&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1006.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1006",
+      "normalized_code": "W_L_1006",
+      "title": "군산의 금산지터",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1006/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226009&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1006.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1007",
+      "normalized_code": "W_L_1007",
+      "title": "군산할망",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1007/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226010&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1007.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1008",
+      "normalized_code": "W_L_1008",
+      "title": "꺼꾸로 내리는 물",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1008/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226011&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1008.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1009",
+      "normalized_code": "W_L_1009",
+      "title": "날개 달린 쌍둥이와 황소",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1009/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226012&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1009.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1010",
+      "normalized_code": "W_L_1010",
+      "title": "날개 달린 아이와 황소",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1010/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226013&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1010.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1011",
+      "normalized_code": "W_L_1011",
+      "title": "대나무 뿌리를 뽑은 고대각",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1011/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226014&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1011.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1012",
+      "normalized_code": "W_L_1012",
+      "title": "덕더리왓",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1012/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226015&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1012.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1013",
+      "normalized_code": "W_L_1013",
+      "title": "도순리 스님당",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1013/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226016&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1013.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1014",
+      "normalized_code": "W_L_1014",
+      "title": "돌 던지믄 비오는 쇠소깍",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1014/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226017&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1014.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1015",
+      "normalized_code": "W_L_1015",
+      "title": "두들락 이좌수 댁",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1015/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226018&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1015.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1016",
+      "normalized_code": "W_L_1016",
+      "title": "명당자리 조가물",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1016/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226019&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1016.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1017",
+      "normalized_code": "W_L_1017",
+      "title": "문전하르방과 조왕할망",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1017/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226020&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1017.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1018",
+      "normalized_code": "W_L_1018",
+      "title": "법환리 강칩 하르방과 여의물",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1018/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226021&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1018.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1019",
+      "normalized_code": "W_L_1019",
+      "title": "보목동 조로기당",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1019/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226022&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1019.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1020",
+      "normalized_code": "W_L_1020",
+      "title": "사만이를 잡은 우두찰라",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1020/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226023&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1020.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1021",
+      "normalized_code": "W_L_1021",
+      "title": "사무돌과 예래",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1021/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226024&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1021.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1022",
+      "normalized_code": "W_L_1022",
+      "title": "산짓물",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1022/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226025&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1022.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1023",
+      "normalized_code": "W_L_1023",
+      "title": "서귀진성 변인태",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1023/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226026&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1023.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1024",
+      "normalized_code": "W_L_1024",
+      "title": "서목사와 고전적",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1024/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226028&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1024.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1025",
+      "normalized_code": "W_L_1025",
+      "title": "서홍동 지장샘",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1025/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226029&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1025.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1026",
+      "normalized_code": "W_L_1026",
+      "title": "설문대할망의 요청을 거절한 제주도 사람들",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1026/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226031&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1026.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1027",
+      "normalized_code": "W_L_1027",
+      "title": "설문대할망이 발을 뻗은 해식동굴",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1027/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226032&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1027.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1028",
+      "normalized_code": "W_L_1028",
+      "title": "쉰데잣돌",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1028/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226034&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1028.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1029",
+      "normalized_code": "W_L_1029",
+      "title": "신천리 지관 김달헌",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1029/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226035&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1029.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1030",
+      "normalized_code": "W_L_1030",
+      "title": "쌍둥이와 조상묘",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1030/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226036&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1030.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1031",
+      "normalized_code": "W_L_1031",
+      "title": "여우가 나타난 여의물",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1031/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226046&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1031.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1032",
+      "normalized_code": "W_L_1032",
+      "title": "여우를 알아본 강직하르방",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1032/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226047&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1032.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1033",
+      "normalized_code": "W_L_1033",
+      "title": "예기소",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1033/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226048&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1033.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1034",
+      "normalized_code": "W_L_1034",
+      "title": "예래와 군메오름",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1034/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226049&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1034.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1035",
+      "normalized_code": "W_L_1035",
+      "title": "예래와 범섬",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1035/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226050&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1035.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1036",
+      "normalized_code": "W_L_1036",
+      "title": "옥황상제가 만든 군산",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1036/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226051&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1036.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1037",
+      "normalized_code": "W_L_1037",
+      "title": "용 든 제삿밥",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1037/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226052&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1037.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1038",
+      "normalized_code": "W_L_1038",
+      "title": "용문덕과 기우제",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1038/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226053&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1038.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1039",
+      "normalized_code": "W_L_1039",
+      "title": "은두덕과 허웅애기",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1039/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226054&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1039.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1040",
+      "normalized_code": "W_L_1040",
+      "title": "은빛 개판",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1040/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226055&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1040.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1041",
+      "normalized_code": "W_L_1041",
+      "title": "이좌수와 구미호",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1041/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226056&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1041.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1042",
+      "normalized_code": "W_L_1042",
+      "title": "일곱 성제와 조왕할망",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1042/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226057&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1042.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1043",
+      "normalized_code": "W_L_1043",
+      "title": "일곱 형제와 조로기당",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1043/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226058&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1043.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1044",
+      "normalized_code": "W_L_1044",
+      "title": "일을 빨리 하는 막산이",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1044/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226059&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1044.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1045",
+      "normalized_code": "W_L_1045",
+      "title": "장수리와 예래",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1045/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226060&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1045.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1046",
+      "normalized_code": "W_L_1046",
+      "title": "정의 땅이 작은 이유",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1046/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226061&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1046.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1047",
+      "normalized_code": "W_L_1047",
+      "title": "제주목사와 골총신",
+      "category": "전설",
+      "sub_category": "풍수",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1047/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226062&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1047.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1048",
+      "normalized_code": "W_L_1048",
+      "title": "제주목사와 큰 뱀",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1048/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226063&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1048.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1049",
+      "normalized_code": "W_L_1049",
+      "title": "조천 연북정",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1049/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226064&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1049.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1050",
+      "normalized_code": "W_L_1050",
+      "title": "중문 이훈장",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1050/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226066&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1050.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1051",
+      "normalized_code": "W_L_1051",
+      "title": "창천리 강칩 막산이",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1051/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226067&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1051.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1052",
+      "normalized_code": "W_L_1052",
+      "title": "처녀들을 구해준 제주목사",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1052/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226068&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1052.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1053",
+      "normalized_code": "W_L_1053",
+      "title": "칼 빠진 돌",
+      "category": "전설",
+      "sub_category": "역사",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1053/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226069&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1053.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1054",
+      "normalized_code": "W_L_1054",
+      "title": "하르방당은 큰당, 할망당은 서당",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1054/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226070&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1054.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1055",
+      "normalized_code": "W_L_1055",
+      "title": "현변방과 친구",
+      "category": "전설",
+      "sub_category": "신앙",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1055/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226072&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1055.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1056",
+      "normalized_code": "W_L_1056",
+      "title": "호근리 설문대할망",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1056/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226073&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1056.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1057",
+      "normalized_code": "W_L_1057",
+      "title": "홍로 지장샘",
+      "category": "전설",
+      "sub_category": "지명",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1057/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226074&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1057.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1058",
+      "normalized_code": "W_L_1058",
+      "title": "화북 고전적",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1058/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226075&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1058.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    },
+    {
+      "ebook_code": "W_L_1059",
+      "normalized_code": "W_L_1059",
+      "title": "힘이 센 오찰방 누이",
+      "category": "전설",
+      "sub_category": "인물",
+      "type": "현지조사",
+      "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_1059/e-book.html",
+      "pdf_url": "https://jeju.go.kr/tool/synap/convert.jsp?seq=1226076&no=1",
+      "ocr_mapping": {
+        "expected_file": "W_L_1059.json",
+        "ocr_exists": false,
+        "content_code": null,
+        "content_ocr_exists": false
+      },
+      "fail_reason": "no_text_found",
+      "resolution": "pending_ocr"
+    }
+  ]
+}

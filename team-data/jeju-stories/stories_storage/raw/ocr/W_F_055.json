@@ -1,0 +1,36 @@
+{
+  "id": "story_F_055",
+  "title": "지붕우티 하르방",
+  "type": "folktale",
+  "category": "기타",
+  "content": {
+    "summary": "",
+    "full_text": "",
+    "features": "",
+    "raw_text": "W_F_055 지붕우티 하르방\n2016년 12월 14일 표선면 가시리 한신화씨 댁, 송정희 조사. 한신화(여 , 1927년생, 표선면 가시리)\n[제보자] 예편 할망이 막 힘이 세여.  힘이 쎄니판 또 남조  하르방은 조그만헤여 응: 조그 만헤난데 . 하르방이 말망이 하르방을 심어네  지붕 우터레 호 맛안 데진 거라: 경 허난 \"하르밤 무사 그 지붕 무미 올찾어?' 허난 '호박  솟레:\" (웃음) 활망 세면 데격 불멋지만은 부끄로완. 게난 '무사 그 지붕 우미 올라어? 호박 트레:\" (웃음)\n핵심어 활망 하르방 힘, 호박  지붕"
+  },
+  "elements": {
+    "characters": [
+      "할망",
+      "하르방"
+    ],
+    "locations": [
+      "가시리"
+    ],
+    "keywords": []
+  },
+  "sources": [
+    {
+      "type": "pdf",
+      "file": "W_F_055_지붕우티 하르방.pdf",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "source_type": "web",
+    "source_id": "W_F_055",
+    "converted_at": "2025-12-04T09:09:27.776606",
+    "converter_version": "2.0.0",
+    "ocr_confidence": 0.94
+  }
+}

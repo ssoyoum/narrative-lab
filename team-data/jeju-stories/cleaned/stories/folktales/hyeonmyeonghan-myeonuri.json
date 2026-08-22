@@ -1,0 +1,65 @@
+{
+  "id": "folktale_hyeonmyeonghan_myeonuri",
+  "title": "현명한 며느리",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "과장담",
+
+  "content": {
+    "summary": "생선을 훔쳐 먹던 고양이가 살쾡이로 변신하여 복수하려 하지만 며느리의 지혜로 물리치는 이야기.",
+
+    "episodes": [
+      {
+        "title": "고양이의 도둑질",
+        "content": "김생원이 기르던 고양이가 생선을 훔쳐 먹다 담뱃대로 맞고 도망친다."
+      },
+      {
+        "title": "며느리의 등장",
+        "content": "몇 년 후 아들의 며느리가 시집 와서 갑자기 흉악한 개 열한 마리를 사오고 집 주위를 죽창으로 두른다."
+      },
+      {
+        "title": "복수 시도",
+        "content": "살쾡이로 변신한 고양이가 '광풍이 일더니 시커먼 구름이' 몰려오며 복수를 시도한다."
+      },
+      {
+        "title": "며느리의 승리",
+        "content": "며느리의 준비 덕분에 마지막 개 한 마리가 살쾡이를 제압한다."
+      }
+    ],
+
+    "themes": ["지혜로운 며느리", "복수", "과장담"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "며느리", "role": "지혜로운 주인공"},
+      {"name": "김생원", "role": "시아버지"},
+      {"name": "고양이/살쾡이", "role": "복수하는 악역"}
+    ],
+    "locations": [
+      {"name": "삼도동", "type": "마을", "relation": "전승지"},
+      {"name": "용담2동", "type": "마을", "relation": "구연지"}
+    ],
+    "keywords": ["며느리", "살쾡이", "복수", "지혜"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00702630",
+      "item_id": "GC00702630"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도 민담』, 1996",
+      "informant": {"gender": "여", "age": 35, "location": "용담2동"},
+      "recorded": "1959년 8월"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "L_154",
+  "title": "탈산봉",
+  "category": "전설",
+  "content": {
+    "clean": "",
+    "raw": "",
+    "commentary": null
+  },
+  "attributes": {
+    "summary": "탈산봉은 표선면 하천리 서쪽에 있는 오름으로, 한라산 주위 다른 오름들과 달리 대열에서 '이탈(脫)하여 산(서 있는) 봉'이라는 뜻에서 탈산봉이라 부른다. '산'은 '서다(立)'의 제주 방언이다. 이 오름의 맵시가 고와 정기를 받아 마을 아이들이 모두 미남미녀라 한다.",
+    "emotion": "Healing",
+    "conflict": "Mystery",
+    "keywords": [
+      "탈산봉",
+      "하천리",
+      "오름",
+      "지명유래",
+      "미남미녀",
+      "정기",
+      "이탈"
+    ],
+    "entities": [
+      {
+        "name": "탈산봉",
+        "description": "한라산에서 이탈한 오름",
+        "type": "Object"
+      }
+    ],
+    "roles": [
+      {
+        "entity_name": "탈산봉",
+        "type": "Neutral"
+      }
+    ],
+    "terrains": [
+      {
+        "type": "Mountain",
+        "description": "탈산봉 - 이탈하여 선 오름"
+      },
+      {
+        "type": "Village",
+        "description": "하천리 - 미남미녀 마을"
+      }
+    ],
+    "location_context": {
+      "primary_place": "탈산봉",
+      "admin_region": "표선면 하천리"
+    },
+    "plot_points": [
+      {
+        "beat": "Ki",
+        "event": "제주 여인이 남편을 기다리며 바위에 앉아 바다를 바라봄",
+        "function": "기다림"
+      },
+      {
+        "beat": "Shō",
+        "event": "남편이 돌아오지 않자 매일 같은 자리에서 기다림",
+        "function": "헌신적 기다림"
+      },
+      {
+        "beat": "Ten",
+        "event": "여인이 바위가 되어버림",
+        "function": "비극적 석화"
+      },
+      {
+        "beat": "Ketsu",
+        "event": "그 바위를 '망부석'이라 부름",
+        "function": "전설화"
+      }
+    ],
+    "story_dna": {
+      "wounds_addressed": [
+        "disconnection"
+      ],
+      "desires_fulfilled": [
+        "discovery",
+        "rest"
+      ],
+      "primary_wound": "disconnection",
+      "primary_desire": "discovery",
+      "resonance_triggers": [
+        "탈산봉",
+        "오름",
+        "이탈",
+        "정기",
+        "미남미녀",
+        "하천리",
+        "한라산",
+        "맵시",
+        "지명유래",
+        "전설"
+      ],
+      "emotional_arc": "한라산 이탈 → 홀로 섬 → 정기 생성 → 마을 미남미녀 → 전설화",
+      "narrative_themes": [
+        "지명유래",
+        "정기",
+        "미",
+        "이탈",
+        "전설"
+      ]
+    }
+  }
+}

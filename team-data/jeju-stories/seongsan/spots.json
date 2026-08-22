@@ -1,0 +1,185 @@
+{
+  "region": "성산권",
+  "spots": [
+    {
+      "spot_id": "SPOT-001",
+      "grid_id": "SS-B2",
+      "name": "성산일출봉",
+      "type": "관광지",
+      "lat": 33.458,
+      "lng": 126.942,
+      "description": "UNESCO 세계자연유산, 해발 182m 수성화산체"
+    },
+    {
+      "spot_id": "SPOT-002",
+      "grid_id": "SS-B2",
+      "name": "오조리",
+      "type": "마을",
+      "lat": 33.455,
+      "lng": 126.928,
+      "description": "해녀마을, 용궁올레 전승지"
+    },
+    {
+      "spot_id": "SPOT-003",
+      "grid_id": "SS-B2",
+      "name": "등경돌",
+      "type": "자연",
+      "lat": 33.460,
+      "lng": 126.940,
+      "description": "성산일출봉 앞바다 바위, 설문대할망 전설지"
+    },
+    {
+      "spot_id": "SPOT-004",
+      "grid_id": "SS-B3",
+      "name": "우도 (소섬)",
+      "type": "관광지",
+      "lat": 33.500,
+      "lng": 126.968,
+      "description": "제주 동쪽 부속섬, 소가 누워있는 형상"
+    },
+    {
+      "spot_id": "SPOT-005",
+      "grid_id": "SS-B3",
+      "name": "쇠머리오름 (우도봉)",
+      "type": "오름",
+      "lat": 33.492,
+      "lng": 126.964,
+      "description": "우도 최고봉 132.5m, 소의 머리 형상"
+    },
+    {
+      "spot_id": "SPOT-006",
+      "grid_id": "SS-B3",
+      "name": "서빈백사",
+      "type": "해안",
+      "lat": 33.503,
+      "lng": 126.955,
+      "description": "홍조단괴 해변, 천연기념물"
+    },
+    {
+      "spot_id": "SPOT-007",
+      "grid_id": "SS-A1",
+      "name": "다랑쉬오름 (월랑봉)",
+      "type": "오름",
+      "lat": 33.476,
+      "lng": 126.822,
+      "description": "제주 오름의 여왕, 표고 382.4m, 분화구 깊이 115m"
+    },
+    {
+      "spot_id": "SPOT-008",
+      "grid_id": "SS-A1",
+      "name": "송당마을",
+      "type": "마을",
+      "lat": 33.470,
+      "lng": 126.830,
+      "description": "송당본향당 소재지, 제주 당신화의 중심지"
+    },
+    {
+      "spot_id": "SPOT-009",
+      "grid_id": "SS-A1",
+      "name": "비자림",
+      "type": "자연",
+      "lat": 33.488,
+      "lng": 126.808,
+      "description": "천연기념물 제374호, 비자나무 숲"
+    },
+    {
+      "spot_id": "SPOT-010",
+      "grid_id": "SS-A3",
+      "name": "하도리",
+      "type": "마을",
+      "lat": 33.512,
+      "lng": 126.920,
+      "description": "해녀문화 중심지, 해녀박물관 인근"
+    },
+    {
+      "spot_id": "SPOT-011",
+      "grid_id": "SS-A3",
+      "name": "지미봉 (지미오름)",
+      "type": "오름",
+      "lat": 33.507,
+      "lng": 126.924,
+      "description": "해발 166m, 하도리 상징 오름"
+    },
+    {
+      "spot_id": "SPOT-012",
+      "grid_id": "SS-A3",
+      "name": "종달리",
+      "type": "마을",
+      "lat": 33.487,
+      "lng": 126.920,
+      "description": "제주 최동단 마을, 우도 가는 포구"
+    },
+    {
+      "spot_id": "SPOT-013",
+      "grid_id": "SS-A2",
+      "name": "세화해변",
+      "type": "해안",
+      "lat": 33.524,
+      "lng": 126.862,
+      "description": "세화오일장과 인접한 해변"
+    },
+    {
+      "spot_id": "SPOT-014",
+      "grid_id": "SS-A2",
+      "name": "용눈이오름",
+      "type": "오름",
+      "lat": 33.463,
+      "lng": 126.831,
+      "description": "말굽형 분화구, 억새 군락지"
+    },
+    {
+      "spot_id": "SPOT-015",
+      "grid_id": "SS-B1",
+      "name": "수산봉",
+      "type": "오름",
+      "lat": 33.448,
+      "lng": 126.870,
+      "description": "해발 104m, 수산리 마을 오름"
+    },
+    {
+      "spot_id": "SPOT-016",
+      "grid_id": "SS-B1",
+      "name": "고성리",
+      "type": "마을",
+      "lat": 33.452,
+      "lng": 126.882,
+      "description": "김통정 토성 일부 소재"
+    },
+    {
+      "spot_id": "SPOT-017",
+      "grid_id": "SS-C2",
+      "name": "섭지코지",
+      "type": "관광지",
+      "lat": 33.424,
+      "lng": 126.931,
+      "description": "돌출 해안, 영화 촬영지"
+    },
+    {
+      "spot_id": "SPOT-018",
+      "grid_id": "SS-C2",
+      "name": "신양해수욕장",
+      "type": "해안",
+      "lat": 33.432,
+      "lng": 126.924,
+      "description": "섭지코지 인근 해변"
+    },
+    {
+      "spot_id": "SPOT-019",
+      "grid_id": "SS-C1",
+      "name": "난산리",
+      "type": "마을",
+      "lat": 33.412,
+      "lng": 126.868,
+      "description": "난산리 당신화 전승지"
+    },
+    {
+      "spot_id": "SPOT-020",
+      "grid_id": "SS-B2",
+      "name": "김통정 토성",
+      "type": "문화재",
+      "lat": 33.453,
+      "lng": 126.912,
+      "description": "1271년 삼별초 항쟁 유적, 제주도 기념물"
+    }
+  ]
+}

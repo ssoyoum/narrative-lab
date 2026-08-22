@@ -1,0 +1,37 @@
+{
+  "id": "story_L_071",
+  "title": "선문대할망2",
+  "type": "legend",
+  "category": "기타",
+  "content": {
+    "summary": "",
+    "full_text": "",
+    "features": "",
+    "raw_text": "TL_071 선문대할망2\n옛날  제주도에  선문대활망이   있엇든데  그의 키논 왼쪽 발은 한라산에 믿고 오른쪽 발은 산방\n산(나롭니)에 믿고 서서 태평양 물에  빨래활  정도없다.\n어느 날에는   한라산   중턱에  엎는 물장오리의 물이   얼마나   깊은가루 알아보기   위하여 그 속에\n몸올 담컷논데 . 지금까지 나오지 못하는 것으로 화서 아무래도 죽어 버린 듯하다.\n제주시 이도오동 김선우(남 62) 제보\n제주도  '제주도선설지] , 1985 p,G9"
+  },
+  "elements": {
+    "characters": [
+      "할망"
+    ],
+    "locations": [
+      "물장오리",
+      "이도오동",
+      "한라산"
+    ],
+    "keywords": []
+  },
+  "sources": [
+    {
+      "type": "pdf",
+      "file": "T_L_071_선문대할망2.pdf",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "source_type": "text",
+    "source_id": "T_L_071",
+    "converted_at": "2025-12-04T00:21:02.668840",
+    "converter_version": "2.0.0",
+    "ocr_confidence": 1.0
+  }
+}

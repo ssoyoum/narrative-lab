@@ -1,0 +1,114 @@
+{
+  "id": "L_159",
+  "title": "홍리 고대각",
+  "category": "전설",
+  "content": {
+    "clean": "",
+    "raw": "",
+    "commentary": null
+  },
+  "attributes": {
+    "summary": "홍리의 고대각 장사는 소 열 마리를 먹고 태어났고, 누이는 열두 마리를 먹고 태어나 더 힘이 셌다. 산디(밭벼) 도둑이 당당하여 두고 보았는데, 몇 년 후 쌀장사가 된 그에게 배 한 척분 쌀을 한 짐에 지어 값을 받았다. 씨름대회에서 연승하던 고대각은 낯선 장사에게 졌는데, 그 사람이 남장한 누이였다. 누이는 '힘을 함부로 쓰지 말라'는 교훈을 주었고, 고대각은 겸손하게 살아 화를 면했다.",
+    "emotion": "Cider",
+    "conflict": "Rivalry",
+    "keywords": [
+      "고대각",
+      "홍리",
+      "남매장사",
+      "씨름",
+      "누이",
+      "겸손",
+      "산디",
+      "교훈"
+    ],
+    "entities": [
+      {
+        "name": "고대각",
+        "description": "홍리의 장사, 소 열 마리 먹고 태어남",
+        "type": "Human"
+      },
+      {
+        "name": "고대각 누이",
+        "description": "소 열두 마리 먹고 태어난 더 힘센 누이",
+        "type": "Human"
+      }
+    ],
+    "roles": [
+      {
+        "entity_name": "고대각",
+        "type": "Protagonist"
+      },
+      {
+        "entity_name": "고대각 누이",
+        "type": "Helper"
+      }
+    ],
+    "terrains": [
+      {
+        "type": "Village",
+        "description": "홍리 - 고대각 남매 마을"
+      },
+      {
+        "type": "Other",
+        "description": "모관 동촌 - 씨름대회 장소"
+      }
+    ],
+    "location_context": {
+      "primary_place": "홍리",
+      "admin_region": "서귀포시 호근동"
+    },
+    "plot_points": [
+      {
+        "beat": "Ki",
+        "event": "제주 바닷가에 이상한 물고기가 자주 나타남",
+        "function": "신비한 징조"
+      },
+      {
+        "beat": "Shō",
+        "event": "어부들이 그물로 잡으려 하나 계속 빠져나감",
+        "function": "초자연적 능력"
+      },
+      {
+        "beat": "Ten",
+        "event": "한 노인이 '용왕의 사자'라며 놓아주라 함",
+        "function": "지혜로운 조언"
+      },
+      {
+        "beat": "Ketsu",
+        "event": "놓아주자 풍어가 계속됨",
+        "function": "보은의 결말"
+      }
+    ],
+    "story_dna": {
+      "wounds_addressed": [
+        "arrogance"
+      ],
+      "desires_fulfilled": [
+        "transformation",
+        "peace"
+      ],
+      "primary_wound": "arrogance",
+      "primary_desire": "transformation",
+      "resonance_triggers": [
+        "고대각",
+        "홍리",
+        "남매",
+        "씨름",
+        "누이",
+        "겸손",
+        "산디",
+        "교훈",
+        "장사",
+        "화"
+      ],
+      "emotional_arc": "장사 과시 → 씨름 연승 → 누이에게 패배 → 교훈 → 겸손 → 화 면함",
+      "narrative_themes": [
+        "겸손",
+        "교훈",
+        "남매",
+        "씨름",
+        "지혜"
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "story_L_081",
+  "title": "설문대할망",
+  "type": "legend",
+  "category": "기타",
+  "content": {
+    "summary": "",
+    "full_text": "",
+    "features": "",
+    "raw_text": "TL_O81 설문대 할망\n옛날 어떤 할망이 이신디  속곳올 해 주민 소심과   성산 새에 드길1) 놔 주권 해도 그 활망 속곳\n올 명질2) 일급동이률 들여도 부작핸3} 두길 못 늦맨 행주.\n그 활망이 오름들올 갈래죽4 으로 틀럼 데끼명5    . 즉영 데껑건 즉은 오름, 하영   데낌건 근\n오름 소빠 하영 데껑건  한라산이랜 행주. (고만선 71세)\n제주대학교 인문대학 국어국문학과 , ' 국문막보 제14집 , 1997 P PJ4\nI1 다리l 2 멈주들 3 부족하여서. 41 잡- 5) 던지면서."
+  },
+  "elements": {
+    "characters": [
+      "할망"
+    ],
+    "locations": [
+      "다리",
+      "일급동",
+      "한라산"
+    ],
+    "keywords": []
+  },
+  "sources": [
+    {
+      "type": "pdf",
+      "file": "T_L_081_설문대할망.pdf",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "source_type": "text",
+    "source_id": "T_L_081",
+    "converted_at": "2025-12-04T00:23:51.305588",
+    "converter_version": "2.0.0",
+    "ocr_confidence": 0.91
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "L_151",
+  "title": "초제탄",
+  "category": "전설",
+  "content": {
+    "clean": "",
+    "raw": "",
+    "commentary": null
+  },
+  "attributes": {
+    "summary": "이락당 이계징은 효자이자 우애 깊은 사람이었다. 아우 이후징이 고종 16년(1879년) 고기잡이 중 해난사고로 사망했다. 형이 서우봉 바닷가에서 '후징이야!' 부르자 동생의 시체가 떠올랐다. 형은 3일간 시체와 함께 지낸 후 묻었다. 그래서 '초제탄(招弟灘, 동생을 부른 여울)'이라 부른다.",
+    "emotion": "Sweet_Potato",
+    "conflict": "Lack",
+    "keywords": [
+      "초제탄",
+      "이락당",
+      "이계징",
+      "이후징",
+      "서우봉",
+      "우애",
+      "해난사고",
+      "지명유래",
+      "함덕리"
+    ],
+    "entities": [
+      {
+        "name": "이계징(이락당)",
+        "description": "효자이자 우애 깊은 형",
+        "type": "Human"
+      },
+      {
+        "name": "이후징",
+        "description": "해난사고로 사망한 동생",
+        "type": "Human"
+      }
+    ],
+    "roles": [
+      {
+        "entity_name": "이계징(이락당)",
+        "type": "Protagonist"
+      },
+      {
+        "entity_name": "이후징",
+        "type": "Victim"
+      }
+    ],
+    "terrains": [
+      {
+        "type": "Sea",
+        "description": "초제탄 - 동생 시체가 떠오른 바닷가"
+      },
+      {
+        "type": "Mountain",
+        "description": "서우봉 - 형이 동생을 부른 곳"
+      }
+    ],
+    "location_context": {
+      "primary_place": "초제탄",
+      "admin_region": "조천읍 함덕리"
+    },
+    "plot_points": [
+      {
+        "beat": "Ki",
+        "event": "제주성 근처에 귀신이 나타나 사람을 해침",
+        "function": "초자연적 위협"
+      },
+      {
+        "beat": "Shō",
+        "event": "한 용감한 장사가 밤에 귀신을 기다림",
+        "function": "영웅의 도전"
+      },
+      {
+        "beat": "Ten",
+        "event": "귀신과 싸워 이기고 정체를 밝힘 (여우 정령)",
+        "function": "승리와 진실"
+      },
+      {
+        "beat": "Ketsu",
+        "event": "여우가 사라지고 마을이 평화를 되찾음",
+        "function": "평화 회복"
+      }
+    ],
+    "story_dna": {
+      "wounds_addressed": [
+        "loss",
+        "grief",
+        "disconnection"
+      ],
+      "desires_fulfilled": [
+        "reconnection"
+      ],
+      "primary_wound": "loss",
+      "primary_desire": "reconnection",
+      "resonance_triggers": [
+        "형제",
+        "우애",
+        "해난사고",
+        "초제탄",
+        "서우봉",
+        "시체",
+        "3일",
+        "부름",
+        "지명유래",
+        "슬픔"
+      ],
+      "emotional_arc": "동생 익사 → 형의 부름 → 시체 부상 → 3일 함께 → 매장 → 지명",
+      "narrative_themes": [
+        "형제애",
+        "우애",
+        "해난사고",
+        "지명유래",
+        "슬픔"
+      ]
+    }
+  }
+}

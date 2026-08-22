@@ -1,0 +1,50 @@
+{
+  "code": "W_F_204",
+  "title": "그슨새",
+  "category": "민담",
+  "sub_category": "세속담",
+  "type": "현지조사",
+  "content": {
+    "text": "W_F_204 그슨새  2017년 5월 18일,  안덕면 광평리 박만희 씨 댁,  김승연 조사.  박만희(여,  1934년생,  안덕면 광평리)  •줄거리: 그슨새는 까맣고 그슨새가 다닐 때 땅에 엎드리지 않으면 쓸려 죽게 된다.   [조사자] 그슨새  말  아줍서.   [제보자] 그슨새엥  허영  거멍게  뎅여낫젠  헤여.  우린  모르는디  경  뎅기민  땅이라도  딱    업더저불지  아녀면은  그에  씰리민  죽넨,  경  헨  우리  헤낫수다게.  경은  헤낫는디  경  헹  아이덜끼리  앚아그네  “야,  거멓게  그슨새  오라가민  엎드리지  않으민  죽넨.”  헤영  헤그네  아나긴  헷인디,  그런  건  본디도  없고.   ∙ 핵심어 : 그슨새,  거멍 것,  땅,  죽음 -  371  -",
+    "char_count": 404,
+    "text_cleaned": "W_F_204 그슨새 2017년 5월 18일, 안덕면 광평리 박만희 씨 댁, 김승연 조사. 박만희(여, 1934년생, 안덕면 광평리) •줄거리: 그슨새는 까맣고 그슨새가 다닐 때 땅에 엎드리지 않으면 쓸려 죽게 된다. [조사자] 그슨새 말 아줍서. [제보자] 그슨새엥 허영 거멍게 뎅여낫젠 헤여. 우린 모르는디 경 뎅기민 땅이라도 딱 업더저불지 아녀면은 그에 씰리민 죽넨, 경 헨 우리 헤낫수다게. 경은 헤낫는디 경 헹 아이덜끼리 앚아그네 “야, 거멓게 그슨새 오라가민 엎드리지 않으민 죽넨.” 헤영 헤그네 아나긴 헷인디, 그런 건 본디도 없고. ∙ 핵심어 : 그슨새, 거멍 것, 땅, 죽음 - 371 -",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "57개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 404,
+      "cleaned_char_count": 342
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_204/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_204/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:33:59.981155",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T15:41:25.277798",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T18:40:46.345252"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Obstacle",
+    "object_link": "None",
+    "emotion_keyword": "Sweet_Potato",
+    "modern_summary": "그슨새가 땅에 엎드리지 않으면 쓸려 죽게 되는데, 그슨새는 이런 위험을 피하기 위해 행동한다.",
+    "location_context": {
+      "primary_place": "Unknown",
+      "admin_region": "Unknown"
+    },
+    "emotion_confidence": "high",
+    "emotion_method": "cot+simple_agree"
+  }
+}

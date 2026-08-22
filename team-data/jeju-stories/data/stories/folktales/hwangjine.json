@@ -1,0 +1,75 @@
+{
+  "id": "folktale_hwangjine",
+  "title": "황지네",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "야래자담",
+
+  "content": {
+    "summary": "밤에 찾아오는 초자연적 지네 존재를 거지가 물리치고 마법의 자물쇠를 얻어 부자가 되는 이야기.",
+
+    "episodes": [
+      {
+        "title": "야래자의 출현",
+        "content": "과부와 딸이 잠긴 문을 통과해 들어오는 신비로운 젊은이에게 밤마다 괴롭힘을 당한다."
+      },
+      {
+        "title": "거지의 목격",
+        "content": "잠잘 곳을 찾던 거지가 초자연적 침입자를 목격한다."
+      },
+      {
+        "title": "자물쇠의 말",
+        "content": "마법의 자물쇠에게서 '젊은이는 집 뒤 큰 돌 밑에 사는 황지네'임을 알게 된다."
+      },
+      {
+        "title": "황지네 퇴치",
+        "content": "거지가 불붙은 숯으로 황지네의 거처를 둘러싸 물리친다."
+      },
+      {
+        "title": "보상과 선택",
+        "content": "과부가 딸과의 결혼을 제안하지만, 거지는 마법의 자물쇠만을 요청한다."
+      },
+      {
+        "title": "부와 자선",
+        "content": "'집을 내놔라, 밭을 내놔라, 돈을 내놔라'라 명령하여 부유해지고 가난한 이들을 돕는다."
+      }
+    ],
+
+    "themes": ["야래자 설화", "변신 서사", "선행과 보상"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "거지", "role": "주인공"},
+      {"name": "황지네", "role": "야래자, 악역"},
+      {"name": "마법의 자물쇠", "role": "도우미"},
+      {"name": "과부", "role": "피해자"},
+      {"name": "딸", "role": "피해자"}
+    ],
+    "locations": [
+      {"name": "화북동", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["황지네", "야래자", "마법 자물쇠", "거지"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00702689",
+      "item_id": "GC00702689"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도 민담』, 1996",
+      "informant": {"name": "현태호", "age": 38, "location": "용담1동"},
+      "recorded": "1959년 8월",
+      "collector": "현영두"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

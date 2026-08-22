@@ -1,0 +1,36 @@
+{
+  "id": "story_L_164",
+  "title": "힘센 각시",
+  "type": "legend",
+  "category": "기타",
+  "content": {
+    "summary": "",
+    "full_text": "",
+    "features": "",
+    "raw_text": "TL_164 힘센 각시\n{제부자 1} 남제주군 성산음 수산 1리 감참익 ( 또.71)\n각시는   힘이 세고 남자는 힘이  세지 안 허고 현디 남편관1) 싸우다가  각시가 남편올 아상리 지\n봉으로 묵 데여3  부컷거든:\n그 때 친구가 들어올논데 그 때 남편이 속수러우난\n근 호박올 타가. 즉은 호박올 타가\" 햇주.\n제주대학교 인문대탁 국어국문학자, '국문학보 제12집: , 1394 P.P\n1) 남편하고 2 가져서 3 단저"
+  },
+  "elements": {
+    "characters": [
+      "부자"
+    ],
+    "locations": [
+      "아상리",
+      "1리"
+    ],
+    "keywords": []
+  },
+  "sources": [
+    {
+      "type": "pdf",
+      "file": "T_L_164_힘센 각시.pdf",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "source_type": "text",
+    "source_id": "T_L_164",
+    "converted_at": "2025-12-04T00:58:19.152854",
+    "converter_version": "2.0.0",
+    "ocr_confidence": 0.93
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "L_157",
+  "title": "형제섬(쥐섬)",
+  "category": "전설",
+  "content": {
+    "clean": "",
+    "raw": "",
+    "commentary": null
+  },
+  "attributes": {
+    "summary": "안덕면 사계리 산방산 앞 바다의 형제섬은 쥐가 많아 쥐섬이라고도 한다. 쥐가 수만 마리라 먹을 것이 없어 오히려 쥐가 고양이를 잡아먹었다. 4·3사건 때 고양이를 놓았더니 수십 마리 쥐가 달려들어 고양이를 뜯어먹으려 했다. 바위 형태가 쥐 모양이라 쥐가 많다고 한다.",
+    "emotion": "Bizarre",
+    "conflict": "Lack",
+    "keywords": [
+      "형제섬",
+      "쥐섬",
+      "산방산",
+      "쥐",
+      "고양이",
+      "4·3사건",
+      "사계리"
+    ],
+    "entities": [
+      {
+        "name": "형제섬(쥐섬)",
+        "description": "쥐가 고양이를 잡아먹는 기이한 섬",
+        "type": "Object"
+      }
+    ],
+    "roles": [
+      {
+        "entity_name": "형제섬(쥐섬)",
+        "type": "Neutral"
+      }
+    ],
+    "terrains": [
+      {
+        "type": "Sea",
+        "description": "형제섬 - 산방산 앞 바다의 바위섬"
+      },
+      {
+        "type": "Mountain",
+        "description": "산방산 - 형제섬 근처"
+      }
+    ],
+    "location_context": {
+      "primary_place": "형제섬",
+      "admin_region": "안덕면 사계리"
+    }
+  }
+}

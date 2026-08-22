@@ -1,0 +1,104 @@
+{
+  "region": "성산권",
+  "pilot_info": {
+    "center": {
+      "name": "성산일출봉",
+      "lat": 33.458,
+      "lng": 126.942
+    },
+    "total_area": "15km × 15km (3×3 격자)",
+    "grid_size": "5km × 5km"
+  },
+  "grids": [
+    {
+      "grid_id": "SS-A1",
+      "region": "성산권",
+      "position": "북서",
+      "lat_min": 33.49,
+      "lat_max": 33.54,
+      "lng_min": 126.85,
+      "lng_max": 126.90,
+      "area_name": "송당리·덕천리 일대"
+    },
+    {
+      "grid_id": "SS-A2",
+      "region": "성산권",
+      "position": "북중",
+      "lat_min": 33.49,
+      "lat_max": 33.54,
+      "lng_min": 126.90,
+      "lng_max": 126.95,
+      "area_name": "세화리·평대리 일대"
+    },
+    {
+      "grid_id": "SS-A3",
+      "region": "성산권",
+      "position": "북동",
+      "lat_min": 33.49,
+      "lat_max": 33.54,
+      "lng_min": 126.95,
+      "lng_max": 127.00,
+      "area_name": "하도리·종달리 일대"
+    },
+    {
+      "grid_id": "SS-B1",
+      "region": "성산권",
+      "position": "중서",
+      "lat_min": 33.44,
+      "lat_max": 33.49,
+      "lng_min": 126.85,
+      "lng_max": 126.90,
+      "area_name": "수산리·고성리 일대"
+    },
+    {
+      "grid_id": "SS-B2",
+      "region": "성산권",
+      "position": "중앙",
+      "lat_min": 33.44,
+      "lat_max": 33.49,
+      "lng_min": 126.90,
+      "lng_max": 126.95,
+      "area_name": "성산리·오조리 일대"
+    },
+    {
+      "grid_id": "SS-B3",
+      "region": "성산권",
+      "position": "중동",
+      "lat_min": 33.44,
+      "lat_max": 33.49,
+      "lng_min": 126.95,
+      "lng_max": 127.00,
+      "area_name": "우도면"
+    },
+    {
+      "grid_id": "SS-C1",
+      "region": "성산권",
+      "position": "남서",
+      "lat_min": 33.39,
+      "lat_max": 33.44,
+      "lng_min": 126.85,
+      "lng_max": 126.90,
+      "area_name": "신산리·난산리 일대"
+    },
+    {
+      "grid_id": "SS-C2",
+      "region": "성산권",
+      "position": "남중",
+      "lat_min": 33.39,
+      "lat_max": 33.44,
+      "lng_min": 126.90,
+      "lng_max": 126.95,
+      "area_name": "신양리·온평리 일대"
+    },
+    {
+      "grid_id": "SS-C3",
+      "region": "성산권",
+      "position": "남동",
+      "lat_min": 33.39,
+      "lat_max": 33.44,
+      "lng_min": 126.95,
+      "lng_max": 127.00,
+      "area_name": "바다 영역 (성산~우도 해역)"
+    }
+  ]
+}

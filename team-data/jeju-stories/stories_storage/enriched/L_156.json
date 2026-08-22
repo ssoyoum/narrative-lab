@@ -1,0 +1,105 @@
+{
+  "id": "L_156",
+  "title": "한새미 강당장",
+  "category": "전설",
+  "content": {
+    "clean": "",
+    "raw": "",
+    "commentary": null
+  },
+  "attributes": {
+    "summary": "한림읍 동명리 한새미 마을의 '배큰강당장'은 힘센 장사였다. 제주목 경계 근무(番)에 갔다가 너무 많이 먹어 일주일 전에 돌려보내졌다. 오다가 열두 장정의 점심을 혼자 다 먹고, 미안해서 생밭(처녀지)을 혼자 다 갈아주었다. 또 옹포리 어부들이 고기를 안 팔자 배를 들어 길에 던져놓아 어부들이 앞으로 고기를 드리겠다고 했다.",
+    "emotion": "Healing",
+    "conflict": "Lack",
+    "keywords": [
+      "강당장",
+      "한새미",
+      "대식",
+      "장사",
+      "품앗이",
+      "번",
+      "동명리",
+      "옹포리"
+    ],
+    "entities": [
+      {
+        "name": "강당장",
+        "description": "한새미 마을의 대식+괴력 장사",
+        "type": "Human"
+      }
+    ],
+    "roles": [
+      {
+        "entity_name": "강당장",
+        "type": "Protagonist"
+      }
+    ],
+    "terrains": [
+      {
+        "type": "Village",
+        "description": "동명리 한새미 - 강당장 마을"
+      },
+      {
+        "type": "Sea",
+        "description": "옹포리 - 어부들의 배가 있던 곳"
+      }
+    ],
+    "location_context": {
+      "primary_place": "한새미",
+      "admin_region": "한림읍 동명리"
+    },
+    "plot_points": [
+      {
+        "beat": "Ki",
+        "event": "제주성 안에 큰 느티나무가 있었음",
+        "function": "신성한 나무"
+      },
+      {
+        "beat": "Shō",
+        "event": "나무에 신령이 깃들어 기도하면 영험함",
+        "function": "신성화"
+      },
+      {
+        "beat": "Ten",
+        "event": "목사가 나무를 베려 하자 천둥과 번개가 침",
+        "function": "신의 경고"
+      },
+      {
+        "beat": "Ketsu",
+        "event": "나무를 당목으로 모시게 됨",
+        "function": "신앙의 대상"
+      }
+    ],
+    "story_dna": {
+      "wounds_addressed": [
+        "exhaustion"
+      ],
+      "desires_fulfilled": [
+        "rest",
+        "discovery"
+      ],
+      "primary_wound": "exhaustion",
+      "primary_desire": "rest",
+      "resonance_triggers": [
+        "강당장",
+        "한새미",
+        "대식",
+        "장사",
+        "번",
+        "품앗이",
+        "생밭",
+        "배",
+        "동명리",
+        "옹포리"
+      ],
+      "emotional_arc": "대식으로 조기 귀환 → 장정 점심 먹음 → 생밭 갈기 → 배 들기 → 마을 존경",
+      "narrative_themes": [
+        "장사",
+        "대식",
+        "품앗이",
+        "힘",
+        "마을"
+      ]
+    }
+  }
+}

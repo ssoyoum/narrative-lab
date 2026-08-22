@@ -1,0 +1,62 @@
+{
+  "id": "myth_samgong_bonpuri",
+  "title": "삼공본풀이",
+  "title_alt": ["가믄장아기 신화", "전상 신화"],
+  "type": "myth",
+  "category": "무속신화",
+
+  "content": {
+    "summary": "제주도 굿에서 '전상'(타고난 복)의 근원을 설명하는 서사무가. 가믄장아기의 내력담을 통해 좋은 전상을 기원한다.",
+
+    "episodes": [
+      {
+        "title": "거지 부부의 부자 되기",
+        "content": "거지 부부가 세 딸을 낳은 후 부자가 된다."
+      },
+      {
+        "title": "막내딸의 대답",
+        "content": "막내딸 가믄장아기가 자신의 타고난 복 때문에 잘 산다고 대답한다."
+      },
+      {
+        "title": "쫓겨남",
+        "content": "부모가 그녀를 내쫓는다."
+      },
+      {
+        "title": "마퉁이와 결혼",
+        "content": "가믄장아기가 마퉁이 형제와 결혼하여 금은보화를 얻어 부자가 된다."
+      },
+      {
+        "title": "부모와 재회",
+        "content": "거지 잔치를 열어 부모를 찾아 재결합한다."
+      }
+    ],
+
+    "themes": ["타고난 복", "내 복에 산다", "여성의 주체성"],
+    "similar_works": ["서동설화", "심청전"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "가믄장아기", "role": "막내딸, 주인공"},
+      {"name": "은장아기", "role": "첫째 딸"},
+      {"name": "놋장아기", "role": "둘째 딸"},
+      {"name": "마퉁이 삼 형제", "role": "가믄장아기의 남편들"},
+      {"name": "거지 부부", "role": "부모"}
+    ],
+    "keywords": ["삼공", "가믄장아기", "전상", "복", "본풀이"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "한국민족문화대백과사전",
+      "url": "https://encykorea.aks.ac.kr/Article/E0026468",
+      "article_id": "E0026468"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

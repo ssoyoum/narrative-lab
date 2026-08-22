@@ -1,0 +1,62 @@
+{
+  "id": "L_153",
+  "title": "충효 박계곤",
+  "category": "전설",
+  "content": {
+    "clean": "",
+    "raw": "",
+    "commentary": null
+  },
+  "attributes": {
+    "summary": "조선 숙종 때 애월면의 박계곤은 충효심이 깊었다. 숙종 승하 후 자진하여 30명 역군을 이끌고 능을 쌓으러 갔다. '대만민회천안(代萬民回天顔)' 후렴으로 칭송받았다. 귀향 중 해난사고로 손가락 끊어 혈서를 썼는데, 그 나무조각이 아내의 허벅으로 들어와 죽음을 알렸다. 충효 박씨 정문이 하사되었다.",
+    "emotion": "Sweet_Potato",
+    "conflict": "Sacrifice",
+    "keywords": [
+      "박계곤",
+      "충효",
+      "정문",
+      "숙종",
+      "능역",
+      "혈서",
+      "허벅",
+      "애월",
+      "신엄리"
+    ],
+    "entities": [
+      {
+        "name": "박계곤",
+        "description": "충효심 깊은 선비, 해난사고 후 혈서 작성",
+        "type": "Human"
+      },
+      {
+        "name": "박계곤의 처",
+        "description": "허벅에 혈서가 들어온 아내",
+        "type": "Human"
+      }
+    ],
+    "roles": [
+      {
+        "entity_name": "박계곤",
+        "type": "Victim"
+      },
+      {
+        "entity_name": "박계곤의 처",
+        "type": "Neutral"
+      }
+    ],
+    "terrains": [
+      {
+        "type": "Sea",
+        "description": "바다 - 해난사고 장소"
+      },
+      {
+        "type": "Village",
+        "description": "신엄리 - 정문 소재지"
+      }
+    ],
+    "location_context": {
+      "primary_place": "애월면",
+      "admin_region": "애월읍 신엄리"
+    }
+  }
+}

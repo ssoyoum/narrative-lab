@@ -1,0 +1,50 @@
+{
+  "code": "W_F_027",
+  "title": "비 오면 나타나는 기신세",
+  "category": "민담",
+  "sub_category": "세속담",
+  "type": "현지조사",
+  "content": {
+    "text": "W_F_027 비  오면  나타나는  기신세 2016년 10월 18일, 구좌읍 하도리 김군자씨 댁, 송정희 조사. 김군자(여, 1940년생, 구좌읍 하도리)   [제보자] 우리  동네,  우리  동네  이렇게  저,  비는  쪼금  보술보술  올  때,  이렇게  지나가다    보니깐  큰,  저  구신인데  ‘기신세  기신세’  헤여.  경  헌  사름이  기냥  막,  거멀가치    사  가지고,  그냥  영   벌견  산  딜로  무신,  지나갈  때  그  밑으로  그,  이  알로  지    나  가면은  죽넨  헌  말은  들어낫지.    경  헤사  죽은  사름은  엇고게.  거기  나온덴  허는  말을  들어낫어.  그런  말만  들엇주.   [조사자] 거기가  어디마씨?   [제보자] 거긴  이  동네  어딘디.  학실한  장소는  몰라.   ∙ 핵심어 : 구좌읍  하도리,  비,  구신,  기신세",
+    "char_count": 462,
+    "text_cleaned": "W_F_027 비 오면 나타나는 기신세 2016년 10월 18일, 구좌읍 하도리 김군자씨 댁, 송정희 조사. 김군자(여, 1940년생, 구좌읍 하도리) [제보자] 우리 동네, 우리 동네 이렇게 저, 비는 쪼금 보술보술 올 때, 이렇게 지나가다 보니깐 큰, 저 구신인데 ‘기신세 기신세’ 헤여. 경 헌 사름이 기냥 막, 거멀가치 사 가지고, 그냥 영  벌견 산 딜로 무신, 지나갈 때 그 밑으로 그, 이 알로 지 나 가면은 죽넨 헌 말은 들어낫지. 경 헤사 죽은 사름은 엇고게. 거기 나온덴 허는 말을 들어낫어. 그런 말만 들엇주. [조사자] 거기가 어디마씨? [제보자] 거긴 이 동네 어딘디. 학실한 장소는 몰라. ∙ 핵심어 : 구좌읍 하도리, 비, 구신, 기신세",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "78개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 462,
+      "cleaned_char_count": 372
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_027/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_027/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:33:37.205656",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T16:09:05.139512",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T19:19:51.835243"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Mystery",
+    "object_link": "None",
+    "emotion_keyword": "Thriller",
+    "modern_summary": "비가 오면 나타나는 기신세에 대한 이야기",
+    "location_context": {
+      "primary_place": "구좌읍 하도리",
+      "admin_region": "제주시"
+    },
+    "emotion_confidence": "high",
+    "emotion_method": "cot+simple_agree"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "legend_jacheongbi_mungukseong",
+  "title": "자청비와 문국성 도령",
+  "title_alt": [],
+  "type": "legend",
+  "category": "애정전설",
+
+  "content": {
+    "summary": "신성한 존재와 선비의 비극적 사랑 이야기. 무속신화 '세경본풀이'의 전설 버전.",
+
+    "episodes": [
+      {
+        "title": "우물가에서의 만남",
+        "content": "자청비가 우물가에서 문국성 도령을 만난다."
+      },
+      {
+        "title": "남장 유학",
+        "content": "남자로 변장하여 서울까지 따라가 공부한다."
+      },
+      {
+        "title": "정체 미발각",
+        "content": "정체를 밝히려 시도하지만 문국성은 끝까지 알아채지 못한다."
+      },
+      {
+        "title": "귀향과 혼인",
+        "content": "자청비가 집으로 돌아가 다른 사람과 결혼한다."
+      },
+      {
+        "title": "문국성의 죽음",
+        "content": "문국성이 상심으로 죽는다."
+      },
+      {
+        "title": "무덤에서의 변신",
+        "content": "자청비가 무덤에서 찢어진 치마가 흰 나비와 검은 나비로 변한다."
+      }
+    ],
+
+    "themes": ["비극적 사랑", "변신", "무속신화의 전설화"],
+    "note": "무속신화 '세경본풀이'에서는 두 사람이 성공적으로 혼인하고 자청비가 농경신이 된다. 이 전설 버전에서는 사랑이 이루어지지 않는다."
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "자청비", "role": "여주인공"},
+      {"name": "문국성 도령", "role": "남주인공"}
+    ],
+    "locations": [
+      {"name": "용수리", "type": "마을", "relation": "전승지"},
+      {"name": "용담동", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["자청비", "문국성", "비극", "나비 변신"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00711398",
+      "item_id": "GC00711398"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도전설집』, 1985; 『제주설화집성』, 1985"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

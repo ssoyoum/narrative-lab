@@ -1,0 +1,50 @@
+{
+  "code": "W_L_640",
+  "title": "아들동산",
+  "category": "전설",
+  "sub_category": "자연",
+  "type": "현지조사",
+  "content": {
+    "text": "W_L_640 아들동산  2017년 11월 20일,  표선면 성읍2리 성읍2리노인회관,  문순덕(김은정·정이슬)  조사.  김복생(여,  1936년생,  표선면 성읍2리)  ∙ 줄거리:  딸만 태어나는 집에서 어느 장소에 돌을 쌓은 후에 아들이 태어났다.  그래서 그   돌을 쌓은 동산을 ‘아들동산’이라 부른다.   [제보자] 성읍리가  을  말  더  핫주.  우리  성읍2리엔  뭐  엇나.   [조사자] 옛날부터  전해오는.   [제보자] 요기  동산  잇인  것도  뒈어?  아들동산인디.   [조사자] 예.  아들동산에  대해  말헤줍서.   [제보자] 요디  가믄  돌  영  쌓은  것이  잇어.  쌓아진  돌이  잇인디.  그거가  이  동네  만  만    나난  거기가  여자만  나는  집이렌  헷인디,  거기  돌을  쌓은  후에는  아들을  낫젠  해.    지금도  그  돌  쌓아진  거  그디에  잇어.  할망들신디  물어보난  아들  낳젠  허믄  저기    돌을  쌓아사  뒌덴  허여.   [조사자] 아,  아들  낳젠  허믄마씨.   ∙ 핵심어:  아들동산,  아들,  돌,  동산,  딸 -  221  -",
+    "char_count": 587,
+    "text_cleaned": "W_L_640 아들동산 2017년 11월 20일, 표선면 성읍2리 성읍2리노인회관, 문순덕(김은정·정이슬) 조사. 김복생(여, 1936년생, 표선면 성읍2리) ∙ 줄거리: 딸만 태어나는 집에서 어느 장소에 돌을 쌓은 후에 아들이 태어났다. 그래서 그 돌을 쌓은 동산을 ‘아들동산’이라 부른다. [제보자] 성읍리가 을 말 더 핫주. 우리 성읍2리엔 뭐 엇나. [조사자] 옛날부터 전해오는. [제보자] 요기 동산 잇인 것도 뒈어? 아들동산인디. [조사자] 예. 아들동산에 대해 말헤줍서. [제보자] 요디 가믄 돌 영 쌓은 것이 잇어. 쌓아진 돌이 잇인디. 그거가 이 동네 만 만 나난 거기가 여자만 나는 집이렌 헷인디, 거기 돌을 쌓은 후에는 아들을 낫젠 해. 지금도 그 돌 쌓아진 거 그디에 잇어. 할망들신디 물어보난 아들 낳젠 허믄 저기 돌을 쌓아사 뒌덴 허여. [조사자] 아, 아들 낳젠 허믄마씨. ∙ 핵심어: 아들동산, 아들, 돌, 동산, 딸 - 221 -",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "89개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 587,
+      "cleaned_char_count": 484
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_640/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_640/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:42:20.965117",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T16:42:59.267508",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T20:09:03.206643"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Lack",
+    "object_link": "Basalt_Rock",
+    "emotion_keyword": "Healing",
+    "modern_summary": "아들동산이라는 이름의 동산에 돌을 쌓은 후 아들이 태어난다는 전설이다.",
+    "location_context": {
+      "primary_place": "성읍2리",
+      "admin_region": "표선면"
+    },
+    "emotion_confidence": "medium",
+    "emotion_method": "cot_priority"
+  }
+}

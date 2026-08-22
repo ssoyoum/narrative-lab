@@ -1,0 +1,176 @@
+{
+  "dialect_schema": {
+    "version": "1.0",
+    "description": "Enhanced schema for Jeju folklore with historical dialect integration",
+    "last_updated": "2025-12-03"
+  },
+  
+  "story_structure": {
+    "id": "string - unique identifier",
+    "title": {
+      "standard_korean": "string - modern Korean title",
+      "jeju_historical": "string - historical Jeju dialect version",
+      "romanization": "string - romanized pronunciation guide"
+    },
+    
+    "dialect_metadata": {
+      "dialect_level": "enum - [standard, mixed, full_historical]",
+      "historical_period": "string - Yi Dynasty, Early Modern, etc.",
+      "regional_variant": "string - specific Jeju region",
+      "authenticity_score": "float - 0.0 to 1.0 cultural accuracy"
+    },
+    
+    "content": {
+      "summary": "string - story overview",
+      "episodes": [
+        {
+          "title": "string - episode name",
+          "standard_text": "string - modern Korean version",
+          "dialect_text": "string - historical Jeju dialect version",
+          "dialect_tokens": ["array of strings - [STYLE:Elder:Jeju_Phonetics]"],
+          "phonetic_guide": "string - IPA transcription for pronunciation",
+          "cultural_notes": "string - historical context explanations"
+        }
+      ]
+    },
+    
+    "linguistic_elements": {
+      "dialect_words": [
+        {
+          "modern_korean": "string - standard term",
+          "jeju_historical": "string - historical dialect equivalent",
+          "hunminjeongeum_reference": "string - source documentation",
+          "phonetic_ipa": "string - International Phonetic Alphabet",
+          "usage_context": "string - when/how this term is used",
+          "cultural_significance": "string - cultural meaning and importance"
+        }
+      ],
+      
+      "phonetic_markers": [
+        {
+          "text_span": "string - the text portion to modify",
+          "ssml_markup": "string - AWS Polly SSML for pronunciation",
+          "historical_pronunciation": "string - how it was pronounced historically"
+        }
+      ]
+    },
+    
+    "aws_integration": {
+      "s3_path": "string - storage location in S3",
+      "training_tokens": ["array - tokens for model training"],
+      "polly_ssml": "string - complete SSML markup for TTS",
+      "sagemaker_metadata": {
+        "training_weight": "float - importance for model training",
+        "dialect_complexity": "int - 1-5 scale of linguistic complexity"
+      }
+    },
+    
+    "quality_assurance": {
+      "reviewed_by": "string - cultural expert who validated content",
+      "academic_sources": ["array - scholarly references for dialect accuracy"],
+      "community_feedback": "string - input from Jeju community members",
+      "validation_date": "string - ISO date of cultural review"
+    }
+  },
+  
+  "tokenization_system": {
+    "style_tokens": [
+      "[STYLE:Granny]",
+      "[STYLE:Elder:Jeju_Phonetics]", 
+      "[STYLE:Traditional_Narrator]",
+      "[STYLE:Historical_Voice]"
+    ],
+    
+    "dialect_tokens": [
+      "[DIALECT:Jeju_Historical]",
+      "[DIALECT:Hunminjeongeum_Era]",
+      "[DIALECT:Regional_Variant]",
+      "[DIALECT:Mixed_Modern]"
+    ],
+    
+    "character_tokens": [
+      "[CHR:Seolmundae_Halmang]",
+      "[CHR:Traditional_Elder]",
+      "[CHR:Village_Storyteller]"
+    ],
+    
+    "phonetic_tokens": [
+      "[PHONETIC:Historical_Pronunciation]",
+      "[PHONETIC:Regional_Accent]",
+      "[PHONETIC:Ceremonial_Speech]"
+    ]
+  },
+  
+  "aws_service_mapping": {
+    "storage": {
+      "service": "Amazon S3",
+      "buckets": {
+        "raw_corpus": "jeju-folklore-corpus",
+        "dialect_lexicon": "jeju-dialect-lexicon", 
+        "enhanced_training_data": "enhanced-training-data",
+        "model_artifacts": "sagemaker-model-artifacts"
+      }
+    },
+    
+    "processing": {
+      "service": "AWS Lambda",
+      "functions": {
+        "dialect_injection": "process and enhance stories with dialect",
+        "tokenization": "add linguistic tokens to content",
+        "phonetic_validation": "verify pronunciation accuracy",
+        "quality_check": "cultural and technical validation"
+      }
+    },
+    
+    "machine_learning": {
+      "service": "Amazon SageMaker",
+      "components": {
+        "processing_jobs": "dataset preparation and augmentation",
+        "training_jobs": "fine-tune Korean LLM on dialectal corpus",
+        "endpoints": "deploy model for real-time inference",
+        "model_monitoring": "track model performance and accuracy"
+      }
+    },
+    
+    "text_to_speech": {
+      "service": "Amazon Polly",
+      "configuration": {
+        "voice": "Korean neural voice with SSML support",
+        "ssml_tags": ["<phoneme>", "<speak>", "<prosody>"],
+        "custom_lexicon": "jeju-historical-pronunciations"
+      }
+    }
+  },
+  
+  "implementation_phases": {
+    "phase_1": {
+      "name": "Dialect Lexicon Creation",
+      "timeline": "12월 3주",
+      "deliverables": [
+        "500+ word dialect mapping database",
+        "Hunminjeongeum reference integration",
+        "Cultural context documentation"
+      ]
+    },
+    
+    "phase_2": {
+      "name": "AWS Infrastructure Setup", 
+      "timeline": "1월 1주",
+      "deliverables": [
+        "S3 bucket structure and data upload",
+        "Lambda functions for dialect processing",
+        "SageMaker environment configuration"
+      ]
+    },
+    
+    "phase_3": {
+      "name": "Model Training and Integration",
+      "timeline": "1월 2주", 
+      "deliverables": [
+        "Fine-tuned Korean LLM with dialect capabilities",
+        "AWS Polly SSML integration for historical pronunciation",
+        "End-to-end folklore generation pipeline"
+      ]
+    }
+  }
+}

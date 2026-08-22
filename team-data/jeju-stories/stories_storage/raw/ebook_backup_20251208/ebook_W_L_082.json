@@ -1,0 +1,50 @@
+{
+  "code": "W_L_082",
+  "title": "수월봉과 녹고*모리",
+  "category": "전설",
+  "sub_category": "지명",
+  "type": "현지조사",
+  "content": {
+    "text": "W_L_082 수월봉과  녹고리 2016년 12월 15일, 한경면 용수리 서안생씨 댁, 김선희 조사. 서안생(여, 1932년생, 한경면 고산리)   [조사자] 수월봉에도  전해오는  이야기가  잇수과?   [제보자] 녹고는  오빠고,  수월은  누나고.  옛날부터  경  아난.   [조사자] 아,  오누이마씸?   [제보자] 경  허영  두  오누이주게.  녹고도  오꼿  털어정으네  죽엇젠  말이  셔.  거기서  오누이    가  다.  겅  헤영  유명헤영  녹고리가  뒈엇주기.   ∙ 핵심어 : 수월봉,  녹고리,  오누이,  오빠,  누이,  죽음",
+    "char_count": 318,
+    "text_cleaned": "W_L_082 수월봉과 녹고리 2016년 12월 15일, 한경면 용수리 서안생씨 댁, 김선희 조사. 서안생(여, 1932년생, 한경면 고산리) [조사자] 수월봉에도 전해오는 이야기가 잇수과? [제보자] 녹고는 오빠고, 수월은 누나고. 옛날부터 경 아난. [조사자] 아, 오누이마씸? [제보자] 경 허영 두 오누이주게. 녹고도 오꼿 털어정으네 죽엇젠 말이 셔. 거기서 오누이 가 다. 겅 헤영 유명헤영 녹고리가 뒈엇주기. ∙ 핵심어 : 수월봉, 녹고리, 오누이, 오빠, 누이, 죽음",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "39개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 318,
+      "cleaned_char_count": 272
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_082/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_082/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:39:21.075382",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T16:23:11.370480",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T19:40:41.358493"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Lack",
+    "object_link": "None",
+    "emotion_keyword": "Sweet_Potato",
+    "modern_summary": "수월봉과 녹고리의 사이에 오빠와 누이간의 갈등으로 인한 누이의 죽음",
+    "location_context": {
+      "primary_place": "수월봉, 녹고리",
+      "admin_region": "Unknown"
+    },
+    "emotion_confidence": "high",
+    "emotion_method": "cot+simple_agree"
+  }
+}

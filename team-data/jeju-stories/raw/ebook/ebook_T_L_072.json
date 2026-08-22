@@ -1,0 +1,35 @@
+{
+  "code": "T_L_072",
+  "title": "선문대할망3",
+  "category": "전설",
+  "sub_category": "인물",
+  "type": "원문",
+  "content": {
+    "text": "T_L_072   선문대할망3 옛날  선문대할망이라는  키  큰  할머니가  있었다. 얼마나  키가  컸던지,  한라산을  베개  삼고  누우면  다리는  제주시  앞바다에  있는  관탈섬에  걸쳐   졌다.   북제주군  구좌읍  서김녕리,  안용인(남·79)  제보.  제주도, 제주도전설지, 1985, p.68.",
+    "char_count": 179,
+    "text_cleaned": "T_L_072 선문대할망3 옛날 선문대할망이라는 키 큰 할머니가 있었다. 얼마나 키가 컸던지, 한라산을 베개 삼고 누우면 다리는 제주시 앞바다에 있는 관탈섬에 걸쳐 졌다. 북제주군 구좌읍 서김녕리, 안용인(남·79) 제보. 제주도, 제주도전설지, 1985, p.68.",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "25개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 179,
+      "cleaned_char_count": 151
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/T_L_072/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/T_L_072/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:38:10.966874",
+    "crawler_version": "1.0.0"
+  }
+}

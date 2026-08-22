@@ -1,0 +1,92 @@
+{
+  "id": "meta_bonpuri_classification",
+  "title": "본풀이 분류 체계",
+  "type": "classification",
+  "category": "무속신화",
+
+  "definition": {
+    "term": "본풀이",
+    "etymology": {
+      "본": "근본",
+      "풀이": "해석, 설명"
+    },
+    "description": "제주의 심방(무당)들이 굿을 진행할 때 제상 앞에 앉아 노래하는 신의 내력담. 신의 출생부터 신으로서의 직능을 갖추고 좌정하기까지의 과정을 담고 있다."
+  },
+
+  "classification": {
+    "categories": [
+      {
+        "name": "일반신 본풀이",
+        "description": "사람의 일반적 사항을 담당하는 신들의 이야기",
+        "items": [
+          {"name": "천지왕 본풀이", "domain": "천지 창조, 일월 조정"},
+          {"name": "삼승할망 본풀이", "domain": "출산, 육아"},
+          {"name": "마누라 본풀이", "domain": "무병장수"},
+          {"name": "초공 본풀이", "domain": "무조신(巫祖神)"},
+          {"name": "이공 본풀이", "domain": "꽃(영혼의 환생)"},
+          {"name": "삼공 본풀이", "domain": "전상(前生)"},
+          {"name": "차사 본풀이", "domain": "저승"},
+          {"name": "세경 본풀이", "domain": "농경"},
+          {"name": "지장 본풀이", "domain": "중음(中陰)"},
+          {"name": "문전 본풀이", "domain": "가택(집)"},
+          {"name": "칠성 본풀이", "domain": "뱀신"},
+          {"name": "군웅 본풀이", "domain": "수렵"}
+        ]
+      },
+      {
+        "name": "당신 본풀이",
+        "description": "각 마을의 당신(지역 수호신)에 관한 이야기",
+        "items": [
+          {"name": "송당"},
+          {"name": "궤눼기당"},
+          {"name": "토산"},
+          {"name": "일뤳당"},
+          {"name": "여드렛당"}
+        ],
+        "characteristics": [
+          "구성 길이와 문예적 완성도가 다양",
+          "신명, 직능, 단골, 식성 등을 기록"
+        ]
+      },
+      {
+        "name": "조상신 본풀이",
+        "description": "각 집안의 행운과 안녕을 보호하는 신에 관한 이야기",
+        "characteristics": [
+          "혈연조상뿐 아니라 뱀, 원혼 등도 포함",
+          "아들→아들 또는 딸→딸로 전승",
+          "석살림 때 노래하며 집안의 행운을 기원"
+        ]
+      }
+    ]
+  },
+
+  "cultural_significance": [
+    "조상신 본풀이를 통해 집안의 번영을 기원",
+    "무속신앙의 핵심적 신화 자료",
+    "제주 고유의 구비문학 형식"
+  ],
+
+  "related_stories": [
+    "myth_cheonjiwang",
+    "myth_samseunghalmang",
+    "myth_chogong",
+    "myth_igong",
+    "myth_samgong",
+    "myth_chasa",
+    "myth_segyeong"
+  ],
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00700916",
+      "file": "web-crawled/grandculture/bonpuri.md"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_type": "meta_classification"
+  }
+}

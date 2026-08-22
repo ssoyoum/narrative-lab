@@ -1,0 +1,35 @@
+{
+  "code": "T_L_081",
+  "title": "설문대할망",
+  "category": "전설",
+  "sub_category": "인물",
+  "type": "원문",
+  "content": {
+    "text": "T_L_081   설문대  할망 옛날  어떤  할망이  이신디  속곳을  해  주민  소섬과  성산  새에  릴   놔  주켄  해도  그  할망  속곳    1)   을  멩질   일곱동이를  들여도  부작핸   릴  못  놧댄  햄주.  3)  2)  5) 그  할망이  오름들을  갈래죽 으로  들렁  데끼멍 …….  족영  데낑건  족은  오름,  하영  데낑건  큰    4)   오름,  소빡  하영  데낑건  한라산이랜  햄주.  (고만선,  71세)    제주대학교 인문대학 국어국문학과, 국문학보 제14집, 1997, p.204 1)  다리를. 2)  명주를. 3)  부족하여서. 4)  삽. 5)  던지면서.",
+    "char_count": 354,
+    "text_cleaned": "T_L_081 설문대 할망 옛날 어떤 할망이 이신디 속곳을 해 주민 소섬과 성산 새에 릴 놔 주켄 해도 그 할망 속곳 1) 을 멩질 일곱동이를 들여도 부작핸 릴 못 놧댄 햄주. 3) 2) 5) 그 할망이 오름들을 갈래죽 으로 들렁 데끼멍 ……. 족영 데낑건 족은 오름, 하영 데낑건 큰 4) 오름, 소빡 하영 데낑건 한라산이랜 햄주. (고만선, 71세) 제주대학교 인문대학 국어국문학과, 국문학보 제14집, 1997, p.204 1) 다리를. 2) 명주를. 3) 부족하여서. 4) 삽. 5) 던지면서.",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "58개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 354,
+      "cleaned_char_count": 284
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/T_L_081/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/T_L_081/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:38:14.498147",
+    "crawler_version": "1.0.0"
+  }
+}

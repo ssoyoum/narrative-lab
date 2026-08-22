@@ -1,0 +1,60 @@
+{
+  "id": "legend_yongso_giuje",
+  "title": "용소와 기우제",
+  "title_alt": ["고대장 기우제"],
+  "type": "legend",
+  "category": "인물전설",
+
+  "content": {
+    "summary": "조선시대 명망 있는 심방 고대장이 심각한 가뭄을 기우제로 해결했다는 전설.",
+
+    "episodes": [
+      {
+        "title": "7년 가뭄",
+        "content": "7년째 비 한 방울 내리지 않는 극심한 가뭄이 계속되었다."
+      },
+      {
+        "title": "기우제 거행",
+        "content": "고대장이 한천 하류의 용소에서 쉰대 자 긴 용을 짚으로 만들어 기우제를 지냈다."
+      },
+      {
+        "title": "비의 강림",
+        "content": "동쪽 사라봉에서 검은 구름이 떠올라 폭우가 내렸다."
+      }
+    ],
+
+    "themes": ["기우제", "무속", "실존 인물"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "고대장", "role": "심방, 주인공"}
+    ],
+    "locations": [
+      {"name": "용소", "type": "연못", "region": "한천 하류"},
+      {"name": "용담동", "type": "마을"},
+      {"name": "사라봉", "type": "봉우리"},
+      {"name": "관덕정", "type": "정자"}
+    ],
+    "keywords": ["기우제", "고대장", "심방", "용소", "무속"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00701481",
+      "item_id": "GC00701481"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도 신화』, 1976; 『제주도 무속자료사전』, 1980",
+      "collector": "현용준"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

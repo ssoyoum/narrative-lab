@@ -1,0 +1,38 @@
+{
+  "id": "story_F_068",
+  "title": "힘쎈 할망",
+  "type": "folktale",
+  "category": "기타",
+  "content": {
+    "summary": "",
+    "full_text": "",
+    "features": "",
+    "raw_text": "W_F_068 힘씬 할망\n2016년 12월 14일 표선면 가시리 안인순씨 댁 , 솜정리 조사. 안인순(여, 1935년생, 표선면 가시리)\n[제보자] 활망이 그 하르밤은   물리고 활망이 기 세니깐 하르방올 혹 던지난  지붕 우메 올 라간 누게 오라네. 누게 누게 오란 '무사 지붕 우에 올라간다?\" 허난 '호박 따러 완젠 검   글아낫저 헌 말 들언\n핵심어 활망 하르방 지붕  호박"
+  },
+  "elements": {
+    "characters": [
+      "할망",
+      "하르방"
+    ],
+    "locations": [
+      "가시리",
+      "솜정리",
+      "물리"
+    ],
+    "keywords": []
+  },
+  "sources": [
+    {
+      "type": "pdf",
+      "file": "W_F_068_힘쎈 할망.pdf",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "source_type": "web",
+    "source_id": "W_F_068",
+    "converted_at": "2025-12-04T09:14:09.917922",
+    "converter_version": "2.0.0",
+    "ocr_confidence": 0.95
+  }
+}

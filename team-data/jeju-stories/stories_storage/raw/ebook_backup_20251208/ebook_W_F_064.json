@@ -1,0 +1,50 @@
+{
+  "code": "W_F_064",
+  "title": "헛게 *또라 간 사름",
+  "category": "민담",
+  "sub_category": "세속담",
+  "type": "현지조사",
+  "content": {
+    "text": "W_F_064 헛게  라  간  사름 2016년 10월 21일, 구좌읍 세화리 부신남씨 댁, 송정희 조사. 부신남(여, 1920년생, 구좌읍 세화리)   [제보자] 엣날에  저  거시기,  동거리,  거시기  아방,  저  누게,  영춘이아방  산  때,  어디  손당    그  하르방이  침주주게,  침  주레  뎅견  손당  간,  오다네  어디  목이  뜨선가?  헛게    미쳔,  그런  사름  앞에  산  강,  제게  가민  제게  가고,  뜨게  가민  뜨게  가곡,  그  헛    게  란  가단,  헛게가  어디  덤불  속더레  간  밀러부난,  아네.  이젠  이레  나간    보난  막  양지  막  튿어지고  섬벌에서  죽지  안  혀만.  살안,  그때  오랜에  경  헤도    오래  살단  죽엇어.  영춘이아방.  경  헤낫젠  헤여.   ∙ 핵심어 : 세화리,  헛게,  손당,  덤불",
+    "char_count": 465,
+    "text_cleaned": "W_F_064 헛게 라 간 사름 2016년 10월 21일, 구좌읍 세화리 부신남씨 댁, 송정희 조사. 부신남(여, 1920년생, 구좌읍 세화리) [제보자] 엣날에 저 거시기, 동거리, 거시기 아방, 저 누게, 영춘이아방 산 때, 어디 손당 그 하르방이 침주주게, 침 주레 뎅견 손당 간, 오다네 어디 목이 뜨선가? 헛게 미쳔, 그런 사름 앞에 산 강, 제게 가민 제게 가고, 뜨게 가민 뜨게 가곡, 그 헛 게 란 가단, 헛게가 어디 덤불 속더레 간 밀러부난, 아네. 이젠 이레 나간 보난 막 양지 막 튿어지고 섬벌에서 죽지 안 혀만. 살안, 그때 오랜에 경 헤도 오래 살단 죽엇어. 영춘이아방. 경 헤낫젠 헤여. ∙ 핵심어 : 세화리, 헛게, 손당, 덤불",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "83개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 465,
+      "cleaned_char_count": 370
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_064/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_064/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:33:51.171126",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T16:11:55.570412",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T19:24:14.345269"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Obstacle",
+    "object_link": "Cliff",
+    "emotion_keyword": "Thriller",
+    "modern_summary": "세화리에서 헛게가 있는 곳에 손당이 침주를 주고, 그곳에서 오다네 목이 뜨는 사건이 발생한다.",
+    "location_context": {
+      "primary_place": "헛게",
+      "admin_region": "구좌읍"
+    },
+    "emotion_confidence": "medium",
+    "emotion_method": "cot_priority"
+  }
+}

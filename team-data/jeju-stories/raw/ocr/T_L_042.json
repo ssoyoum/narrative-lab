@@ -1,0 +1,34 @@
+{
+  "id": "story_L_042",
+  "title": "모동장에 돌담 두른 안익생",
+  "type": "legend",
+  "category": "기타",
+  "content": {
+    "summary": "",
+    "full_text": "",
+    "features": "",
+    "raw_text": "TL_042 모동장에 돌담 두른 안익생\n안익생은   갑uI 스으로 조선 시대  국우에게 낙인   찍기 위하여 해마다   모동장(=i비)에  목책올\n두르노라고   주민들의 노고가 매우  심햇으므로 그가  서둘러 목장   주변올 돌로 둘러 쌓아  노역올\n제하없다.\n'목장 소가 상학이 없고 마을 사람들이 편행다 \"눈 찬문올 내권 바 있다\n<마을 사람들 이양기 종합>\n모성찬   -제주의 가을 신도리 , 도서출판 반석 ZC2 , p 157"
+  },
+  "elements": {
+    "characters": [],
+    "locations": [
+      "모동",
+      "신도리"
+    ],
+    "keywords": []
+  },
+  "sources": [
+    {
+      "type": "pdf",
+      "file": "T_L_042_모동장에 돌담 두른 안익생.pdf",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "source_type": "text",
+    "source_id": "T_L_042",
+    "converted_at": "2025-12-04T00:09:38.410812",
+    "converter_version": "2.0.0",
+    "ocr_confidence": 1.0
+  }
+}

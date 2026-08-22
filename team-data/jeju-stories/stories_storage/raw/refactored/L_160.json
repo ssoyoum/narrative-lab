@@ -1,0 +1,71 @@
+{
+  "id": "L_160",
+  "title": "효부 이야기",
+  "category": "전설",
+  "content": {
+    "clean": "",
+    "raw": "",
+    "commentary": null
+  },
+  "attributes": {
+    "summary": "약 200년 전 판포리 진씨 딸이 귀덕리 경주 이씨 집에 시집왔다. 친정아버지가 아들에게만 '귀덕 소못연대가 명당'이라 유언했으나 딸이 엿들었다. 딸은 밤새 물허벅으로 개광(무덤 자리)에 물을 부어 친정 오빠가 그 자리에 아버지를 묻지 못하게 했고, 대신 시아버지를 명당에 묻었다. 귀덕 이씨 집안은 발복하여 과거급제했고, 두 집안은 원수가 되었다가 화해했다.",
+    "emotion": "Sweet_Potato",
+    "conflict": "Rivalry",
+    "keywords": [
+      "효부",
+      "명당쟁탈",
+      "풍수",
+      "귀덕리",
+      "판포리",
+      "경주이씨",
+      "진씨",
+      "발복",
+      "소못연대"
+    ],
+    "entities": [
+      {
+        "name": "진씨 딸(효부)",
+        "description": "시가를 위해 친정 명당을 뺏은 며느리",
+        "type": "Human"
+      },
+      {
+        "name": "친정아버지(진씨)",
+        "description": "명당 유언 후 사망",
+        "type": "Human"
+      },
+      {
+        "name": "시아버지(이씨)",
+        "description": "명당에 묻혀 발복",
+        "type": "Human"
+      }
+    ],
+    "roles": [
+      {
+        "entity_name": "진씨 딸(효부)",
+        "type": "Protagonist"
+      },
+      {
+        "entity_name": "친정아버지(진씨)",
+        "type": "Victim"
+      },
+      {
+        "entity_name": "시아버지(이씨)",
+        "type": "Neutral"
+      }
+    ],
+    "terrains": [
+      {
+        "type": "Other",
+        "description": "소못연대 - 명당 자리"
+      },
+      {
+        "type": "Village",
+        "description": "귀덕리/판포리 - 두 집안 마을"
+      }
+    ],
+    "location_context": {
+      "primary_place": "귀덕리",
+      "admin_region": "한림읍 귀덕리"
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "L_155",
+  "title": "평대 부대각",
+  "category": "전설",
+  "content": {
+    "clean": "",
+    "raw": "",
+    "commentary": null
+  },
+  "attributes": {
+    "summary": "평대리 부씨 부인이 용 태몽을 꾸고 쌍둥이 아들을 낳았다. 아이들은 겨드랑이에 날개가 있어 부모 몰래 하늘을 날았다. '영웅이 나면 역적으로 몰려 삼족이 멸한다'고 걱정한 부모가 아이들을 취하게 한 뒤 날개를 자르려 했으나, 큰 아들은 날아가 버리고 작은 아들만 날개가 반쪽 잘려 남았다. 이 작은 아들이 부대각이며, 힘센 사람을 '부대각 자손'이라 부른다.",
+    "emotion": "Sweet_Potato",
+    "conflict": "Taboo",
+    "keywords": [
+      "부대각",
+      "평대리",
+      "쌍둥이",
+      "날개",
+      "역적",
+      "삼족",
+      "장사",
+      "아기장수"
+    ],
+    "entities": [
+      {
+        "name": "부대각",
+        "description": "날개 잘린 쌍둥이 중 작은 아들, 장사",
+        "type": "Human"
+      },
+      {
+        "name": "큰 아들",
+        "description": "날아간 쌍둥이 형",
+        "type": "Human"
+      },
+      {
+        "name": "부씨 부모",
+        "description": "아들들의 날개를 자른 부모",
+        "type": "Human"
+      }
+    ],
+    "roles": [
+      {
+        "entity_name": "부대각",
+        "type": "Victim"
+      },
+      {
+        "entity_name": "큰 아들",
+        "type": "Neutral"
+      },
+      {
+        "entity_name": "부씨 부모",
+        "type": "Antagonist"
+      }
+    ],
+    "terrains": [
+      {
+        "type": "Village",
+        "description": "평대리 - 부대각 탄생지"
+      },
+      {
+        "type": "Other",
+        "description": "부대각 묘 - 평대리 남쪽 3km"
+      }
+    ],
+    "location_context": {
+      "primary_place": "평대리",
+      "admin_region": "구좌읍 평대리"
+    },
+    "plot_points": [
+      {
+        "beat": "Ki",
+        "event": "제주 한 마을에 용한 무당이 살았음",
+        "function": "영웅 등장"
+      },
+      {
+        "beat": "Shō",
+        "event": "가뭄이 들자 마을 사람들이 무당에게 기우제를 부탁",
+        "function": "위기와 요청"
+      },
+      {
+        "beat": "Climax",
+        "event": "무당이 3일 밤낮 굿을 하자 비가 내림",
+        "function": "주술의 성공"
+      },
+      {
+        "beat": "Ketsu",
+        "event": "마을이 풍년을 맞고 무당을 섬김",
+        "function": "보상과 존경"
+      }
+    ],
+    "story_dna": {
+      "wounds_addressed": [
+        "fear",
+        "loss",
+        "arrogance"
+      ],
+      "desires_fulfilled": [
+        "transformation",
+        "legacy"
+      ],
+      "primary_wound": "fear",
+      "primary_desire": "transformation",
+      "resonance_triggers": [
+        "부대각",
+        "쌍둥이",
+        "날개",
+        "용꿈",
+        "역적",
+        "삼족",
+        "평대리",
+        "아기장수",
+        "장사",
+        "비극"
+      ],
+      "emotional_arc": "용 태몽 → 쌍둥이 날개 → 부모 두려움 → 날개 자름 → 형 도망, 동생 잔류 → 장사 전승",
+      "narrative_themes": [
+        "아기장수",
+        "날개",
+        "두려움",
+        "희생",
+        "전설"
+      ]
+    }
+  }
+}

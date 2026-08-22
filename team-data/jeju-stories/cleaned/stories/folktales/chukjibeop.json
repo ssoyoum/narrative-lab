@@ -1,0 +1,63 @@
+{
+  "id": "folktale_chukjibeop",
+  "title": "축지법",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "소화",
+
+  "content": {
+    "summary": "마법적인 거리 단축 능력을 모방하려다 실패하는 해학적 민담.",
+
+    "episodes": [
+      {
+        "title": "축지법 배움",
+        "content": "축지법의 대가가 끈질긴 친구에게 '내 발자국을 정확히 따라와라'고 가르친다."
+      },
+      {
+        "title": "여행 시작",
+        "content": "함께 여행하며 친구가 처음에는 성공한다."
+      },
+      {
+        "title": "자만심",
+        "content": "기술이 사소하다고 생각하며 자만심에 빠진다."
+      },
+      {
+        "title": "비극적 결말",
+        "content": "부주의로 발을 헛디뎌 '두 다리가 찢어진다.'"
+      }
+    ],
+
+    "themes": ["모방의 실패", "자만심의 대가", "과장담"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "축지법 대가", "role": "스승"},
+      {"name": "친구", "role": "실패하는 학습자"}
+    ],
+    "locations": [
+      {"name": "노형동", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["축지법", "모방", "자만심", "소화"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00702379",
+      "item_id": "GC00702379"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도 민담』, 1996",
+      "informant": {"name": "현응조", "location": "노형동"},
+      "collector": "현용준"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

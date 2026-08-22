@@ -1,0 +1,50 @@
+{
+  "code": "W_L_592",
+  "title": "백록담에 빠져 죽은 설문대할망",
+  "category": "전설",
+  "sub_category": "인물",
+  "type": "현지조사",
+  "content": {
+    "text": "W_L_592 백록담에  빠져  죽은  설문대할망  2017년 12월 20일,  한림읍 명월리 명월리노인복지회관,  송정희 조사.  오행춘(남,  1936년생,  한림읍 명월리)  ∙  줄거리: 설문대할망이 치마에 흙을 담고 추자도와 한라산을 오고가다 떨어진 것이 제주도   오름이다.  설문대할망은 바닷물은 얕아서 빠져 죽지 않는데,  한라산 백록담 물은   깊어서 빠져 죽었다.   [제보자] 저  추자도허고  한라산을  왔다갔다  허는데  치메통에  흑  담앙  뎅기멍  떨어춰  분게    우리  제주도  오름이우다.   [조사자] 그런  얘기  들어봔마씨?   [제보자] 치메통에  흙  담앙  뎅기단  문들어분  게  오름이  뒛다.  이런  전설이  잇어마씨.  바닷물에  안  죽었는데,  얕아가지고  건데  한라산  백록담  물에는  깊은  줄  몰라가    지고  빠져  죽었다.  게난  그만이  그  바당보단  백록담  물이  더  깊었다는  말이주.   ∙ 핵심어:  설문대할망,  추자도,  한라산,  제주도,  오름,  흙,  백록담,  바당(바다) -  153  -",
+    "char_count": 556,
+    "text_cleaned": "W_L_592 백록담에 빠져 죽은 설문대할망 2017년 12월 20일, 한림읍 명월리 명월리노인복지회관, 송정희 조사. 오행춘(남, 1936년생, 한림읍 명월리) ∙ 줄거리: 설문대할망이 치마에 흙을 담고 추자도와 한라산을 오고가다 떨어진 것이 제주도 오름이다. 설문대할망은 바닷물은 얕아서 빠져 죽지 않는데, 한라산 백록담 물은 깊어서 빠져 죽었다. [제보자] 저 추자도허고 한라산을 왔다갔다 허는데 치메통에 흑 담앙 뎅기멍 떨어춰 분게 우리 제주도 오름이우다. [조사자] 그런 얘기 들어봔마씨? [제보자] 치메통에 흙 담앙 뎅기단 문들어분 게 오름이 뒛다. 이런 전설이 잇어마씨. 바닷물에 안 죽었는데, 얕아가지고 건데 한라산 백록담 물에는 깊은 줄 몰라가 지고 빠져 죽었다. 게난 그만이 그 바당보단 백록담 물이 더 깊었다는 말이주. ∙ 핵심어: 설문대할망, 추자도, 한라산, 제주도, 오름, 흙, 백록담, 바당(바다) - 153 -",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "77개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 556,
+      "cleaned_char_count": 469
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_592/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_592/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:42:13.211928",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T16:39:02.599689",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T20:03:37.692135"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Lack",
+    "object_link": "Cliff",
+    "emotion_keyword": "Sweet_Potato",
+    "modern_summary": "설문대할망이 한라산 백록담에서 빠져 죽은 사건",
+    "location_context": {
+      "primary_place": "한라산",
+      "admin_region": "Unknown"
+    },
+    "emotion_confidence": "high",
+    "emotion_method": "cot+simple_agree"
+  }
+}

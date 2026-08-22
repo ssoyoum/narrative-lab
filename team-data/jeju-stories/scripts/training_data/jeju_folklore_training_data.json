@@ -1,0 +1,1246 @@
+{
+  "metadata": {
+    "total_samples": 60,
+    "source_stories": 15,
+    "generation_date": "2025-12-03",
+    "token_system_version": "1.0"
+  },
+  "training_samples": [
+    {
+      "id": "myth_chasa_bonpuri_simple",
+      "prompt": "[STYLE:Child:3-5] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛날에 제주도 장례 관련 굿에서 저승의 사자(차사)에게 망인을 잘 인도해달라고 기원하며 부르는 서사무가요! 정말 멋진 이야기죠?",
+      "metadata": {
+        "source_story": "myth_chasa_bonpuri",
+        "target_style": "simple",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 3
+      }
+    },
+    {
+      "id": "myth_chasa_bonpuri_educational",
+      "prompt": "[STYLE:Child:6-10] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "알고 있니? 제주도 장례 관련 굿에서 저승의 사자(차사)에게 망인을 잘 인도해달라고 기원하며 부르는 서사무가이에요. 어떻게 생각해?",
+      "metadata": {
+        "source_story": "myth_chasa_bonpuri",
+        "target_style": "educational",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 2
+      }
+    },
+    {
+      "id": "myth_chasa_bonpuri_traditional",
+      "prompt": "[STYLE:Elder:Traditional] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛적에 제주도 장례 관련 굿에서 저승의 사자(차사)에게 망인을 잘 인도해달라고 기원하며 부르는 서사무가.",
+      "metadata": {
+        "source_story": "myth_chasa_bonpuri",
+        "target_style": "traditional",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_chasa_bonpuri_formal",
+      "prompt": "[STYLE:Academic:Formal] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "제주도 장례 관련 굿에서 저승의 사자(차사)에게 망인을 잘 인도해달라고 기원하며 부르는 서사무가.",
+      "metadata": {
+        "source_story": "myth_chasa_bonpuri",
+        "target_style": "formal",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_cheonjiwang_simple",
+      "prompt": "[STYLE:Child:3-5] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛날에 해와 달을 정리하고 이승법과 저승법을 마련한 대별왕·소별왕 형제의 내력을 설명하는 제주 창세신화요! 정말 멋진 이야기죠?",
+      "metadata": {
+        "source_story": "myth_cheonjiwang",
+        "target_style": "simple",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 3
+      }
+    },
+    {
+      "id": "myth_cheonjiwang_educational",
+      "prompt": "[STYLE:Child:6-10] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "알고 있니? 해와 달을 정리하고 이승법과 저승법을 마련한 대별왕·소별왕 형제의 내력을 설명하는 제주 창세신화이에요. 어떻게 생각해?",
+      "metadata": {
+        "source_story": "myth_cheonjiwang",
+        "target_style": "educational",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 2
+      }
+    },
+    {
+      "id": "myth_cheonjiwang_traditional",
+      "prompt": "[STYLE:Elder:Traditional] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛적에 해와 달을 정리하고 이승법과 저승법을 마련한 대별왕·소별왕 형제의 내력을 설명하는 제주 창세신화.",
+      "metadata": {
+        "source_story": "myth_cheonjiwang",
+        "target_style": "traditional",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_cheonjiwang_formal",
+      "prompt": "[STYLE:Academic:Formal] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "해와 달을 정리하고 이승법과 저승법을 마련한 대별왕·소별왕 형제의 내력을 설명하는 제주 창세신화.",
+      "metadata": {
+        "source_story": "myth_cheonjiwang",
+        "target_style": "formal",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_chogong_bonpuri_simple",
+      "prompt": "[STYLE:Child:3-5] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛날에 제주도 굿에서 심방 조상의 기원과 내력을 풀이하는 서사무가요! 무조신의 탄생과 굿법의 시작을 설명한다요! 정말 멋진 이야기죠?",
+      "metadata": {
+        "source_story": "myth_chogong_bonpuri",
+        "target_style": "simple",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 3
+      }
+    },
+    {
+      "id": "myth_chogong_bonpuri_educational",
+      "prompt": "[STYLE:Child:6-10] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "알고 있니? 제주도 굿에서 심방 조상의 기원과 내력을 풀이하는 서사무가이에요. 무조신의 탄생과 굿법의 시작을 설명한다이에요. 어떻게 생각해?",
+      "metadata": {
+        "source_story": "myth_chogong_bonpuri",
+        "target_style": "educational",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_chogong_bonpuri_traditional",
+      "prompt": "[STYLE:Elder:Traditional] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛적에 제주도 굿에서 심방 조상의 기원과 내력을 풀이하는 서사무가. 무조신의 탄생과 굿법의 시작을 설명한다.",
+      "metadata": {
+        "source_story": "myth_chogong_bonpuri",
+        "target_style": "traditional",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_chogong_bonpuri_formal",
+      "prompt": "[STYLE:Academic:Formal] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "제주도 굿에서 심방 조상의 기원과 내력을 풀이하는 서사무가. 무조신의 탄생과 굿법의 시작을 설명한다.",
+      "metadata": {
+        "source_story": "myth_chogong_bonpuri",
+        "target_style": "formal",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_gusil_halmang_bonpuri_simple",
+      "prompt": "[STYLE:Child:3-5] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛날에 제주도 나주 김씨 집안의 모계를 통해 전승되는 집안 수호신 구실 할망의 기원을 다룬 서사무가요! 정말 멋진 이야기죠?",
+      "metadata": {
+        "source_story": "myth_gusil_halmang_bonpuri",
+        "target_style": "simple",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 3
+      }
+    },
+    {
+      "id": "myth_gusil_halmang_bonpuri_educational",
+      "prompt": "[STYLE:Child:6-10] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "알고 있니? 제주도 나주 김씨 집안의 모계를 통해 전승되는 집안 수호신 구실 할망의 기원을 다룬 서사무가이에요. 어떻게 생각해?",
+      "metadata": {
+        "source_story": "myth_gusil_halmang_bonpuri",
+        "target_style": "educational",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 2
+      }
+    },
+    {
+      "id": "myth_gusil_halmang_bonpuri_traditional",
+      "prompt": "[STYLE:Elder:Traditional] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛적에 제주도 나주 김씨 집안의 모계를 통해 전승되는 집안 수호신 구실 할망의 기원을 다룬 서사무가.",
+      "metadata": {
+        "source_story": "myth_gusil_halmang_bonpuri",
+        "target_style": "traditional",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_gusil_halmang_bonpuri_formal",
+      "prompt": "[STYLE:Academic:Formal] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "제주도 나주 김씨 집안의 모계를 통해 전승되는 집안 수호신 구실 할망의 기원을 다룬 서사무가.",
+      "metadata": {
+        "source_story": "myth_gusil_halmang_bonpuri",
+        "target_style": "formal",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_igong_bonpuri_simple",
+      "prompt": "[STYLE:Child:3-5] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛날에 제주도 굿에서 서천 꽃밭 주화관장신의 내력을 풀이하는 서사무가요! 환생꽃과 멸망악심꽃을 관리하는 이공신의 이야기요! 정말 멋진 이야기죠?",
+      "metadata": {
+        "source_story": "myth_igong_bonpuri",
+        "target_style": "simple",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 3
+      }
+    },
+    {
+      "id": "myth_igong_bonpuri_educational",
+      "prompt": "[STYLE:Child:6-10] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "알고 있니? 제주도 굿에서 서천 꽃밭 주화관장신의 내력을 풀이하는 서사무가이에요. 환생꽃과 멸망악심꽃을 관리하는 이공신의 이야기이에요. 어떻게 생각해?",
+      "metadata": {
+        "source_story": "myth_igong_bonpuri",
+        "target_style": "educational",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_igong_bonpuri_traditional",
+      "prompt": "[STYLE:Elder:Traditional] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛적에 제주도 굿에서 서천 꽃밭 주화관장신의 내력을 풀이하는 서사무가. 환생꽃과 멸망악심꽃을 관리하는 이공신의 이야기.",
+      "metadata": {
+        "source_story": "myth_igong_bonpuri",
+        "target_style": "traditional",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_igong_bonpuri_formal",
+      "prompt": "[STYLE:Academic:Formal] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "제주도 굿에서 서천 꽃밭 주화관장신의 내력을 풀이하는 서사무가. 환생꽃과 멸망악심꽃을 관리하는 이공신의 이야기.",
+      "metadata": {
+        "source_story": "myth_igong_bonpuri",
+        "target_style": "formal",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_munjeon_bonpuri_simple",
+      "prompt": "[STYLE:Child:3-5] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛날에 제주도 굿에서 문전신과 집 안 곳곳에 자리한 가족신들의 내력을 풀이하는 서사무가요! 정말 멋진 이야기죠?",
+      "metadata": {
+        "source_story": "myth_munjeon_bonpuri",
+        "target_style": "simple",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 3
+      }
+    },
+    {
+      "id": "myth_munjeon_bonpuri_educational",
+      "prompt": "[STYLE:Child:6-10] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "알고 있니? 제주도 굿에서 문전신과 집 안 곳곳에 자리한 가족신들의 내력을 풀이하는 서사무가이에요. 어떻게 생각해?",
+      "metadata": {
+        "source_story": "myth_munjeon_bonpuri",
+        "target_style": "educational",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_munjeon_bonpuri_traditional",
+      "prompt": "[STYLE:Elder:Traditional] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛적에 제주도 굿에서 문전신과 집 안 곳곳에 자리한 가족신들의 내력을 풀이하는 서사무가.",
+      "metadata": {
+        "source_story": "myth_munjeon_bonpuri",
+        "target_style": "traditional",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_munjeon_bonpuri_formal",
+      "prompt": "[STYLE:Academic:Formal] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "제주도 굿에서 문전신과 집 안 곳곳에 자리한 가족신들의 내력을 풀이하는 서사무가.",
+      "metadata": {
+        "source_story": "myth_munjeon_bonpuri",
+        "target_style": "formal",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_naju_gimin_bonpuri_simple",
+      "prompt": "[STYLE:Child:3-5] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛날에 제주시 조천읍 선흘리 안씨집안의 조상신, 곧 수호신의 본풀이요! 뱀신 신앙을 설화화한 서사무가요! 정말 멋진 이야기죠?",
+      "metadata": {
+        "source_story": "myth_naju_gimin_bonpuri",
+        "target_style": "simple",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 3
+      }
+    },
+    {
+      "id": "myth_naju_gimin_bonpuri_educational",
+      "prompt": "[STYLE:Child:6-10] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "알고 있니? 제주시 조천읍 선흘리 안씨집안의 조상신, 곧 수호신의 본풀이이에요. 뱀신 신앙을 설화화한 서사무가이에요. 어떻게 생각해?",
+      "metadata": {
+        "source_story": "myth_naju_gimin_bonpuri",
+        "target_style": "educational",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_naju_gimin_bonpuri_traditional",
+      "prompt": "[STYLE:Elder:Traditional] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛적에 제주시 조천읍 선흘리 안씨집안의 조상신, 곧 수호신의 본풀이. 뱀신 신앙을 설화화한 서사무가.",
+      "metadata": {
+        "source_story": "myth_naju_gimin_bonpuri",
+        "target_style": "traditional",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_naju_gimin_bonpuri_formal",
+      "prompt": "[STYLE:Academic:Formal] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "제주시 조천읍 선흘리 안씨집안의 조상신, 곧 수호신의 본풀이. 뱀신 신앙을 설화화한 서사무가.",
+      "metadata": {
+        "source_story": "myth_naju_gimin_bonpuri",
+        "target_style": "formal",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_samgong_bonpuri_simple",
+      "prompt": "[STYLE:Child:3-5] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛날에 제주도 굿에서 '전상'(타고난 복)의 근원을 설명하는 서사무가요! 가믄장아기의 내력담을 통해 좋은 전상을 기원한다요! 정말 멋진 이야기죠?",
+      "metadata": {
+        "source_story": "myth_samgong_bonpuri",
+        "target_style": "simple",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 3
+      }
+    },
+    {
+      "id": "myth_samgong_bonpuri_educational",
+      "prompt": "[STYLE:Child:6-10] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "알고 있니? 제주도 굿에서 '전상'(타고난 복)의 근원을 설명하는 서사무가이에요. 가믄장아기의 내력담을 통해 좋은 전상을 기원한다이에요. 어떻게 생각해?",
+      "metadata": {
+        "source_story": "myth_samgong_bonpuri",
+        "target_style": "educational",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_samgong_bonpuri_traditional",
+      "prompt": "[STYLE:Elder:Traditional] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛적에 제주도 굿에서 '전상'(타고난 복)의 근원을 설명하는 서사무가. 가믄장아기의 내력담을 통해 좋은 전상을 기원한다.",
+      "metadata": {
+        "source_story": "myth_samgong_bonpuri",
+        "target_style": "traditional",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_samgong_bonpuri_formal",
+      "prompt": "[STYLE:Academic:Formal] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "제주도 굿에서 '전상'(타고난 복)의 근원을 설명하는 서사무가. 가믄장아기의 내력담을 통해 좋은 전상을 기원한다.",
+      "metadata": {
+        "source_story": "myth_samgong_bonpuri",
+        "target_style": "formal",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_samseong_samgongju_simple",
+      "prompt": "[STYLE:Child:3-5] [CHR:Spirit:Dragon] [CHR:Spirit:Divine] [LOC:Coast:Ocean] [GENERATE_STORY]",
+      "response": "옛날에 제주 고씨·양씨·부씨의 시조 신화이자 탐라국의 건국 신화요! 땅에서 삼성의 시조가 용출하여 땅의 주인임을 강조하는 특징을 보인다요! 정말 멋진 이야기죠?",
+      "metadata": {
+        "source_story": "myth_samseong_samgongju",
+        "target_style": "simple",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Dragon]",
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [
+            "[LOC:Coast:Ocean]"
+          ],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 3
+      }
+    },
+    {
+      "id": "myth_samseong_samgongju_educational",
+      "prompt": "[STYLE:Child:6-10] [CHR:Spirit:Dragon] [CHR:Spirit:Divine] [LOC:Coast:Ocean] [GENERATE_STORY]",
+      "response": "알고 있니? 제주 고씨·양씨·부씨의 시조 신화이자 탐라국의 건국 신화이에요. 땅에서 삼성의 시조가 용출하여 땅의 주인임을 강조하는 특징을 보인다이에요. 어떻게 생각해?",
+      "metadata": {
+        "source_story": "myth_samseong_samgongju",
+        "target_style": "educational",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Dragon]",
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [
+            "[LOC:Coast:Ocean]"
+          ],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_samseong_samgongju_traditional",
+      "prompt": "[STYLE:Elder:Traditional] [CHR:Spirit:Dragon] [CHR:Spirit:Divine] [LOC:Coast:Ocean] [GENERATE_STORY]",
+      "response": "옛적에 제주 고씨·양씨·부씨의 시조 신화이자 탐라국의 건국 신화. 땅에서 삼성의 시조가 용출하여 땅의 주인임을 강조하는 특징을 보인다.",
+      "metadata": {
+        "source_story": "myth_samseong_samgongju",
+        "target_style": "traditional",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Dragon]",
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [
+            "[LOC:Coast:Ocean]"
+          ],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_samseong_samgongju_formal",
+      "prompt": "[STYLE:Academic:Formal] [CHR:Spirit:Dragon] [CHR:Spirit:Divine] [LOC:Coast:Ocean] [GENERATE_STORY]",
+      "response": "제주 고씨·양씨·부씨의 시조 신화이자 탐라국의 건국 신화. 땅에서 삼성의 시조가 용출하여 땅의 주인임을 강조하는 특징을 보인다.",
+      "metadata": {
+        "source_story": "myth_samseong_samgongju",
+        "target_style": "formal",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Dragon]",
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [
+            "[LOC:Coast:Ocean]"
+          ],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_samseong_simple",
+      "prompt": "[STYLE:Child:3-5] [CHR:Spirit:Divine] [LOC:Coast:Ocean] [GENERATE_STORY]",
+      "response": "옛날에 제주 고(高)·양(梁)·부(夫) 세 성씨의 시조인 세 신인이 땅에서 솟아나 벽랑국의 세 공주와 혼인하여 탐라국을 건국했답니다는 신화요! 정말 멋진 이야기죠?",
+      "metadata": {
+        "source_story": "myth_samseong",
+        "target_style": "simple",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [
+            "[LOC:Coast:Ocean]"
+          ],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 3
+      }
+    },
+    {
+      "id": "myth_samseong_educational",
+      "prompt": "[STYLE:Child:6-10] [CHR:Spirit:Divine] [LOC:Coast:Ocean] [GENERATE_STORY]",
+      "response": "알고 있니? 제주 고(高)·양(梁)·부(夫) 세 성씨의 시조인 세 신인이 땅에서 솟아나 벽랑국의 세 공주와 혼인하여 탐라국을 건국했어요는 신화이에요. 어떻게 생각해?",
+      "metadata": {
+        "source_story": "myth_samseong",
+        "target_style": "educational",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [
+            "[LOC:Coast:Ocean]"
+          ],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 2
+      }
+    },
+    {
+      "id": "myth_samseong_traditional",
+      "prompt": "[STYLE:Elder:Traditional] [CHR:Spirit:Divine] [LOC:Coast:Ocean] [GENERATE_STORY]",
+      "response": "옛적에 제주 고(高)·양(梁)·부(夫) 세 성씨의 시조인 세 신인이 땅에서 솟아나 벽랑국의 세 공주와 혼인하여 탐라국을 건국했습니다는 신화.",
+      "metadata": {
+        "source_story": "myth_samseong",
+        "target_style": "traditional",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [
+            "[LOC:Coast:Ocean]"
+          ],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 2
+      }
+    },
+    {
+      "id": "myth_samseong_formal",
+      "prompt": "[STYLE:Academic:Formal] [CHR:Spirit:Divine] [LOC:Coast:Ocean] [GENERATE_STORY]",
+      "response": "제주 고(高)·양(梁)·부(夫) 세 성씨의 시조인 세 신인이 땅에서 솟아나 벽랑국의 세 공주와 혼인하여 탐라국을 건국한 것으로 전승됩니다는 신화.",
+      "metadata": {
+        "source_story": "myth_samseong",
+        "target_style": "formal",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [
+            "[LOC:Coast:Ocean]"
+          ],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 2
+      }
+    },
+    {
+      "id": "myth_samseunghalmang_bonpuri_simple",
+      "prompt": "[STYLE:Child:3-5] [CHR:Spirit:Dragon] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛날에 제주도 굿에서 임신과 출산을 돕는 생불할망의 내력을 풀이하는 서사무가요! 정말 멋진 이야기죠?",
+      "metadata": {
+        "source_story": "myth_samseunghalmang_bonpuri",
+        "target_style": "simple",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Dragon]",
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 2
+      }
+    },
+    {
+      "id": "myth_samseunghalmang_bonpuri_educational",
+      "prompt": "[STYLE:Child:6-10] [CHR:Spirit:Dragon] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "알고 있니? 제주도 굿에서 임신과 출산을 돕는 생불할망의 내력을 풀이하는 서사무가이에요. 어떻게 생각해?",
+      "metadata": {
+        "source_story": "myth_samseunghalmang_bonpuri",
+        "target_style": "educational",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Dragon]",
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_samseunghalmang_bonpuri_traditional",
+      "prompt": "[STYLE:Elder:Traditional] [CHR:Spirit:Dragon] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛적에 제주도 굿에서 임신과 출산을 돕는 생불할망의 내력을 풀이하는 서사무가.",
+      "metadata": {
+        "source_story": "myth_samseunghalmang_bonpuri",
+        "target_style": "traditional",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Dragon]",
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_samseunghalmang_bonpuri_formal",
+      "prompt": "[STYLE:Academic:Formal] [CHR:Spirit:Dragon] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "제주도 굿에서 임신과 출산을 돕는 생불할망의 내력을 풀이하는 서사무가.",
+      "metadata": {
+        "source_story": "myth_samseunghalmang_bonpuri",
+        "target_style": "formal",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Dragon]",
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_sekyeong_bonpuri_simple",
+      "prompt": "[STYLE:Child:3-5] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛날에 제주도 굿에서 풍농을 관장하는 세경신의 내력을 풀이하는 장편 무속 서사시요! 여성 문화영웅 자청비가 주인공요! 정말 멋진 이야기죠?",
+      "metadata": {
+        "source_story": "myth_sekyeong_bonpuri",
+        "target_style": "simple",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 3
+      }
+    },
+    {
+      "id": "myth_sekyeong_bonpuri_educational",
+      "prompt": "[STYLE:Child:6-10] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "알고 있니? 제주도 굿에서 풍농을 관장하는 세경신의 내력을 풀이하는 장편 무속 서사시이에요. 여성 문화영웅 자청비가 주인공이에요. 어떻게 생각해?",
+      "metadata": {
+        "source_story": "myth_sekyeong_bonpuri",
+        "target_style": "educational",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_sekyeong_bonpuri_traditional",
+      "prompt": "[STYLE:Elder:Traditional] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "옛적에 제주도 굿에서 풍농을 관장하는 세경신의 내력을 풀이하는 장편 무속 서사시. 여성 문화영웅 자청비가 주인공.",
+      "metadata": {
+        "source_story": "myth_sekyeong_bonpuri",
+        "target_style": "traditional",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_sekyeong_bonpuri_formal",
+      "prompt": "[STYLE:Academic:Formal] [CHR:Spirit:Divine] [GENERATE_STORY]",
+      "response": "제주도 굿에서 풍농을 관장하는 세경신의 내력을 풀이하는 장편 무속 서사시. 여성 문화영웅 자청비가 주인공.",
+      "metadata": {
+        "source_story": "myth_sekyeong_bonpuri",
+        "target_style": "formal",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_seolmundae_simple",
+      "prompt": "[STYLE:Child:3-5] [CHR:Seolmundae:Goddess] [CHR:Spirit:Divine] [LOC:Hallasan:Sacred] [PLOT:Origin] [GENERATE_STORY]",
+      "response": "옛날에 제주도를 창조한 거인 여신요! 치마에 흙을 담아 한라산과 360여 개의 오름을 만들고, 제주의 1만 8천 신의 어머니로 여겨지는 창조신요! 정말 멋진 이야기죠?",
+      "metadata": {
+        "source_story": "myth_seolmundae",
+        "target_style": "simple",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Seolmundae:Goddess]",
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [
+            "[LOC:Hallasan:Sacred]",
+            "[LOC:SS-A1:Seongsan]",
+            "[LOC:Coast:Ocean]",
+            "[LOC:Oreum:Volcanic]"
+          ],
+          "plot_points": [
+            "[PLOT:Origin]"
+          ],
+          "cultural_markers": [
+            "제주도 1만 8천 신의 어머니",
+            "조선 후기 《표해록》에서 뱃사람들이 한라산이 보이자 설문대할망에게 기도",
+            "일제강점기 신사 건설 시 '제주도 창조신의 신격이 너무 강하여' 일본 신들이 버티지 못함"
+          ]
+        },
+        "cultural_context": [
+          "제주도 1만 8천 신의 어머니",
+          "조선 후기 《표해록》에서 뱃사람들이 한라산이 보이자 설문대할망에게 기도",
+          "일제강점기 신사 건설 시 '제주도 창조신의 신격이 너무 강하여' 일본 신들이 버티지 못함"
+        ],
+        "complexity_score": 3
+      }
+    },
+    {
+      "id": "myth_seolmundae_educational",
+      "prompt": "[STYLE:Child:6-10] [CHR:Seolmundae:Goddess] [CHR:Spirit:Divine] [LOC:Hallasan:Sacred] [PLOT:Origin] [GENERATE_STORY]",
+      "response": "알고 있니? 제주도를 창조한 거인 여신이에요. 치마에 흙을 담아 한라산과 360여 개의 오름을 만들고, 제주의 1만 8천 신의 어머니로 여겨지는 창조신이에요. 어떻게 생각해?",
+      "metadata": {
+        "source_story": "myth_seolmundae",
+        "target_style": "educational",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Seolmundae:Goddess]",
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [
+            "[LOC:Hallasan:Sacred]",
+            "[LOC:SS-A1:Seongsan]",
+            "[LOC:Coast:Ocean]",
+            "[LOC:Oreum:Volcanic]"
+          ],
+          "plot_points": [
+            "[PLOT:Origin]"
+          ],
+          "cultural_markers": [
+            "제주도 1만 8천 신의 어머니",
+            "조선 후기 《표해록》에서 뱃사람들이 한라산이 보이자 설문대할망에게 기도",
+            "일제강점기 신사 건설 시 '제주도 창조신의 신격이 너무 강하여' 일본 신들이 버티지 못함"
+          ]
+        },
+        "cultural_context": [
+          "제주도 1만 8천 신의 어머니",
+          "조선 후기 《표해록》에서 뱃사람들이 한라산이 보이자 설문대할망에게 기도",
+          "일제강점기 신사 건설 시 '제주도 창조신의 신격이 너무 강하여' 일본 신들이 버티지 못함"
+        ],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_seolmundae_traditional",
+      "prompt": "[STYLE:Elder:Traditional] [CHR:Seolmundae:Goddess] [CHR:Spirit:Divine] [LOC:Hallasan:Sacred] [PLOT:Origin] [GENERATE_STORY]",
+      "response": "옛적에 제주도를 창조한 거인 여신. 치마에 흙을 담아 한라산과 360여 개의 오름을 만들고, 제주의 1만 8천 신의 어머니로 여겨지는 창조신.",
+      "metadata": {
+        "source_story": "myth_seolmundae",
+        "target_style": "traditional",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Seolmundae:Goddess]",
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [
+            "[LOC:Hallasan:Sacred]",
+            "[LOC:SS-A1:Seongsan]",
+            "[LOC:Coast:Ocean]",
+            "[LOC:Oreum:Volcanic]"
+          ],
+          "plot_points": [
+            "[PLOT:Origin]"
+          ],
+          "cultural_markers": [
+            "제주도 1만 8천 신의 어머니",
+            "조선 후기 《표해록》에서 뱃사람들이 한라산이 보이자 설문대할망에게 기도",
+            "일제강점기 신사 건설 시 '제주도 창조신의 신격이 너무 강하여' 일본 신들이 버티지 못함"
+          ]
+        },
+        "cultural_context": [
+          "제주도 1만 8천 신의 어머니",
+          "조선 후기 《표해록》에서 뱃사람들이 한라산이 보이자 설문대할망에게 기도",
+          "일제강점기 신사 건설 시 '제주도 창조신의 신격이 너무 강하여' 일본 신들이 버티지 못함"
+        ],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_seolmundae_formal",
+      "prompt": "[STYLE:Academic:Formal] [CHR:Seolmundae:Goddess] [CHR:Spirit:Divine] [LOC:Hallasan:Sacred] [PLOT:Origin] [GENERATE_STORY]",
+      "response": "제주도를 창조한 거인 여신. 치마에 흙을 담아 한라산과 360여 개의 오름을 만들고, 제주의 1만 8천 신의 어머니로 여겨지는 창조신.",
+      "metadata": {
+        "source_story": "myth_seolmundae",
+        "target_style": "formal",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Seolmundae:Goddess]",
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [
+            "[LOC:Hallasan:Sacred]",
+            "[LOC:SS-A1:Seongsan]",
+            "[LOC:Coast:Ocean]",
+            "[LOC:Oreum:Volcanic]"
+          ],
+          "plot_points": [
+            "[PLOT:Origin]"
+          ],
+          "cultural_markers": [
+            "제주도 1만 8천 신의 어머니",
+            "조선 후기 《표해록》에서 뱃사람들이 한라산이 보이자 설문대할망에게 기도",
+            "일제강점기 신사 건설 시 '제주도 창조신의 신격이 너무 강하여' 일본 신들이 버티지 못함"
+          ]
+        },
+        "cultural_context": [
+          "제주도 1만 8천 신의 어머니",
+          "조선 후기 《표해록》에서 뱃사람들이 한라산이 보이자 설문대할망에게 기도",
+          "일제강점기 신사 건설 시 '제주도 창조신의 신격이 너무 강하여' 일본 신들이 버티지 못함"
+        ],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_woncheongang_bonpuri_simple",
+      "prompt": "[STYLE:Child:3-5] [CHR:Spirit:Dragon] [GENERATE_STORY]",
+      "response": "옛날에 제주도 무속에서 점술에 사용되는 '원천강 사주역'의 기원을 설명하는 채록 무가요! 굿에서는 구연되지 않음요! 정말 멋진 이야기죠?",
+      "metadata": {
+        "source_story": "myth_woncheongang_bonpuri",
+        "target_style": "simple",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Dragon]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 3
+      }
+    },
+    {
+      "id": "myth_woncheongang_bonpuri_educational",
+      "prompt": "[STYLE:Child:6-10] [CHR:Spirit:Dragon] [GENERATE_STORY]",
+      "response": "알고 있니? 제주도 무속에서 점술에 사용되는 '원천강 사주역'의 기원을 설명하는 채록 무가이에요. 굿에서는 구연되지 않음이에요. 어떻게 생각해?",
+      "metadata": {
+        "source_story": "myth_woncheongang_bonpuri",
+        "target_style": "educational",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Dragon]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_woncheongang_bonpuri_traditional",
+      "prompt": "[STYLE:Elder:Traditional] [CHR:Spirit:Dragon] [GENERATE_STORY]",
+      "response": "옛적에 제주도 무속에서 점술에 사용되는 '원천강 사주역'의 기원을 설명하는 채록 무가. 굿에서는 구연되지 않음.",
+      "metadata": {
+        "source_story": "myth_woncheongang_bonpuri",
+        "target_style": "traditional",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Dragon]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_woncheongang_bonpuri_formal",
+      "prompt": "[STYLE:Academic:Formal] [CHR:Spirit:Dragon] [GENERATE_STORY]",
+      "response": "제주도 무속에서 점술에 사용되는 '원천강 사주역'의 기원을 설명하는 채록 무가. 굿에서는 구연되지 않음.",
+      "metadata": {
+        "source_story": "myth_woncheongang_bonpuri",
+        "target_style": "formal",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Dragon]"
+          ],
+          "locations": [],
+          "plot_points": [],
+          "cultural_markers": []
+        },
+        "cultural_context": [],
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_yeongdeung_simple",
+      "prompt": "[STYLE:Child:3-5] [CHR:Spirit:Divine] [LOC:Hallasan:Sacred] [GENERATE_STORY]",
+      "response": "옛날에 음력 2월 초하룻날 제주에 도착하여 15일경 떠나는 풍신(바람신)이자 풍농신요! 해산물과 농작물의 풍요를 가져다주는 여신요! 정말 멋진 이야기죠?",
+      "metadata": {
+        "source_story": "myth_yeongdeung",
+        "target_style": "simple",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [
+            "[LOC:Hallasan:Sacred]"
+          ],
+          "plot_points": [],
+          "cultural_markers": "제주 지역의 2월 날씨와 다름이 없는 존재로, 불안정한 2월 기후를 신격화하여 농어업 종사자들의 심리적 안정과 풍요 기원의 수단으로 기능"
+        },
+        "cultural_context": "제주 지역의 2월 날씨와 다름이 없는 존재로, 불안정한 2월 기후를 신격화하여 농어업 종사자들의 심리적 안정과 풍요 기원의 수단으로 기능",
+        "complexity_score": 3
+      }
+    },
+    {
+      "id": "myth_yeongdeung_educational",
+      "prompt": "[STYLE:Child:6-10] [CHR:Spirit:Divine] [LOC:Hallasan:Sacred] [GENERATE_STORY]",
+      "response": "알고 있니? 음력 2월 초하룻날 제주에 도착하여 15일경 떠나는 풍신(바람신)이자 풍농신이에요. 해산물과 농작물의 풍요를 가져다주는 여신이에요. 어떻게 생각해?",
+      "metadata": {
+        "source_story": "myth_yeongdeung",
+        "target_style": "educational",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [
+            "[LOC:Hallasan:Sacred]"
+          ],
+          "plot_points": [],
+          "cultural_markers": "제주 지역의 2월 날씨와 다름이 없는 존재로, 불안정한 2월 기후를 신격화하여 농어업 종사자들의 심리적 안정과 풍요 기원의 수단으로 기능"
+        },
+        "cultural_context": "제주 지역의 2월 날씨와 다름이 없는 존재로, 불안정한 2월 기후를 신격화하여 농어업 종사자들의 심리적 안정과 풍요 기원의 수단으로 기능",
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_yeongdeung_traditional",
+      "prompt": "[STYLE:Elder:Traditional] [CHR:Spirit:Divine] [LOC:Hallasan:Sacred] [GENERATE_STORY]",
+      "response": "옛적에 음력 2월 초하룻날 제주에 도착하여 15일경 떠나는 풍신(바람신)이자 풍농신. 해산물과 농작물의 풍요를 가져다주는 여신.",
+      "metadata": {
+        "source_story": "myth_yeongdeung",
+        "target_style": "traditional",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [
+            "[LOC:Hallasan:Sacred]"
+          ],
+          "plot_points": [],
+          "cultural_markers": "제주 지역의 2월 날씨와 다름이 없는 존재로, 불안정한 2월 기후를 신격화하여 농어업 종사자들의 심리적 안정과 풍요 기원의 수단으로 기능"
+        },
+        "cultural_context": "제주 지역의 2월 날씨와 다름이 없는 존재로, 불안정한 2월 기후를 신격화하여 농어업 종사자들의 심리적 안정과 풍요 기원의 수단으로 기능",
+        "complexity_score": 1
+      }
+    },
+    {
+      "id": "myth_yeongdeung_formal",
+      "prompt": "[STYLE:Academic:Formal] [CHR:Spirit:Divine] [LOC:Hallasan:Sacred] [GENERATE_STORY]",
+      "response": "음력 2월 초하룻날 제주에 도착하여 15일경 떠나는 풍신(바람신)이자 풍농신. 해산물과 농작물의 풍요를 가져다주는 여신.",
+      "metadata": {
+        "source_story": "myth_yeongdeung",
+        "target_style": "formal",
+        "extracted_elements": {
+          "characters": [
+            "[CHR:Spirit:Divine]"
+          ],
+          "locations": [
+            "[LOC:Hallasan:Sacred]"
+          ],
+          "plot_points": [],
+          "cultural_markers": "제주 지역의 2월 날씨와 다름이 없는 존재로, 불안정한 2월 기후를 신격화하여 농어업 종사자들의 심리적 안정과 풍요 기원의 수단으로 기능"
+        },
+        "cultural_context": "제주 지역의 2월 날씨와 다름이 없는 존재로, 불안정한 2월 기후를 신격화하여 농어업 종사자들의 심리적 안정과 풍요 기원의 수단으로 기능",
+        "complexity_score": 1
+      }
+    }
+  ]
+}

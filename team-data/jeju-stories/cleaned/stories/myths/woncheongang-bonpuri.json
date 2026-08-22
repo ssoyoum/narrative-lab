@@ -1,0 +1,48 @@
+{
+  "id": "myth_woncheongang_bonpuri",
+  "title": "원천강본풀이",
+  "title_alt": ["오늘이 신화"],
+  "type": "myth",
+  "category": "무속신화",
+
+  "content": {
+    "summary": "제주도 무속에서 점술에 사용되는 '원천강 사주역'의 기원을 설명하는 채록 무가. 굿에서는 구연되지 않음.",
+
+    "versions": [
+      {
+        "title": "오날이 버전",
+        "content": "땅에서 솟아난 '오날이'라는 소녀가 부모를 찾아 떠나는 구복여행 설화. 단편애니메이션 '오늘이'로 재탄생."
+      },
+      {
+        "title": "박이왕 버전",
+        "content": "왕이 되려던 남편의 이야기로, 결국 부인이 원천강이 되는 내용."
+      }
+    ],
+
+    "themes": ["점술의 기원", "구복여행", "자기 탐색"],
+    "modern_adaptation": "단편애니메이션 '오늘이'로 현대 콘텐츠화"
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "오날이(오늘이)", "role": "주인공"},
+      {"name": "백씨 부인", "role": "박이왕의 어머니"},
+      {"name": "옥황상제", "role": "천상의 존재"}
+    ],
+    "keywords": ["원천강", "점술", "오늘이", "구복여행", "본풀이"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "한국민족문화대백과사전",
+      "url": "https://encykorea.aks.ac.kr/Article/E0040867",
+      "article_id": "E0040867"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "code": "C_L_043",
+  "title": "모동장에 돌담 두른 안익생",
+  "category": "전설",
+  "sub_category": "역사",
+  "type": "해제",
+  "content": {
+    "text": "C_L_043    모동장에  돌담  두른  안익생    1   개요 일제강점기  때  현  대정읍  신도리  출신  안익생(安益生)에  관한  전설이다.    2   내용 안익생은  여산인(礪山人)으로  조선시대  국우에게  낙인찍기  위하여  해마다  모동장(毛洞   場)에  목책을  두르느라고  주민들의  노고가  매우  심했으므로  그가  서둘러  목장주변을  돌로   둘러쌓아  노역을  제하였다.  “목장  소가  상함이  없고,  마을  사람들도  편했다.”는  찬문을  내   린  바  있다.    3   특징 모동장은  1705년  대정읍  신도리·무릉리·영락리  일대에  설치되었던  우목장(牛牧場)이다. 이  전설은  마을  주민들  사이에  전해지는  이야기를  기록한  것이다.  이를  통해  조선시대   공마(貢馬)  상납을  위해  제주도  도민들이  감내해야  했던  고충을  알  수  있다.    4   핵심어 모동장,  안익생,  공마,  우목장    5   원전  서지사항 모동장에  돌담  두른  안익생(오성찬,  《제주의  마을  신도리》,  도서출판  반석,  2002)    6   관련  자료",
+    "char_count": 583,
+    "text_cleaned": "C_L_043 모동장에 돌담 두른 안익생 1 개요 일제강점기 때 현 대정읍 신도리 출신 안익생(安益生)에 관한 전설이다. 2 내용 안익생은 여산인(礪山人)으로 조선시대 국우에게 낙인찍기 위하여 해마다 모동장(毛洞 場)에 목책을 두르느라고 주민들의 노고가 매우 심했으므로 그가 서둘러 목장주변을 돌로 둘러쌓아 노역을 제하였다. “목장 소가 상함이 없고, 마을 사람들도 편했다.”는 찬문을 내 린 바 있다. 3 특징 모동장은 1705년 대정읍 신도리·무릉리·영락리 일대에 설치되었던 우목장(牛牧場)이다. 이 전설은 마을 주민들 사이에 전해지는 이야기를 기록한 것이다. 이를 통해 조선시대 공마(貢馬) 상납을 위해 제주도 도민들이 감내해야 했던 고충을 알 수 있다. 4 핵심어 모동장, 안익생, 공마, 우목장 5 원전 서지사항 모동장에 돌담 두른 안익생(오성찬, 《제주의 마을 신도리》, 도서출판 반석, 2002) 6 관련 자료",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "99개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 583,
+      "cleaned_char_count": 460
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/002/1927/C_L_043/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/002/1927/C_L_043/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:37:01.174101",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T14:09:26.409163",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T17:52:39.454192"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Obstacle (장애)",
+    "object_link": "Stone_Wall (돌담)",
+    "emotion_keyword": "Sweet_Potato",
+    "modern_summary": "조선시대 공마 상납을 위해 제주도 도민들이 감내해야 했던 고충",
+    "location_context": {
+      "primary_place": "모동장",
+      "admin_region": "한경면",
+      "admin_region_original": "제주시 한경면"
+    },
+    "emotion_confidence": "high",
+    "emotion_method": "cot+simple_agree"
+  }
+}

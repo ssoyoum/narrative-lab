@@ -1,0 +1,33 @@
+{
+  "id": "story_L_097",
+  "title": "아흔아홉굴",
+  "type": "legend",
+  "category": "기타",
+  "content": {
+    "summary": "",
+    "full_text": "",
+    "features": "",
+    "raw_text": "WL_097 아흔아훌굴\n2016년 12월 14일 표선면 가시리 한신화씨 댁, 송정희 조사. 한신화(여 , 1927년생, 표선면 가시리)\n[제보자] 아혼아롭글인다 저 훈 꿀 부족헤어네이 훈 꿀 부족혜면 왕도 곰도 못 낫어. 제주 도. 응 이제 아혼아롭에 백올 체맞이민이 왕도 나곡 곰도 나곡 벌 걸 다 날 건 다 아#이라부난 열올 채우지 못헤여 부난에 왕도  곰도 못 낫어.\n핵심어 아른아롭굴 제주도 왕 곰 백"
+  },
+  "elements": {
+    "characters": [],
+    "locations": [
+      "가시리"
+    ],
+    "keywords": []
+  },
+  "sources": [
+    {
+      "type": "pdf",
+      "file": "W_L_097_아흔아홉굴.pdf",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "source_type": "web",
+    "source_id": "W_L_097",
+    "converted_at": "2025-12-04T11:48:04.568352",
+    "converter_version": "2.0.0",
+    "ocr_confidence": 0.98
+  }
+}

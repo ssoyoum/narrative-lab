@@ -1,0 +1,66 @@
+{
+  "id": "folktale_yiseung_joe",
+  "title": "이승의 죄를 면한 영혼",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "저승담",
+
+  "content": {
+    "summary": "죽었다가 돌아온 사람이 저승에서 친구의 부탁을 받아 이승의 빚을 갚아주어 친구의 죄를 면하게 해주는 이야기.",
+
+    "episodes": [
+      {
+        "title": "저승 경험",
+        "content": "승굴 마을의 한 남자가 저승에 갔다가 아직 때가 되지 않아 돌아오게 된다."
+      },
+      {
+        "title": "친구의 고통",
+        "content": "저승에서 친구가 과거의 잘못(분실된 차용증을 이용한 사기 빚 징수)으로 벌을 받고 있는 것을 발견한다."
+      },
+      {
+        "title": "빚 청산",
+        "content": "이승으로 돌아와 친구의 아들에게 알려 빚을 갚고 영수증을 받게 한다."
+      },
+      {
+        "title": "친구의 해방",
+        "content": "1년 후 친구가 꿈에 나타나 죄가 사해졌고 이제 조상 제사를 받을 수 있게 되었다고 감사를 전한다."
+      }
+    ],
+
+    "themes": ["저승 경험", "도덕적 책임", "빚 청산과 구원"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "승굴 남자", "role": "주인공"},
+      {"name": "친구", "role": "벌 받는 영혼"},
+      {"name": "친구의 아들", "role": "빚을 갚는 자"}
+    ],
+    "locations": [
+      {"name": "용담동", "type": "마을", "relation": "전승지"},
+      {"name": "승굴", "type": "마을"}
+    ],
+    "keywords": ["저승", "빚", "도덕", "구원", "조상 제사"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00701597",
+      "item_id": "GC00701597"
+    },
+    {
+      "type": "book",
+      "reference": "한국구비문학대계, 1981",
+      "informant": {"location": "광평리"},
+      "recorded": "1980년 1월 21일",
+      "collector": "현용준"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

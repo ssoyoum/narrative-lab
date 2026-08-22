@@ -1,0 +1,50 @@
+{
+  "code": "W_L_697",
+  "title": "파군봉을 베개 삼은 설문대할망",
+  "category": "전설",
+  "sub_category": "자연",
+  "type": "현지조사",
+  "content": {
+    "text": "W_L_697 파군봉을  베개  삼은  설문대할망  2017년 8월 10일,  애월읍 하귀1리 하귀1리노인회관,  강경민 조사.  배광시(남,  1938년생,  애월읍 하귀1리)  ∙  줄거리:  설문대할망이 키가 커서 파군봉을 베개로 삼고 누우면 큰관탈과 작은관탈에 발    가락이 닿았다.   [제보자] 설문대할머니가  얼마나  키가  컸는지,  파군봉을  베개  삼아가지고.  다리를  쭉  뻗었    더니  큰관탈,  족은관탈  알지?  거기가  설문대할망  발가락이렌  헷어.    그만큼  컸었다.  그런  얘기를  우리  어렸을  때  들었는데.   ∙ 핵심어:  설문대할망,  파군봉,  베개,  큰  관탈,  족은  관탈(작은  관탈),  발가락,  키 -  311  -",
+    "char_count": 384,
+    "text_cleaned": "W_L_697 파군봉을 베개 삼은 설문대할망 2017년 8월 10일, 애월읍 하귀1리 하귀1리노인회관, 강경민 조사. 배광시(남, 1938년생, 애월읍 하귀1리) ∙ 줄거리: 설문대할망이 키가 커서 파군봉을 베개로 삼고 누우면 큰관탈과 작은관탈에 발 가락이 닿았다. [제보자] 설문대할머니가 얼마나 키가 컸는지, 파군봉을 베개 삼아가지고. 다리를 쭉 뻗었 더니 큰관탈, 족은관탈 알지? 거기가 설문대할망 발가락이렌 헷어. 그만큼 컸었다. 그런 얘기를 우리 어렸을 때 들었는데. ∙ 핵심어: 설문대할망, 파군봉, 베개, 큰 관탈, 족은 관탈(작은 관탈), 발가락, 키 - 311 -",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "52개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 384,
+      "cleaned_char_count": 324
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_697/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_697/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:42:42.412903",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T16:47:43.373784",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T20:16:01.407496"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Lack",
+    "object_link": "Basalt_Rock",
+    "emotion_keyword": "Healing",
+    "modern_summary": "설문대할망의 키가 커서 파군봉을 베개로 삼고 누우면 큰관탈과 작은관탈에 발 가락이 닿았다.",
+    "location_context": {
+      "primary_place": "파군봉",
+      "admin_region": "애월읍"
+    },
+    "emotion_confidence": "medium",
+    "emotion_method": "cot_priority"
+  }
+}

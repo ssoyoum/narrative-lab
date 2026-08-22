@@ -1,0 +1,80 @@
+{
+  "id": "L_158",
+  "title": "호종단과 차귀섬",
+  "category": "전설",
+  "content": {
+    "clean": "",
+    "raw": "",
+    "commentary": null
+  },
+  "attributes": {
+    "summary": "고려 예종 때 중국에서 제주 인재 출현을 막으려 풍수사 호종단을 보내 13혈을 막게 했다. 비서 감목 김씨가 몰래 침을 빼 혈을 살렸다. 서홍리에서 물귀신이 농부에게 물을 숨기게 하여 호종단이 혈을 못 찾았고, 지장샘물이 보존되었다. 호종단이 귀국하려 할 때 한라산 수호신이 매로 변해 배를 침몰시켜 복수했다. 그래서 '돌아감을 막았다'는 뜻의 차귀섬(遮歸島)이라 부른다.",
+    "emotion": "Cider",
+    "conflict": "Obstacle",
+    "keywords": [
+      "호종단",
+      "차귀섬",
+      "풍수",
+      "13혈",
+      "한라산",
+      "수호신",
+      "매",
+      "지장샘물",
+      "김씨"
+    ],
+    "entities": [
+      {
+        "name": "호종단",
+        "description": "중국에서 온 풍수사, 배 침몰로 사망",
+        "type": "Human"
+      },
+      {
+        "name": "한라산 수호신",
+        "description": "매로 변해 호종단 복수",
+        "type": "Spirit"
+      },
+      {
+        "name": "감목 김씨",
+        "description": "호종단의 비서, 몰래 혈 살림",
+        "type": "Human"
+      },
+      {
+        "name": "물귀신",
+        "description": "서홍리에서 호종단 방해",
+        "type": "Spirit"
+      }
+    ],
+    "roles": [
+      {
+        "entity_name": "호종단",
+        "type": "Antagonist"
+      },
+      {
+        "entity_name": "한라산 수호신",
+        "type": "Protagonist"
+      },
+      {
+        "entity_name": "감목 김씨",
+        "type": "Helper"
+      },
+      {
+        "entity_name": "물귀신",
+        "type": "Helper"
+      }
+    ],
+    "terrains": [
+      {
+        "type": "Sea",
+        "description": "차귀섬 - 호종단 침몰 장소"
+      },
+      {
+        "type": "Mountain",
+        "description": "한라산 - 수호신의 영역"
+      }
+    ],
+    "location_context": {
+      "primary_place": "차귀섬",
+      "admin_region": "한경면 고산리"
+    }
+  }
+}

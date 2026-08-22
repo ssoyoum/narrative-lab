@@ -1,0 +1,35 @@
+{
+  "code": "T_L_164",
+  "title": "힘센 각시",
+  "category": "전설",
+  "sub_category": "광포전설",
+  "type": "원문",
+  "content": {
+    "text": "T_L_164   힘센  각시 <제보자 1> 남제주군 성산읍 수산 1리 강창익(男.71)    2) 각시는  힘이  세고  남자는  힘이  세지  안  허고  헌디  남편광   싸우다가  각시가  남편을  아상   지 1)   붕으로  훅  데껴   부렀거든.  3) 그  때  친구가  들어왔는데  그  때  남편이  쑥수러우난 “큰  호박을  타카,  족은  호박을  타카”  했주.   제주대학교 인문대학 국어국문학과, 국문학보 제12집, 1994, p.200. 1)  남편하고 2)  가져서 3)  던져",
+    "char_count": 287,
+    "text_cleaned": "T_L_164 힘센 각시 <제보자 1> 남제주군 성산읍 수산 1리 강창익(男.71) 2) 각시는 힘이 세고 남자는 힘이 세지 안 허고 헌디 남편광 싸우다가 각시가 남편을 아상 지 1) 붕으로 훅 데껴 부렀거든. 3) 그 때 친구가 들어왔는데 그 때 남편이 쑥수러우난 “큰 호박을 타카, 족은 호박을 타카” 했주. 제주대학교 인문대학 국어국문학과, 국문학보 제12집, 1994, p.200. 1) 남편하고 2) 가져서 3) 던져",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "39개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 287,
+      "cleaned_char_count": 240
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/T_L_164/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/T_L_164/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:38:46.698440",
+    "crawler_version": "1.0.0"
+  }
+}

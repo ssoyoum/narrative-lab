@@ -1,0 +1,63 @@
+{
+  "id": "legend_ieodo",
+  "title": "이어도 설화",
+  "title_alt": ["이어도 전설"],
+  "type": "legend",
+  "category": "이상향전설",
+
+  "content": {
+    "summary": "고난과 질곡의 현실을 벗어날 수 있는 유일무이한 곳으로 여겨졌던 낙원의 섬 이어도에 관한 전설.",
+
+    "versions": [
+      {
+        "title": "버전 1: 가족의 재회와 비극",
+        "content": "남편이 이어도로 가 행복하게 살고 있자, 아내가 시아버지와 함께 배를 타고 그를 찾아간다. 가족이 재회했으나 귀향 중 폭풍으로 모두 사망하고, 마을 사람들이 그들을 위해 제사를 지낸다."
+      },
+      {
+        "title": "버전 2: 고동지와 과부들의 섬",
+        "content": "조천리의 고동지가 중국으로 가던 중 폭풍으로 표류하여 과부들만 사는 섬(이어도)에 도착한다. 나중에 고향으로 돌아오나, 이곳의 한 여인은 '여돗할망'이 되어 제주에서 살다 죽는다."
+      }
+    ],
+
+    "themes": ["이상향의 한계", "가족에 대한 그리움", "현실로의 회귀"],
+    "symbolism": "이상향은 상상 속에서만 행복하며, 주인공들은 가족을 그리워하며 현실로 돌아온다."
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "고동지", "role": "표류자"},
+      {"name": "여돗할망", "role": "이어도 여인"}
+    ],
+    "locations": [
+      {"name": "이어도", "type": "전설의 섬", "description": "이상향"},
+      {"name": "조천리", "type": "마을"}
+    ],
+    "keywords": ["이어도", "이상향", "낙원", "표류"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00701604",
+      "item_id": "GC00701604"
+    },
+    {
+      "type": "book",
+      "reference": "1958년 채록",
+      "informant": {"name": "정주병", "location": "조천리"},
+      "collector": "진성기"
+    },
+    {
+      "type": "book",
+      "reference": "1979년 채록",
+      "informant": {"name": "김순여", "age": 61, "location": "동김녕리"},
+      "collector": "현용준·김영돈"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

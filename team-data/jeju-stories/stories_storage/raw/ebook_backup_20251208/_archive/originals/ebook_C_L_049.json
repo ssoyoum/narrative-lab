@@ -1,0 +1,50 @@
+{
+  "code": "C_L_049",
+  "title": "백록담(白鹿潭)",
+  "category": "전설",
+  "sub_category": "지명",
+  "type": "해제",
+  "content": {
+    "text": "C_L_049    백록담(白鹿潭)    1   개요 한라산  백록담과  관련된  지명  전설이다.    2   내용 한라산은  신선이  놀던  산이다.  신선들이  흰  사슴을  타고  절경을  구경하다가  백록담에서   맑은  물을  먹인  데서  백록담이라는  지명이  생겨났다. 옛날  교래리  감발  내  옆에  살던  포수가  백록(白鹿)을  쏜  일이  있었다.  그는  140살까지   살았는데,  평생  포수로만  살아왔다.  어느  날  산중을  돌며  짐승을  찾고  있었는데  사슴  한   마리가  내달았다.  포수가  얼른  총을  놓고  달려가서  칼을  빼  사슴의  가슴을  찔렀다.  정신   을  차리고  보니  백록(白鹿)이었다.  칼을  얼른  빼고  물러나서  큰  죄를  지었다고  빌어서  목   숨을  건졌다고  한다.    3   특징 신선이  타고  다니는  백록을  쏜  사냥꾼이  백록에게  빌고  목숨을  구했다는  전설이다.    4   핵심어 백록,  백록담,  흰  사슴,  사슴,  교래리,  감발내    5   원전  서지사항 백록담(제주도,  《제주도전설지》,  1985)    6   관련  자료 백록담(현용준,  《제주도  전설》,  서문당,  1976)",
+    "char_count": 628,
+    "text_cleaned": "C_L_049 백록담(白鹿潭) 1 개요 한라산 백록담과 관련된 지명 전설이다. 2 내용 한라산은 신선이 놀던 산이다. 신선들이 흰 사슴을 타고 절경을 구경하다가 백록담에서 맑은 물을 먹인 데서 백록담이라는 지명이 생겨났다. 옛날 교래리 감발 내 옆에 살던 포수가 백록(白鹿)을 쏜 일이 있었다. 그는 140살까지 살았는데, 평생 포수로만 살아왔다. 어느 날 산중을 돌며 짐승을 찾고 있었는데 사슴 한 마리가 내달았다. 포수가 얼른 총을 놓고 달려가서 칼을 빼 사슴의 가슴을 찔렀다. 정신 을 차리고 보니 백록(白鹿)이었다. 칼을 얼른 빼고 물러나서 큰 죄를 지었다고 빌어서 목 숨을 건졌다고 한다. 3 특징 신선이 타고 다니는 백록을 쏜 사냥꾼이 백록에게 빌고 목숨을 구했다는 전설이다. 4 핵심어 백록, 백록담, 흰 사슴, 사슴, 교래리, 감발내 5 원전 서지사항 백록담(제주도, 《제주도전설지》, 1985) 6 관련 자료 백록담(현용준, 《제주도 전설》, 서문당, 1976)",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "112개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 628,
+      "cleaned_char_count": 491
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/002/1927/C_L_049/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/002/1927/C_L_049/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:37:03.540345",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T14:09:38.527574",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T17:52:58.588270"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Sacrifice (희생)",
+    "object_link": "Basalt_Rock (바위)",
+    "emotion_keyword": "Sweet_Potato",
+    "modern_summary": "신선이 타고 다니는 백록을 쏜 사냥꾼이 백록에게 빌고 목숨을 구했다.",
+    "location_context": {
+      "primary_place": "백록담",
+      "admin_region": "Unknown"
+    },
+    "emotion_confidence": "medium",
+    "emotion_method": "keyword_tiebreak"
+  }
+}

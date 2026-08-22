@@ -1,0 +1,63 @@
+{
+  "id": "folktale_jungguk_sasin_kimsatgat",
+  "title": "중국사신 물리친 김삿갓",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "기지담",
+
+  "content": {
+    "summary": "기지 있는 사공 김삿갓이 중국 사신들과의 언어 대결에서 승리하는 이야기.",
+
+    "episodes": [
+      {
+        "title": "중국 사신 파견",
+        "content": "중국 왕이 조선의 문장가들을 평가하기 위해 사신을 보낸다."
+      },
+      {
+        "title": "나룻배 사공 변장",
+        "content": "김삿갓이 나룻배 사공으로 변장한다."
+      },
+      {
+        "title": "첫 번째 대응",
+        "content": "'새가 사람 눈을 쪼았구나'라는 중국 사신의 지적에 '바람이 부니 코가 한편으로 비껴 섰다'고 대응한다."
+      },
+      {
+        "title": "최종 승리",
+        "content": "해가 질 때도 시적 대응으로 사신들을 압도하여 결국 중국으로 돌아가게 만든다."
+      }
+    ],
+
+    "themes": ["기지", "중국에 대한 우월 의식", "봉이 김선달형 일화"],
+    "note": "한시에 우리말 의성어를 섞어 한문 숭상 풍토를 비꼰 점이 특징"
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "김삿갓", "role": "주인공, 기지 있는 사공"},
+      {"name": "중국 사신들", "role": "상대역"}
+    ],
+    "locations": [
+      {"name": "추자면 신양1리", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["김삿갓", "중국 사신", "기지", "언어유희"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00711404",
+      "item_id": "GC00711404"
+    },
+    {
+      "type": "book",
+      "informant": {"name": "이강택", "gender": "남", "age": 84},
+      "recorded": "2002년"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

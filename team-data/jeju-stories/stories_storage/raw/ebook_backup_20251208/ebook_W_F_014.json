@@ -1,0 +1,50 @@
+{
+  "code": "W_F_014",
+  "title": "도체빗불 줍젠 허당 물에 빠진 하르방",
+  "category": "민담",
+  "sub_category": "세속담",
+  "type": "현지조사",
+  "content": {
+    "text": "W_F_014 도체빗불  줍젠  허당  물에  빠진  하르방 2016년 11월 9일, 구좌읍 세화리 조흥순씨 댁, 송정희 조사. 조흥순(여, 1924년생, 구좌읍 세화리)   [제보자] 엣날  도체비렌  헌  거,   [제보자] 술   잔  먹어네.  그  우리동네  삼춘이  술   잔  먹어네이.  저  밖에  나오니깐,  아    뭐  돌멩이  닮은  것이,  불이  요만이  헌  것이  벵벵  벵벵벵  아뎅기는  거라.  줍젠    허민  또  이젠  멀리  가불곡,  심젠  허민  멀리  가불곡,  이거  뭔고  뭔고  헨,  이제  막    그걸  따라  막  가는  거라.  가단  보나네.  이제  그  소  멕이는  물더레  퐁  빠져분  거    라.  게난  하르방도  이  빠져부나네.  물에  (웃음)  들어간이  허단에양.  나왓주게.   ∙ 핵심어 : 도체빗불,  하르방,  소,  물",
+    "char_count": 460,
+    "text_cleaned": "W_F_014 도체빗불 줍젠 허당 물에 빠진 하르방 2016년 11월 9일, 구좌읍 세화리 조흥순씨 댁, 송정희 조사. 조흥순(여, 1924년생, 구좌읍 세화리) [제보자] 엣날 도체비렌 헌 거, [제보자] 술  잔 먹어네. 그 우리동네 삼춘이 술  잔 먹어네이. 저 밖에 나오니깐, 아 뭐 돌멩이 닮은 것이, 불이 요만이 헌 것이 벵벵 벵벵벵 아뎅기는 거라. 줍젠 허민 또 이젠 멀리 가불곡, 심젠 허민 멀리 가불곡, 이거 뭔고 뭔고 헨, 이제 막 그걸 따라 막 가는 거라. 가단 보나네. 이제 그 소 멕이는 물더레 퐁 빠져분 거 라. 게난 하르방도 이 빠져부나네. 물에 (웃음) 들어간이 허단에양. 나왓주게. ∙ 핵심어 : 도체빗불, 하르방, 소, 물",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "79개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 460,
+      "cleaned_char_count": 370
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_014/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_014/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:33:32.018640",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T16:08:07.744955",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T19:18:24.261477"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Obstacle",
+    "object_link": "Cliff",
+    "emotion_keyword": "Bizarre",
+    "modern_summary": "물에 빠진 하르방을 구하기 위해 도전하지만, 장애가 있어 성공하지 못한다.",
+    "location_context": {
+      "primary_place": "구좌읍 세화리",
+      "admin_region": "제주시"
+    },
+    "emotion_confidence": "high",
+    "emotion_method": "cot+simple_agree"
+  }
+}

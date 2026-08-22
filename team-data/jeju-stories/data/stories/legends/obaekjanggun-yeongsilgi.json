@@ -1,0 +1,66 @@
+{
+  "id": "legend_obaekjanggun",
+  "title": "오백장군",
+  "title_alt": ["영실기암 전설", "설문대할망과 오백아들"],
+  "type": "legend",
+  "category": "지명유래",
+
+  "content": {
+    "summary": "과부인 어머니가 죽을 끓이다 실수로 솥에 빠져 죽고, 아들들이 이를 먹은 후 비통함에 바위로 변했다는 이야기.",
+
+    "episodes": [
+      {
+        "title": "기근 상황",
+        "content": "오백 명의 아들을 둔 과부가 기근에 직면한다."
+      },
+      {
+        "title": "어머니의 죽음",
+        "content": "죽을 끓이던 중 실수로 끓는 솥에 빠져 죽는다."
+      },
+      {
+        "title": "아들들의 발견",
+        "content": "집에 돌아온 아들들이 죽을 먹고 나서야 막내가 국자에서 어머니의 뼈를 발견한다."
+      },
+      {
+        "title": "화석 변신",
+        "content": "비통에 빠진 막내는 서쪽으로 달려가 차귀도에서 외돌개 바위로 변하고, 나머지 499명은 영실의 바위가 되었다."
+      }
+    ],
+
+    "themes": ["화석 모티프", "모성", "비극"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "과부 어머니", "role": "설문대할망"},
+      {"name": "오백 아들", "role": "바위로 변한 자녀들"},
+      {"name": "막내아들", "role": "외돌개"}
+    ],
+    "locations": [
+      {"name": "영실기암", "type": "바위", "region": "한라산 서남부"},
+      {"name": "차귀도", "type": "섬"},
+      {"name": "외돌개", "type": "바위"}
+    ],
+    "keywords": ["오백장군", "영실", "화석", "설문대할망"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00711392",
+      "item_id": "GC00711392"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도전설집』, 1985",
+      "informant": {"name": "강문호", "location": "대정읍 안성리"},
+      "recorded": "1975년"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

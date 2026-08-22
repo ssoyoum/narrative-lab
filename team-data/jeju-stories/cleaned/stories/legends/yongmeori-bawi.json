@@ -1,0 +1,63 @@
+{
+  "id": "legend_yongmeori_bawi",
+  "title": "용머리바위",
+  "title_alt": ["용두암"],
+  "type": "legend",
+  "category": "지명유래",
+
+  "content": {
+    "summary": "용이 되기를 원했던 백마와 힘센 장사의 대결을 담은 민담으로, 용 머리 모양의 바위 형성 유래를 설명한다.",
+
+    "episodes": [
+      {
+        "title": "백마의 염원",
+        "content": "바다에 살던 백마가 용이 되기를 원했다."
+      },
+      {
+        "title": "장사의 계략",
+        "content": "힘센 장사가 백마를 잡으려 나타나자, 백마는 사람을 보면 바다로 숨었다. 장사는 허수아비를 만들어 백마를 속였다."
+      },
+      {
+        "title": "백마 포획",
+        "content": "백마가 경계를 풀었을 때 장사가 목덜미를 붙잡았다."
+      },
+      {
+        "title": "폭풍과 변신",
+        "content": "백마가 하늘로 울음을 내자 폭풍이 몰아쳤고, 날씨가 개자 백마는 사라지고 용 머리 모양의 바위만 남았다."
+      }
+    ],
+
+    "themes": ["기지담", "지명유래", "변신"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "백마", "role": "용이 되고자 한 존재"},
+      {"name": "장사", "role": "사냥꾼"}
+    ],
+    "locations": [
+      {"name": "용머리바위(용두암)", "type": "바위", "region": "제주시 용담동"}
+    ],
+    "keywords": ["용두암", "백마", "장사", "지명유래"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00701479",
+      "item_id": "GC00701479"
+    },
+    {
+      "type": "book",
+      "informant": {"name": "강성보"},
+      "collector": "진성기",
+      "recorded": "1959년 8월"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

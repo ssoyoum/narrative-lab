@@ -1,0 +1,57 @@
+{
+  "id": "myth_chasa_bonpuri",
+  "title": "차사본풀이",
+  "title_alt": ["강림차사 신화"],
+  "type": "myth",
+  "category": "무속신화",
+
+  "content": {
+    "summary": "제주도 장례 관련 굿에서 저승의 사자(차사)에게 망인을 잘 인도해달라고 기원하며 부르는 서사무가.",
+
+    "episodes": [
+      {
+        "title": "과양생이 부부의 살인",
+        "content": "과양생이 부부가 살인을 저지른다."
+      },
+      {
+        "title": "강림의 저승 방문",
+        "content": "강림이 사건 해결을 위해 저승을 방문한다."
+      },
+      {
+        "title": "염라왕의 신뢰",
+        "content": "강림이 염라왕의 신뢰를 얻는다."
+      },
+      {
+        "title": "차사 임명",
+        "content": "강림이 '사람을 저승으로 데려가는 차사'로 임명된다."
+      }
+    ],
+
+    "themes": ["저승 사자", "죽음관", "저승과 이승"],
+    "ritual": "귀양풀이, 시왕맞이에서 구연"
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "강림", "role": "주인공 → 차사"},
+      {"name": "염라왕", "role": "저승의 통치자"},
+      {"name": "김치 원님", "role": "강림을 저승으로 보낸 신격"},
+      {"name": "과양생이 부부", "role": "살인 범죄자"}
+    ],
+    "keywords": ["차사", "강림", "저승", "염라왕", "본풀이"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "한국민족문화대백과사전",
+      "url": "https://encykorea.aks.ac.kr/Article/E0055151",
+      "article_id": "E0055151"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

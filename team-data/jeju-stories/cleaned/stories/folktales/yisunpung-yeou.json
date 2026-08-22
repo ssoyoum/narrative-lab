@@ -1,0 +1,67 @@
+{
+  "id": "folktale_yisunpung_yeou",
+  "title": "이순풍과 여우",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "민담",
+
+  "content": {
+    "summary": "변신한 여우와 이순풍의 대결에 관한 제주 전승 이야기. 여우가 인간으로 둔갑하여 마을 사람들을 속이고 재물을 탈취하려 하자 이순풍이 이를 저지한다.",
+
+    "episodes": [
+      {
+        "title": "여우의 둔갑 목격",
+        "content": "이순풍이 여우가 사람으로 둔갑하는 과정을 목격한다."
+      },
+      {
+        "title": "여우의 수탈",
+        "content": "여우가 노인으로 변신하여 마을에서 병을 고쳐준다며 재물을 수탈하려 한다."
+      },
+      {
+        "title": "이순풍의 저지",
+        "content": "이순풍이 지혜로 여우를 막는다."
+      },
+      {
+        "title": "황소 변신",
+        "content": "여우의 복수로 이순풍이 황소가 되지만, 배추를 먹고 인간으로 복귀한다."
+      },
+      {
+        "title": "최종 대결",
+        "content": "여러 차례 여우와 대결하여 해학적인 결말에 이른다."
+      }
+    ],
+
+    "themes": ["지혜로 악을 물리침", "여우 둔갑", "민중의 대리 만족"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "이순풍", "role": "주인공, 지혜로운 인물"},
+      {"name": "여우", "role": "악역, 둔갑 능력자"}
+    ],
+    "locations": [
+      {"name": "오라동", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["여우", "둔갑", "이순풍", "지혜담"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00701595",
+      "item_id": "GC00701595"
+    },
+    {
+      "type": "book",
+      "informant": {"name": "고흥규", "gender": "남"},
+      "recorded": "1957년 12월",
+      "location": "제주시 오라동"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}
