@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Narrative AI MVP1 — 이야기 구조 분석, 모듈 검색, 재조합" />
+    <title>Narrative AI — MVP1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="app-header"><a class="logo" href="#top"><span>NA</span><strong>NARRATIVE AI</strong><small>MVP 01</small></a><p>STORY ANALYSIS · RETRIEVAL · RECOMBINATION</p></header>
+    <main id="top" class="app-shell">
+      <section class="intro"><div><p class="eyebrow">PERSONAL NARRATIVE SYSTEM / VERSION 01</p><h1>이야기를<br /><em>분해하고</em> 다시 씁니다.</h1><p>원본 이야기를 Narrative Beat와 Story DNA로 구조화한 뒤, 현재 Context에 맞는 Story Module을 검색하고 새로운 서사로 재조합합니다.</p></div><div class="intro-flow" aria-hidden="true"><span>STORY</span><i>→</i><span>STRUCTURE</span><i>→</i><span>NEW NARRATIVE</span></div></section>
+
+      <section class="workspace">
+        <div class="input-panel panel"><div class="panel-heading"><div><span class="step">01</span><h2>STORY INPUT</h2></div><button id="sample-button" class="ghost-button" type="button">LOAD SAMPLE</button></div><label for="story-input">분석할 이야기를 입력하세요</label><textarea id="story-input" rows="10">제주 바닷가 마을에는 밤마다 검은 파도 속에서 빛나는 돌이 나타난다는 이야기가 전해졌다. 어느 날 한 소녀가 사라진 할머니의 약속을 찾기 위해 해안으로 향했다. 하지만 폭풍이 갑자기 몰려오며 바다는 소녀 앞의 길을 닫아버렸다. 소녀는 빛나는 돌을 들어 올려 바다와 마주했고, 다음 날 마을에는 조용한 물결이 돌아왔다.</textarea><div class="controls"><label>LOCATION<select id="location"><option value="제주 바닷가">제주 바닷가</option><option value="성산 오름">성산 오름</option><option value="숲속 동굴">숲속 동굴</option><option value="사용자 지정 장소">사용자 지정 장소</option></select></label><label>MOOD<select id="mood"><option value="신비로운">신비로운</option><option value="긴장되는">긴장되는</option><option value="쓸쓸한">쓸쓸한</option><option value="희망적인">희망적인</option></select></label><label>TONE<select id="tone"><option value="잔잔한">잔잔한</option><option value="어두운">어두운</option><option value="서정적인">서정적인</option><option value="모험적인">모험적인</option></select></label><label>ENDING<select id="ending"><option value="여운이 남는 결말">여운이 남는 결말</option><option value="따뜻한 결말">따뜻한 결말</option><option value="열린 결말">열린 결말</option><option value="반전의 결말">반전의 결말</option></select></label></div><button id="generate-button" class="primary-button" type="button"><span>ANALYZE &amp; GENERATE</span><span>↗</span></button><p id="error-message" class="error-message" role="alert"></p></div>
+        <div class="result-panel"><div id="empty-state" class="empty-state"><span class="empty-mark">01</span><h2>YOUR STORY<br /><em>WILL BECOME A SYSTEM</em></h2><p>왼쪽에 이야기를 입력하면 구조 분석, Story DNA, 검색된 모듈, 재조합 결과가 이곳에 나타납니다.</p></div><div id="result" class="result-content" hidden><div class="result-header"><div><p class="eyebrow">ANALYSIS RESULT</p><h2>STORY DNA</h2></div><span id="retrieval-method" class="method-badge"></span></div><div id="dna-grid" class="dna-grid"></div><div class="result-section"><div class="result-section-title"><span>01</span><h3>NARRATIVE BEATS</h3></div><div id="beats" class="beats"></div></div><div class="result-section"><div class="result-section-title"><span>02</span><h3>RETRIEVED STORY MODULES</h3></div><div id="modules" class="modules"></div></div><div class="result-section generated-section"><div class="result-section-title"><span>03</span><h3>RECOMBINED NARRATIVE</h3></div><article class="generated-story"><p id="generated-controls" class="story-controls"></p><h3 id="generated-title"></h3><div id="generated-text"></div></article></div></div></div>
+      </section>
+      <footer><span>NARRATIVE AI / MVP 01</span><span>TF-IDF BASELINE · LOCAL MODULE SET · NO EXTERNAL API</span></footer>
+    </main>
+  </body>
+</html>

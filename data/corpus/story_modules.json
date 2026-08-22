@@ -1,0 +1,450 @@
+[
+  {
+    "id": "allen-rabbit-setup",
+    "source_story_id": "allen-rabbit",
+    "beat": "setup",
+    "title": "The Rabbit and Other Legends / Setup",
+    "tags": [
+      "animal",
+      "cleverness",
+      "survival",
+      "setup"
+    ],
+    "text": "The Koreans are great students of Nature. Nothing seems to escape their attention as they plod through the fields or saunter for pleasure over the green hills. A naturally picturesque landscape is preserved in its freshness by the law that forbids the cutting of timber or fuel in any but prescribed localities. The necessity that compels the peasants to carefully rake together all the dried grass and underbrush for fuel, causes even the rugged mountain sides to present the appearance of a gentleman's well kept park, from which the landscape gardener has been wisely excluded.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-rabbit-conflict",
+    "source_story_id": "allen-rabbit",
+    "beat": "conflict",
+    "title": "The Rabbit and Other Legends / Conflict",
+    "tags": [
+      "animal",
+      "cleverness",
+      "survival",
+      "conflict"
+    ],
+    "text": "This office of house-guard is also bestowed upon the domestic goose. Aside from its beauty, this bird is greatly esteemed for its daring in promptly sounding an alarm, should any untimely visitor enter the court, as well as for its bravery in boldly pecking at and, in some cases, driving out the intruder.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-rabbit-climax",
+    "source_story_id": "allen-rabbit",
+    "beat": "climax",
+    "title": "The Rabbit and Other Legends / Climax",
+    "tags": [
+      "animal",
+      "cleverness",
+      "survival",
+      "climax"
+    ],
+    "text": "\"No, indeed! I have had enough for once. I prefer the water. Why, you should see the magnificent sights down there. There are beautiful green forests of waving trees, mountains of cool stones, valleys and caves, great open plains made beautiful by companies of brightly robed fishes, royal processions from our palaces, and, best of all, the water bears you up, and you go everywhere without exertion. No, let me return, you have nothing on this dry, hot earth worth seeing.\" The turtle turned to go, but the rabbit musingly followed. At length he said:",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-rabbit-resolution",
+    "source_story_id": "allen-rabbit",
+    "beat": "resolution",
+    "title": "The Rabbit and Other Legends / Resolution",
+    "tags": [
+      "animal",
+      "cleverness",
+      "survival",
+      "resolution"
+    ],
+    "text": "Once released by the turtle to dig for the eyes in the sand, the rabbit shook the water from his coat, and winking at his clumsy betrayer told him to dig for the eyes himself, that he had only one pair, and those he intended to keep. With that he tore away up the mountain side, and has ever after been careful to give the turtle a wide berth.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-wine-jug-setup",
+    "source_story_id": "allen-wine-jug",
+    "beat": "setup",
+    "title": "The Enchanted Wine-Jug / Setup",
+    "tags": [
+      "magic",
+      "origin",
+      "family",
+      "setup"
+    ],
+    "text": "In ancient times there lived an old gray-haired man by the river's bank where the ferry-boats land. He was poor but honest, and being childless, and compelled to earn his own food, he kept a little wine-shop, which, small though it was, possessed quite a local reputation, for the aged proprietor would permit no quarrelling on his premises, and sold only one brand of wine, and this was of really excellent quality. He did not keep a pot of broth simmering over the coals at his door to tempt the passer-by, and thus increase his thirst on leaving. The old man rather preferred the customers who brought their little long-necked bottles, and carried the drink to their homes. There were some peculiarities--almost mysteries--about this little wine-shop; the old man had apparently always been there, and had never seemed any younger. His wine never gave out, no matter how great might be the local thirst, yet he was never seen to make or take in a new supply; nor had he a great array of vessels in his shop. On the contrary, he always seemed to pour the wine out of the one and same old bottle, the long, slender neck of which was black and shiny from being so often tipped in his old hand while the generous, warming stream gurgled outward to the bowl. This had long ceased to be a matter of inquiry, however, and only upon the advent of a stranger of an inquiring mind would the subject be re-discussed. The neighbors were assured that the old man was thoroughly good, and that his wine was better. Furthermore, he sold it as reasonably as other men sold a much inferior article. And more than this, they did not care to know; or at least if they did once care, they had gotten over it, and were now content to let well enough alone.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-wine-jug-conflict",
+    "source_story_id": "allen-wine-jug",
+    "beat": "conflict",
+    "title": "The Enchanted Wine-Jug / Conflict",
+    "tags": [
+      "magic",
+      "origin",
+      "family",
+      "conflict"
+    ],
+    "text": "All condoled with the old man, and not one but regretted that their supply of cheap, good wine was exhausted. The old man offered no explanation, though he had about concluded in his own mind that, as no one knew the secret, he must have in some way poured the bit of amber into a customer's jug. But who possessed the jug he could not surmise, nor could he think of any way of reclaiming it. He talked the matter over carefully and fully to himself at night, and the dog and cat listened attentively, winking knowingly at each other, and puzzling their brains much as to what was to be done and how they were to assist their kind old friend.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-wine-jug-climax",
+    "source_story_id": "allen-wine-jug",
+    "beat": "climax",
+    "title": "The Enchanted Wine-Jug / Climax",
+    "tags": [
+      "magic",
+      "origin",
+      "family",
+      "climax"
+    ],
+    "text": "It was warm weather, when, one night, the cat almost forgot his compact as he saw a big fat rat slinking along towards him. He crouched low and dug his long claws into the earth, while every nerve seemed on the jump; but before he was ready to spring upon his prey, he fortunately remembered his contract. It was just in time, too, for as the rat was none other than the other party to the contract, such a mistake at that time would have been fatal to their object.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-wine-jug-resolution",
+    "source_story_id": "allen-wine-jug",
+    "beat": "resolution",
+    "title": "The Enchanted Wine-Jug / Resolution",
+    "tags": [
+      "magic",
+      "origin",
+      "family",
+      "resolution"
+    ],
+    "text": "Acting upon this principle, the old man eventually became immensely wealthy, for he could always duplicate any thing with his piece of amber. He carefully tended his faithful dog, who never in his remaining days molested a rat, and never lost an opportunity to attack every cat he saw.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-lovers-setup",
+    "source_story_id": "allen-lovers",
+    "beat": "setup",
+    "title": "Ching Yuh and Kyain Oo / Setup",
+    "tags": [
+      "love",
+      "separation",
+      "stars",
+      "setup"
+    ],
+    "text": "Ching Yuh and Kyain Oo were stars attendant upon the Sun. They fell madly in love with each other, and, obtaining the royal permission, they were married. It was to them a most happy union, and having reached the consummation of their joys they lived only for one another, and sought only each other's company. They were continually in each other's embrace, and as the honey-moon bade fair to continue during the rest of their lives, rendering them unfit for the discharge of their duties, their master decided to punish them. He therefore banished them, one to the farthest edge of the eastern heavens, the other to the extreme opposite side of the great river that divides the heavenly plains (the Milky Way).",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-lovers-conflict",
+    "source_story_id": "allen-lovers",
+    "beat": "conflict",
+    "title": "Ching Yuh and Kyain Oo / Conflict",
+    "tags": [
+      "love",
+      "separation",
+      "stars",
+      "conflict"
+    ],
+    "text": "It was about the time of her tenth birthday that little Uhn Hah had the interesting encounter upon which her whole future was to hinge.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-lovers-climax",
+    "source_story_id": "allen-lovers",
+    "beat": "climax",
+    "title": "Ching Yuh and Kyain Oo / Climax",
+    "tags": [
+      "love",
+      "separation",
+      "stars",
+      "climax"
+    ],
+    "text": "Meanwhile Pang Noo had reached home, and was weary both in body and mind. The King offered him service at court, but he asked to be excused, and seemed to wish to hide himself and avoid meeting people. His father marvelled much at this, and again urged the young man to marry; but this seemed only to aggravate his complaint. His uncle happened to come to his father's gubernatorial seat on a business errand, and in pity for the young man, explained the cause of the trouble to the father. He saw it all, and recalled the strange beauty of the lad who had risked his life for the possession of the fan, and as the uncle told the story of her excellent parentage, and the trouble and death that resulted from the refusal to marry, he saw through the whole strange train of circumstances, and marvelled that heaven should have selected such an exemplary maiden for his son. And then, as he realized how nearly he had come to punishing her severely, for her persistent refusal to surrender the fan, and that, whereas, he might have retained her and united her to his son, he had sent her away unattended to wander alone; he heaped blame upon the son in no stinted manner for his lack of confidence in not telling his father his troubles. The attendants were carefully questioned concerning the conduct of the strange couple while in custody at the governor's yamen, and as to the probable direction they took in departure. The steward alone could give information. He was well rewarded for having shown them kindness, but his information cast a gloom upon the trio, for he said they had started for the district where civil war was in progress.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-lovers-resolution",
+    "source_story_id": "allen-lovers",
+    "beat": "resolution",
+    "title": "Ching Yuh and Kyain Oo / Resolution",
+    "tags": [
+      "love",
+      "separation",
+      "stars",
+      "resolution"
+    ],
+    "text": "As Cho Uhn Hah had no parents, His Majesty determined that she should have royal patronage, and decreed that their wedding should take place in the great hall where the members of the royal family are united in marriage. This was done with all the pomp and circumstance of a royal wedding, and no official stood so high in the estimation of the King, as the valiant, true-hearted You, while the virtues of his spouse were the subject of songs and ballads, and she was extolled as the model for the women of the country.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-hyungbo-setup",
+    "source_story_id": "allen-hyungbo",
+    "beat": "setup",
+    "title": "Hyung Bo and Nahl Bo / Setup",
+    "tags": [
+      "siblings",
+      "reward",
+      "justice",
+      "setup"
+    ],
+    "text": "In the province of Chullado, in Southern Korea, lived two brothers. One was very rich, the other very poor. For in dividing the inheritance, the elder brother, instead of taking the father's place, and providing for the younger children, kept the whole property to himself, allowing his younger brother nothing at all, and reducing him to a condition of abject misery. Both men were married. Nahl Bo, the elder, had many concubines, in addition to his wife, but had no children; while Hyung Bo had but one wife and several children. The former's wives were continually quarrelling; the latter lived in contentment and peace with his wife, each endeavoring to help the other bear the heavy burdens circumstances had placed upon them. The elder brother lived in a fine, large compound, with warm, comfortable houses; the younger had built himself a hut of broom straw, the thatch of which was so poor that when it rained they were deluged inside, upon the earthern floor. The room was so small, too, that when Hyung Bo stretched out his legs in his sleep his feet were apt to be thrust through the wall. They had no kang, and had to sleep upon the cold dirt floor, where insects were so abundant as to often succeed in driving the sleepers out of doors.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-hyungbo-conflict",
+    "source_story_id": "allen-hyungbo",
+    "beat": "conflict",
+    "title": "Hyung Bo and Nahl Bo / Conflict",
+    "tags": [
+      "siblings",
+      "reward",
+      "justice",
+      "conflict"
+    ],
+    "text": "The autumn came; and one evening--it was the ninth day of the ninth moon--as the little family were sitting about the door, they noticed the bird with the crooked legs sitting on the clothes-line and singing to them.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-hyungbo-climax",
+    "source_story_id": "allen-hyungbo",
+    "beat": "climax",
+    "title": "Hyung Bo and Nahl Bo / Climax",
+    "tags": [
+      "siblings",
+      "reward",
+      "justice",
+      "climax"
+    ],
+    "text": "Maintaining a guard was expensive, and the plant so loosened the roof tiles, by the tendrils searching for earth and moisture in the great layer of clay under the tiles, that the rainy season made great havoc with his house. Large portions of plaster from the inside fell upon the paper ceilings, which in turn gave way, letting the dirty water drip into the rooms, and making the house almost uninhabitable. At last, however, the plants could do no more harm; the frost had come, the vines had shrivelled away, and the enormous ripe gourds were carefully lowered, amid the yelling of a score of coolies, as each seemed to get in the others' way trying to manipulate the ropes and poles with which the gourds were let down to the ground. Once inside the court, and the great doors locked, Nahl Bo felt relieved, and shutting out every one but a carpenter and his assistant, he prepared for the great surprise which he knew must await him, in spite of his most vivid dreams.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-hyungbo-resolution",
+    "source_story_id": "allen-hyungbo",
+    "beat": "resolution",
+    "title": "Hyung Bo and Nahl Bo / Resolution",
+    "tags": [
+      "siblings",
+      "reward",
+      "justice",
+      "resolution"
+    ],
+    "text": "The seed that had brought prosperity to his honest, deserving brother had turned prosperity into ruin to the cruel, covetous Nahl Bo, who now had to subsist upon the charity of his kind brother, whom he had formerly treated so cruelly.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-chunyang-setup",
+    "source_story_id": "allen-chunyang",
+    "beat": "setup",
+    "title": "Chun Yang / Setup",
+    "tags": [
+      "love",
+      "promise",
+      "loyalty",
+      "setup"
+    ],
+    "text": "In the city of Nam Won, in Chull Lah Do (the southern province of Korea), lived the Prefect Ye Tung Uhi. He was the happy father of a son of some sixteen years of age. Being an only child the boy was naturally much petted. He was not an ordinary young man, however, for in addition to a handsome, manly face and stalwart figure, he possessed a bright, quick mind, and was naturally clever. A more dutiful son could not be found. He occupied a house in the rear of his father's quarters, and devoted himself to his books, going regularly each evening to make his obeisance to his father, and express his wish that pleasant, refreshing sleep might come to him; then, in the morning, before breakfasting, he was wont to go and enquire how the new day had found his father.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-chunyang-conflict",
+    "source_story_id": "allen-chunyang",
+    "beat": "conflict",
+    "title": "Chun Yang / Conflict",
+    "tags": [
+      "love",
+      "promise",
+      "loyalty",
+      "conflict"
+    ],
+    "text": "The house pleased him; it was neat and well-appointed. The public room, facing the court, was lighted by a blue lantern, which in the mellow light resembled a pleasure barge drifting on the spring flood. Banners of poetry hung upon the walls. Upon the door leading to Chun Yang's little parlor hung a banner inscribed with verses to her ancestors and descendants, praying that \"a century be short to span her life and happiness, and that her children's children be blessed with prosperity for a thousand years.\" Through the open windows could be seen moonlight glimpses of the little garden of the swinging girl. There was a miniature lake almost filled with lotus plants, where two sleepy swans floated with heads beneath their wings, while the occasional gleam of a gold or silver scale showed that the water was inhabited. A summer-house on the water's edge was almost covered with fragrant spring blossoms, the whole being enclosed in a little grove of bamboo and willows, that shut out the view of outsiders.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-chunyang-climax",
+    "source_story_id": "allen-chunyang",
+    "beat": "climax",
+    "title": "Chun Yang / Climax",
+    "tags": [
+      "love",
+      "promise",
+      "loyalty",
+      "climax"
+    ],
+    "text": "She was too happy to believe it, thinking the old man had made it up to please his old friend's distressed child. Yet she cherished the dream and the interpretation in her breast, finding in it solace to her weary, troubled heart.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-chunyang-resolution",
+    "source_story_id": "allen-chunyang",
+    "beat": "resolution",
+    "title": "Chun Yang / Resolution",
+    "tags": [
+      "love",
+      "promise",
+      "loyalty",
+      "resolution"
+    ],
+    "text": "All the people rejoiced with the daughter, but no one seemed to think the old mother deserved such good fortune. The Ussa's conduct was approved at court. A new magistrate was appointed. The marriage was publicly solemnized at Seoul, and the Ussa was raised to a high position, in which he was just to the people, who loved him for his virtues, while the country rang with the praises of his faithful wife, who became the mother of many children.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-simchung-setup",
+    "source_story_id": "allen-simchung",
+    "beat": "setup",
+    "title": "Sim Chung / Setup",
+    "tags": [
+      "daughter",
+      "sacrifice",
+      "devotion",
+      "setup"
+    ],
+    "text": "Sim Hyun, or Mr. Sim, was highly esteemed in the Korean village in which he resided. He belonged to the Yang Ban, or gentleman class, and when he walked forth it was with the stately swinging stride of the gentleman, while if he bestrode his favorite donkey, or was carried in his chair, a runner went ahead calling out to the commoners to clear the road. His rank was not high, and though greatly esteemed as a scholar, his income would scarcely allow of his taking the position he was fitted to occupy.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-simchung-conflict",
+    "source_story_id": "allen-simchung",
+    "beat": "conflict",
+    "title": "Sim Chung / Conflict",
+    "tags": [
+      "daughter",
+      "sacrifice",
+      "devotion",
+      "conflict"
+    ],
+    "text": "\"Very well, give me pencil and paper,\" whereupon they retired to a house, and the blind man gave his order for the costly price of his sight. Returning home weary, bruised, and hungry, he smiled to himself, in spite of his ill condition, at the thought of his giving an order for so much rice when he had not a grain of it to eat.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-simchung-climax",
+    "source_story_id": "allen-simchung",
+    "beat": "climax",
+    "title": "Sim Chung / Climax",
+    "tags": [
+      "daughter",
+      "sacrifice",
+      "devotion",
+      "climax"
+    ],
+    "text": "Sim Chung objected to going before such an august king, but she was assured of kind treatment, and, after being properly dressed by the sea maids, in garments suitable for the palace of the Sea King, she was borne in a chair on the shoulders of eunuchs to the King's apartments. The King treated her with great respect, and all the maidens and eunuchs bowed before her. She protested that she was not worthy of such attention. \"I am,\" she said, \"but the daughter of a beggar, for whom I thought I was giving my life when rescued by these maidens. I am in no way worthy of your respect.\"",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-simchung-resolution",
+    "source_story_id": "allen-simchung",
+    "beat": "resolution",
+    "title": "Sim Chung / Resolution",
+    "tags": [
+      "daughter",
+      "sacrifice",
+      "devotion",
+      "resolution"
+    ],
+    "text": "His Majesty was overjoyed to have his lovely Queen restored to her wonted happy frame of mind. He made the old man an officer of high rank, appointed him a fine house, and had him married to the accomplished daughter of an officer of suitable rank, thereby fulfilling the last of the prophecy of both the aged priest and the King of the Sea.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-honggiltong-setup",
+    "source_story_id": "allen-honggiltong",
+    "beat": "setup",
+    "title": "Hong Kil Tong / Setup",
+    "tags": [
+      "hero",
+      "identity",
+      "justice",
+      "setup"
+    ],
+    "text": "During the reign of the third king in Korea there lived a noble of high rank and noted family, by name Hong. His title was Ye Cho Pansa. He had two sons by his wife and one by one of his concubines. The latter son was very remarkable from his birth to his death, and he it is who forms the subject of this history.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-honggiltong-conflict",
+    "source_story_id": "allen-honggiltong",
+    "beat": "conflict",
+    "title": "Hong Kil Tong / Conflict",
+    "tags": [
+      "hero",
+      "identity",
+      "justice",
+      "conflict"
+    ],
+    "text": "On a given day Kil Tong, dressed in the red gown of a youth, just betrothed, covered himself with the dust of travel, and mounted on a donkey, with one robber disguised as a servant, made his way to the temple. He asked on arrival to be shown to the head priest, to whom he stated that he was the son of Hong Pansa, that his noble father having heard of the greatness of this temple, and the wisdom of its many priests, had decided to send him with a letter, which he produced, to be educated among their numbers. He also stated that a train of one hundred ponies loaded with rice had been sent as a present from his father to the priest, and he expected they would arrive before dark, as they did not wish to stop alone in the mountains, even though every pony was attended by a groom, who was armed for defense. The priests were delighted, and having read the letter, they never for a moment suspected that all was not right. A great feast was ordered in honor of their noble scholar, and all sat down before the tables, which were filled so high that one could hardly see his neighbor on the opposite side. They had scarcely seated themselves and indulged in the generous wine, when it was announced that the train of ponies laden with rice had arrived. Servants were sent to look after the tribute, and the eating and drinking went on. Suddenly Kil Tong clapped his hand, over his cheek with a cry of pain, which drew the attention of all. When, to the great mortification of the priests, he produced from his mouth a pebble, previously introduced on the sly, and exclaimed: \"Is it to feed on stones that my father sent me to this place? What do you mean by setting such rice before a gentleman?\"",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-honggiltong-climax",
+    "source_story_id": "allen-honggiltong",
+    "beat": "climax",
+    "title": "Hong Kil Tong / Climax",
+    "tags": [
+      "hero",
+      "identity",
+      "justice",
+      "climax"
+    ],
+    "text": "Official orders were issued to each of the eight governors to catch and bring to the city, at once, the robber Kil Tong. These orders were so well obeyed that upon a certain day soon after, a guard came from each province bringing Kil Tong, and there in a line stood eight men alike in every respect.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  },
+  {
+    "id": "allen-honggiltong-resolution",
+    "source_story_id": "allen-honggiltong",
+    "beat": "resolution",
+    "title": "Hong Kil Tong / Resolution",
+    "tags": [
+      "hero",
+      "identity",
+      "justice",
+      "resolution"
+    ],
+    "text": "In due season the marriage ceremonies were celebrated, and the impatient lovers were given to each other's embrace. Their lives were full of happiness and prosperity. Other outlying islands were united under Kil Tong's rule, and no desire or ambition remained ungratified. Yet there came a time when the husband grew sad, and tears swelled the heart of the young wife as she tried in vain to comfort him. He explained at last that he had a presentiment that his father was either dead or dying, and that it was his duty to go and mourn at the grave. With anguish at the thought of parting, the wife urged him to go. Taking a junk laden with handsome marble slabs for the grave and statuary to surround it, and followed by junks bearing three thousand bags of rice, he set out for the capital. Arriving, he cut off his hair, and repaired to his old home, where a servant admitted him on the supposition that he was a priest. He found his father was no more; but the body yet remained, because a suitable place could not be found for the burial. Thinking him to be a priest, Kil Tong was allowed to select the spot, and the burial took place with due ceremony. Then it was that the son revealed himself, and took his place with the mourners. The stone images and monuments were erected upon the nicely sodded grounds. Kil Tong sent the rice he had brought, to the government granaries in return for the King's loan to him, and regretted that mourning would prevent his paying his respects to his King; he set out for his home with his true mother and his father's legal wife. The latter did not survive long after the death of her husband, but the poor slave-mother of the bright boy was spared many years to enjoy the peace and quiet of her son's bright home, and to be ministered to by her dutiful, loving children and their numerous offspring.",
+    "source_url": "https://www.gutenberg.org/files/55539/55539-0.txt",
+    "license": "Project Gutenberg License; public domain in the USA",
+    "annotation_status": "baseline paragraph sampling; human review pending"
+  }
+]
