@@ -1,0 +1,2306 @@
+[
+  {
+    "input": "Tell me about 축지법 배움",
+    "output": "축지법의 대가가 끈질긴 친구에게 '내 발자국을 정확히 따라와라'고 가르친다.",
+    "metadata": {
+      "story": "축지법",
+      "type": "folktale",
+      "category": "소화"
+    }
+  },
+  {
+    "input": "Tell me about 여행 시작",
+    "output": "함께 여행하며 친구가 처음에는 성공한다.",
+    "metadata": {
+      "story": "축지법",
+      "type": "folktale",
+      "category": "소화"
+    }
+  },
+  {
+    "input": "Tell me about 자만심",
+    "output": "기술이 사소하다고 생각하며 자만심에 빠진다.",
+    "metadata": {
+      "story": "축지법",
+      "type": "folktale",
+      "category": "소화"
+    }
+  },
+  {
+    "input": "Tell me about 비극적 결말",
+    "output": "부주의로 발을 헛디뎌 '두 다리가 찢어진다.'",
+    "metadata": {
+      "story": "축지법",
+      "type": "folktale",
+      "category": "소화"
+    }
+  },
+  {
+    "input": "Tell me about 술 취한 밤길",
+    "output": "어떤 남자가 술을 마신 후 예초리와 신산리 사이의 절벽 위 장소인 말굽터 근처를 지나갔다.",
+    "metadata": {
+      "story": "도깨비와 싸운 이야기",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 도깨비와의 씨름",
+    "output": "그곳에서 도깨비를 만나 씨름을 하게 되었다. 남자가 도깨비를 이겼다.",
+    "metadata": {
+      "story": "도깨비와 싸운 이야기",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 도깨비 포박",
+    "output": "남자는 도깨비를 소나무에 허리끈으로 묶어 놓았다.",
+    "metadata": {
+      "story": "도깨비와 싸운 이야기",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 다음 날 아침",
+    "output": "다음 날 확인해보니 그것은 빗자루였다.",
+    "metadata": {
+      "story": "도깨비와 싸운 이야기",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 오래 기른 닭과 개",
+    "output": "사람들이 토종닭을 3년 이상 기르고, 개를 7년 이상 기르면 사람으로 변해서 해칠 수 있다는 내용이다. 한 부자가 닭 100마리를 길렀는데 사 가는 사람이 많지 않을 때라 집에서 기르는 닭을 잡아먹었다. 이 집에는 10년 정도 기른 개도 있고, 5-6년 기른 닭도 있었다.",
+    "metadata": {
+      "story": "개와 닭의 원한",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 장닭의 출현",
+    "output": "하루는 이 닭(장닭)이 할아버지가 되어 나타났다. 그 집에 있던 개에게 '우리가 이 집에 서 오래 살았으니 친한 사이가 아니냐'고 하면서 주인이 닭을 많이 잡아먹어서 그 원수를 갚겠다고 했다.",
+    "metadata": {
+      "story": "개와 닭의 원한",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 뱀왕에게 도움 청함",
+    "output": "장닭은 주인이 타는 말을 타고 뱀 굴로 찾아가서 사왕(뱀 우두머리)에게 도움을 청한다.",
+    "metadata": {
+      "story": "개와 닭의 원한",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 삼해유로 복수",
+    "output": "뱀 무리들이 주인집 울타리를 빙 둘러있기로 약속하며, 삼해유(三亥油: 일 년이 해년 해월 해일에 짠 기름)가 있으면 안 된다고 당부한다. 부자 아들이 이 사실을 엿듣고 집 울타리에 삼해유를 뿌리니 모여 있던 뱀들이 모두 죽었다.",
+    "metadata": {
+      "story": "개와 닭의 원한",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 가죽신 착용",
+    "output": "남자가 비싼 가죽신(창신)을 도난 방지를 위해 장례식에 신고 간다.",
+    "metadata": {
+      "story": "허이허이 곳곳",
+      "type": "folktale",
+      "category": "소화"
+    }
+  },
+  {
+    "input": "Tell me about 개가 신발 탈취",
+    "output": "곡을 하는 도중 개가 신발을 물고 도망친다.",
+    "metadata": {
+      "story": "허이허이 곳곳",
+      "type": "folktale",
+      "category": "소화"
+    }
+  },
+  {
+    "input": "Tell me about 희극적 상황",
+    "output": "슬퍼하던 조문객이 개를 부르면서 동시에 장례 의식을 수행하며, 곡소리와 개 부르는 소리, 떡을 요청하는 말이 뒤섞인다.",
+    "metadata": {
+      "story": "허이허이 곳곳",
+      "type": "folktale",
+      "category": "소화"
+    }
+  },
+  {
+    "input": "Tell me about 노래하는 영감",
+    "output": "목에 큰 혹이 달린 노래하는 영감이 나무하다가 피신한다.",
+    "metadata": {
+      "story": "혹 떼러 갔다가 혹 붙인 이야기",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 도깨비와의 만남",
+    "output": "도깨비 같은 존재들이 음식과 음료를 내놓는 마법 지팡이를 들고 나타난다.",
+    "metadata": {
+      "story": "혹 떼러 갔다가 혹 붙인 이야기",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 교환",
+    "output": "영감의 노래에 매료된 도깨비들이 초자연적 도구와 혹을 교환한다.",
+    "metadata": {
+      "story": "혹 떼러 갔다가 혹 붙인 이야기",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 모방 시도",
+    "output": "이 이야기를 들은 두 번째 남자가 같은 계략을 시도한다.",
+    "metadata": {
+      "story": "혹 떼러 갔다가 혹 붙인 이야기",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 징벌",
+    "output": "두 배의 고통을 받게 된다.",
+    "metadata": {
+      "story": "혹 떼러 갔다가 혹 붙인 이야기",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 야래자의 출현",
+    "output": "과부와 딸이 잠긴 문을 통과해 들어오는 신비로운 젊은이에게 밤마다 괴롭힘을 당한다.",
+    "metadata": {
+      "story": "황지네",
+      "type": "folktale",
+      "category": "야래자담"
+    }
+  },
+  {
+    "input": "Tell me about 거지의 목격",
+    "output": "잠잘 곳을 찾던 거지가 초자연적 침입자를 목격한다.",
+    "metadata": {
+      "story": "황지네",
+      "type": "folktale",
+      "category": "야래자담"
+    }
+  },
+  {
+    "input": "Tell me about 자물쇠의 말",
+    "output": "마법의 자물쇠에게서 '젊은이는 집 뒤 큰 돌 밑에 사는 황지네'임을 알게 된다.",
+    "metadata": {
+      "story": "황지네",
+      "type": "folktale",
+      "category": "야래자담"
+    }
+  },
+  {
+    "input": "Tell me about 황지네 퇴치",
+    "output": "거지가 불붙은 숯으로 황지네의 거처를 둘러싸 물리친다.",
+    "metadata": {
+      "story": "황지네",
+      "type": "folktale",
+      "category": "야래자담"
+    }
+  },
+  {
+    "input": "Tell me about 보상과 선택",
+    "output": "과부가 딸과의 결혼을 제안하지만, 거지는 마법의 자물쇠만을 요청한다.",
+    "metadata": {
+      "story": "황지네",
+      "type": "folktale",
+      "category": "야래자담"
+    }
+  },
+  {
+    "input": "Tell me about 부와 자선",
+    "output": "'집을 내놔라, 밭을 내놔라, 돈을 내놔라'라 명령하여 부유해지고 가난한 이들을 돕는다.",
+    "metadata": {
+      "story": "황지네",
+      "type": "folktale",
+      "category": "야래자담"
+    }
+  },
+  {
+    "input": "Tell me about 고양이의 도둑질",
+    "output": "김생원이 기르던 고양이가 생선을 훔쳐 먹다 담뱃대로 맞고 도망친다.",
+    "metadata": {
+      "story": "현명한 며느리",
+      "type": "folktale",
+      "category": "과장담"
+    }
+  },
+  {
+    "input": "Tell me about 며느리의 등장",
+    "output": "몇 년 후 아들의 며느리가 시집 와서 갑자기 흉악한 개 열한 마리를 사오고 집 주위를 죽창으로 두른다.",
+    "metadata": {
+      "story": "현명한 며느리",
+      "type": "folktale",
+      "category": "과장담"
+    }
+  },
+  {
+    "input": "Tell me about 복수 시도",
+    "output": "살쾡이로 변신한 고양이가 '광풍이 일더니 시커먼 구름이' 몰려오며 복수를 시도한다.",
+    "metadata": {
+      "story": "현명한 며느리",
+      "type": "folktale",
+      "category": "과장담"
+    }
+  },
+  {
+    "input": "Tell me about 며느리의 승리",
+    "output": "며느리의 준비 덕분에 마지막 개 한 마리가 살쾡이를 제압한다.",
+    "metadata": {
+      "story": "현명한 며느리",
+      "type": "folktale",
+      "category": "과장담"
+    }
+  },
+  {
+    "input": "Tell me about 버림 명령",
+    "output": "손자가 아버지로부터 할아버지를 강에 버리라는 명령을 받는다.",
+    "metadata": {
+      "story": "효도한 손자",
+      "type": "folktale",
+      "category": "효행담"
+    }
+  },
+  {
+    "input": "Tell me about 효심의 발로",
+    "output": "자비로운 소년은 떡을 준비하고 할아버지와 음식을 들것에 싣는다.",
+    "metadata": {
+      "story": "효도한 손자",
+      "type": "folktale",
+      "category": "효행담"
+    }
+  },
+  {
+    "input": "Tell me about 지혜로운 말",
+    "output": "할아버지에게 '제가 없는 동안 드세요, 돌아오겠습니다'라고 말한다.",
+    "metadata": {
+      "story": "효도한 손자",
+      "type": "folktale",
+      "category": "효행담"
+    }
+  },
+  {
+    "input": "Tell me about 아버지의 질문",
+    "output": "아버지가 왜 빈 들것을 가져왔는지 묻는다.",
+    "metadata": {
+      "story": "효도한 손자",
+      "type": "folktale",
+      "category": "효행담"
+    }
+  },
+  {
+    "input": "Tell me about 깨우침",
+    "output": "손자가 아버지가 늙으면 같은 운명이 필요하기에 들것을 보관한다고 답한다.",
+    "metadata": {
+      "story": "효도한 손자",
+      "type": "folktale",
+      "category": "효행담"
+    }
+  },
+  {
+    "input": "Tell me about 결과",
+    "output": "할아버지를 집에 데려와 공경하자 가족이 번영한다.",
+    "metadata": {
+      "story": "효도한 손자",
+      "type": "folktale",
+      "category": "효행담"
+    }
+  },
+  {
+    "input": "Tell me about 조문 후 귀가",
+    "output": "선비가 조문을 마치고 돌아오던 길에 화장실을 찾게 된다.",
+    "metadata": {
+      "story": "잊어버리기 잘하는 선비",
+      "type": "folktale",
+      "category": "소화"
+    }
+  },
+  {
+    "input": "Tell me about 갓의 보관",
+    "output": "갓을 잃어버리지 않기 위해 소나무 가지에 걸어두고 용변을 본다.",
+    "metadata": {
+      "story": "잊어버리기 잘하는 선비",
+      "type": "folktale",
+      "category": "소화"
+    }
+  },
+  {
+    "input": "Tell me about 희극적 상황",
+    "output": "일어나며 갓이 머리에 닿으면 주워지는 방식이었으나, 본인이 눈 똥을 밟고도 '어떤 망할 놈의 자식이 여기에 똥을 싸놓았느냐'고 욕한다.",
+    "metadata": {
+      "story": "잊어버리기 잘하는 선비",
+      "type": "folktale",
+      "category": "소화"
+    }
+  },
+  {
+    "input": "Tell me about 게으른 아들",
+    "output": "양반집 작은아들이 공부 열심히 하는 형과 달리 게으르다고 여겨졌다.",
+    "metadata": {
+      "story": "작은아들의 과거",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 집 떠남",
+    "output": "가족 상황을 벗어나 마을 서당에서 일자리를 찾는다.",
+    "metadata": {
+      "story": "작은아들의 과거",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 귀동냥 공부",
+    "output": "아궁이를 때면서 수업을 엿들으며 배운다. 스승은 '풍취부동연엽초'라는 구절 암기를 강조했다.",
+    "metadata": {
+      "story": "작은아들의 과거",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 과거 시험",
+    "output": "형과 함께 과거 시험에 응시한다.",
+    "metadata": {
+      "story": "작은아들의 과거",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 예상치 못한 성공",
+    "output": "시험관이 낸 불가능해 보이는 문제에 암기했던 유일한 구절로 답하여 급제한다.",
+    "metadata": {
+      "story": "작은아들의 과거",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 친밀한 우정",
+    "output": "고대 마을에 두 친한 친구가 살았다.",
+    "metadata": {
+      "story": "저승에서 벼슬한 친구",
+      "type": "folktale",
+      "category": "저승담"
+    }
+  },
+  {
+    "input": "Tell me about 제삿날 만남",
+    "output": "친구가 죽은 후, 살아있는 친구가 제삿날 꿈에서 그를 만난다.",
+    "metadata": {
+      "story": "저승에서 벼슬한 친구",
+      "type": "folktale",
+      "category": "저승담"
+    }
+  },
+  {
+    "input": "Tell me about 뇌물 고백",
+    "output": "죽은 친구가 관직 시절 면포 두 필을 뇌물로 받은 업보 때문에 저승에서 벼슬을 얻지 못한다고 설명한다.",
+    "metadata": {
+      "story": "저승에서 벼슬한 친구",
+      "type": "folktale",
+      "category": "저승담"
+    }
+  },
+  {
+    "input": "Tell me about 증거 제시",
+    "output": "영혼이 준 사과와 제사상의 사과를 비교하여 이야기를 확인한다.",
+    "metadata": {
+      "story": "저승에서 벼슬한 친구",
+      "type": "folktale",
+      "category": "저승담"
+    }
+  },
+  {
+    "input": "Tell me about 빚 청산",
+    "output": "아들이 빚을 갚는다.",
+    "metadata": {
+      "story": "저승에서 벼슬한 친구",
+      "type": "folktale",
+      "category": "저승담"
+    }
+  },
+  {
+    "input": "Tell me about 저승 벼슬",
+    "output": "이듬해 죽은 친구가 돌아와 '좋은 벼슬'을 얻었다고 보고한다.",
+    "metadata": {
+      "story": "저승에서 벼슬한 친구",
+      "type": "folktale",
+      "category": "저승담"
+    }
+  },
+  {
+    "input": "Tell me about 아버지의 유언",
+    "output": "노인이 죽은 후 살아있을 때 잘 봉양받기를 원하며 제사를 거부한다.",
+    "metadata": {
+      "story": "제사를 아니하여 망한 아들",
+      "type": "folktale",
+      "category": "교훈담"
+    }
+  },
+  {
+    "input": "Tell me about 염라대왕의 기대",
+    "output": "염라대왕은 아들이 제사를 지낼 것이라 예상하며 노인을 이승으로 보낸다.",
+    "metadata": {
+      "story": "제사를 아니하여 망한 아들",
+      "type": "folktale",
+      "category": "교훈담"
+    }
+  },
+  {
+    "input": "Tell me about 제사 부재",
+    "output": "아들이 제사를 지내지 않는다.",
+    "metadata": {
+      "story": "제사를 아니하여 망한 아들",
+      "type": "folktale",
+      "category": "교훈담"
+    }
+  },
+  {
+    "input": "Tell me about 징벌",
+    "output": "염라대왕이 무쇠 철망과 팥씨를 이용해 아들에게 징벌을 내린다.",
+    "metadata": {
+      "story": "제사를 아니하여 망한 아들",
+      "type": "folktale",
+      "category": "교훈담"
+    }
+  },
+  {
+    "input": "Tell me about 집안의 몰락",
+    "output": "결국 집안이 완전히 망한다.",
+    "metadata": {
+      "story": "제사를 아니하여 망한 아들",
+      "type": "folktale",
+      "category": "교훈담"
+    }
+  },
+  {
+    "input": "Tell me about 아버지의 가르침",
+    "output": "아버지가 아들에게 제사는 의미 없다고 가르친다.",
+    "metadata": {
+      "story": "제사 이야기",
+      "type": "folktale",
+      "category": "교훈담"
+    }
+  },
+  {
+    "input": "Tell me about 제사 거부",
+    "output": "아버지 사후 아들은 제사를 지내지 않는다.",
+    "metadata": {
+      "story": "제사 이야기",
+      "type": "folktale",
+      "category": "교훈담"
+    }
+  },
+  {
+    "input": "Tell me about 영혼의 대화",
+    "output": "제삿날 밤 취한 중년 남자가 무덤 근처에서 잠들었다가 영혼들의 대화를 듣는다. 영혼은 '제사를 받으러 갔는데 제사를 지내지 않아 손자를 불 속에 집어넣고 왔다'고 말한다.",
+    "metadata": {
+      "story": "제사 이야기",
+      "type": "folktale",
+      "category": "교훈담"
+    }
+  },
+  {
+    "input": "Tell me about 비극",
+    "output": "다음 날 마을에서 아이가 화재로 죽은 사건이 발생한다.",
+    "metadata": {
+      "story": "제사 이야기",
+      "type": "folktale",
+      "category": "교훈담"
+    }
+  },
+  {
+    "input": "Tell me about 교훈",
+    "output": "아들은 이후 제사를 정성스럽게 지내게 된다.",
+    "metadata": {
+      "story": "제사 이야기",
+      "type": "folktale",
+      "category": "교훈담"
+    }
+  },
+  {
+    "input": "Tell me about 무덤 근처에서의 잠",
+    "output": "농부가 띠를 베다가 날이 저물어 무덤 주변에서 잠을 자게 된다.",
+    "metadata": {
+      "story": "제사는 영혼이 먹어간다",
+      "type": "folktale",
+      "category": "교훈담"
+    }
+  },
+  {
+    "input": "Tell me about 영혼의 출현",
+    "output": "밤 중에 무덤에서 영혼이 나와 다른 묘로 제사를 받으러 가는 모습을 목격한다.",
+    "metadata": {
+      "story": "제사는 영혼이 먹어간다",
+      "type": "folktale",
+      "category": "교훈담"
+    }
+  },
+  {
+    "input": "Tell me about 마을 방문",
+    "output": "다음 날 마을로 내려온 농부가 제사를 지낸 집을 찾아가 경험담을 나눈다.",
+    "metadata": {
+      "story": "제사는 영혼이 먹어간다",
+      "type": "folktale",
+      "category": "교훈담"
+    }
+  },
+  {
+    "input": "Tell me about 관행 변화",
+    "output": "그 집안 사람들은 이후 제사날 집 입구에 말을 매지 않기로 결정한다.",
+    "metadata": {
+      "story": "제사는 영혼이 먹어간다",
+      "type": "folktale",
+      "category": "교훈담"
+    }
+  },
+  {
+    "input": "Tell me about 목사의 집착",
+    "output": "도강수와 미월 부부가 살고 있는 상황에서 제주목사가 미월의 아름다움에 집착한다.",
+    "metadata": {
+      "story": "지혜 있는 여인",
+      "type": "folktale",
+      "category": "지혜담"
+    }
+  },
+  {
+    "input": "Tell me about 불가능한 과제",
+    "output": "목사가 도강수에게 '가락천 물 속의 달이라도 꺼내 오라'고 요구한다.",
+    "metadata": {
+      "story": "지혜 있는 여인",
+      "type": "folktale",
+      "category": "지혜담"
+    }
+  },
+  {
+    "input": "Tell me about 지혜로운 해결",
+    "output": "미월의 조언에 따라 도강수가 '놋대접에 물을 담아와' 기지를 발휘하여 목사의 부당한 요구를 무효화시킨다.",
+    "metadata": {
+      "story": "지혜 있는 여인",
+      "type": "folktale",
+      "category": "지혜담"
+    }
+  },
+  {
+    "input": "Tell me about 과거 낙방",
+    "output": "고생하는 선비가 과거 시험에 거듭 낙방한다.",
+    "metadata": {
+      "story": "조흘대",
+      "type": "folktale",
+      "category": "소화"
+    }
+  },
+  {
+    "input": "Tell me about 개명",
+    "output": "유명한 작명가를 찾아가 '조흘대'로 이름을 바꾼다.",
+    "metadata": {
+      "story": "조흘대",
+      "type": "folktale",
+      "category": "소화"
+    }
+  },
+  {
+    "input": "Tell me about 왕의 유언",
+    "output": "왕이 병들어 죽으면서 암호 같은 말 '좋을 대로 하지'라고 한다.",
+    "metadata": {
+      "story": "조흘대",
+      "type": "folktale",
+      "category": "소화"
+    }
+  },
+  {
+    "input": "Tell me about 언어유희",
+    "output": "신하들이 이를 '조흘대'라는 사람을 가리키는 것으로 해석한다.",
+    "metadata": {
+      "story": "조흘대",
+      "type": "folktale",
+      "category": "소화"
+    }
+  },
+  {
+    "input": "Tell me about 즉위",
+    "output": "조흘대를 찾아내 새 왕으로 추대한다.",
+    "metadata": {
+      "story": "조흘대",
+      "type": "folktale",
+      "category": "소화"
+    }
+  },
+  {
+    "input": "Tell me about 죽음과 부활",
+    "output": "어린 선비가 죽었다가 4일 후 부활한다.",
+    "metadata": {
+      "story": "죽어서 저승 갔다온 이야기",
+      "type": "folktale",
+      "category": "저승담"
+    }
+  },
+  {
+    "input": "Tell me about 저승에서의 만남",
+    "output": "저승에서 전직 경찰관이 문지기로, 전직 한문 스승이 기록관으로 일하는 것을 본다.",
+    "metadata": {
+      "story": "죽어서 저승 갔다온 이야기",
+      "type": "folktale",
+      "category": "저승담"
+    }
+  },
+  {
+    "input": "Tell me about 스승의 고통",
+    "output": "스승의 영혼이 가족이 제사를 지내지 않아 굶주리고, 적절한 옷도 없어 고통받고 있다.",
+    "metadata": {
+      "story": "죽어서 저승 갔다온 이야기",
+      "type": "folktale",
+      "category": "저승담"
+    }
+  },
+  {
+    "input": "Tell me about 전언 전달",
+    "output": "부활한 선비가 스승의 아들에게 이 소식을 전한다.",
+    "metadata": {
+      "story": "죽어서 저승 갔다온 이야기",
+      "type": "folktale",
+      "category": "저승담"
+    }
+  },
+  {
+    "input": "Tell me about 제사 거행",
+    "output": "아들이 '아버지의 옷을 태우고 제대로 된 조상 제사를 지낸다.'",
+    "metadata": {
+      "story": "죽어서 저승 갔다온 이야기",
+      "type": "folktale",
+      "category": "저승담"
+    }
+  },
+  {
+    "input": "Tell me about 중국 사신 파견",
+    "output": "중국 왕이 조선의 문장가들을 평가하기 위해 사신을 보낸다.",
+    "metadata": {
+      "story": "중국사신 물리친 김삿갓",
+      "type": "folktale",
+      "category": "기지담"
+    }
+  },
+  {
+    "input": "Tell me about 나룻배 사공 변장",
+    "output": "김삿갓이 나룻배 사공으로 변장한다.",
+    "metadata": {
+      "story": "중국사신 물리친 김삿갓",
+      "type": "folktale",
+      "category": "기지담"
+    }
+  },
+  {
+    "input": "Tell me about 첫 번째 대응",
+    "output": "'새가 사람 눈을 쪼았구나'라는 중국 사신의 지적에 '바람이 부니 코가 한편으로 비껴 섰다'고 대응한다.",
+    "metadata": {
+      "story": "중국사신 물리친 김삿갓",
+      "type": "folktale",
+      "category": "기지담"
+    }
+  },
+  {
+    "input": "Tell me about 최종 승리",
+    "output": "해가 질 때도 시적 대응으로 사신들을 압도하여 결국 중국으로 돌아가게 만든다.",
+    "metadata": {
+      "story": "중국사신 물리친 김삿갓",
+      "type": "folktale",
+      "category": "기지담"
+    }
+  },
+  {
+    "input": "Tell me about 계모의 학대",
+    "output": "콩의 애기가 의붓어머니의 가혹한 대우를 받으나 순종한다.",
+    "metadata": {
+      "story": "콩의 애기 폿의 애기",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 동물들의 도움",
+    "output": "동물들의 도움으로 영등굿에 참여하게 된다.",
+    "metadata": {
+      "story": "콩의 애기 폿의 애기",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 혼인",
+    "output": "하늘 애기와 결혼한다.",
+    "metadata": {
+      "story": "콩의 애기 폿의 애기",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 폿의 애기의 질투",
+    "output": "폿의 애기의 질투로 인한 반전과 복수가 이어진다.",
+    "metadata": {
+      "story": "콩의 애기 폿의 애기",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 자연 현상의 유래",
+    "output": "벼룩, 모기 등의 기원담을 포함한다.",
+    "metadata": {
+      "story": "콩의 애기 폿의 애기",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 늦잠 꾸중",
+    "output": "시어머니가 늦잠 자는 며느리를 깨우며 꾸중한다.",
+    "metadata": {
+      "story": "며느리의 말대꾸",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 비 오는 날 응수",
+    "output": "나중에 비가 오자 며느리는 '마당을 어디로 말아들입니까?'라고 묻는다.",
+    "metadata": {
+      "story": "며느리의 말대꾸",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 시어머니의 답변과 재응수",
+    "output": "시어머니의 답변에 며느리는 '어머니네 집에서는 늦잠 자면 사타구니에 해가 박힙니까?'라고 언짢은 응답을 한다.",
+    "metadata": {
+      "story": "며느리의 말대꾸",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 말싸움의 승리",
+    "output": "'한 말이나 져라'는 시어머니의 표현에 며느리는 '물보리 닷 말은 찧겠습니다'라고 기지 있게 맞대응하여 결국 시어머니를 이긴다.",
+    "metadata": {
+      "story": "며느리의 말대꾸",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 탄생과 성장",
+    "output": "현종 때 대정군에서 태어난 영관은 어릴 때부터 뛰어난 힘을 지녔다.",
+    "metadata": {
+      "story": "오찰방",
+      "type": "folktale",
+      "category": "장사담"
+    }
+  },
+  {
+    "input": "Tell me about 씨름 승리",
+    "output": "제주 삼읍에서 씨름 승리를 거둔다.",
+    "metadata": {
+      "story": "오찰방",
+      "type": "folktale",
+      "category": "장사담"
+    }
+  },
+  {
+    "input": "Tell me about 누이에게 패배",
+    "output": "한림 씨름 대회에서 변장한 누이에게 패배하는 굴욕을 겪는다.",
+    "metadata": {
+      "story": "오찰방",
+      "type": "folktale",
+      "category": "장사담"
+    }
+  },
+  {
+    "input": "Tell me about 절벽 추락",
+    "output": "아버지로부터 도망치다 바군지 봉우리에서 치명적으로 보이는 절벽으로 떨어지지만 신비롭게 생존한다.",
+    "metadata": {
+      "story": "오찰방",
+      "type": "folktale",
+      "category": "장사담"
+    }
+  },
+  {
+    "input": "Tell me about 날개의 발견과 소실",
+    "output": "겨드랑이 아래 숨겨진 날개가 발견되고, 아버지가 이를 태워버린다.",
+    "metadata": {
+      "story": "오찰방",
+      "type": "folktale",
+      "category": "장사담"
+    }
+  },
+  {
+    "input": "Tell me about 찰방 임명",
+    "output": "서울로 가서 왕실 창고를 약탈하던 악명 높은 도둑을 잡아 '찰방' 벼슬을 받는다.",
+    "metadata": {
+      "story": "오찰방",
+      "type": "folktale",
+      "category": "장사담"
+    }
+  },
+  {
+    "input": "Tell me about 마을 아이들과의 만남",
+    "output": "마을 아이들이 이항복의 외모를 조롱하지만 그는 평정을 유지한다. 고위 관리가 와서 공손히 절하자 아이들이 도망친다.",
+    "metadata": {
+      "story": "오성 이항복",
+      "type": "folktale",
+      "category": "인물담"
+    }
+  },
+  {
+    "input": "Tell me about 이여송과의 만남",
+    "output": "임진왜란 당시 이항복이 지도를 보여줌으로써 조선의 역량을 중국 장군에게 인식시킨다.",
+    "metadata": {
+      "story": "오성 이항복",
+      "type": "folktale",
+      "category": "인물담"
+    }
+  },
+  {
+    "input": "Tell me about 혼인 준비",
+    "output": "장군의 딸과 혼인하기 전, 아이들에게 신발을 훔치게 하여 미래의 신부를 미리 보는 기지를 발휘한다.",
+    "metadata": {
+      "story": "오성 이항복",
+      "type": "folktale",
+      "category": "인물담"
+    }
+  },
+  {
+    "input": "Tell me about 아내 시험",
+    "output": "떡 개수를 세는 사찰 의식을 통해 아내와 장모의 덕행을 장난스럽게 시험한다.",
+    "metadata": {
+      "story": "오성 이항복",
+      "type": "folktale",
+      "category": "인물담"
+    }
+  },
+  {
+    "input": "Tell me about 제사 중단",
+    "output": "홀어머니가 남편 사후 팽나무 제사를 중단한다.",
+    "metadata": {
+      "story": "팽나무신을 이긴 여인",
+      "type": "folktale",
+      "category": "신이담"
+    }
+  },
+  {
+    "input": "Tell me about 신의 경고",
+    "output": "백발노인(팽나무신)이 꿈에 나타나 경고하지만 거절당한다.",
+    "metadata": {
+      "story": "팽나무신을 이긴 여인",
+      "type": "folktale",
+      "category": "신이담"
+    }
+  },
+  {
+    "input": "Tell me about 아들들의 죽음",
+    "output": "큰아들과 둘째 아들이 차례로 사망한다.",
+    "metadata": {
+      "story": "팽나무신을 이긴 여인",
+      "type": "folktale",
+      "category": "신이담"
+    }
+  },
+  {
+    "input": "Tell me about 신의 고백",
+    "output": "신이 마지막에 '두 아들의 죽음은 저승 명부의 정해진 운명이며, 협박으로 제사를 얻으려 했을 뿐'이라 고백한다.",
+    "metadata": {
+      "story": "팽나무신을 이긴 여인",
+      "type": "folktale",
+      "category": "신이담"
+    }
+  },
+  {
+    "input": "Tell me about 막내의 장수",
+    "output": "막내아들은 신의 말대로 82세까지 부유하게 살았다.",
+    "metadata": {
+      "story": "팽나무신을 이긴 여인",
+      "type": "folktale",
+      "category": "신이담"
+    }
+  },
+  {
+    "input": "Tell me about 어머니의 죽음",
+    "output": "효심 깊은 아들이 어머니 사후 깊은 슬픔에 빠진다.",
+    "metadata": {
+      "story": "피가 흐른 어머니 조상",
+      "type": "folktale",
+      "category": "세속담"
+    }
+  },
+  {
+    "input": "Tell me about 초상화와 흙상",
+    "output": "먼저 초상화를 그리고, 나중에 흙으로 상을 빚는다.",
+    "metadata": {
+      "story": "피가 흐른 어머니 조상",
+      "type": "folktale",
+      "category": "세속담"
+    }
+  },
+  {
+    "input": "Tell me about 매일 공양",
+    "output": "매일 공양과 애도 의식을 유지한다.",
+    "metadata": {
+      "story": "피가 흐른 어머니 조상",
+      "type": "folktale",
+      "category": "세속담"
+    }
+  },
+  {
+    "input": "Tell me about 친구들의 파괴",
+    "output": "방문한 친구들이 조롱하며 흙상을 부순다.",
+    "metadata": {
+      "story": "피가 흐른 어머니 조상",
+      "type": "folktale",
+      "category": "세속담"
+    }
+  },
+  {
+    "input": "Tell me about 기적",
+    "output": "'흙상에서 피가 흘렀다'는 기적이 일어난다.",
+    "metadata": {
+      "story": "피가 흐른 어머니 조상",
+      "type": "folktale",
+      "category": "세속담"
+    }
+  },
+  {
+    "input": "Tell me about 탄생",
+    "output": "토끼 같은 외모를 한 채 인간으로 환생한 천상의 존재.",
+    "metadata": {
+      "story": "토끼선생",
+      "type": "folktale",
+      "category": "본격담"
+    }
+  },
+  {
+    "input": "Tell me about 계모의 박해",
+    "output": "어머니 사후 계모가 여러 계략으로 그를 죽이려 한다.",
+    "metadata": {
+      "story": "토끼선생",
+      "type": "folktale",
+      "category": "본격담"
+    }
+  },
+  {
+    "input": "Tell me about 아이 구출",
+    "output": "마법의 주문으로 죽어가는 아이를 살려 초자연적 능력을 보인다.",
+    "metadata": {
+      "story": "토끼선생",
+      "type": "folktale",
+      "category": "본격담"
+    }
+  },
+  {
+    "input": "Tell me about 가뭄 해결",
+    "output": "악한 천상의 용을 벌하여 가뭄을 해결하고, 옥황상제가 소원을 들어준다.",
+    "metadata": {
+      "story": "토끼선생",
+      "type": "folktale",
+      "category": "본격담"
+    }
+  },
+  {
+    "input": "Tell me about 역설적 죽음",
+    "output": "우주적 지식에도 불구하고 자신의 죽음을 예견하지 못한다. 오히려 평범한 농부가 그의 죽음을 알려준다.",
+    "metadata": {
+      "story": "토끼선생",
+      "type": "folktale",
+      "category": "본격담"
+    }
+  },
+  {
+    "input": "Tell me about 저승 경험",
+    "output": "승굴 마을의 한 남자가 저승에 갔다가 아직 때가 되지 않아 돌아오게 된다.",
+    "metadata": {
+      "story": "이승의 죄를 면한 영혼",
+      "type": "folktale",
+      "category": "저승담"
+    }
+  },
+  {
+    "input": "Tell me about 친구의 고통",
+    "output": "저승에서 친구가 과거의 잘못(분실된 차용증을 이용한 사기 빚 징수)으로 벌을 받고 있는 것을 발견한다.",
+    "metadata": {
+      "story": "이승의 죄를 면한 영혼",
+      "type": "folktale",
+      "category": "저승담"
+    }
+  },
+  {
+    "input": "Tell me about 빚 청산",
+    "output": "이승으로 돌아와 친구의 아들에게 알려 빚을 갚고 영수증을 받게 한다.",
+    "metadata": {
+      "story": "이승의 죄를 면한 영혼",
+      "type": "folktale",
+      "category": "저승담"
+    }
+  },
+  {
+    "input": "Tell me about 친구의 해방",
+    "output": "1년 후 친구가 꿈에 나타나 죄가 사해졌고 이제 조상 제사를 받을 수 있게 되었다고 감사를 전한다.",
+    "metadata": {
+      "story": "이승의 죄를 면한 영혼",
+      "type": "folktale",
+      "category": "저승담"
+    }
+  },
+  {
+    "input": "Tell me about 여우의 둔갑 목격",
+    "output": "이순풍이 여우가 사람으로 둔갑하는 과정을 목격한다.",
+    "metadata": {
+      "story": "이순풍과 여우",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 여우의 수탈",
+    "output": "여우가 노인으로 변신하여 마을에서 병을 고쳐준다며 재물을 수탈하려 한다.",
+    "metadata": {
+      "story": "이순풍과 여우",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 이순풍의 저지",
+    "output": "이순풍이 지혜로 여우를 막는다.",
+    "metadata": {
+      "story": "이순풍과 여우",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 황소 변신",
+    "output": "여우의 복수로 이순풍이 황소가 되지만, 배추를 먹고 인간으로 복귀한다.",
+    "metadata": {
+      "story": "이순풍과 여우",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 최종 대결",
+    "output": "여러 차례 여우와 대결하여 해학적인 결말에 이른다.",
+    "metadata": {
+      "story": "이순풍과 여우",
+      "type": "folktale",
+      "category": "민담"
+    }
+  },
+  {
+    "input": "Tell me about 신선의 산",
+    "output": "한라산은 원래 신선이 노는 산이다. 신선들은 흰 사슴을 타고 정상에 있는 백록담의 맑은 물을 사슴에게 먹인다고 한다. 백록담의 이름은 이 백록에서 유래했다.",
+    "metadata": {
+      "story": "백록담 전설",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 사냥꾼의 실수",
+    "output": "사냥꾼 안씨가 무의식적으로 백록을 쏘고 칼로 찔렀다.",
+    "metadata": {
+      "story": "백록담 전설",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 정성스러운 참회",
+    "output": "안씨는 그 자리에 엎드려 극진히 빌었다.",
+    "metadata": {
+      "story": "백록담 전설",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 초자연적 구원",
+    "output": "정성스러운 참회로 목숨을 건지고 140세까지 장수했다.",
+    "metadata": {
+      "story": "백록담 전설",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 떠도는 섬",
+    "output": "비양도는 원래 중국 방향에서 떠돌던 섬이었다. 조류에 밀려 제주까지 흘러오고 있었다.",
+    "metadata": {
+      "story": "비양도 전설",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 해녀의 발견",
+    "output": "임신한 해녀가 바다에서 해초를 캐다가 이 섬을 발견했다.",
+    "metadata": {
+      "story": "비양도 전설",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 섬의 고정",
+    "output": "해녀가 '섬이 떠내려 온다!'고 손가락질하거나, 섬에 올라 소변을 봤다. 이 행위로 인해 움직이던 섬이 그 자리에서 움직이지 않게 되었다.",
+    "metadata": {
+      "story": "비양도 전설",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 빙의 현상",
+    "output": "마을 바보에게 최영 장군의 영혼이 들린다.",
+    "metadata": {
+      "story": "최영 장군 귀신들린 이야기",
+      "type": "legend",
+      "category": "신이담"
+    }
+  },
+  {
+    "input": "Tell me about 진위 확인",
+    "output": "마을 유지들이 똑똒한 박명래에게 바보의 정체를 확인하도록 한다.",
+    "metadata": {
+      "story": "최영 장군 귀신들린 이야기",
+      "type": "legend",
+      "category": "신이담"
+    }
+  },
+  {
+    "input": "Tell me about 증명",
+    "output": "박명래가 위패의 글귀를 묻자, 바보가 갑자기 '조국도통사 최영대장지신'이라 써내려 최영 장군의 영혼임을 증명한다.",
+    "metadata": {
+      "story": "최영 장군 귀신들린 이야기",
+      "type": "legend",
+      "category": "신이담"
+    }
+  },
+  {
+    "input": "Tell me about 송천총의 힘",
+    "output": "다리 마을의 강한 장사 송천총이 싸우는 두 마리 사슴을 머리가 부딪혀 쓰러질 때까지 밀어붙이는 뛰어난 힘을 보인다.",
+    "metadata": {
+      "story": "다리 송천총과 심돌 부대각",
+      "type": "legend",
+      "category": "장사전설"
+    }
+  },
+  {
+    "input": "Tell me about 도전",
+    "output": "심돌 마을의 부대각이 그의 힘에 대한 소문을 듣고 씨름 대결을 신청한다.",
+    "metadata": {
+      "story": "다리 송천총과 심돌 부대각",
+      "type": "legend",
+      "category": "장사전설"
+    }
+  },
+  {
+    "input": "Tell me about 우연한 만남",
+    "output": "두 장사가 우연히 들판에서 만난다.",
+    "metadata": {
+      "story": "다리 송천총과 심돌 부대각",
+      "type": "legend",
+      "category": "장사전설"
+    }
+  },
+  {
+    "input": "Tell me about 3일간의 씨름",
+    "output": "3일 연속 씨름을 하지만 승부를 가리지 못한다.",
+    "metadata": {
+      "story": "다리 송천총과 심돌 부대각",
+      "type": "legend",
+      "category": "장사전설"
+    }
+  },
+  {
+    "input": "Tell me about 평화적 종결",
+    "output": "결국 대결을 평화롭게 끝내기로 합의한다.",
+    "metadata": {
+      "story": "다리 송천총과 심돌 부대각",
+      "type": "legend",
+      "category": "장사전설"
+    }
+  },
+  {
+    "input": "Tell me about 사냥꾼의 등반",
+    "output": "사냥꾼이 먹이를 찾아 한라산 백록담까지 오른다.",
+    "metadata": {
+      "story": "한라산과 하얀 사슴",
+      "type": "legend",
+      "category": "신선전설"
+    }
+  },
+  {
+    "input": "Tell me about 신선의 출현",
+    "output": "흰 사슴을 탄 신선이 나타나 사슴 무리를 물가로 이끈다.",
+    "metadata": {
+      "story": "한라산과 하얀 사슴",
+      "type": "legend",
+      "category": "신선전설"
+    }
+  },
+  {
+    "input": "Tell me about 화살의 실패",
+    "output": "사냥꾼이 뒤쪽 사슴에 화살을 쏘지만, 신선이 몸을 구부려 보호하자 '화살이 빗나가 휘어진다.'",
+    "metadata": {
+      "story": "한라산과 하얀 사슴",
+      "type": "legend",
+      "category": "신선전설"
+    }
+  },
+  {
+    "input": "Tell me about 승천",
+    "output": "신선과 사슴이 흰 구름 속으로 사라진다.",
+    "metadata": {
+      "story": "한라산과 하얀 사슴",
+      "type": "legend",
+      "category": "신선전설"
+    }
+  },
+  {
+    "input": "Tell me about 호종단의 도래",
+    "output": "고려시대 중국 풍수가 호종단이 제주에 도착한다.",
+    "metadata": {
+      "story": "호종단",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 수맥 탐지",
+    "output": "'호종단이 수맥을 찾는 데 능한 개를 데려와 지하 수맥을 찾았다.'",
+    "metadata": {
+      "story": "호종단",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 개의 혼란",
+    "output": "개가 다른 장소에서 혼란에 빠진다.",
+    "metadata": {
+      "story": "호종단",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 개의 죽음",
+    "output": "풍수가가 분노하여 안내견을 죽인다.",
+    "metadata": {
+      "story": "호종단",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 능력 상실과 죽음",
+    "output": "일을 계속할 능력을 잃고 중국으로 돌아가려다 바다에서 죽는다.",
+    "metadata": {
+      "story": "호종단",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 차귀도 명명",
+    "output": "섬 주민들이 근처 섬을 '돌아옴을 막는 섬'이라는 뜻의 '차귀도(遮歸島)'라 명명한다.",
+    "metadata": {
+      "story": "호종단",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 우물가에서의 만남",
+    "output": "자청비가 우물가에서 문국성 도령을 만난다.",
+    "metadata": {
+      "story": "자청비와 문국성 도령",
+      "type": "legend",
+      "category": "애정전설"
+    }
+  },
+  {
+    "input": "Tell me about 남장 유학",
+    "output": "남자로 변장하여 서울까지 따라가 공부한다.",
+    "metadata": {
+      "story": "자청비와 문국성 도령",
+      "type": "legend",
+      "category": "애정전설"
+    }
+  },
+  {
+    "input": "Tell me about 정체 미발각",
+    "output": "정체를 밝히려 시도하지만 문국성은 끝까지 알아채지 못한다.",
+    "metadata": {
+      "story": "자청비와 문국성 도령",
+      "type": "legend",
+      "category": "애정전설"
+    }
+  },
+  {
+    "input": "Tell me about 귀향과 혼인",
+    "output": "자청비가 집으로 돌아가 다른 사람과 결혼한다.",
+    "metadata": {
+      "story": "자청비와 문국성 도령",
+      "type": "legend",
+      "category": "애정전설"
+    }
+  },
+  {
+    "input": "Tell me about 문국성의 죽음",
+    "output": "문국성이 상심으로 죽는다.",
+    "metadata": {
+      "story": "자청비와 문국성 도령",
+      "type": "legend",
+      "category": "애정전설"
+    }
+  },
+  {
+    "input": "Tell me about 무덤에서의 변신",
+    "output": "자청비가 무덤에서 찢어진 치마가 흰 나비와 검은 나비로 변한다.",
+    "metadata": {
+      "story": "자청비와 문국성 도령",
+      "type": "legend",
+      "category": "애정전설"
+    }
+  },
+  {
+    "input": "Tell me about 기근 상황",
+    "output": "오백 명의 아들을 둔 과부가 기근에 직면한다.",
+    "metadata": {
+      "story": "오백장군",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 어머니의 죽음",
+    "output": "죽을 끓이던 중 실수로 끓는 솥에 빠져 죽는다.",
+    "metadata": {
+      "story": "오백장군",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 아들들의 발견",
+    "output": "집에 돌아온 아들들이 죽을 먹고 나서야 막내가 국자에서 어머니의 뼈를 발견한다.",
+    "metadata": {
+      "story": "오백장군",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 화석 변신",
+    "output": "비통에 빠진 막내는 서쪽으로 달려가 차귀도에서 외돌개 바위로 변하고, 나머지 499명은 영실의 바위가 되었다.",
+    "metadata": {
+      "story": "오백장군",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 혼인",
+    "output": "조실부모한 남편과 고씨 성의 아내가 혼인했다.",
+    "metadata": {
+      "story": "열녀고씨 절개서린 절부암",
+      "type": "legend",
+      "category": "열녀전설"
+    }
+  },
+  {
+    "input": "Tell me about 남편의 죽음",
+    "output": "남편이 어업 중 풍랑으로 사망한다.",
+    "metadata": {
+      "story": "열녀고씨 절개서린 절부암",
+      "type": "legend",
+      "category": "열녀전설"
+    }
+  },
+  {
+    "input": "Tell me about 아내의 자결",
+    "output": "아내는 남편의 시신을 찾다 절망하여 포구 옆 숲에서 목숨을 끊었다. 이후 남편의 시신이 떠올랐다.",
+    "metadata": {
+      "story": "열녀고씨 절개서린 절부암",
+      "type": "legend",
+      "category": "열녀전설"
+    }
+  },
+  {
+    "input": "Tell me about 선비의 꿈",
+    "output": "과거 낙방자 신재우가 꿈에서 고씨 부인의 권유를 받아 급제 후 제를 지내주고, 그 절벽을 절부암이라 부르게 되었다.",
+    "metadata": {
+      "story": "열녀고씨 절개서린 절부암",
+      "type": "legend",
+      "category": "열녀전설"
+    }
+  },
+  {
+    "input": "Tell me about 조천석의 존재",
+    "output": "조천항 근처에 '조천석'이라는 큰 바위가 있어 배를 정박하는 데 사용되었다.",
+    "metadata": {
+      "story": "연북정",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 풍수가의 경고",
+    "output": "유명한 풍수가가 지나가며 바위를 그대로 두면 마을에 문제가 생길 것이라 경고했다.",
+    "metadata": {
+      "story": "연북정",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 정자 건설",
+    "output": "주민들이 바위 주변에 흙과 돌로 성곽을 쌓고 그 위에 정자를 지었다. 원래 '쌍벽정'이라 불렸다가 '연북정'으로 개명했다.",
+    "metadata": {
+      "story": "연북정",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 목사의 부임",
+    "output": "이형상 목사가 1703년 제주에 부임했다.",
+    "metadata": {
+      "story": "영천 이목사",
+      "type": "legend",
+      "category": "인물전설"
+    }
+  },
+  {
+    "input": "Tell me about 병사의 원혼",
+    "output": "부임 당시 병사의 원혼이 나타나 장례를 요청했고, 목사는 이를 치러주었다.",
+    "metadata": {
+      "story": "영천 이목사",
+      "type": "legend",
+      "category": "인물전설"
+    }
+  },
+  {
+    "input": "Tell me about 무속 폐지",
+    "output": "목사는 체계적으로 당을 폐쇄하고 심방들을 농업에 종사하게 했다.",
+    "metadata": {
+      "story": "영천 이목사",
+      "type": "legend",
+      "category": "인물전설"
+    }
+  },
+  {
+    "input": "Tell me about 영혼의 복수",
+    "output": "제주를 떠날 때 원혼들이 배를 침몰시키려 했으나 간신히 목숨을 건졌다.",
+    "metadata": {
+      "story": "영천 이목사",
+      "type": "legend",
+      "category": "인물전설"
+    }
+  },
+  {
+    "input": "Tell me about 가난한 가족",
+    "output": "옛날 제주도에 오백 명의 아들을 둔 부인이 살았다. 많은 식구로 인해 집안 형편이 좋지 못했고, 흉년까지 들어 자식들을 먹이기 힘들어졌다.",
+    "metadata": {
+      "story": "영실기암과 오백장군",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 어머니의 희생",
+    "output": "부인은 아들들에게 양식을 구해 오라고 했다. 오백 명의 아들들이 사냥을 나간 사이, 부인은 아들들이 돌아와 먹을 죽을 끓였다. 아들이 오백이나 되다 보니 솥의 크기가 매우 컸다.",
+    "metadata": {
+      "story": "영실기암과 오백장군",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 비극적 사고",
+    "output": "어머니는 펄펄 끓는 죽을 젓다가 그만 솥에 빠져 죽고 말았다.",
+    "metadata": {
+      "story": "영실기암과 오백장군",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 형들의 실수",
+    "output": "사냥에서 돌아온 아들들은 배고픔에 어머니 찾을 생각을 잠시 잊고 죽을 먹었다.",
+    "metadata": {
+      "story": "영실기암과 오백장군",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 막내의 발견",
+    "output": "막내아들만이 어머니를 찾으며 집안을 뒤지다가, 가마솥 바닥에서 뼈가 드러났다. 그 뼈가 어머니의 뼈임을 알게 되었다.",
+    "metadata": {
+      "story": "영실기암과 오백장군",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 막내의 결별",
+    "output": "어머니의 고기로 만든 죽을 먹은 형들과는 살 수 없다며 집을 나간 막내아들은 울면서 달리다 한경면 고산리의 차귀도까지 갔고, 슬픔을 이기지 못하고 바위가 되어 버렸다.",
+    "metadata": {
+      "story": "영실기암과 오백장군",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 형들의 비탄",
+    "output": "사실을 알게 된 형들도 여기저기 늘어서서 슬픔에 겨워 통곡하다 그대로 바위로 굳었다. 그래서 이 바위를 '오백장군'이라 부르게 되었다.",
+    "metadata": {
+      "story": "영실기암과 오백장군",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 이무기의 소망",
+    "output": "왕지네라 불리는 이무기가 용이 되기를 갈망한다.",
+    "metadata": {
+      "story": "용둠벙",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 수행 시작",
+    "output": "대왕산의 동굴과 연못을 발견하고 고행을 시작한다.",
+    "metadata": {
+      "story": "용둠벙",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 산신령의 가르침",
+    "output": "산신령이 단순한 수행이 아닌 선행이 변신의 조건임을 가르친다.",
+    "metadata": {
+      "story": "용둠벙",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 선행 실천",
+    "output": "흩어진 섬들을 질서 있게 배열하고 추자도를 거센 바람과 파도로부터 보호한다.",
+    "metadata": {
+      "story": "용둠벙",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 승천",
+    "output": "천둥이 두 번 울리자 승천을 시도하지만 돌길이 미완성이라 실패. 안개를 이용해 마침내 승천한다.",
+    "metadata": {
+      "story": "용둠벙",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 백마의 염원",
+    "output": "바다에 살던 백마가 용이 되기를 원했다.",
+    "metadata": {
+      "story": "용머리바위",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 장사의 계략",
+    "output": "힘센 장사가 백마를 잡으려 나타나자, 백마는 사람을 보면 바다로 숨었다. 장사는 허수아비를 만들어 백마를 속였다.",
+    "metadata": {
+      "story": "용머리바위",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 백마 포획",
+    "output": "백마가 경계를 풀었을 때 장사가 목덜미를 붙잡았다.",
+    "metadata": {
+      "story": "용머리바위",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 폭풍과 변신",
+    "output": "백마가 하늘로 울음을 내자 폭풍이 몰아쳤고, 날씨가 개자 백마는 사라지고 용 머리 모양의 바위만 남았다.",
+    "metadata": {
+      "story": "용머리바위",
+      "type": "legend",
+      "category": "지명유래"
+    }
+  },
+  {
+    "input": "Tell me about 7년 가뭄",
+    "output": "7년째 비 한 방울 내리지 않는 극심한 가뭄이 계속되었다.",
+    "metadata": {
+      "story": "용소와 기우제",
+      "type": "legend",
+      "category": "인물전설"
+    }
+  },
+  {
+    "input": "Tell me about 기우제 거행",
+    "output": "고대장이 한천 하류의 용소에서 쉰대 자 긴 용을 짚으로 만들어 기우제를 지냈다.",
+    "metadata": {
+      "story": "용소와 기우제",
+      "type": "legend",
+      "category": "인물전설"
+    }
+  },
+  {
+    "input": "Tell me about 비의 강림",
+    "output": "동쪽 사라봉에서 검은 구름이 떠올라 폭우가 내렸다.",
+    "metadata": {
+      "story": "용소와 기우제",
+      "type": "legend",
+      "category": "인물전설"
+    }
+  },
+  {
+    "input": "Tell me about 과양생이 부부의 살인",
+    "output": "과양생이 부부가 살인을 저지른다.",
+    "metadata": {
+      "story": "차사본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 강림의 저승 방문",
+    "output": "강림이 사건 해결을 위해 저승을 방문한다.",
+    "metadata": {
+      "story": "차사본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 염라왕의 신뢰",
+    "output": "강림이 염라왕의 신뢰를 얻는다.",
+    "metadata": {
+      "story": "차사본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 차사 임명",
+    "output": "강림이 '사람을 저승으로 데려가는 차사'로 임명된다.",
+    "metadata": {
+      "story": "차사본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 혼돈의 시작",
+    "output": "천지 개벽 시 여러 개의 해와 달이 존재했다. 인간이 낮에는 뜨거워 죽고 밤에는 추워 죽을 지경이었다.",
+    "metadata": {
+      "story": "천지왕본풀이",
+      "type": "myth",
+      "category": "창조신화"
+    }
+  },
+  {
+    "input": "Tell me about 천지왕의 하강",
+    "output": "천지왕이 지상에 내려와 총멩부인을 만났다. 땅의 여신이 하늘의 신에게 '곤밥'(흰밥, 고운 쌀밥)을 해서 바쳤다. 두 사람 사이에서 대별왕과 소별왕이 태어났다.",
+    "metadata": {
+      "story": "천지왕본풀이",
+      "type": "myth",
+      "category": "창조신화"
+    }
+  },
+  {
+    "input": "Tell me about 일월 조정 (사일신화)",
+    "output": "형제는 박씨를 심어 하늘로 올라갔다. '1,000근 활 100근 화살'로 무장하여 해와 달을 각각 하나씩 쏘아 떨어뜨려 세상의 일월을 정리했다.",
+    "metadata": {
+      "story": "천지왕본풀이",
+      "type": "myth",
+      "category": "창조신화"
+    }
+  },
+  {
+    "input": "Tell me about 이승 차지 경쟁",
+    "output": "형제는 누가 이승을 차지할지 내기를 벌였다. 꽃씨를 심어 꽃이 피는가로 승부를 결정하기로 했다. 소별왕이 대별왕이 잠든 사이에 꽃을 바꿔치기했다.",
+    "metadata": {
+      "story": "천지왕본풀이",
+      "type": "myth",
+      "category": "창조신화"
+    }
+  },
+  {
+    "input": "Tell me about 세상 질서의 성립",
+    "output": "속임수로 소별왕이 이승을, 대별왕이 저승을 차지했다. 그 결과 저승법은 맑고 청랑한 데 반해, 이승법은 그렇지 않아 살인·역적·도둑·간음 등이 일어나게 되었다.",
+    "metadata": {
+      "story": "천지왕본풀이",
+      "type": "myth",
+      "category": "창조신화"
+    }
+  },
+  {
+    "input": "Tell me about 임정국 대감의 딸",
+    "output": "임정국 대감의 딸이 중의 아들을 임신하게 된다.",
+    "metadata": {
+      "story": "초공본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 젯부기 삼 형제 탄생",
+    "output": "세 아들(본멩두, 신멩두, 삼멩두)이 태어난다.",
+    "metadata": {
+      "story": "초공본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 악기 제작과 어머니 구출",
+    "output": "삼 형제가 악기를 만들어 어머니를 살린다.",
+    "metadata": {
+      "story": "초공본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 굿법의 시작",
+    "output": "삼 형제가 굿법을 시작하며 무조신이 된다.",
+    "metadata": {
+      "story": "초공본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 심방의 탄생",
+    "output": "유정승 따님 아기가 신병을 앓다가 무조신의 굿법을 배워 심방이 된다.",
+    "metadata": {
+      "story": "초공본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 허 정승 딸의 발견",
+    "output": "제주의 김씨 사공이 한양 진상 임무 중 버려진 허 정승의 딸을 발견하고 제주로 데려온다.",
+    "metadata": {
+      "story": "구실할망본풀이",
+      "type": "myth",
+      "category": "조상본풀이"
+    }
+  },
+  {
+    "input": "Tell me about 해녀 생활",
+    "output": "그녀가 해녀 일을 배워 전복과 진주를 대량으로 채취하게 된다.",
+    "metadata": {
+      "story": "구실할망본풀이",
+      "type": "myth",
+      "category": "조상본풀이"
+    }
+  },
+  {
+    "input": "Tell me about 벼슬 하사",
+    "output": "진주를 임금에게 진상한 공으로 '부인주' 벼슬을 받아 '구실 할망'이라 불리게 된다.",
+    "metadata": {
+      "story": "구실할망본풀이",
+      "type": "myth",
+      "category": "조상본풀이"
+    }
+  },
+  {
+    "input": "Tell me about 조상신 좌정",
+    "output": "'딸에서 딸로 계승되어 위하는 조상신'이 되겠다는 유언을 남긴다.",
+    "metadata": {
+      "story": "구실할망본풀이",
+      "type": "myth",
+      "category": "조상본풀이"
+    }
+  },
+  {
+    "input": "Tell me about 사라도령과 원강아미의 결혼",
+    "output": "두 집안의 자녀인 사라도령과 원강아미가 결혼한다.",
+    "metadata": {
+      "story": "이공본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 서천 꽃밭으로",
+    "output": "사라도령이 서천 꽃밭의 꽃감관으로 임명되어 떠나고, 임신한 원강아미가 따라간다.",
+    "metadata": {
+      "story": "이공본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 종으로 팔림",
+    "output": "길을 잃은 원강아미는 장자집에 종으로 팔린다.",
+    "metadata": {
+      "story": "이공본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 할락궁이의 탄생",
+    "output": "원강아미가 할락궁이를 낳는다.",
+    "metadata": {
+      "story": "이공본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 아버지 찾기",
+    "output": "할락궁이가 신표를 가지고 아버지를 찾아 서천 꽃밭으로 향한다.",
+    "metadata": {
+      "story": "이공본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 복수와 구원",
+    "output": "멸망악심꽃으로 장자 일족을 멸망시키고, 환생꽃으로 어머니를 되살린다.",
+    "metadata": {
+      "story": "이공본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 남 선비의 출타",
+    "output": "남 선비와 여산 부인이 부부로 살다가 남편이 무곡 장사를 떠난다.",
+    "metadata": {
+      "story": "문전본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 귀일의 딸에게 홀림",
+    "output": "남편이 오동 나라의 간악한 귀일의 딸에게 홀려 재산을 잃고 눈까지 멀게 된다.",
+    "metadata": {
+      "story": "문전본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 여산 부인의 여행",
+    "output": "아내가 남편을 찾아간다.",
+    "metadata": {
+      "story": "문전본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 아내의 죽음",
+    "output": "귀일의 딸이 아내를 물에 빠뜨려 죽인다.",
+    "metadata": {
+      "story": "문전본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 계모의 악행 발각",
+    "output": "전실 자식들에 의해 계모의 악행이 드러난다.",
+    "metadata": {
+      "story": "문전본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 신격화",
+    "output": "귀일의 딸은 측간신이 되고, 남편은 주목지신, 어머니는 조왕신으로 신격화된다.",
+    "metadata": {
+      "story": "문전본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 안씨 삼형제 정착",
+    "output": "안씨 삼형제가 제주도에 정착하여 선주(배의 주인)가 된다.",
+    "metadata": {
+      "story": "나주기민창조상본풀이",
+      "type": "myth",
+      "category": "조상본풀이"
+    }
+  },
+  {
+    "input": "Tell me about 칠년 가뭄과 쌀 구매",
+    "output": "칠년 가뭄 중에 나주의 기민창에서 쌀을 구매한다.",
+    "metadata": {
+      "story": "나주기민창조상본풀이",
+      "type": "myth",
+      "category": "조상본풀이"
+    }
+  },
+  {
+    "input": "Tell me about 폭풍과 뱀신의 도움",
+    "output": "폭풍으로 배가 파손되자 뱀신이 나타나 구멍을 막아준다.",
+    "metadata": {
+      "story": "나주기민창조상본풀이",
+      "type": "myth",
+      "category": "조상본풀이"
+    }
+  },
+  {
+    "input": "Tell me about 뱀신의 정체",
+    "output": "뱀신은 꿈속에서 기민창의 쌀을 지키던 신임이 밝혀진다.",
+    "metadata": {
+      "story": "나주기민창조상본풀이",
+      "type": "myth",
+      "category": "조상본풀이"
+    }
+  },
+  {
+    "input": "Tell me about 조상신 좌정",
+    "output": "뱀신이 안씨 집안의 수호신이자 어업의 수호신으로 모셔진다.",
+    "metadata": {
+      "story": "나주기민창조상본풀이",
+      "type": "myth",
+      "category": "조상본풀이"
+    }
+  },
+  {
+    "input": "Tell me about 거지 부부의 부자 되기",
+    "output": "거지 부부가 세 딸을 낳은 후 부자가 된다.",
+    "metadata": {
+      "story": "삼공본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 막내딸의 대답",
+    "output": "막내딸 가믄장아기가 자신의 타고난 복 때문에 잘 산다고 대답한다.",
+    "metadata": {
+      "story": "삼공본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 쫓겨남",
+    "output": "부모가 그녀를 내쫓는다.",
+    "metadata": {
+      "story": "삼공본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 마퉁이와 결혼",
+    "output": "가믄장아기가 마퉁이 형제와 결혼하여 금은보화를 얻어 부자가 된다.",
+    "metadata": {
+      "story": "삼공본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 부모와 재회",
+    "output": "거지 잔치를 열어 부모를 찾아 재결합한다.",
+    "metadata": {
+      "story": "삼공본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 세 신인의 용출",
+    "output": "세 신인(양을나, 고을나, 부을나)이 모흥혈에서 솟아난다.",
+    "metadata": {
+      "story": "삼성신화와 삼공주",
+      "type": "myth",
+      "category": "건국신화"
+    }
+  },
+  {
+    "input": "Tell me about 수렵생활",
+    "output": "수렵생활을 하다가 동쪽 바다에서 세 공주와 오곡의 씨, 가축을 받는다.",
+    "metadata": {
+      "story": "삼성신화와 삼공주",
+      "type": "myth",
+      "category": "건국신화"
+    }
+  },
+  {
+    "input": "Tell me about 혼인",
+    "output": "세 공주와 혼인한다.",
+    "metadata": {
+      "story": "삼성신화와 삼공주",
+      "type": "myth",
+      "category": "건국신화"
+    }
+  },
+  {
+    "input": "Tell me about 영역 분배",
+    "output": "활을 쏘아 거처할 땅을 정한다.",
+    "metadata": {
+      "story": "삼성신화와 삼공주",
+      "type": "myth",
+      "category": "건국신화"
+    }
+  },
+  {
+    "input": "Tell me about 탐라국 건설",
+    "output": "제일도·제이도·제삼도(현재의 제주시 일도동·이도동·삼도동)를 건설한다.",
+    "metadata": {
+      "story": "삼성신화와 삼공주",
+      "type": "myth",
+      "category": "건국신화"
+    }
+  },
+  {
+    "input": "Tell me about 세 신인의 탄생",
+    "output": "태초에 제주 땅 삼성혈(모흥혈)에서 세 신인이 솟아났다. 고을나(高乙那), 양을나(良乙那·梁乙那), 부을나(夫乙那)이다.",
+    "metadata": {
+      "story": "삼성신화",
+      "type": "myth",
+      "category": "건국신화"
+    }
+  },
+  {
+    "input": "Tell me about 세 공주의 도착",
+    "output": "벽랑국의 세 공주가 오곡의 종자와 송아지, 망아지를 싣고 나무 상자를 타고 바다를 건너왔다. 황루알 해안에서 발견되었다.",
+    "metadata": {
+      "story": "삼성신화",
+      "type": "myth",
+      "category": "건국신화"
+    }
+  },
+  {
+    "input": "Tell me about 혼인",
+    "output": "세 신인은 혼인지(婚姻池)에서 세 공주와 혼인했다.",
+    "metadata": {
+      "story": "삼성신화",
+      "type": "myth",
+      "category": "건국신화"
+    }
+  },
+  {
+    "input": "Tell me about 영역 분배",
+    "output": "혼인 후 각자의 영역을 표시하기 위해 화살을 쏘았다. 이 장소가 삼사석(三射石)이다.",
+    "metadata": {
+      "story": "삼성신화",
+      "type": "myth",
+      "category": "건국신화"
+    }
+  },
+  {
+    "input": "Tell me about 탐라국 건국",
+    "output": "세 신인은 각각 농경과 목축을 시작하여 탐라국의 기초를 세웠다.",
+    "metadata": {
+      "story": "삼성신화",
+      "type": "myth",
+      "category": "건국신화"
+    }
+  },
+  {
+    "input": "Tell me about 동해 용왕의 딸",
+    "output": "동해 용왕의 딸이 임신을 주관하지만 해산 방법을 모른다.",
+    "metadata": {
+      "story": "삼승할망본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 명진국 따님 아기 임명",
+    "output": "옥황상제가 현명한 명진국 따님 아기를 삼승할망으로 임명한다.",
+    "metadata": {
+      "story": "삼승할망본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 꽃 가꾸기 내기",
+    "output": "두 신격이 꽃 가꾸기 내기를 통해 역할을 결정한다.",
+    "metadata": {
+      "story": "삼승할망본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 역할 분담",
+    "output": "명진국 따님 아기가 승리하여 생불할망(삼승할망)이 되고, 동해 용왕 따님 아기는 저승의 구삼승할망이 된다.",
+    "metadata": {
+      "story": "삼승할망본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 문 도령과의 만남",
+    "output": "인간 소녀 자청비가 천상국의 문 도령을 만난다.",
+    "metadata": {
+      "story": "세경본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 남장 동행",
+    "output": "자청비가 남장을 하고 문 도령과 동행한다.",
+    "metadata": {
+      "story": "세경본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 정수남의 겁탈 시도",
+    "output": "머슴 정수남의 겁탈 시도에서 기지로 탈출한다.",
+    "metadata": {
+      "story": "세경본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 서천 꽃밭 문제 해결",
+    "output": "서천 꽃밭의 문제를 해결하여 꽃 감관의 사위가 된다.",
+    "metadata": {
+      "story": "세경본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 천상 결혼",
+    "output": "천상으로 올라가 문 도령과 결혼한다.",
+    "metadata": {
+      "story": "세경본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 세경신 좌정",
+    "output": "문 도령이 돌아오지 않자 지상으로 돌아와 농경의 풍요를 관장하는 신 세경이 된다.",
+    "metadata": {
+      "story": "세경본풀이",
+      "type": "myth",
+      "category": "무속신화"
+    }
+  },
+  {
+    "input": "Tell me about 제주도 지형 창조",
+    "output": "설문대할망은 치마에 흙을 담아 여러 번 쏟아 한라산을 형성했다. 치마 터진 틈으로 흘러내린 흙이 약 360개의 오름이 되었다. 한라산 봉우리 윗부분을 꺾어 산방산을 만들고, 주먹으로 봉우리를 쳐서 다랑쉬오름의 분화구를 생성했다.",
+    "metadata": {
+      "story": "설문대할망",
+      "type": "myth",
+      "category": "창조신화"
+    }
+  },
+  {
+    "input": "Tell me about 거대한 몸집",
+    "output": "아무리 깊은 바다라도 무릎 높이밖에 차지 않았다. 한라산을 베개 삼아 누우면 한 발은 성산일출봉에, 또 한 발은 제주시 앞바다 관탈섬에 걸쳐졌다. 관탈섬에 빨래를 놓고 발로 빨래를 문질러 빨았다고 전해진다.",
+    "metadata": {
+      "story": "설문대할망",
+      "type": "myth",
+      "category": "창조신화"
+    }
+  },
+  {
+    "input": "Tell me about 미완성된 다리 (옷감 설화)",
+    "output": "거인이기에 입을 옷을 제대로 지을 수 없어, 제주도 주민들에게 '명주 100동(5,000필)을 모아 속옷을 만들어 주면 육지까지 다리를 놓아주겠다'고 약속했다. 그러나 99동만 모아져 1동이 부족해 다리 건설이 무산되고 제주도는 섬으로 남게 되었다.",
+    "metadata": {
+      "story": "설문대할망",
+      "type": "myth",
+      "category": "창조신화"
+    }
+  },
+  {
+    "input": "Tell me about 설문대할망의 죽음",
+    "output": "설문대할망은 제주 곳곳의 깊은 물에 들어가 깊이를 재다가, 물장오리(물장올)에서 끝없이 빠져 생을 마쳤다. 이 장소를 '창터진 물'이라 부른다. 또 다른 전승에서는 오백 명의 아들들을 위해 죽을 끓이다 솥에 빠져 죽었다고도 한다.",
+    "metadata": {
+      "story": "설문대할망",
+      "type": "myth",
+      "category": "창조신화"
+    }
+  },
+  {
+    "input": "Tell me about 입도와 순례",
+    "output": "영등할망은 음력 2월 초하룻날 한림읍 귀덕리의 '복덕개' 포구로 들어온다. 먼저 한라산에 올라 오백장군에게 문안을 드리고, 제주 곳곳을 돌며 봉숭화꽃·동백꽃 구경을 한다.",
+    "metadata": {
+      "story": "영등할망",
+      "type": "myth",
+      "category": "풍농신화"
+    }
+  },
+  {
+    "input": "Tell me about 풍요의 선물",
+    "output": "세경 넓은 땅에는 열두 시만국 씨를 뿌려주고, 갯가 연변에는 우뭇가사리·전각·편포·소라·전복·미역 등을 많이 자라게 씨를 뿌린다.",
+    "metadata": {
+      "story": "영등할망",
+      "type": "myth",
+      "category": "풍농신화"
+    }
+  },
+  {
+    "input": "Tell me about 귀환",
+    "output": "2월 15일경 우도를 거쳐 제주를 떠난다.",
+    "metadata": {
+      "story": "영등할망",
+      "type": "myth",
+      "category": "풍농신화"
+    }
+  }
+]
