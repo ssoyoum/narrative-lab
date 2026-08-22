@@ -1,0 +1,16 @@
+{
+  "total_samples": 60,
+  "style_distribution": {
+    "simple": 15,
+    "educational": 15,
+    "traditional": 15,
+    "formal": 15
+  },
+  "complexity_distribution": {
+    "3": 14,
+    "2": 7,
+    "1": 39
+  },
+  "character_frequency": {},
+  "location_frequency": {}
+}

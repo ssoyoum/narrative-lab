@@ -1,0 +1,64 @@
+{
+  "id": "legend_yeongcheon_imoksa",
+  "title": "영천 이목사",
+  "title_alt": ["이형상 목사 전설"],
+  "type": "legend",
+  "category": "인물전설",
+
+  "content": {
+    "summary": "1703년 부임한 이형상 목사가 무속 관행을 폐지하고 심방들을 농업에 정착시키려 했으나, 원혼의 복수를 받게 되는 이야기.",
+
+    "episodes": [
+      {
+        "title": "목사의 부임",
+        "content": "이형상 목사가 1703년 제주에 부임했다."
+      },
+      {
+        "title": "병사의 원혼",
+        "content": "부임 당시 병사의 원혼이 나타나 장례를 요청했고, 목사는 이를 치러주었다."
+      },
+      {
+        "title": "무속 폐지",
+        "content": "목사는 체계적으로 당을 폐쇄하고 심방들을 농업에 종사하게 했다."
+      },
+      {
+        "title": "영혼의 복수",
+        "content": "제주를 떠날 때 원혼들이 배를 침몰시키려 했으나 간신히 목숨을 건졌다."
+      }
+    ],
+
+    "themes": ["유교 개혁과 토착 신앙의 충돌", "원혼의 복수", "무속 폐지"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "이형상", "role": "제주목사"},
+      {"name": "병사 원혼", "role": "조력자"},
+      {"name": "원혼들", "role": "복수자"}
+    ],
+    "locations": [
+      {"name": "제주", "type": "지역"},
+      {"name": "용담동", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["무속 폐지", "이형상", "원혼", "복수", "유교 개혁"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00711391",
+      "item_id": "GC00711391"
+    },
+    {
+      "type": "book",
+      "reference": "구비전승 채록, 1975-1984",
+      "locations": ["용담동", "애월읍", "한림읍"]
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

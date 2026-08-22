@@ -1,0 +1,50 @@
+{
+  "code": "W_L_641",
+  "title": "아흔아홉골에 있는 장군 혈지",
+  "category": "전설",
+  "sub_category": "자연",
+  "type": "현지조사",
+  "content": {
+    "text": "W_L_641 아흔아홉골에  있는  장군  혈지  2017년 12월 19일,  한림읍 대림리 김한보 씨 댁,  송정희 조사.  김한보(남,  1934년생,  한림읍 대림리)  ∙  줄거리: 아흔아홉골에 장군이 나는 혈지가 있었는데 그것을 죽여버려서 지금은 장군이   나지 않는다고 한다.   [제보자] 그  전에는  여기서.   [조사자] 아흔아홉골.   [제보자] 그  저  아흔아홉골  그  영실에  그  저,  아흔아홉골  그  돌덜이  아흔아홉봉이  있어가    지고,  주짝  산  것이  있는데  거기  혈지가  있어가지고  거  장군이  나는데  것을  죽여    버리니깐  그  지형으로  경  뒛다  그런  말도  듣고,  이런  말입주.   [조사자] 경  헤부니깐  장군이  안  난다고.   [제보자] 예.   ∙ 핵심어:  아흔아홉골,  돌,  혈지,  장군 -  222  -",
+    "char_count": 447,
+    "text_cleaned": "W_L_641 아흔아홉골에 있는 장군 혈지 2017년 12월 19일, 한림읍 대림리 김한보 씨 댁, 송정희 조사. 김한보(남, 1934년생, 한림읍 대림리) ∙ 줄거리: 아흔아홉골에 장군이 나는 혈지가 있었는데 그것을 죽여버려서 지금은 장군이 나지 않는다고 한다. [제보자] 그 전에는 여기서. [조사자] 아흔아홉골. [제보자] 그 저 아흔아홉골 그 영실에 그 저, 아흔아홉골 그 돌덜이 아흔아홉봉이 있어가 지고, 주짝 산 것이 있는데 거기 혈지가 있어가지고 거 장군이 나는데 것을 죽여 버리니깐 그 지형으로 경 뒛다 그런 말도 듣고, 이런 말입주. [조사자] 경 헤부니깐 장군이 안 난다고. [제보자] 예. ∙ 핵심어: 아흔아홉골, 돌, 혈지, 장군 - 222 -",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "64개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 447,
+      "cleaned_char_count": 372
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_641/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_641/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:42:21.343701",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T16:43:02.763311",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T20:09:08.510016"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Obstacle",
+    "object_link": "Cliff",
+    "emotion_keyword": "Sweet_Potato",
+    "modern_summary": "아흔아홉골의 장군 혈지가 사라진 이유",
+    "location_context": {
+      "primary_place": "아흔아홉골",
+      "admin_region": "Unknown"
+    },
+    "emotion_confidence": "medium",
+    "emotion_method": "keyword_tiebreak"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "folktale_paengnamu_sin",
+  "title": "팽나무신을 이긴 여인",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "신이담",
+
+  "content": {
+    "summary": "팽나무를 신목으로 여기던 관습을 거부한 홀어머니와 팽나무신 사이의 갈등을 다룬 설화.",
+
+    "episodes": [
+      {
+        "title": "제사 중단",
+        "content": "홀어머니가 남편 사후 팽나무 제사를 중단한다."
+      },
+      {
+        "title": "신의 경고",
+        "content": "백발노인(팽나무신)이 꿈에 나타나 경고하지만 거절당한다."
+      },
+      {
+        "title": "아들들의 죽음",
+        "content": "큰아들과 둘째 아들이 차례로 사망한다."
+      },
+      {
+        "title": "신의 고백",
+        "content": "신이 마지막에 '두 아들의 죽음은 저승 명부의 정해진 운명이며, 협박으로 제사를 얻으려 했을 뿐'이라 고백한다."
+      },
+      {
+        "title": "막내의 장수",
+        "content": "막내아들은 신의 말대로 82세까지 부유하게 살았다."
+      }
+    ],
+
+    "themes": ["운명론", "신목 신앙", "저승 명부"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "홀어머니", "role": "주인공"},
+      {"name": "팽나무신", "role": "백발노인"},
+      {"name": "아들들", "role": "희생자/생존자"}
+    ],
+    "locations": [
+      {"name": "삼도동", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["팽나무", "신목", "운명", "저승 명부"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00702474",
+      "item_id": "GC00702474"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도 민담』, 1996",
+      "informant": {"gender": "남", "age": 45, "location": "삼도동"},
+      "recorded": "1959년 8월",
+      "collector": "이광준"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

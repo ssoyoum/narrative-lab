@@ -1,0 +1,35 @@
+{
+  "code": "T_L_071",
+  "title": "선문대할망2",
+  "category": "전설",
+  "sub_category": "인물",
+  "type": "원문",
+  "content": {
+    "text": "T_L_071   선문대할망2 옛날  제주도에  선문대할망이  있었는데  그의  키는  왼쪽  발은  한라산에  딛고,  오른쪽  발은  산방   산(山房山)에  딛고  서서  태평양  물에  빨래할  정도였다. 어느  날에는  한라산  중턱에  있는  물장오리의  물이  얼마나  깊은가를  알아보기  위하여  그  속에   몸을  담궜는데,  지금까지  나오지  못하는  것으로  봐서  아무래도  죽어  버린  듯하다.  제주시  이도2동,  김선우(남·62)  제보.  제주도, 제주도전설지, 1985, p.68",
+    "char_count": 292,
+    "text_cleaned": "T_L_071 선문대할망2 옛날 제주도에 선문대할망이 있었는데 그의 키는 왼쪽 발은 한라산에 딛고, 오른쪽 발은 산방 산(山房山)에 딛고 서서 태평양 물에 빨래할 정도였다. 어느 날에는 한라산 중턱에 있는 물장오리의 물이 얼마나 깊은가를 알아보기 위하여 그 속에 몸을 담궜는데, 지금까지 나오지 못하는 것으로 봐서 아무래도 죽어 버린 듯하다. 제주시 이도2동, 김선우(남·62) 제보. 제주도, 제주도전설지, 1985, p.68",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "48개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 292,
+      "cleaned_char_count": 241
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/T_L_071/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/T_L_071/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:38:10.587805",
+    "crawler_version": "1.0.0"
+  }
+}

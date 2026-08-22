@@ -1,0 +1,50 @@
+{
+  "code": "W_L_635",
+  "title": "스님물",
+  "category": "전설",
+  "sub_category": "자연",
+  "type": "현지조사",
+  "content": {
+    "text": "W_L_635 스님물  2017년 9월 28일,  애월읍 고내리 문길남 씨 댁,  강경민 조사.  문길남(남,  1948년생,  애월읍 고내리)  ∙  줄거리:  지나가던 스님이 목이 말라서 구멍을 팠더니 용천수가 흘렀다.   [제보자] 스님물  잇어.  여기  거기는  옛날에  어떤  승이  지나다가  목마르니까.  바닷가로  가    다  보니까.  여기에는  아.  목이  아주  마르니까  물이  안  나올  거냐  헷어.  그  구멍    을  팟더니  용천수가  흘렀다는  그런  말은  들엇어.   [조사자] 그래서  이름이  스님물.   [제보자] 응.  경  허난  스님물.  스님물  허여.   [조사자] 그  얘기를  언제  들어난마씸?   [제보자] 우리  어릴  때  들엇주.  우리  중학교,  초등학교  때  들엇주.  옛날  할머니들한테.   ∙ 핵심어:  스님물,  승(스님),  물,  용천수 -  215  -",
+    "char_count": 472,
+    "text_cleaned": "W_L_635 스님물 2017년 9월 28일, 애월읍 고내리 문길남 씨 댁, 강경민 조사. 문길남(남, 1948년생, 애월읍 고내리) ∙ 줄거리: 지나가던 스님이 목이 말라서 구멍을 팠더니 용천수가 흘렀다. [제보자] 스님물 잇어. 여기 거기는 옛날에 어떤 승이 지나다가 목마르니까. 바닷가로 가 다 보니까. 여기에는 아. 목이 아주 마르니까 물이 안 나올 거냐 헷어. 그 구멍 을 팟더니 용천수가 흘렀다는 그런 말은 들엇어. [조사자] 그래서 이름이 스님물. [제보자] 응. 경 허난 스님물. 스님물 허여. [조사자] 그 얘기를 언제 들어난마씸? [제보자] 우리 어릴 때 들엇주. 우리 중학교, 초등학교 때 들엇주. 옛날 할머니들한테. ∙ 핵심어: 스님물, 승(스님), 물, 용천수 - 215 -",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "72개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 472,
+      "cleaned_char_count": 390
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_635/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_635/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:42:03.415324",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T16:42:37.565277",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T20:08:29.019799"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Mystery",
+    "object_link": "Cliff",
+    "emotion_keyword": "Sweet_Potato",
+    "modern_summary": "옛날에 스님이 목마르다가 바닷가로 가서 물을 찾았는데, 구멍을 팠더니 용천수가 흘러나왔다.",
+    "location_context": {
+      "primary_place": "애월읍 고내리",
+      "admin_region": "제주시"
+    },
+    "emotion_confidence": "medium",
+    "emotion_method": "keyword_tiebreak"
+  }
+}

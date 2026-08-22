@@ -1,0 +1,69 @@
+{
+  "id": "folktale_joheuldae",
+  "title": "조흘대",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "소화",
+
+  "content": {
+    "summary": "행운의 이름을 통해 왕이 된 사람의 우연한 성공을 다룬 해학적 민담.",
+
+    "episodes": [
+      {
+        "title": "과거 낙방",
+        "content": "고생하는 선비가 과거 시험에 거듭 낙방한다."
+      },
+      {
+        "title": "개명",
+        "content": "유명한 작명가를 찾아가 '조흘대'로 이름을 바꾼다."
+      },
+      {
+        "title": "왕의 유언",
+        "content": "왕이 병들어 죽으면서 암호 같은 말 '좋을 대로 하지'라고 한다."
+      },
+      {
+        "title": "언어유희",
+        "content": "신하들이 이를 '조흘대'라는 사람을 가리키는 것으로 해석한다."
+      },
+      {
+        "title": "즉위",
+        "content": "조흘대를 찾아내 새 왕으로 추대한다."
+      }
+    ],
+
+    "themes": ["언어유희", "운명론", "작명의 중요성"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "조흘대", "role": "주인공"},
+      {"name": "작명가", "role": "이름을 지어준 사람"},
+      {"name": "왕", "role": "죽어가는 왕"}
+    ],
+    "locations": [
+      {"name": "용담동", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["언어유희", "작명", "운명", "소화"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00702257",
+      "item_id": "GC00702257"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도 민담』, 1996",
+      "informant": {"name": "김종배", "age": 27, "location": "용담동"},
+      "recorded": "1960년 8월",
+      "collector": "현용준"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

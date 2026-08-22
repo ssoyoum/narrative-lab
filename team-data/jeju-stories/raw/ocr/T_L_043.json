@@ -1,0 +1,35 @@
+{
+  "id": "story_L_043",
+  "title": "모동장을 민유로 돌린 김두규",
+  "type": "legend",
+  "category": "기타",
+  "content": {
+    "summary": "",
+    "full_text": "",
+    "features": "",
+    "raw_text": "TL_043 모동장올 민유로 돌린 김두규\n김두규느   숲#눈인으로 경술 국치 후에 일본인들이 모동장으로 똑#소클 삼으려 하자 끝까지 법\n올 내세뭐 민유가 되게 하여다-\n거기다  사람들에게   소나무릎 심도록 권행으므로 이 나무들이   숲올 이루어  목재와  떨감으로 쓰\n기에 부족함이 없없다.\n그는 또 ##의 ##흩에서 신서란 뿌리틀 옮겨다 마을에 전파하기도 하여다.\n<마을 사람들 이야기 종합>\n모성찬  '제주의 가뭄 신도리_ , 도서출판 반석 ZJU2 p.157"
+  },
+  "elements": {
+    "characters": [],
+    "locations": [
+      "뿌리",
+      "모동",
+      "신도리"
+    ],
+    "keywords": []
+  },
+  "sources": [
+    {
+      "type": "pdf",
+      "file": "T_L_043_모동장을 민유로 돌린 김두규.pdf",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "source_type": "text",
+    "source_id": "T_L_043",
+    "converted_at": "2025-12-04T00:09:54.082360",
+    "converter_version": "2.0.0",
+    "ocr_confidence": 1.0
+  }
+}

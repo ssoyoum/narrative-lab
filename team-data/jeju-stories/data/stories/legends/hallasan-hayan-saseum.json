@@ -1,0 +1,66 @@
+{
+  "id": "legend_hallasan_hayan_saseum",
+  "title": "한라산과 하얀 사슴",
+  "title_alt": [],
+  "type": "legend",
+  "category": "신선전설",
+
+  "content": {
+    "summary": "사냥꾼과 신선의 만남을 통해 한라산 백록담의 신성함을 전하는 전설.",
+
+    "episodes": [
+      {
+        "title": "사냥꾼의 등반",
+        "content": "사냥꾼이 먹이를 찾아 한라산 백록담까지 오른다."
+      },
+      {
+        "title": "신선의 출현",
+        "content": "흰 사슴을 탄 신선이 나타나 사슴 무리를 물가로 이끈다."
+      },
+      {
+        "title": "화살의 실패",
+        "content": "사냥꾼이 뒤쪽 사슴에 화살을 쏘지만, 신선이 몸을 구부려 보호하자 '화살이 빗나가 휘어진다.'"
+      },
+      {
+        "title": "승천",
+        "content": "신선과 사슴이 흰 구름 속으로 사라진다."
+      }
+    ],
+
+    "themes": ["신선 사상", "한라산의 영적 힘", "신성한 동물"],
+    "symbolism": "흰 사슴은 고귀함과 신성함을 상징하며, 육지에서 호랑이와 함께 등장하는 신선과 달리 제주에서는 사슴과 함께 등장한다."
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "사냥꾼", "role": "속세의 인물"},
+      {"name": "신선", "role": "천상의 존재"},
+      {"name": "흰 사슴", "role": "신선의 탈것"}
+    ],
+    "locations": [
+      {"name": "한라산", "type": "산"},
+      {"name": "백록담", "type": "화구호"},
+      {"name": "삼도동", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["한라산", "백록담", "흰 사슴", "신선"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00702549",
+      "item_id": "GC00702549"
+    },
+    {
+      "type": "book",
+      "reference": "제주 설화집 (1976-2001)",
+      "collector": "김순이"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

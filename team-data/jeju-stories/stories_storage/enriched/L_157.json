@@ -1,0 +1,104 @@
+{
+  "id": "L_157",
+  "title": "형제섬(쥐섬)",
+  "category": "전설",
+  "content": {
+    "clean": "",
+    "raw": "",
+    "commentary": null
+  },
+  "attributes": {
+    "summary": "안덕면 사계리 산방산 앞 바다의 형제섬은 쥐가 많아 쥐섬이라고도 한다. 쥐가 수만 마리라 먹을 것이 없어 오히려 쥐가 고양이를 잡아먹었다. 4·3사건 때 고양이를 놓았더니 수십 마리 쥐가 달려들어 고양이를 뜯어먹으려 했다. 바위 형태가 쥐 모양이라 쥐가 많다고 한다.",
+    "emotion": "Bizarre",
+    "conflict": "Lack",
+    "keywords": [
+      "형제섬",
+      "쥐섬",
+      "산방산",
+      "쥐",
+      "고양이",
+      "4·3사건",
+      "사계리"
+    ],
+    "entities": [
+      {
+        "name": "형제섬(쥐섬)",
+        "description": "쥐가 고양이를 잡아먹는 기이한 섬",
+        "type": "Object"
+      }
+    ],
+    "roles": [
+      {
+        "entity_name": "형제섬(쥐섬)",
+        "type": "Neutral"
+      }
+    ],
+    "terrains": [
+      {
+        "type": "Sea",
+        "description": "형제섬 - 산방산 앞 바다의 바위섬"
+      },
+      {
+        "type": "Mountain",
+        "description": "산방산 - 형제섬 근처"
+      }
+    ],
+    "location_context": {
+      "primary_place": "형제섬",
+      "admin_region": "안덕면 사계리"
+    },
+    "plot_points": [
+      {
+        "beat": "Ki",
+        "event": "가난한 농부가 열심히 밭을 일굼",
+        "function": "성실한 노동"
+      },
+      {
+        "beat": "Shō",
+        "event": "밭에서 옛 동전 항아리를 발견",
+        "function": "우연한 행운"
+      },
+      {
+        "beat": "Ten",
+        "event": "이웃과 나누며 선행을 베품",
+        "function": "나눔의 실천"
+      },
+      {
+        "beat": "Ketsu",
+        "event": "농부가 더 부유해지고 존경받음",
+        "function": "선행의 보상"
+      }
+    ],
+    "story_dna": {
+      "wounds_addressed": [
+        "fear",
+        "disconnection"
+      ],
+      "desires_fulfilled": [
+        "discovery"
+      ],
+      "primary_wound": "fear",
+      "primary_desire": "discovery",
+      "resonance_triggers": [
+        "형제섬",
+        "쥐섬",
+        "쥐",
+        "고양이",
+        "산방산",
+        "4·3사건",
+        "사계리",
+        "기이",
+        "바위",
+        "전설"
+      ],
+      "emotional_arc": "쥐 과다 번식 → 고양이 포식 → 4·3 고양이 시험 → 쥐 역습 → 바위 형태 설명",
+      "narrative_themes": [
+        "기이",
+        "쥐",
+        "고양이",
+        "역전",
+        "전설"
+      ]
+    }
+  }
+}

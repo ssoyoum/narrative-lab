@@ -1,0 +1,55 @@
+{
+  "id": "myth_gusil_halmang_bonpuri",
+  "title": "구실할망본풀이",
+  "title_alt": ["구실할망본"],
+  "type": "myth",
+  "category": "조상본풀이",
+
+  "content": {
+    "summary": "제주도 나주 김씨 집안의 모계를 통해 전승되는 집안 수호신 구실 할망의 기원을 다룬 서사무가.",
+
+    "episodes": [
+      {
+        "title": "허 정승 딸의 발견",
+        "content": "제주의 김씨 사공이 한양 진상 임무 중 버려진 허 정승의 딸을 발견하고 제주로 데려온다."
+      },
+      {
+        "title": "해녀 생활",
+        "content": "그녀가 해녀 일을 배워 전복과 진주를 대량으로 채취하게 된다."
+      },
+      {
+        "title": "벼슬 하사",
+        "content": "진주를 임금에게 진상한 공으로 '부인주' 벼슬을 받아 '구실 할망'이라 불리게 된다."
+      },
+      {
+        "title": "조상신 좌정",
+        "content": "'딸에서 딸로 계승되어 위하는 조상신'이 되겠다는 유언을 남긴다."
+      }
+    ],
+
+    "themes": ["모계 계승", "해녀", "경제적 성공", "조상신"],
+    "unique_feature": "원혼 해원 과정 없이 직접 조상으로 모셔지는 특이한 구조"
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "구실 할망", "role": "주인공 → 조상신"},
+      {"name": "김씨 사공", "role": "구출자, 남편"}
+    ],
+    "keywords": ["구실할망", "조상본풀이", "해녀", "모계", "진주"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "한국민족문화대백과사전",
+      "url": "https://encykorea.aks.ac.kr/Article/E0005889",
+      "article_id": "E0005889"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

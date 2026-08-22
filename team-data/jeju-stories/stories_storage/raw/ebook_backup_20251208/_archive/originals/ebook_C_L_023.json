@@ -1,0 +1,50 @@
+{
+  "code": "C_L_023",
+  "title": "김덕이여",
+  "category": "전설",
+  "sub_category": "지명",
+  "type": "해제",
+  "content": {
+    "text": "C_L_023    김덕이여    1   개요 표선면  하천리  바다에  있는  김덕이여와  관련된  전설이다.    2   내용 바닷물  속에  잠겨  있거나,  물  위로  노출되기도  하는  반석(盤石)을  여라  한다.  하천리  포   구  남쪽  4킬로미터  쯤  바다에  늘  물속에  잠겨있는  여  가운데  김덕이여가  있다.  김덕이라   는  해녀가  발견한  여라는  데서  붙인  것이다. 해녀들이  물질을  나갔다가,  갑자기  북풍이  불어왔다.  대부분  해녀들이  모두  물  밖으로   나왔는데,  김덕만  보이지  않았다.  동네  청년들이  먼  바다를  바라보니,  물결  사이에서  까맣   게  보이는  물체가  있었다.  청년들이  배를  준비하여  그곳으로  가니,  바로  김덕이  서  있었   다.  다행히  썰물  때여서  김덕은  여에  발을  디디고  설  수  있었다.  그  뒤부터  이  여를  김덕   이여라  부른다.    3   특징    4   핵심어 하천리,  김덕이여,  반석,  여,  김덕,  해녀    5   원전  서지사항 김덕이여(제주도,  《제주도전설지》,  1985)    6   관련  자료",
+    "char_count": 602,
+    "text_cleaned": "C_L_023 김덕이여 1 개요 표선면 하천리 바다에 있는 김덕이여와 관련된 전설이다. 2 내용 바닷물 속에 잠겨 있거나, 물 위로 노출되기도 하는 반석(盤石)을 여라 한다. 하천리 포 구 남쪽 4킬로미터 쯤 바다에 늘 물속에 잠겨있는 여 가운데 김덕이여가 있다. 김덕이라 는 해녀가 발견한 여라는 데서 붙인 것이다. 해녀들이 물질을 나갔다가, 갑자기 북풍이 불어왔다. 대부분 해녀들이 모두 물 밖으로 나왔는데, 김덕만 보이지 않았다. 동네 청년들이 먼 바다를 바라보니, 물결 사이에서 까맣 게 보이는 물체가 있었다. 청년들이 배를 준비하여 그곳으로 가니, 바로 김덕이 서 있었 다. 다행히 썰물 때여서 김덕은 여에 발을 디디고 설 수 있었다. 그 뒤부터 이 여를 김덕 이여라 부른다. 3 특징 4 핵심어 하천리, 김덕이여, 반석, 여, 김덕, 해녀 5 원전 서지사항 김덕이여(제주도, 《제주도전설지》, 1985) 6 관련 자료",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "113개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 602,
+      "cleaned_char_count": 463
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/002/1927/C_L_023/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/002/1927/C_L_023/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:36:53.498429",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T14:08:58.184206",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T17:51:48.616601"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Obstacle (장애)",
+    "object_link": "Cliff (절벽)",
+    "emotion_keyword": "Sweet_Potato",
+    "modern_summary": "해녀가 물질을 수집하던 중 북풍이 불어와 김덕이여를 발견한 후, 다행히 썰물 때에 발을 디디고 설 수 있었다.",
+    "location_context": {
+      "primary_place": "바다",
+      "admin_region": "Unknown"
+    },
+    "emotion_confidence": "medium",
+    "emotion_method": "keyword_tiebreak"
+  }
+}

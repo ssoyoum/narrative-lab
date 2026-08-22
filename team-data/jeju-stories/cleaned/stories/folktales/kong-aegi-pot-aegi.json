@@ -1,0 +1,71 @@
+{
+  "id": "folktale_kong_pot_aegi",
+  "title": "콩의 애기 폿의 애기",
+  "title_alt": ["콩쥐 팥쥐 제주 버전"],
+  "type": "folktale",
+  "category": "민담",
+
+  "content": {
+    "summary": "육지의 '콩쥐 팥쥐'가 제주로 전래되면서 '문전본풀이'와 유사한 구조로 변형된 계모 학대 설화.",
+
+    "episodes": [
+      {
+        "title": "계모의 학대",
+        "content": "콩의 애기가 의붓어머니의 가혹한 대우를 받으나 순종한다."
+      },
+      {
+        "title": "동물들의 도움",
+        "content": "동물들의 도움으로 영등굿에 참여하게 된다."
+      },
+      {
+        "title": "혼인",
+        "content": "하늘 애기와 결혼한다."
+      },
+      {
+        "title": "폿의 애기의 질투",
+        "content": "폿의 애기의 질투로 인한 반전과 복수가 이어진다."
+      },
+      {
+        "title": "자연 현상의 유래",
+        "content": "벼룩, 모기 등의 기원담을 포함한다."
+      }
+    ],
+
+    "themes": ["계모 학대", "신데렐라 모티프", "기원담"],
+    "note": "육지의 '콩쥐 팥쥐'와 '문전본풀이'류가 만나 변이된 사례"
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "콩의 애기", "role": "주인공"},
+      {"name": "폿의 애기", "role": "의붓자매"},
+      {"name": "계모", "role": "악역"},
+      {"name": "하늘 애기", "role": "신랑"}
+    ],
+    "locations": [
+      {"name": "노형동", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["콩쥐팥쥐", "계모", "영등굿", "벼룩 기원"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00702395",
+      "item_id": "GC00702395"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도 민담』, 1996",
+      "informant": {"name": "김영아", "gender": "여", "age": 40, "location": "노형동"},
+      "recorded": "1959년 8월",
+      "collector": "이화문"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

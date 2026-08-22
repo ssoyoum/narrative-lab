@@ -1,0 +1,125 @@
+{
+  "id": "L_160",
+  "title": "효부 이야기",
+  "category": "전설",
+  "content": {
+    "clean": "",
+    "raw": "",
+    "commentary": null
+  },
+  "attributes": {
+    "summary": "약 200년 전 판포리 진씨 딸이 귀덕리 경주 이씨 집에 시집왔다. 친정아버지가 아들에게만 '귀덕 소못연대가 명당'이라 유언했으나 딸이 엿들었다. 딸은 밤새 물허벅으로 개광(무덤 자리)에 물을 부어 친정 오빠가 그 자리에 아버지를 묻지 못하게 했고, 대신 시아버지를 명당에 묻었다. 귀덕 이씨 집안은 발복하여 과거급제했고, 두 집안은 원수가 되었다가 화해했다.",
+    "emotion": "Sweet_Potato",
+    "conflict": "Rivalry",
+    "keywords": [
+      "효부",
+      "명당쟁탈",
+      "풍수",
+      "귀덕리",
+      "판포리",
+      "경주이씨",
+      "진씨",
+      "발복",
+      "소못연대"
+    ],
+    "entities": [
+      {
+        "name": "진씨 딸(효부)",
+        "description": "시가를 위해 친정 명당을 뺏은 며느리",
+        "type": "Human"
+      },
+      {
+        "name": "친정아버지(진씨)",
+        "description": "명당 유언 후 사망",
+        "type": "Human"
+      },
+      {
+        "name": "시아버지(이씨)",
+        "description": "명당에 묻혀 발복",
+        "type": "Human"
+      }
+    ],
+    "roles": [
+      {
+        "entity_name": "진씨 딸(효부)",
+        "type": "Protagonist"
+      },
+      {
+        "entity_name": "친정아버지(진씨)",
+        "type": "Victim"
+      },
+      {
+        "entity_name": "시아버지(이씨)",
+        "type": "Neutral"
+      }
+    ],
+    "terrains": [
+      {
+        "type": "Other",
+        "description": "소못연대 - 명당 자리"
+      },
+      {
+        "type": "Village",
+        "description": "귀덕리/판포리 - 두 집안 마을"
+      }
+    ],
+    "location_context": {
+      "primary_place": "귀덕리",
+      "admin_region": "한림읍 귀덕리"
+    },
+    "plot_points": [
+      {
+        "beat": "Ki",
+        "event": "제주의 한 효자가 병든 어머니를 극진히 모심",
+        "function": "효심"
+      },
+      {
+        "beat": "Shō",
+        "event": "약을 구하러 깊은 산속으로 들어감",
+        "function": "위험한 헌신"
+      },
+      {
+        "beat": "Ten",
+        "event": "산신령이 나타나 영약을 줌",
+        "function": "신의 도움"
+      },
+      {
+        "beat": "Ketsu",
+        "event": "어머니가 완쾌되고 효자비를 세움",
+        "function": "효의 보상"
+      }
+    ],
+    "story_dna": {
+      "wounds_addressed": [
+        "loss",
+        "disconnection"
+      ],
+      "desires_fulfilled": [
+        "transformation",
+        "legacy"
+      ],
+      "primary_wound": "loss",
+      "primary_desire": "transformation",
+      "resonance_triggers": [
+        "효부",
+        "명당",
+        "풍수",
+        "소못연대",
+        "귀덕리",
+        "판포리",
+        "허벅",
+        "물",
+        "발복",
+        "과거"
+      ],
+      "emotional_arc": "명당 유언 → 몰래 엿듦 → 밤새 물 부음 → 시아버지 매장 → 발복 → 원수 → 화해",
+      "narrative_themes": [
+        "효부",
+        "명당쟁탈",
+        "풍수",
+        "발복",
+        "갈등해소"
+      ]
+    }
+  }
+}

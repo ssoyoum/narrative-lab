@@ -1,0 +1,50 @@
+{
+  "code": "W_L_020",
+  "title": "김통정과 아기업게의 말",
+  "category": "전설",
+  "sub_category": "인물",
+  "type": "현지조사",
+  "content": {
+    "text": "W_L_020 김통정과  아기업게의  말 2016년 10월 13일, 애월읍 고성리 강정씨 댁, 문경미 조사. 강정(남, 1928년생, 애월읍 고성리)   [제보자] 김통정이  몽고군이  들어와서  위험하니까  문  덖엉  들어갓거든.  들어가난  아기업게    는  내불엇단  말이라.  내부난.  아기업게를  같이  들어갓이며는  어떵  안  헷일  건디.    아기업게가  몽고  사람한티  “쉐문  불  살랑  녹이믄  저  문을  열어질  거  아니냐.”  아기업게  말  들어내  몽고군이  그  쉐문을  녹연.  김통정  군사를  처단한  거지.  뭐    그거주  무슨.  김통정은  개가  있었다  허여.  문  여난  도망가난.  비양도  한림이옌    허지.  거기  날아갓다고  그렇게  우린  듣는디.   ∙ 핵심어 : 김통정,  몽고군,  쉐문,  비양도",
+    "char_count": 436,
+    "text_cleaned": "W_L_020 김통정과 아기업게의 말 2016년 10월 13일, 애월읍 고성리 강정씨 댁, 문경미 조사. 강정(남, 1928년생, 애월읍 고성리) [제보자] 김통정이 몽고군이 들어와서 위험하니까 문 덖엉 들어갓거든. 들어가난 아기업게 는 내불엇단 말이라. 내부난. 아기업게를 같이 들어갓이며는 어떵 안 헷일 건디. 아기업게가 몽고 사람한티 “쉐문 불 살랑 녹이믄 저 문을 열어질 거 아니냐.” 아기업게 말 들어내 몽고군이 그 쉐문을 녹연. 김통정 군사를 처단한 거지. 뭐 그거주 무슨. 김통정은 개가 있었다 허여. 문 여난 도망가난. 비양도 한림이옌 허지. 거기 날아갓다고 그렇게 우린 듣는디. ∙ 핵심어 : 김통정, 몽고군, 쉐문, 비양도",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "67개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 436,
+      "cleaned_char_count": 359
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_020/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_020/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:38:57.101080",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T16:18:06.738447",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T19:33:21.589790"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Rivalry",
+    "object_link": "Cliff",
+    "emotion_keyword": "Thriller",
+    "modern_summary": "김통정이 몽고군과 충돌하여 전투를 벌인다.",
+    "location_context": {
+      "primary_place": "애월읍 고성리",
+      "admin_region": "제주시"
+    },
+    "emotion_confidence": "medium",
+    "emotion_method": "cot_priority"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "story_F_011",
+  "title": "사름 아니라는 욕",
+  "type": "folktale",
+  "category": "기타",
+  "content": {
+    "summary": "",
+    "full_text": "",
+    "features": "",
+    "raw_text": "TF_011 사름 아니라는 욕\n그#불의   며느리가  억울한   일이   있어 그 시아버지에게   청원올 햇다. 시아버지가   일어나서 그\n집엘 다녀 오더니 그 며느리에게 말햇다\n'내 그 사름에게 되게 욕올 하고 앞노라 \"\n며느리가 궁금하여 어떻게 되게 욕울 햇는지틀 물없다-\n'어떻게 되게 욕을 협디가?'\n'사름이 아니라고 욕울 햇지.\"\n하긴 사람에게 사람이 아니라는 욕은 욕 중에서 근 욕일 수도 있없다\n(이야기 종합)\n모섭찬, '제주의 마을 할덕리 , 도서출판 반석 1986 p,55,"
+  },
+  "elements": {
+    "characters": [],
+    "locations": [
+      "할덕리",
+      "며느리"
+    ],
+    "keywords": []
+  },
+  "sources": [
+    {
+      "type": "pdf",
+      "file": "T_F_011_사름 아니라는 욕.pdf",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "source_type": "text",
+    "source_id": "T_F_011",
+    "converted_at": "2025-12-03T17:13:06.494895",
+    "converter_version": "2.0.0",
+    "ocr_confidence": 1.0
+  }
+}

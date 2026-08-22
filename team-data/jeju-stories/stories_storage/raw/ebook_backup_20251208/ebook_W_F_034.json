@@ -1,0 +1,50 @@
+{
+  "code": "W_F_034",
+  "title": "솟강알에 불 부찐 도체비",
+  "category": "민담",
+  "sub_category": "세속담",
+  "type": "현지조사",
+  "content": {
+    "text": "W_F_034 솟강알에  불  부찐  도체비 2016년 12월 15일, 표선면 성읍1리 성읍1리노인회관, 송정희 조사. 조인흥(남, 1934년생, 표선면 성읍1리)   [조사자] 도체비  이야기는  들어본  게  엇수과?   [제보자] 정심  아젼  강  밧  가는  디  정심  아젼  강  보난  집이  정심을  딱  거려  놔동그넹에,    신이  잇이난  정심을  거려  놔동그네  허는디  걸  잊어불언  정심을  졍  간  생각헤  보    난  어가라  왕  보난  솟강알에서  불  불어렌,  겅  는  말을  나도  들엇주.   ∙ 핵심어 : 도체비,  정심,  솟강알,  불",
+    "char_count": 333,
+    "text_cleaned": "W_F_034 솟강알에 불 부찐 도체비 2016년 12월 15일, 표선면 성읍1리 성읍1리노인회관, 송정희 조사. 조인흥(남, 1934년생, 표선면 성읍1리) [조사자] 도체비 이야기는 들어본 게 엇수과? [제보자] 정심 아젼 강 밧 가는 디 정심 아젼 강 보난 집이 정심을 딱 거려 놔동그넹에, 신이 잇이난 정심을 거려 놔동그네 허는디 걸 잊어불언 정심을 졍 간 생각헤 보 난 어가라 왕 보난 솟강알에서 불 불어렌, 겅 는 말을 나도 들엇주. ∙ 핵심어 : 도체비, 정심, 솟강알, 불",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "52개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 333,
+      "cleaned_char_count": 274
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_034/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_034/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:33:39.910007",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T16:09:34.636037",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T19:20:39.460613"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Rivalry",
+    "object_link": "Cliff",
+    "emotion_keyword": "Thriller",
+    "modern_summary": "솟강알에서 불이 나면서 정심과 도체비 사이에 갈등이 발생했다.",
+    "location_context": {
+      "primary_place": "솟강알",
+      "admin_region": "Unknown"
+    },
+    "emotion_confidence": "medium",
+    "emotion_method": "cot_priority"
+  }
+}

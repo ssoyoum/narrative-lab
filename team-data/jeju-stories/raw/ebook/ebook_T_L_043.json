@@ -1,0 +1,35 @@
+{
+  "code": "T_L_043",
+  "title": "모동장을 민유로 돌린 김두규",
+  "category": "전설",
+  "sub_category": "역사",
+  "type": "원문",
+  "content": {
+    "text": "T_L_043   모동장을  민유로  돌린  김두규 김두규는  金海인으로  경술  국치  후에  일본인들이  모동장으로  驛屯土를  삼으려  하자  끝까지  법   을  내세워  민유가  되게  하였다. 거기다  사람들에게  소나무를  심도록  권했으므로  이  나무들이  숲을  이루어  목재와  땔감으로  쓰   기에  부족함이  없었다. 그는  또  京城의  共進會에서  신서란  뿌리를  옮겨다  마을에  전파하기도  하였다.  <마을  사람들  이야기  종합>   오성찬, 제주의 마을 신도리, 도서출판 반석, 2002, p.150.",
+    "char_count": 305,
+    "text_cleaned": "T_L_043 모동장을 민유로 돌린 김두규 김두규는 金海인으로 경술 국치 후에 일본인들이 모동장으로 驛屯土를 삼으려 하자 끝까지 법 을 내세워 민유가 되게 하였다. 거기다 사람들에게 소나무를 심도록 권했으므로 이 나무들이 숲을 이루어 목재와 땔감으로 쓰 기에 부족함이 없었다. 그는 또 京城의 共進會에서 신서란 뿌리를 옮겨다 마을에 전파하기도 하였다. <마을 사람들 이야기 종합> 오성찬, 제주의 마을 신도리, 도서출판 반석, 2002, p.150.",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "48개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 305,
+      "cleaned_char_count": 253
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/T_L_043/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/T_L_043/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:37:59.663673",
+    "crawler_version": "1.0.0"
+  }
+}

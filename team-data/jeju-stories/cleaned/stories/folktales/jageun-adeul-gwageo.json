@@ -1,0 +1,69 @@
+{
+  "id": "folktale_jageun_adeul_gwageo",
+  "title": "작은아들의 과거",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "민담",
+
+  "content": {
+    "summary": "귀동냥 공부로 과거에 급제하여 금의환향하는 작은아들의 이야기.",
+
+    "episodes": [
+      {
+        "title": "게으른 아들",
+        "content": "양반집 작은아들이 공부 열심히 하는 형과 달리 게으르다고 여겨졌다."
+      },
+      {
+        "title": "집 떠남",
+        "content": "가족 상황을 벗어나 마을 서당에서 일자리를 찾는다."
+      },
+      {
+        "title": "귀동냥 공부",
+        "content": "아궁이를 때면서 수업을 엿들으며 배운다. 스승은 '풍취부동연엽초'라는 구절 암기를 강조했다."
+      },
+      {
+        "title": "과거 시험",
+        "content": "형과 함께 과거 시험에 응시한다."
+      },
+      {
+        "title": "예상치 못한 성공",
+        "content": "시험관이 낸 불가능해 보이는 문제에 암기했던 유일한 구절로 답하여 급제한다."
+      }
+    ],
+
+    "themes": ["귀동냥 공부", "금의환향", "비범한 성공"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "작은아들", "role": "주인공"},
+      {"name": "큰아들", "role": "형"},
+      {"name": "스승", "role": "서당 훈장"}
+    ],
+    "locations": [
+      {"name": "노형동 광평리", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["귀동냥", "과거", "금의환향"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00701716",
+      "item_id": "GC00701716"
+    },
+    {
+      "type": "book",
+      "reference": "한국구비문학대계, 1981",
+      "informant": {"name": "현용필", "age": 60},
+      "recorded": "1980년 1월 21일",
+      "collector": "현용준"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

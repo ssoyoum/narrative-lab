@@ -1,0 +1,69 @@
+{
+  "id": "folktale_hok_tteo_iyagi",
+  "title": "혹 떼러 갔다가 혹 붙인 이야기",
+  "title_alt": ["혹부리 영감"],
+  "type": "folktale",
+  "category": "민담",
+
+  "content": {
+    "summary": "도깨비를 만나 혹을 떼고 마법 지팡이를 얻은 영감과 이를 모방하려다 두 배의 혹을 얻게 된 이야기.",
+
+    "episodes": [
+      {
+        "title": "노래하는 영감",
+        "content": "목에 큰 혹이 달린 노래하는 영감이 나무하다가 피신한다."
+      },
+      {
+        "title": "도깨비와의 만남",
+        "content": "도깨비 같은 존재들이 음식과 음료를 내놓는 마법 지팡이를 들고 나타난다."
+      },
+      {
+        "title": "교환",
+        "content": "영감의 노래에 매료된 도깨비들이 초자연적 도구와 혹을 교환한다."
+      },
+      {
+        "title": "모방 시도",
+        "content": "이 이야기를 들은 두 번째 남자가 같은 계략을 시도한다."
+      },
+      {
+        "title": "징벌",
+        "content": "두 배의 고통을 받게 된다."
+      }
+    ],
+
+    "themes": ["욕심과 결과", "도깨비", "마법 물건"],
+    "note": "육지의 '혹부리 영감' 이야기와 유사하나 주인공 간 명시적 도덕 판단을 생략하고 초자연적 교환의 메커니즘에 집중"
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "첫 번째 영감", "role": "성공하는 주인공"},
+      {"name": "두 번째 남자", "role": "실패하는 모방자"},
+      {"name": "도깨비들", "role": "초자연적 존재"}
+    ],
+    "locations": [
+      {"name": "화북동", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["혹부리", "도깨비", "마법 지팡이", "모방"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00702641",
+      "item_id": "GC00702641"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도 민담』, 1996",
+      "informant": {"gender": "여", "age": 61, "location": "화북동"},
+      "recorded": "1959년 8월"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "story_L_082",
+  "title": "수월봉과 녹고_모리",
+  "type": "legend",
+  "category": "기타",
+  "content": {
+    "summary": "",
+    "full_text": "",
+    "features": "",
+    "raw_text": "WL_082 수월봉과 녹고므리\n2016년 12월 15일 한경면 용수리 서안생씨 댁 , 김선히 조사. 서안생(여 , 1932년생 , 한경면 고산리)\n[조사자] 수필봉메도   전해오는 이야기가 잇수과? [제보자] 녹고는 오빠고   수월은 누나고. 옛날부터 경   글아난: [조사자] 아  오누이마셈? [제보자] 경 허명 두 오누이주게- 녹고도 오곳 털어정으네   죽엇젠 말이 서 거기서 오누이 가 다  경 헤영 유명혜염   녹고 모리가 뒤엇주기.\n핵심어 수원봉  녹고므리 오누이, 오빠 누이 죽음"
+  },
+  "elements": {
+    "characters": [],
+    "locations": [
+      "녹고므리",
+      "모리",
+      "용수리",
+      "고산리"
+    ],
+    "keywords": []
+  },
+  "sources": [
+    {
+      "type": "pdf",
+      "file": "W_L_082_수월봉과 녹고_모리.pdf",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "source_type": "web",
+    "source_id": "W_L_082",
+    "converted_at": "2025-12-04T11:43:30.629224",
+    "converter_version": "2.0.0",
+    "ocr_confidence": 0.97
+  }
+}

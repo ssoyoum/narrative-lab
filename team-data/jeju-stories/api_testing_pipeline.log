@@ -1,0 +1,13 @@
+2025-12-04 18:30:49,000 - INFO - API Testing Pipeline initialized
+2025-12-04 18:31:32,761 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-12-04 18:31:33,899 - INFO - S3 client configured successfully. Buckets: {'jeju-folklore-data': '✅ Available', 'elbee-oreumi': '✅ Available'}
+2025-12-04 18:31:47,728 - INFO - S3 configuration and mock data setup completed
+2025-12-04 18:32:36,195 - INFO - API clients and data processor initialized
+2025-12-04 18:32:48,275 - INFO - All components initialized successfully
+2025-12-04 18:32:50,927 - INFO - All components initialized successfully
+2025-12-04 18:33:00,554 - INFO - S3 connection test completed. Episodes found: 2
+2025-12-04 18:33:27,279 - INFO - Pipeline test completed: 2 episodes tested
+2025-12-04 18:35:00,776 - INFO - Test results saved to s3_api_test_results_20251204_183500.json
+2025-12-04 18:35:00,778 - INFO - Pipeline validation and analysis completed
+2025-12-04 18:35:20,355 - INFO - Test results saved to s3_api_test_results_20251204_183520.json
+2025-12-04 18:35:20,362 - INFO - Pipeline validation and analysis completed

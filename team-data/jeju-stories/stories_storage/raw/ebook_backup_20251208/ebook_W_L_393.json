@@ -1,0 +1,50 @@
+{
+  "code": "W-L-393",
+  "title": "소 빠져 죽은 못",
+  "category": "전설",
+  "sub_category": "지명",
+  "type": "현지조사",
+  "content": {
+    "text": "W_L_393 소  빠져  죽은  못(#)  2017년 5월 29일,  성산읍 삼달1리 삼달1리경로당,  송정희 조사.  고형근(남,  1937년생,  성산읍 삼달1리)  ∙ 줄거리:  마을에 스님이 파 놓은 연못에 소가 빠져 죽었다고 한다.   [제보자]  우리  마을에,  지금  생활  근본  원천인  연못이  잇는데  그거  지금  개조허니깐  엣날    모습이  엇지만은,  그  연못이  우물물이죠.  그게  한  삼백  년  가까이  이전에,  스님    저  스님이  물을  팟는데,  워낙  깊이  파니까는  쉐가  들어간  빠졍  죽으니까는  내불    언   잇단  그런  말은  들엇는디  이것도  하나의  풍월이주.  소  빠젼  죽은  못.  학실히  엣  어른덜한테  전헤  들은  말.  나  이거  전헤  들은  말    헌  거에요.  이전에는  우리가  의학도  발달뒈지  안  허고,  삼년에  한  번씩  마을  본향  본풀이    저  굿을  헷거든,  굿을  하다가  이제와서  전혀  안  허는  디  삼  년  전지는  아니  한    십오  년  전지는  삼  년마다  번씩  굿을  헤낫어.   ∙ 핵심어 : 연못,  우물물,  스님,  쉐,  본향  본풀이,  굿,  소,  못 -  351  -",
+    "char_count": 646,
+    "text_cleaned": "W_L_393 소 빠져 죽은 못(#) 2017년 5월 29일, 성산읍 삼달1리 삼달1리경로당, 송정희 조사. 고형근(남, 1937년생, 성산읍 삼달1리) ∙ 줄거리: 마을에 스님이 파 놓은 연못에 소가 빠져 죽었다고 한다. [제보자] 우리 마을에, 지금 생활 근본 원천인 연못이 잇는데 그거 지금 개조허니깐 엣날 모습이 엇지만은, 그 연못이 우물물이죠. 그게 한 삼백 년 가까이 이전에, 스님 저 스님이 물을 팟는데, 워낙 깊이 파니까는 쉐가 들어간 빠졍 죽으니까는 내불 언  잇단 그런 말은 들엇는디 이것도 하나의 풍월이주. 소 빠젼 죽은 못. 학실히 엣 어른덜한테 전헤 들은 말. 나 이거 전헤 들은 말 헌 거에요. 이전에는 우리가 의학도 발달뒈지 안 허고, 삼년에 한 번씩 마을 본향 본풀이 저 굿을 헷거든, 굿을 하다가 이제와서 전혀 안 허는 디 삼 년 전지는 아니 한 십오 년 전지는 삼 년마다 번씩 굿을 헤낫어. ∙ 핵심어 : 연못, 우물물, 스님, 쉐, 본향 본풀이, 굿, 소, 못 - 351 -",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "119개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 646,
+      "cleaned_char_count": 513
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_393/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_393/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:41:15.556067",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T16:06:11.179147",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T19:15:28.123663"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Lack",
+    "object_link": "Basalt_Rock",
+    "emotion_keyword": "Sweet_Potato",
+    "modern_summary": "마을의 생활 근본인 연못이 이전에 스님이 파놓았는데, 소가 빠져 죽었다는 이야기",
+    "location_context": {
+      "primary_place": "삼달1리 경로당",
+      "admin_region": "성산읍"
+    },
+    "emotion_confidence": "medium",
+    "emotion_method": "keyword_tiebreak"
+  }
+}

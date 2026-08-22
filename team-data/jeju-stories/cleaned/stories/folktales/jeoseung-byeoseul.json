@@ -1,0 +1,73 @@
+{
+  "id": "folktale_jeoseung_byeoseul",
+  "title": "저승에서 벼슬한 친구",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "저승담",
+
+  "content": {
+    "summary": "살아있는 친구가 죽은 친구의 부탁을 이행하여 저승에서 벼슬을 얻게 해주는 이야기.",
+
+    "episodes": [
+      {
+        "title": "친밀한 우정",
+        "content": "고대 마을에 두 친한 친구가 살았다."
+      },
+      {
+        "title": "제삿날 만남",
+        "content": "친구가 죽은 후, 살아있는 친구가 제삿날 꿈에서 그를 만난다."
+      },
+      {
+        "title": "뇌물 고백",
+        "content": "죽은 친구가 관직 시절 면포 두 필을 뇌물로 받은 업보 때문에 저승에서 벼슬을 얻지 못한다고 설명한다."
+      },
+      {
+        "title": "증거 제시",
+        "content": "영혼이 준 사과와 제사상의 사과를 비교하여 이야기를 확인한다."
+      },
+      {
+        "title": "빚 청산",
+        "content": "아들이 빚을 갚는다."
+      },
+      {
+        "title": "저승 벼슬",
+        "content": "이듬해 죽은 친구가 돌아와 '좋은 벼슬'을 얻었다고 보고한다."
+      }
+    ],
+
+    "themes": ["도덕적 교훈", "업보 청산", "저승 벼슬"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "살아있는 친구", "role": "주인공"},
+      {"name": "죽은 친구", "role": "영혼"},
+      {"name": "아들", "role": "빚을 갚는 자"}
+    ],
+    "locations": [
+      {"name": "노형동", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["저승", "벼슬", "뇌물", "업보", "도덕"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00701744",
+      "item_id": "GC00701744"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도 민담』, 1996",
+      "informant": {"name": "김호준", "age": 30},
+      "recorded": "1959년 10월",
+      "collector": "현용준"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

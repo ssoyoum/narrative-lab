@@ -1,0 +1,66 @@
+{
+  "code": "L_042",
+  "title": "모동장에 돌담 두른 안익생",
+  "category": "전설",
+  "sub_category": "역사",
+  "type": "원문",
+  "content": {
+    "text": "T_L_042   모동장에  돌담  두른  안익생 안익생은  礪山人으로  조선  시대  국우에게  낙인  찍기  위하여  해마다  모동장(毛洞場)에  목책을   두르노라고  주민들의  노고가  매우  심했으므로  그가  서둘러  목장  주변을  돌로  둘러  쌓아  노역을   제하였다. \"목장  소가  상함이  없고,  마을  사람들이  편했다.\"는  찬문을  내린  바  있다.  <마을  사람들  이양기  종합>   오성찬, 제주의 마을 신도리, 도서출판 반석, 2002, p.150.",
+    "char_count": 276,
+    "text_cleaned": "모동장에 돌담 두른 안익생\n\n[분류] 전설 > 역사\n\n[채록정보] 마을 사람들 이양기 종합.\n\n[본문]\n안익생은 여산인(礪山人)으로 조선 시대 국우(國牛)에게 낙인 찍기 위하여 해마다 모동장(毛洞場)에 목책을 두르노라고 주민들의 노고가 매우 심했으므로 그가 서둘러 목장 주변을 돌로 둘러 쌓아 노역을 제하였다.\n\n\"목장 소가 상함이 없고, 마을 사람들이 편했다.\"는 찬문을 내린 바 있다.\n\n[출처] 오성찬, 제주의 마을 신도리, 도서출판 반석, 2002, p.150.",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "구조화",
+          "original": "연속텍스트",
+          "fixed": "채록정보/본문/출처 분리",
+          "note": "가독성 향상"
+        },
+        {
+          "type": "한자병기",
+          "original": "礪山人",
+          "fixed": "여산인(礪山人)",
+          "note": "한글음 병기"
+        },
+        {
+          "type": "대화정리",
+          "original": "\"목장 소가\"",
+          "fixed": "\\\"목장 소가\\\"",
+          "note": "따옴표 통일"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.95,
+      "original_char_count": 276,
+      "cleaned_char_count": 310,
+      "manual_review": true,
+      "reviewer_note": "표준어 서술체 역사전설. 제주 신도리 모동장(毛洞場) 관련 인물 안익생 이야기. 여산(礪山) 출신으로 조선 시대 국마(國馬)에 낙인 찍기 위해 매년 목책을 세우던 주민 노역을 줄이고자 돌담을 쌓아 주민들의 편의를 도모함. 국우(國牛)는 국가 소유 소를 뜻함."
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/T_L_042/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/T_L_042/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:37:59.273644",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T14:20:47.201194",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T18:09:19.046342",
+    "renamed_at": "2025-12-08T09:38:49.803355",
+    "original_code": "T_L_042"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Obstacle",
+    "object_link": "Stone_Wall",
+    "emotion_keyword": "Healing",
+    "modern_summary": "국우에게 낙인 찍기 위하여 목책을 두르는데 노역이 심해 안익생이 돌로 둘러 쌓아 노역을 제한함",
+    "location_context": {
+      "primary_place": "모동장",
+      "admin_region": "Unknown"
+    },
+    "emotion_confidence": "medium",
+    "emotion_method": "cot_priority"
+  }
+}

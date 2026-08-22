@@ -1,0 +1,60 @@
+{
+  "id": "legend_choiyeong_janggun",
+  "title": "최영 장군 귀신들린 이야기",
+  "title_alt": [],
+  "type": "legend",
+  "category": "신이담",
+
+  "content": {
+    "summary": "약 130년 전 마을의 바보에게 최영 장군의 영혼이 들려 신이로운 능력을 보였다는 전설.",
+
+    "episodes": [
+      {
+        "title": "빙의 현상",
+        "content": "마을 바보에게 최영 장군의 영혼이 들린다."
+      },
+      {
+        "title": "진위 확인",
+        "content": "마을 유지들이 똑똒한 박명래에게 바보의 정체를 확인하도록 한다."
+      },
+      {
+        "title": "증명",
+        "content": "박명래가 위패의 글귀를 묻자, 바보가 갑자기 '조국도통사 최영대장지신'이라 써내려 최영 장군의 영혼임을 증명한다."
+      }
+    ],
+
+    "themes": ["신이담", "내력담", "무속적 신격"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "최영 장군", "role": "빙의한 영혼"},
+      {"name": "마을 바보", "role": "빙의 대상"},
+      {"name": "박명래", "role": "진위 확인자"}
+    ],
+    "locations": [
+      {"name": "추자면 대서리", "type": "마을", "relation": "전승지"},
+      {"name": "최영 장군 사당", "type": "사당"}
+    ],
+    "keywords": ["최영 장군", "빙의", "사당", "추자도"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00711408",
+      "item_id": "GC00711408"
+    },
+    {
+      "type": "book",
+      "informant": {"name": "최철주", "gender": "남", "age": 69, "location": "추자면 대서리"},
+      "recorded": "2002년"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "story_L_150",
+  "title": "큰할망",
+  "type": "legend",
+  "category": "기타",
+  "content": {
+    "summary": "",
+    "full_text": "",
+    "features": "",
+    "raw_text": "W_L_150 큰할망\n2016년 12월 7일, 서귀국시 로근동 호근동마올회관 , 김선회 조사 오남기남, 1935년생, 서귀포시 호근동)\n[제보자] 옛날에  한락산메서   내려오면 할망이 그 고근산 등허리에   결런 방아기 글로 밀천 범섬 발로 나빛다고 헤여. 시오름은 두인배고 저 발 두 개 벌으니까 저 범심에 걸럿답도 햇어. 한라산은 베개로 베고 저 시오름은 빗도록이고 발 범으니까 범섬 구념 두 개 잇어: 글로 나뭇맨 삼승활망인가가-\n핵심어 한락산, 한라산  활망 고훈산 범섬, 시오름 삼승활망"
+  },
+  "elements": {
+    "characters": [
+      "할망"
+    ],
+    "locations": [
+      "호근동",
+      "로근동",
+      "등허리",
+      "한라산"
+    ],
+    "keywords": []
+  },
+  "sources": [
+    {
+      "type": "pdf",
+      "file": "W_L_150_큰할망.pdf",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "source_type": "web",
+    "source_id": "W_L_150",
+    "converted_at": "2025-12-04T12:29:45.468532",
+    "converter_version": "2.0.0",
+    "ocr_confidence": 1.0
+  }
+}

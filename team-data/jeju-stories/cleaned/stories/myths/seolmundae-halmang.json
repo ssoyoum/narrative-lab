@@ -1,0 +1,90 @@
+{
+  "id": "myth_seolmundae",
+  "title": "설문대할망",
+  "title_alt": ["선문대할망", "설문데할망", "세명주할망", "선마선파", "세명두", "세명뒤"],
+  "type": "myth",
+  "category": "창조신화",
+
+  "content": {
+    "summary": "제주도를 창조한 거인 여신. 치마에 흙을 담아 한라산과 360여 개의 오름을 만들고, 제주의 1만 8천 신의 어머니로 여겨지는 창조신.",
+
+    "episodes": [
+      {
+        "title": "제주도 지형 창조",
+        "content": "설문대할망은 치마에 흙을 담아 여러 번 쏟아 한라산을 형성했다. 치마 터진 틈으로 흘러내린 흙이 약 360개의 오름이 되었다. 한라산 봉우리 윗부분을 꺾어 산방산을 만들고, 주먹으로 봉우리를 쳐서 다랑쉬오름의 분화구를 생성했다."
+      },
+      {
+        "title": "거대한 몸집",
+        "content": "아무리 깊은 바다라도 무릎 높이밖에 차지 않았다. 한라산을 베개 삼아 누우면 한 발은 성산일출봉에, 또 한 발은 제주시 앞바다 관탈섬에 걸쳐졌다. 관탈섬에 빨래를 놓고 발로 빨래를 문질러 빨았다고 전해진다."
+      },
+      {
+        "title": "미완성된 다리 (옷감 설화)",
+        "content": "거인이기에 입을 옷을 제대로 지을 수 없어, 제주도 주민들에게 '명주 100동(5,000필)을 모아 속옷을 만들어 주면 육지까지 다리를 놓아주겠다'고 약속했다. 그러나 99동만 모아져 1동이 부족해 다리 건설이 무산되고 제주도는 섬으로 남게 되었다."
+      },
+      {
+        "title": "설문대할망의 죽음",
+        "content": "설문대할망은 제주 곳곳의 깊은 물에 들어가 깊이를 재다가, 물장오리(물장올)에서 끝없이 빠져 생을 마쳤다. 이 장소를 '창터진 물'이라 부른다. 또 다른 전승에서는 오백 명의 아들들을 위해 죽을 끓이다 솥에 빠져 죽었다고도 한다."
+      }
+    ],
+
+    "cultural_significance": [
+      "제주도 1만 8천 신의 어머니",
+      "조선 후기 《표해록》에서 뱃사람들이 한라산이 보이자 설문대할망에게 기도",
+      "일제강점기 신사 건설 시 '제주도 창조신의 신격이 너무 강하여' 일본 신들이 버티지 못함"
+    ]
+  },
+
+  "elements": {
+    "characters": ["설문대할망"],
+    "locations": [
+      {"name": "한라산", "type": "산", "relation": "창조"},
+      {"name": "백록담", "type": "화구호", "relation": "창조"},
+      {"name": "산방산", "type": "산", "relation": "창조"},
+      {"name": "오름 (360여 개)", "type": "측화산", "relation": "창조"},
+      {"name": "물장오리", "type": "습지", "relation": "죽음의 장소"},
+      {"name": "성산일출봉", "type": "산", "relation": "발판"},
+      {"name": "관탈섬", "type": "섬", "relation": "빨래터"}
+    ],
+    "keywords": ["창조신화", "거인", "지형유래", "여신", "화산"]
+  },
+
+  "related_stories": [
+    {"id": "myth_obaekjanggun", "title": "오백장군", "relation": "설문대할망의 아들들"},
+    {"id": "legend_yeongsilgiam", "title": "영실기암", "relation": "오백장군 관련"}
+  ],
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00701350",
+      "file": "web-crawled/grandculture/seolmundae.md"
+    },
+    {
+      "type": "web",
+      "name": "한국민족문화대백과",
+      "url": "https://encykorea.aks.ac.kr/Article/E0028698",
+      "file": "web-crawled/encykorea/seolmundae.md"
+    },
+    {
+      "type": "web",
+      "name": "나무위키",
+      "url": "https://namu.wiki/w/설문대할망",
+      "file": "web-crawled/namuwiki/seolmundae.md"
+    }
+  ],
+
+  "references": [
+    "진성기, 『남국의 전설』(일지사, 1968)",
+    "현용준, 『제주도 전설』(서문당, 1976)",
+    "장주근, 『풀어쓴 한국의 신화』(집문당, 1998)",
+    "이원조, 『탐라지』",
+    "장한철, 『표해록』(1770)"
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "merged_from": ["grandculture", "encykorea", "namuwiki"],
+    "data_quality": "high"
+  }
+}

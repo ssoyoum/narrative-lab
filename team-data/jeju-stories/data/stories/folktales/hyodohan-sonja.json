@@ -1,0 +1,73 @@
+{
+  "id": "folktale_hyodohan_sonja",
+  "title": "효도한 손자",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "효행담",
+
+  "content": {
+    "summary": "고려장 풍습에 저항하여 할아버지를 구한 효심 깊은 손자의 이야기.",
+
+    "episodes": [
+      {
+        "title": "버림 명령",
+        "content": "손자가 아버지로부터 할아버지를 강에 버리라는 명령을 받는다."
+      },
+      {
+        "title": "효심의 발로",
+        "content": "자비로운 소년은 떡을 준비하고 할아버지와 음식을 들것에 싣는다."
+      },
+      {
+        "title": "지혜로운 말",
+        "content": "할아버지에게 '제가 없는 동안 드세요, 돌아오겠습니다'라고 말한다."
+      },
+      {
+        "title": "아버지의 질문",
+        "content": "아버지가 왜 빈 들것을 가져왔는지 묻는다."
+      },
+      {
+        "title": "깨우침",
+        "content": "손자가 아버지가 늙으면 같은 운명이 필요하기에 들것을 보관한다고 답한다."
+      },
+      {
+        "title": "결과",
+        "content": "할아버지를 집에 데려와 공경하자 가족이 번영한다."
+      }
+    ],
+
+    "themes": ["효도", "고려장 풍습에 대한 비판", "도덕적 각성"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "손자", "role": "효심 깊은 주인공"},
+      {"name": "아버지", "role": "깨달음을 얻는 자"},
+      {"name": "할아버지", "role": "구원받는 자"}
+    ],
+    "locations": [
+      {"name": "용담동", "type": "마을", "relation": "전승지"},
+      {"name": "도두동", "type": "마을", "relation": "구연지"}
+    ],
+    "keywords": ["효도", "고려장", "손자", "도덕"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00702696",
+      "item_id": "GC00702696"
+    },
+    {
+      "type": "book",
+      "reference": "1996년 출판",
+      "informant": {"gender": "여", "age": 50, "location": "도두동"},
+      "recorded": "1959년 8월"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

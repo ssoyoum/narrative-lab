@@ -1,0 +1,64 @@
+{
+  "id": "folktale_jesa_yeonghon",
+  "title": "제사는 영혼이 먹어간다",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "교훈담",
+
+  "content": {
+    "summary": "제사와 죽음에 관한 제주 지역의 전통 신앙을 담은 민담.",
+
+    "episodes": [
+      {
+        "title": "무덤 근처에서의 잠",
+        "content": "농부가 띠를 베다가 날이 저물어 무덤 주변에서 잠을 자게 된다."
+      },
+      {
+        "title": "영혼의 출현",
+        "content": "밤 중에 무덤에서 영혼이 나와 다른 묘로 제사를 받으러 가는 모습을 목격한다."
+      },
+      {
+        "title": "마을 방문",
+        "content": "다음 날 마을로 내려온 농부가 제사를 지낸 집을 찾아가 경험담을 나눈다."
+      },
+      {
+        "title": "관행 변화",
+        "content": "그 집안 사람들은 이후 제사날 집 입구에 말을 매지 않기로 결정한다."
+      }
+    ],
+
+    "themes": ["제사의 중요성", "영혼 신앙", "산담 문화"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "농부", "role": "목격자"},
+      {"name": "영혼", "role": "제사를 받으러 가는 존재"}
+    ],
+    "locations": [
+      {"name": "삼도동", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["제사", "영혼", "산담", "무덤"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00701799",
+      "item_id": "GC00701799"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도 민담』, 1996",
+      "informant": {"name": "김호준", "age": 30, "location": "삼도2동"},
+      "recorded": "1959년 10월",
+      "collector": "현용준"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

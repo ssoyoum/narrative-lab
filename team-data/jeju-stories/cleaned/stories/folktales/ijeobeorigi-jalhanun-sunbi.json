@@ -1,0 +1,58 @@
+{
+  "id": "folktale_ijeobeorigi_sunbi",
+  "title": "잊어버리기 잘하는 선비",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "소화",
+
+  "content": {
+    "summary": "건망증이 심한 선비를 풍자하는 과장담. 조선시대 고귀한 존재였던 선비를 희극적으로 표현한다.",
+
+    "episodes": [
+      {
+        "title": "조문 후 귀가",
+        "content": "선비가 조문을 마치고 돌아오던 길에 화장실을 찾게 된다."
+      },
+      {
+        "title": "갓의 보관",
+        "content": "갓을 잃어버리지 않기 위해 소나무 가지에 걸어두고 용변을 본다."
+      },
+      {
+        "title": "희극적 상황",
+        "content": "일어나며 갓이 머리에 닿으면 주워지는 방식이었으나, 본인이 눈 똥을 밟고도 '어떤 망할 놈의 자식이 여기에 똥을 싸놓았느냐'고 욕한다."
+      }
+    ],
+
+    "themes": ["과장담", "선비 풍자", "희극"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "건망증 심한 선비", "role": "주인공"}
+    ],
+    "locations": [
+      {"name": "노형동", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["선비", "건망증", "과장담", "풍자"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00701703",
+      "item_id": "GC00701703"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도 민담』, 1996",
+      "informant": {"name": "현창준", "location": "노형동"},
+      "collector": "현용준"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

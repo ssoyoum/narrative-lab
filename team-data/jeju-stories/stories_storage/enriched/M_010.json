@@ -1,0 +1,140 @@
+{
+  "id": "M_010",
+  "title": "구실할망본풀이(나주 김씨 집안의 조상)",
+  "category": "신화",
+  "content": {
+    "clean": "구실할망본풀이(나주 김씨 집안의 조상)\n\n[분류] 신화 > 조상신본풀이\n\n[채록정보]\n- 조사지: 제주시 용담동(龍潭洞)\n- 제보자: 안사인(安仕仁, 남무)\n- 출전: 현용준·현승환, 《제주도 무가》, 고려대학교 민족문화연구소, 1996.\n\n[줄거리]\n옛날 신촌 큰물머리에 김씨사공이 살았다...",
+    "raw": "T_M_010    구실할망본풀이..."
+  },
+  "attributes": {
+    "summary": "조상신 유래담이자 제주 해녀 문화의 신화적 기원. 서울에서 버려진 허정승 딸이 제주에서 해녀로 재탄생하여 금은진주를 발견. 하강(버림받음)→상승(신분 획득)→신격화(조상신)의 완전한 변환 서사. 제주-육지 교류 금지령을 어긴 김사공의 결단이 씨족의 번영으로 귀결.",
+    "emotion": "Cider",
+    "conflict": "Obstacle",
+    "keywords": [
+      "구슬할망",
+      "김사공",
+      "허정승",
+      "해녀",
+      "상해녀",
+      "금진주",
+      "은진주",
+      "동지벼슬",
+      "나주김씨",
+      "조상신"
+    ],
+    "entities": [
+      {
+        "name": "구슬할망(허정승 딸)",
+        "description": "버려진 서울 정승 딸, 해녀로 재탄생, 나주 김씨 조상신",
+        "type": "Human"
+      },
+      {
+        "name": "김사공(김동지영감)",
+        "description": "진상선 사공, 금지령을 어기고 아기씨를 구함",
+        "type": "Human"
+      },
+      {
+        "name": "딸 아홉형제",
+        "description": "구슬할망의 딸들, 아홉 마을에 시집가 자손 번성",
+        "type": "Human"
+      }
+    ],
+    "roles": [
+      {
+        "entity_name": "구슬할망(허정승 딸)",
+        "type": "Protagonist"
+      },
+      {
+        "entity_name": "김사공(김동지영감)",
+        "type": "Helper"
+      },
+      {
+        "entity_name": "딸 아홉형제",
+        "type": "Neutral"
+      }
+    ],
+    "terrains": [
+      {
+        "type": "Village",
+        "description": "신촌 큰물머리 - 김사공 거주지, 구슬할망 성장지"
+      },
+      {
+        "type": "Sea",
+        "description": "바다 - 해녀 일터, 대전복과 진주 발견 장소"
+      }
+    ],
+    "location_context": {
+      "primary_place": "신촌 큰물머리",
+      "admin_region": "조천읍 신촌리"
+    },
+    "plot_points": [
+      {
+        "beat": "Ki",
+        "event": "김사공이 제주 특산물 진상 후 귀환 중 서대문 밖에서 울음소리 발견",
+        "function": "일상 속 비일상의 도입"
+      },
+      {
+        "beat": "Shō",
+        "event": "버려진 허정승 딸의 처지를 듣고 \"나곡 찌 가자\" 결단",
+        "function": "금기 위반의 결심"
+      },
+      {
+        "beat": "Trial",
+        "event": "제주-육지 왕래 금지령 하에 배 밑창에 숨겨 이동, 상다락에서 은밀히 양육",
+        "function": "장애 극복과 보호"
+      },
+      {
+        "beat": "Ten",
+        "event": "18세에 해녀가 되어 \"상해녀\"로 성장, 대전복에서 금진주·은진주 발견",
+        "function": "운명의 전환/보상"
+      },
+      {
+        "beat": "Ally",
+        "event": "진주를 임금께 진상하여 김사공은 동지 벼슬, 아기씨는 부인 첩지 획득",
+        "function": "사회적 신분 상승"
+      },
+      {
+        "beat": "Climax",
+        "event": "천정배필로 혼인하여 딸 아홉형제를 낳고 구슬을 하사받아 '구슬할망'으로 명명",
+        "function": "가문 창설/명명"
+      },
+      {
+        "beat": "Ketsu",
+        "event": "딸들을 아홉 마을에 시집보내 자손 번성, 나주 김씨의 조상신으로 좌정",
+        "function": "신격화/씨족 번영"
+      }
+    ],
+    "story_dna": {
+      "wounds_addressed": [
+        "loss",
+        "insignificance"
+      ],
+      "desires_fulfilled": [
+        "transformation",
+        "legacy"
+      ],
+      "primary_wound": "loss",
+      "primary_desire": "transformation",
+      "resonance_triggers": [
+        "허정승",
+        "딸",
+        "버려짐",
+        "해녀",
+        "조상신",
+        "구실할망",
+        "변신",
+        "신화",
+        "제주",
+        "이야기"
+      ],
+      "emotional_arc": "버려짐 → 해녀로 성장 → 조상신 좌정",
+      "narrative_themes": [
+        "해녀",
+        "조상신",
+        "신화",
+        "변신",
+        "제주"
+      ]
+    }
+  }
+}

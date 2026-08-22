@@ -1,0 +1,60 @@
+{
+  "id": "folktale_jihye_yeoin",
+  "title": "지혜 있는 여인",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "지혜담",
+
+  "content": {
+    "summary": "여인의 지혜로 어려운 난관을 극복한다는 내용의 민담.",
+
+    "episodes": [
+      {
+        "title": "목사의 집착",
+        "content": "도강수와 미월 부부가 살고 있는 상황에서 제주목사가 미월의 아름다움에 집착한다."
+      },
+      {
+        "title": "불가능한 과제",
+        "content": "목사가 도강수에게 '가락천 물 속의 달이라도 꺼내 오라'고 요구한다."
+      },
+      {
+        "title": "지혜로운 해결",
+        "content": "미월의 조언에 따라 도강수가 '놋대접에 물을 담아와' 기지를 발휘하여 목사의 부당한 요구를 무효화시킨다."
+      }
+    ],
+
+    "themes": ["여성의 지혜", "지배 계급의 허위 폭로", "민중의 승리"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "미월", "role": "지혜로운 여인"},
+      {"name": "도강수", "role": "미월의 남편"},
+      {"name": "제주목사", "role": "악역"}
+    ],
+    "locations": [
+      {"name": "용담동", "type": "마을", "relation": "전승지"},
+      {"name": "가락천", "type": "하천"}
+    ],
+    "keywords": ["지혜", "여인", "목사", "억압에 대한 저항"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00702299",
+      "item_id": "GC00702299"
+    },
+    {
+      "type": "book",
+      "reference": "『전통문화의 뿌리』, 1982",
+      "collector": "허남춘"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

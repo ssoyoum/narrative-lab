@@ -1,0 +1,133 @@
+{
+  "id": "L_001",
+  "title": "가릿뱅디",
+  "category": "전설",
+  "content": {
+    "clean": "가릿뱅디\n\n[분류] 전설 > 지명\n\n[채록정보] 북제주군 구좌읍 평대리. 제보자: 김우현, 남.\n\n[본문]\n평대리(舊左邑 坪垈里) 남쪽 4km쯤 되는 곳에 '가릿뱅디'라고 하는 넓은 평지가 있다...",
+    "raw": "T_L_001   가릿뱅디..."
+  },
+  "attributes": {
+    "summary": "지명 유래 전설이자 물의 이동에 대한 민속적 설명. 마소를 훔쳐가던 하얀 개가 사냥꾼에게 쫓기자 물을 가지고 김녕으로 도주. 제주의 지하수 체계(한 곳의 물이 마르면 다른 곳에서 솟음)에 대한 민간 해석. '가물뱅디→가릿뱅디' 음운 변화까지 설명하는 완결성 있는 지명 전설.",
+    "emotion": "Thriller",
+    "conflict": "Mystery",
+    "keywords": [
+      "가릿뱅디",
+      "가물뱅디",
+      "물귀신",
+      "하얀개",
+      "샘물이동",
+      "김녕",
+      "입산봉",
+      "지하수",
+      "지명유래"
+    ],
+    "entities": [
+      {
+        "name": "장서방",
+        "description": "마소를 기르던 목축인, 피해자",
+        "type": "Human"
+      },
+      {
+        "name": "하얀 개(물귀신)",
+        "description": "마소를 훔치고 물을 옮긴 정령, 제주 지하수의 의인화",
+        "type": "Spirit"
+      },
+      {
+        "name": "사냥꾼",
+        "description": "백발백중 명사수, 그러나 물귀신에게는 실패",
+        "type": "Human"
+      }
+    ],
+    "roles": [
+      {
+        "entity_name": "장서방",
+        "type": "Victim"
+      },
+      {
+        "entity_name": "하얀 개(물귀신)",
+        "type": "Antagonist"
+      },
+      {
+        "entity_name": "사냥꾼",
+        "type": "Helper"
+      }
+    ],
+    "terrains": [
+      {
+        "type": "Other",
+        "description": "가릿뱅디 - 원래 논밭이었던 벌판, 물이 마른 곳"
+      },
+      {
+        "type": "Mountain",
+        "description": "김녕 입산봉 - 물귀신이 숨고 새 샘물이 솟은 곳"
+      }
+    ],
+    "location_context": {
+      "primary_place": "가릿뱅디",
+      "admin_region": "구좌읍 평대리"
+    },
+    "plot_points": [
+      {
+        "beat": "Ki",
+        "event": "가릿뱅디가 좋은 논밭이었고 장서방이 마소를 기름",
+        "function": "풍요로운 원초적 상태"
+      },
+      {
+        "beat": "Shō",
+        "event": "마소가 원인 불명으로 하나씩 사라지기 시작",
+        "function": "미스터리 도입"
+      },
+      {
+        "beat": "Trial",
+        "event": "밤샘 감시 결과 하얀 개가 소를 몰고 논밭으로 사라지는 것을 목격",
+        "function": "범인 발견"
+      },
+      {
+        "beat": "Ten",
+        "event": "명사수 사냥꾼의 화살이 빗나가고 개는 김녕 입산봉으로 도주",
+        "function": "인간의 실패/초자연적 존재의 승리"
+      },
+      {
+        "beat": "Crisis",
+        "event": "가릿뱅디 논밭의 물이 삽시에 마르고, 김녕 입산봉에서 샘물이 솟음",
+        "function": "물의 이동/지형 변화"
+      },
+      {
+        "beat": "Ketsu",
+        "event": "하얀 개는 물귀신이었고, '가물뱅디→가릿뱅디' 지명이 생김",
+        "function": "정체 밝힘/지명 유래 완결"
+      }
+    ],
+    "story_dna": {
+      "wounds_addressed": [
+        "loss",
+        "fear"
+      ],
+      "desires_fulfilled": [
+        "discovery",
+        "meaning"
+      ],
+      "primary_wound": "loss",
+      "primary_desire": "discovery",
+      "resonance_triggers": [
+        "가릿뱅디",
+        "물귀신",
+        "하얀 개",
+        "샘물",
+        "김녕",
+        "장서방",
+        "마소",
+        "미스터리",
+        "지명유래",
+        "사냥꾼"
+      ],
+      "emotional_arc": "풍요 → 불안 → 추적 → 실패 → 진실",
+      "narrative_themes": [
+        "지명 유래",
+        "초자연적 존재",
+        "물의 이동",
+        "인간과 자연의 대결"
+      ]
+    }
+  }
+}

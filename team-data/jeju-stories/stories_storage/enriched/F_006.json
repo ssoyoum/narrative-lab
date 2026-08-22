@@ -1,0 +1,125 @@
+{
+  "id": "F_006",
+  "title": "구렁이가 된 막내",
+  "category": "민담",
+  "content": {
+    "clean": "구렁이가 된 막내\n\n[분류] 민담 > 세속담\n\n[채록정보] 애월읍 어음1리, 1984.7.70. 조사: 김영돈, 김지홍. 제보자: 김승추, 남·76세.\n\n[줄거리]\n옛날 삼형제가 서당에서 한문을 배우다가 결심한 바 있어, 도학(道學)을 배우기로 했다. 산중으로 올라가 스승을 정해놓고 십년간 정진하였다...",
+    "raw": "T_F_006   구렁이가  된  막내..."
+  },
+  "attributes": {
+    "summary": "삼형제가 도학을 배운 후 신선을 만남. 큰형과 둘째는 욕심 없이 신선이 되고, 욕심 많은 막내는 구렁이가 됨. 단순한 교훈담이 아닌 '심성 불변론'에 대한 철학적 담론. 제보자가 맹자의 '심지관즉사(心之官則思)'를 인용하며 본성은 바꿀 수 없다고 결론.",
+    "emotion": "Sweet_Potato",
+    "conflict": "Morality",
+    "keywords": [
+      "삼형제",
+      "도학",
+      "신선",
+      "욕심",
+      "구렁이",
+      "동삼",
+      "천도복숭아",
+      "심성불변",
+      "맹자"
+    ],
+    "entities": [
+      {
+        "name": "큰형",
+        "description": "이타적 본성, 신선이 됨",
+        "type": "Human"
+      },
+      {
+        "name": "둘째",
+        "description": "공정한 본성, 평양감사 후 신선이 됨",
+        "type": "Human"
+      },
+      {
+        "name": "막내",
+        "description": "탐욕적 본성, 구렁이가 됨 (변하지 않는 심성의 상징)",
+        "type": "Human"
+      }
+    ],
+    "roles": [
+      {
+        "entity_name": "큰형",
+        "type": "Helper"
+      },
+      {
+        "entity_name": "둘째",
+        "type": "Witness"
+      },
+      {
+        "entity_name": "막내",
+        "type": "Victim"
+      }
+    ],
+    "terrains": [
+      {
+        "type": "Mountain",
+        "description": "산중 - 도학 수련지, 신선의 거처"
+      }
+    ],
+    "location_context": {
+      "primary_place": "산중",
+      "admin_region": "제주"
+    },
+    "plot_points": [
+      {
+        "beat": "Ki",
+        "event": "삼형제가 글공부를 넘어 도학을 배우기로 결심하고 산중 스승을 찾아감",
+        "function": "배경/수련의 시작"
+      },
+      {
+        "beat": "Shō",
+        "event": "10년 합숙 중 식사 배분에서 세 형제의 본성이 드러남 (이타/공정/탐욕)",
+        "function": "성격 노출/복선"
+      },
+      {
+        "beat": "Ten",
+        "event": "수련 후 큰형은 신선, 둘째는 평양감사가 되고, 막내는 이미 구렁이로 변해 있음",
+        "function": "세 갈래 운명의 분기"
+      },
+      {
+        "beat": "Crisis",
+        "event": "막내가 사람으로 돌아왔으나 천도복숭아를 또 훔쳐 먹어 영원히 구렁이가 됨",
+        "function": "불변의 본성 확인"
+      },
+      {
+        "beat": "Ketsu",
+        "event": "화자가 '심자는 군주지관'을 인용하며 본성은 바꿀 수 없다고 결론",
+        "function": "철학적 결론/메타 서사"
+      }
+    ],
+    "story_dna": {
+      "wounds_addressed": [
+        "arrogance",
+        "restlessness"
+      ],
+      "desires_fulfilled": [
+        "transformation",
+        "peace"
+      ],
+      "primary_wound": "arrogance",
+      "primary_desire": "transformation",
+      "resonance_triggers": [
+        "구렁이",
+        "막내",
+        "욕심",
+        "변신",
+        "심성불변",
+        "교훈",
+        "제주",
+        "이야기",
+        "형제",
+        "도덕"
+      ],
+      "emotional_arc": "욕심 → 변신 → 불만 → 심성불변",
+      "narrative_themes": [
+        "욕심",
+        "변신",
+        "교훈",
+        "도덕",
+        "형제"
+      ]
+    }
+  }
+}

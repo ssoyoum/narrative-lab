@@ -1,0 +1,64 @@
+{
+  "code": "T_L_071",
+  "title": "선문대할망2",
+  "category": "전설",
+  "sub_category": "인물",
+  "type": "원문",
+  "content": {
+    "text": "T_L_071   선문대할망2 옛날  제주도에  선문대할망이  있었는데  그의  키는  왼쪽  발은  한라산에  딛고,  오른쪽  발은  산방   산(山房山)에  딛고  서서  태평양  물에  빨래할  정도였다. 어느  날에는  한라산  중턱에  있는  물장오리의  물이  얼마나  깊은가를  알아보기  위하여  그  속에   몸을  담궜는데,  지금까지  나오지  못하는  것으로  봐서  아무래도  죽어  버린  듯하다.  제주시  이도2동,  김선우(남·62)  제보.  제주도, 제주도전설지, 1985, p.68",
+    "char_count": 292,
+    "text_cleaned": "선문대할망2\n\n[분류] 전설 > 인물\n\n[채록정보] 제주시 이도2동, 김선우(남·62) 제보.\n\n[본문]\n옛날 제주도에 선문대할망(雪門大婆)이 있었는데 그의 키는 왼쪽 발은 한라산(漢拏山)에 딛고, 오른쪽 발은 산방산(山房山)에 딛고 서서 태평양(太平洋) 물에 빨래할 정도였다.\n\n어느 날에는 한라산 중턱에 있는 물장오리의 물이 얼마나 깊은가를 알아보기 위하여 그 속에 몸을 담갔는데, 지금까지 나오지 못하는 것으로 봐서 아무래도 죽어 버린 듯하다.\n\n[출처] 제주도, 제주도전설지, 1985, p.68.",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "구조화",
+          "original": "연속텍스트",
+          "fixed": "채록정보/본문/출처 분리",
+          "note": "가독성 향상"
+        },
+        {
+          "type": "한자병기",
+          "original": "선문대할망, 한라산, 산방산, 태평양",
+          "fixed": "선문대할망(雪門大婆), 한라산(漢拏山), 산방산(山房山), 태평양(太平洋)",
+          "note": "용어 설명"
+        },
+        {
+          "type": "맞춤법",
+          "original": "담궜는데",
+          "fixed": "담갔는데",
+          "note": "맞춤법 수정"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-04",
+      "confidence": 0.95,
+      "original_char_count": 292,
+      "cleaned_char_count": 420,
+      "manual_review": true,
+      "reviewer_note": "표준어 서술체 인물전설. 설문대할망(雪門大婆) 거인여신 전설 중 하나. 키의 거대함 강조: 한라산과 산방산에 발을 딛고 태평양 물에 빨래. 물장오리 깊이 시험 후 익사. '지금까지 나오지 못하는 것으로 봐서'라는 현재형 표현이 특징적. T_L_069, T_L_070과 함께 설문대할망 이본 시리즈. 물장오리 익사 화소는 T_L_070 노형리본과 동일."
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/T_L_071/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/T_L_071/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:38:10.587805",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T14:23:15.755403",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T18:12:52.547766"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Mystery",
+    "object_link": "Cliff",
+    "emotion_keyword": "Sweet_Potato",
+    "modern_summary": "선문대할망의 거대한 키와 한라산, 산방산에 딛고 서서 태평양 물에 빨래하는 장면을 통해 자연의 위대함과 평온함을 느낄 수 있다.",
+    "location_context": {
+      "primary_place": "한라산",
+      "admin_region": "제주시"
+    },
+    "emotion_confidence": "high",
+    "emotion_method": "cot+simple_agree"
+  }
+}

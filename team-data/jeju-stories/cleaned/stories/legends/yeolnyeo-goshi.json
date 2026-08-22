@@ -1,0 +1,64 @@
+{
+  "id": "legend_yeolnyeo_goshi",
+  "title": "열녀고씨 절개서린 절부암",
+  "title_alt": ["절부암 전설"],
+  "type": "legend",
+  "category": "열녀전설",
+
+  "content": {
+    "summary": "남편의 죽음을 슬퍼하며 자결한 고씨 부인의 절의를 기리는 열녀 전설.",
+
+    "episodes": [
+      {
+        "title": "혼인",
+        "content": "조실부모한 남편과 고씨 성의 아내가 혼인했다."
+      },
+      {
+        "title": "남편의 죽음",
+        "content": "남편이 어업 중 풍랑으로 사망한다."
+      },
+      {
+        "title": "아내의 자결",
+        "content": "아내는 남편의 시신을 찾다 절망하여 포구 옆 숲에서 목숨을 끊었다. 이후 남편의 시신이 떠올랐다."
+      },
+      {
+        "title": "선비의 꿈",
+        "content": "과거 낙방자 신재우가 꿈에서 고씨 부인의 권유를 받아 급제 후 제를 지내주고, 그 절벽을 절부암이라 부르게 되었다."
+      }
+    ],
+
+    "themes": ["열녀", "절의", "죽음으로 절의 증명"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "고씨 부인", "role": "열녀"},
+      {"name": "남편", "role": "어부"},
+      {"name": "신재우", "role": "선비"}
+    ],
+    "locations": [
+      {"name": "절부암", "type": "절벽", "region": "제주시 한경면 용수리"}
+    ],
+    "keywords": ["열녀", "절부암", "자결", "절의"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00711390",
+      "item_id": "GC00711390"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도전설지』, 1985",
+      "informant": {"name": "이자영", "age": 77},
+      "recorded": "1975년"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

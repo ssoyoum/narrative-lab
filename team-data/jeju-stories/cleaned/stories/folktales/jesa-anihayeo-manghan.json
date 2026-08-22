@@ -1,0 +1,70 @@
+{
+  "id": "folktale_jesa_anihayeo_manghan",
+  "title": "제사를 아니하여 망한 아들",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "교훈담",
+
+  "content": {
+    "summary": "제사의 중요성을 강조하며 제사를 소홀히 한 후손에 대한 초자연적 징벌을 다루는 민담.",
+
+    "episodes": [
+      {
+        "title": "아버지의 유언",
+        "content": "노인이 죽은 후 살아있을 때 잘 봉양받기를 원하며 제사를 거부한다."
+      },
+      {
+        "title": "염라대왕의 기대",
+        "content": "염라대왕은 아들이 제사를 지낼 것이라 예상하며 노인을 이승으로 보낸다."
+      },
+      {
+        "title": "제사 부재",
+        "content": "아들이 제사를 지내지 않는다."
+      },
+      {
+        "title": "징벌",
+        "content": "염라대왕이 무쇠 철망과 팥씨를 이용해 아들에게 징벌을 내린다."
+      },
+      {
+        "title": "집안의 몰락",
+        "content": "결국 집안이 완전히 망한다."
+      }
+    ],
+
+    "themes": ["제사의 의무", "염라대왕의 개입", "징벌"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "노인", "role": "죽은 아버지"},
+      {"name": "아들", "role": "제사를 거부한 자"},
+      {"name": "염라대왕", "role": "심판자"}
+    ],
+    "locations": [
+      {"name": "삼도동", "type": "마을", "relation": "전승지"},
+      {"name": "용담2동", "type": "마을", "relation": "구연지"}
+    ],
+    "keywords": ["제사", "염라대왕", "징벌", "몰락"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00701800",
+      "item_id": "GC00701800"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도 민담』, 1996",
+      "informant": {"gender": "여", "age": 80, "location": "용담2동"},
+      "recorded": "1967년 7월",
+      "collector": "현용준"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

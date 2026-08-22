@@ -1,0 +1,50 @@
+{
+  "code": "W-L-268",
+  "title": "말발 절게 한 와산 본향",
+  "category": "전설",
+  "sub_category": "신앙",
+  "type": "현지조사",
+  "content": {
+    "text": "W_L_268 말발  절게  한  와산  본향  2017년 5월 25일, 조천읍 와산리 와산경로당, 강수경 조사.  양춘아(여, 1933년생, 조천읍 와산리)  ∙ 줄거리:  옛날에 포목 장수가 와산 본향을 그냥 지나가면 말발을 절게 하였다고 한다.   와산 본향을 지날 때면 포목 장수는 비단을 끊어서 본향에 올려야 무사히 지나갈   수 있었다.   [제보자] 경  헌디  이  동네  저  본향  신  거는  와산  우에  큰  본향잇주게.  그디는  엿날  그디    집이  영  셔.  게나네  엣날엔 포목 졍 장시 뎅긴 사름  셧주게. 그런 사름이 그대로 넘어가면은    에 싣겅 가민  발 딱 저려불어, 그 조상에서. 저려불민 이젠 그 비단 풀엉 끊엉    그레  강  올령  잘못헷수덴  헤뒁  가지  안  허민  이  걷질  못헤낫어.  엣날은게.  그추룩허영  막  쎈  본향  잇엇주.  지금도  막  집  짓어  놓고  막  잘  헤놧어.   ∙ 핵심어 : 와산  본향,  포목  장시,  말발,  와산,  비단,  조상 -  145  -",
+    "char_count": 539,
+    "text_cleaned": "W_L_268 말발 절게 한 와산 본향 2017년 5월 25일, 조천읍 와산리 와산경로당, 강수경 조사. 양춘아(여, 1933년생, 조천읍 와산리) ∙ 줄거리: 옛날에 포목 장수가 와산 본향을 그냥 지나가면 말발을 절게 하였다고 한다. 와산 본향을 지날 때면 포목 장수는 비단을 끊어서 본향에 올려야 무사히 지나갈 수 있었다. [제보자] 경 헌디 이 동네 저 본향 신 거는 와산 우에 큰 본향잇주게. 그디는 엿날 그디 집이 영 셔. 게나네 엣날엔 포목 졍 장시 뎅긴 사름 셧주게. 그런 사름이 그대로 넘어가면은 에 싣겅 가민  발 딱 저려불어, 그 조상에서. 저려불민 이젠 그 비단 풀엉 끊엉 그레 강 올령 잘못헷수덴 헤뒁 가지 안 허민 이 걷질 못헤낫어. 엣날은게. 그추룩허영 막 쎈 본향 잇엇주. 지금도 막 집 짓어 놓고 막 잘 헤놧어. ∙ 핵심어 : 와산 본향, 포목 장시, 말발, 와산, 비단, 조상 - 145 -",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "67개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 539,
+      "cleaned_char_count": 462
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_268/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1927/W_L_268/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:40:22.394824",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T15:54:57.152786",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T18:59:50.592646"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Obstacle",
+    "object_link": "Basalt_Rock",
+    "emotion_keyword": "Sweet_Potato",
+    "modern_summary": "와산 본향을 지날 때면 포목 장수는 비단을 끊어서 본향에 올려야 무사히 지나갈 수 있었다.",
+    "location_context": {
+      "primary_place": "와산 본향",
+      "admin_region": "조천읍"
+    },
+    "emotion_confidence": "medium",
+    "emotion_method": "keyword_tiebreak"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "myth_samseunghalmang_bonpuri",
+  "title": "삼승할망본풀이",
+  "title_alt": ["생불할망본풀이", "할망본풀이"],
+  "type": "myth",
+  "category": "무속신화",
+
+  "content": {
+    "summary": "제주도 굿에서 임신과 출산을 돕는 생불할망의 내력을 풀이하는 서사무가.",
+
+    "episodes": [
+      {
+        "title": "동해 용왕의 딸",
+        "content": "동해 용왕의 딸이 임신을 주관하지만 해산 방법을 모른다."
+      },
+      {
+        "title": "명진국 따님 아기 임명",
+        "content": "옥황상제가 현명한 명진국 따님 아기를 삼승할망으로 임명한다."
+      },
+      {
+        "title": "꽃 가꾸기 내기",
+        "content": "두 신격이 꽃 가꾸기 내기를 통해 역할을 결정한다."
+      },
+      {
+        "title": "역할 분담",
+        "content": "명진국 따님 아기가 승리하여 생불할망(삼승할망)이 되고, 동해 용왕 따님 아기는 저승의 구삼승할망이 된다."
+      }
+    ],
+
+    "themes": ["산육신 신앙", "출산과 생명", "신들의 경쟁"],
+    "ritual": "불도맞이 의례에서 구연"
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "명진국 따님 아기", "role": "삼승할망(생불할망) - 출산의 신"},
+      {"name": "동해 용왕 따님 아기", "role": "구삼승할망 - 저승의 산육신"},
+      {"name": "옥황상제", "role": "심판자"}
+    ],
+    "keywords": ["삼승할망", "생불할망", "산육신", "출산", "본풀이"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "한국민족문화대백과사전",
+      "url": "https://encykorea.aks.ac.kr/Article/E0026696",
+      "article_id": "E0026696"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

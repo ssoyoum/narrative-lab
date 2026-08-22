@@ -1,0 +1,71 @@
+{
+  "code": "T_L_035",
+  "title": "두모와 지미",
+  "category": "전설",
+  "sub_category": "지명",
+  "type": "원문",
+  "content": {
+    "text": "T_L_035   두모(頭毛)와  지미(地尾) 종달리(舊左邑  終達里)에는  지미봉(地尾峰)이라는  산이  있다.  '지미'라는  이름이  붙여진  것은   이곳이  제주도  땅의  꼬리  부분에  해당되기  때문이다. 제주도는  고구마  모양의  타원형  섬인데,  종달리와  정반대  방향에  있는  바닷가  마을이  바로  두   모리(翰京面  頭毛里)다.  두모라고  이름이  붙여진  것은,  이곳이  섬의  머리  부분에  해당  되기  때문   이다. 이런  지명(地名)이  명지관(名地官)의  지형  관찰에서  붙여진  것임을  알려주는  것이다.  북제주군  구좌읍  종달리,  고인봉(남·71)  제보. 제주도, 제주도전설지, 1985, p.167.",
+    "char_count": 375,
+    "text_cleaned": "두모(頭毛)와 지미(地尾)\n\n[분류] 전설 > 지명\n\n[채록정보] 북제주군 구좌읍 종달리, 고인봉(남·71) 제보.\n\n[본문]\n종달리(구좌읍 종달리)에는 지미봉(地尾峰)이라는 산이 있다. '지미'라는 이름이 붙여진 것은 이곳이 제주도 땅의 꼬리 부분에 해당되기 때문이다.\n\n제주도는 고구마 모양의 타원형 섬인데, 종달리와 정반대 방향에 있는 바닷가 마을이 바로 두모리(한경면 두모리)다. 두모라고 이름이 붙여진 것은, 이곳이 섬의 머리 부분에 해당되기 때문이다.\n\n이런 지명(地名)이 명지관(名地官)의 지형 관찰에서 붙여진 것임을 알려주는 것이다.\n\n[출처] 제주도, 제주도전설지, 1985, p.167.",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "구조화",
+          "original": "연속텍스트",
+          "fixed": "채록정보/본문/출처 분리",
+          "note": "가독성 향상"
+        },
+        {
+          "type": "표기정리",
+          "original": "舊左邑 終達里",
+          "fixed": "구좌읍 종달리",
+          "note": "한글 병기"
+        },
+        {
+          "type": "표기정리",
+          "original": "翰京面 頭毛里",
+          "fixed": "한경면 두모리",
+          "note": "한글 병기"
+        },
+        {
+          "type": "표기정리",
+          "original": "해당 되기",
+          "fixed": "해당되기",
+          "note": "띄어쓰기"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.95,
+      "original_char_count": 375,
+      "cleaned_char_count": 480,
+      "manual_review": true,
+      "reviewer_note": "표준어 서술체 지명전설. 제주도의 동서 양끝 지명 유래. 지미봉(地尾峰)은 제주도 동쪽 끝(종달리)에 있어 '땅의 꼬리'라는 뜻으로 지미(地尾)라 불림. 두모리(頭毛里)는 서쪽 끝(한경면)에 있어 '섬의 머리'라는 뜻으로 두모(頭毛)라 불림. 제주도를 고구마 모양의 타원형 섬으로 본 풍수지리적 관점에서 명지관(名地官)이 붙인 이름이라 함."
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/T_L_035/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/001/1927/T_L_035/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:37:56.571195",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T14:20:06.650441",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T18:08:27.856191"
+  },
+  "story_engine_meta": {
+    "conflict_type": "None",
+    "object_link": "Basalt_Rock",
+    "emotion_keyword": "Sweet_Potato",
+    "modern_summary": "제주도는 고구마 모양의 타원형 섬으로, 종달리와 정반대 방향에 있는 두모리가 머리 부분에 해당되며, 지미봉이 꼬리 부분에 해당한다.",
+    "location_context": {
+      "primary_place": "종달리",
+      "admin_region": "구좌읍",
+      "admin_region_original": "북제주군 구좌읍"
+    },
+    "emotion_confidence": "high",
+    "emotion_method": "cot+simple_agree"
+  }
+}

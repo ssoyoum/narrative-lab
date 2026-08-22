@@ -1,0 +1,61 @@
+{
+  "id": "folktale_heoiheoigotgot",
+  "title": "허이허이 곳곳",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "소화",
+
+  "content": {
+    "summary": "장례식장에서 비싼 가죽신이 개에게 물려가는 상황을 해학적으로 묘사한 민담.",
+
+    "episodes": [
+      {
+        "title": "가죽신 착용",
+        "content": "남자가 비싼 가죽신(창신)을 도난 방지를 위해 장례식에 신고 간다."
+      },
+      {
+        "title": "개가 신발 탈취",
+        "content": "곡을 하는 도중 개가 신발을 물고 도망친다."
+      },
+      {
+        "title": "희극적 상황",
+        "content": "슬퍼하던 조문객이 개를 부르면서 동시에 장례 의식을 수행하며, 곡소리와 개 부르는 소리, 떡을 요청하는 말이 뒤섞인다."
+      }
+    ],
+
+    "themes": ["장례 풍습", "해학", "제주 방언"],
+    "linguistic_note": "제주 특유의 곡소리 '허이 허이'와 개 부르는 말 '곳곳'이 결합된 언어유희"
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "조문객", "role": "주인공"},
+      {"name": "개", "role": "신발 도둑"}
+    ],
+    "locations": [
+      {"name": "삼도동", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["장례", "해학", "제주어", "소화"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00702626",
+      "item_id": "GC00702626"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도 민담』, 1996",
+      "informant": {"name": "최동민", "age": 65, "location": "삼도동"},
+      "recorded": "1959년 8월",
+      "collector": "이화문"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

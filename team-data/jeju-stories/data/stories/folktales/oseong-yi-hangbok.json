@@ -1,0 +1,63 @@
+{
+  "id": "folktale_oseong_yi_hangbok",
+  "title": "오성 이항복",
+  "title_alt": ["이항복 일화"],
+  "type": "folktale",
+  "category": "인물담",
+
+  "content": {
+    "summary": "조선시대 뛰어난 지혜와 재치로 유명한 이항복의 일화를 담은 민담.",
+
+    "episodes": [
+      {
+        "title": "마을 아이들과의 만남",
+        "content": "마을 아이들이 이항복의 외모를 조롱하지만 그는 평정을 유지한다. 고위 관리가 와서 공손히 절하자 아이들이 도망친다."
+      },
+      {
+        "title": "이여송과의 만남",
+        "content": "임진왜란 당시 이항복이 지도를 보여줌으로써 조선의 역량을 중국 장군에게 인식시킨다."
+      },
+      {
+        "title": "혼인 준비",
+        "content": "장군의 딸과 혼인하기 전, 아이들에게 신발을 훔치게 하여 미래의 신부를 미리 보는 기지를 발휘한다."
+      },
+      {
+        "title": "아내 시험",
+        "content": "떡 개수를 세는 사찰 의식을 통해 아내와 장모의 덕행을 장난스럽게 시험한다."
+      }
+    ],
+
+    "themes": ["지혜", "재치", "겸손"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "이항복", "role": "주인공, 오성대감"},
+      {"name": "이여송", "role": "중국 장군"}
+    ],
+    "locations": [
+      {"name": "노형동", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["이항복", "오성", "지혜담", "임진왜란"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00701427",
+      "item_id": "GC00701427"
+    },
+    {
+      "type": "book",
+      "reference": "한국구비문학대계, 1981",
+      "informant": {"name": "양형회", "age": 56, "location": "광평리"},
+      "recorded": "1980년 1월 2일"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

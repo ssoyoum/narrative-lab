@@ -1,0 +1,61 @@
+{
+  "test_results": {
+    "session_id": "pipeline_test_20251204_183327",
+    "start_time": "2025-12-04T18:33:27.279321",
+    "episodes_tested": 2,
+    "allen_quota_start": {
+      "requests_made": 2,
+      "requests_remaining": 98,
+      "percentage_used": 2.0,
+      "quota_exceeded": false,
+      "daily_limit": 100
+    },
+    "results": [
+      {
+        "error": "No content available"
+      },
+      {
+        "error": "No content available"
+      }
+    ],
+    "end_time": "2025-12-04T18:33:27.279321",
+    "allen_quota_end": {
+      "requests_made": 2,
+      "requests_remaining": 98,
+      "percentage_used": 2.0,
+      "quota_exceeded": false,
+      "daily_limit": 100
+    },
+    "quota_used": 0
+  },
+  "analysis_report": {
+    "test_session": {
+      "session_id": "pipeline_test_20251204_183327",
+      "episodes_tested": 2,
+      "start_time": "2025-12-04T18:33:27.279321",
+      "end_time": "2025-12-04T18:33:27.279321",
+      "duration_seconds": 0.0
+    },
+    "api_performance": {
+      "allen_api": {
+        "success_rate": "0/2 (0.0%)",
+        "quota_usage": {
+          "start": 98,
+          "end": 98,
+          "used": 0
+        }
+      },
+      "kdt_api": {
+        "success_rate": "0/2 (0.0%)",
+        "status": "Endpoints returning 404 errors"
+      }
+    },
+    "cultural_insights": {
+      "jeju_dialect_detected": 0,
+      "jeju_dialect_episodes": [],
+      "avg_cultural_richness": 0,
+      "richness_scores": []
+    },
+    "validation_status": "FAILED"
+  }
+}

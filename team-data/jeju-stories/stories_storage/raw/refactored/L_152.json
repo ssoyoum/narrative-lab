@@ -1,0 +1,52 @@
+{
+  "id": "L_152",
+  "title": "최동이 장사(1)",
+  "category": "전설",
+  "content": {
+    "clean": "",
+    "raw": "",
+    "commentary": null
+  },
+  "attributes": {
+    "summary": "고성리 양씨집 종 최동이는 힘이 매우 세었다. 두 말들이 솥으로 밥을 먹고 닷새 동안 안 먹었다. 제주 옛 인심으로 집짓기 품앗이가 있었는데, 최동이는 밥만 먹이면 혼자 다 하겠다고 하여 이틀 만에 집 한 채분 재목을 혼자 져왔다. 너덩줄(으름덩굴)로 묶었다.",
+    "emotion": "Healing",
+    "conflict": "Lack",
+    "keywords": [
+      "최동이",
+      "장사",
+      "대식",
+      "품앗이",
+      "너덩줄",
+      "으름",
+      "고성리",
+      "양씨"
+    ],
+    "entities": [
+      {
+        "name": "최동이",
+        "description": "고성리 양씨집 종, 대식+괴력의 장사",
+        "type": "Human"
+      }
+    ],
+    "roles": [
+      {
+        "entity_name": "최동이",
+        "type": "Protagonist"
+      }
+    ],
+    "terrains": [
+      {
+        "type": "Village",
+        "description": "고성리 - 최동이가 살던 마을"
+      },
+      {
+        "type": "Forest",
+        "description": "곶 - 나무를 져온 숲"
+      }
+    ],
+    "location_context": {
+      "primary_place": "고성리",
+      "admin_region": "애월읍 고성리"
+    }
+  }
+}

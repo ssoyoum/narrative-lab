@@ -1,0 +1,34 @@
+{
+  "id": "story_M_047",
+  "title": "솥할망본",
+  "type": "myth",
+  "category": "기타",
+  "content": {
+    "summary": "",
+    "full_text": "",
+    "features": "",
+    "raw_text": "TM_047 손함망본\n하천 강씨집안이우다. 바르연번에 근 솟이 i나 올라와시난 봉가단 두 일리 열나흘 불을 숨아도 물이 느시 과질 아니7난 괴광데레  갖다놓앉수다. 흐듯밤은 꿈에 선용히길 '나는 수주용급에서 오라시니 잘 우양 뛰민 되로 말로 분급히영 부제로 맵글아 주키여 ' 7난 매양. 근 일에 잘 우양 @없수다- 그영하난 조손엔   서귀진 조방장 , 정의원 대정원 명월만호 움 근 배설이 나고 가뭄이  영장 하 옆수다 . 대왕청올 청춘민 군용일월로 눕네다.\n<성산면   신품리 여무 64세 흉매화님>\n진설기. '지 주도 무가본물미사전 , 민속원 1997 PP.695 ."
+  },
+  "elements": {
+    "characters": [],
+    "locations": [
+      "신품리",
+      "일리"
+    ],
+    "keywords": []
+  },
+  "sources": [
+    {
+      "type": "pdf",
+      "file": "T_M_047_솥할망본.pdf",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "source_type": "text",
+    "source_id": "T_M_047",
+    "converted_at": "2025-12-03T20:55:07.320445",
+    "converter_version": "2.0.0",
+    "ocr_confidence": 1.0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "code": "W_F_068",
+  "title": "힘쎈 할망",
+  "category": "민담",
+  "sub_category": "본격담",
+  "type": "현지조사",
+  "content": {
+    "text": "W_F_068 힘쎈  할망 2016년 12월 14일, 표선면 가시리 안인순씨 댁, 송정희 조사. 안인순(여, 1935년생, 표선면 가시리)   [제보자] 할망이  그  하르방은  리고  할망이  기  세니깐  하르방을  훅  던지난  지붕  우에  올    라간  누게  오라네.  누게  누게  오란    “무사  지붕  우에  올라간디?”    허난    “호박  따러  왓젠.”    겅  아낫저  헌  말  들언.   ∙ 핵심어 : 할망,  하르방,  지붕,  호박",
+    "char_count": 266,
+    "text_cleaned": "W_F_068 힘쎈 할망 2016년 12월 14일, 표선면 가시리 안인순씨 댁, 송정희 조사. 안인순(여, 1935년생, 표선면 가시리) [제보자] 할망이 그 하르방은 리고 할망이 기 세니깐 하르방을 훅 던지난 지붕 우에 올 라간 누게 오라네. 누게 누게 오란 “무사 지붕 우에 올라간디?” 허난 “호박 따러 왓젠.” 겅 아낫저 헌 말 들언. ∙ 핵심어 : 할망, 하르방, 지붕, 호박",
+    "cleaning_notes": {
+      "issues_found": [
+        {
+          "type": "공백정리",
+          "original": "37개 다중공백",
+          "fixed": "단일공백으로 정리",
+          "note": "불필요 공백 제거"
+        }
+      ],
+      "dialect_preserved": true,
+      "cleaned_at": "2025-12-03",
+      "confidence": 0.9,
+      "original_char_count": 266,
+      "cleaned_char_count": 217
+    }
+  },
+  "source": {
+    "ebook_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_068/e-book.html",
+    "config_url": "https://jeju.go.kr/files/ebook/cul-ebook/003/1928/W_F_068/files/search/book_config.js"
+  },
+  "metadata": {
+    "crawled_at": "2025-12-03T17:33:52.767492",
+    "crawler_version": "1.0.0",
+    "meta_extracted_at": "2025-12-05T16:12:10.703641",
+    "meta_model": "llama3.1",
+    "emotion_v2_extracted_at": "2025-12-05T19:24:38.620583"
+  },
+  "story_engine_meta": {
+    "conflict_type": "Rivalry",
+    "object_link": "Stone_Statue",
+    "emotion_keyword": "Sweet_Potato",
+    "modern_summary": "할망과 하르방이 지붕에 올라간 후 발생한 갈등",
+    "location_context": {
+      "primary_place": "가시리",
+      "admin_region": "표선면"
+    },
+    "emotion_confidence": "high",
+    "emotion_method": "cot+simple_agree"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "legend_yeonbukjeong",
+  "title": "연북정",
+  "title_alt": ["쌍벽정"],
+  "type": "legend",
+  "category": "지명유래",
+
+  "content": {
+    "summary": "조천항 입구에 있는 정자와 관련된 전설로, 풍수가의 경고에 따라 바위를 둘러싸고 정자를 지어 마을의 번영을 이끌었다는 이야기.",
+
+    "episodes": [
+      {
+        "title": "조천석의 존재",
+        "content": "조천항 근처에 '조천석'이라는 큰 바위가 있어 배를 정박하는 데 사용되었다."
+      },
+      {
+        "title": "풍수가의 경고",
+        "content": "유명한 풍수가가 지나가며 바위를 그대로 두면 마을에 문제가 생길 것이라 경고했다."
+      },
+      {
+        "title": "정자 건설",
+        "content": "주민들이 바위 주변에 흙과 돌로 성곽을 쌓고 그 위에 정자를 지었다. 원래 '쌍벽정'이라 불렸다가 '연북정'으로 개명했다."
+      }
+    ],
+
+    "themes": ["단혈 모티프의 변형", "풍수지리", "마을 번영"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "풍수가", "role": "경고자"}
+    ],
+    "locations": [
+      {"name": "연북정", "type": "정자", "region": "제주시 조천읍 조천리"},
+      {"name": "조천항", "type": "항구"}
+    ],
+    "keywords": ["지명유래", "풍수", "정자", "조천"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00711387",
+      "item_id": "GC00711387"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도전설지』, 1985",
+      "informant": {"name": "김병화", "age": 85}
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "folktale_jesa_iyagi",
+  "title": "제사 이야기",
+  "title_alt": [],
+  "type": "folktale",
+  "category": "교훈담",
+
+  "content": {
+    "summary": "제사를 받는 영혼을 모티프로 하여 제사의 중요성을 강조하는 설화.",
+
+    "episodes": [
+      {
+        "title": "아버지의 가르침",
+        "content": "아버지가 아들에게 제사는 의미 없다고 가르친다."
+      },
+      {
+        "title": "제사 거부",
+        "content": "아버지 사후 아들은 제사를 지내지 않는다."
+      },
+      {
+        "title": "영혼의 대화",
+        "content": "제삿날 밤 취한 중년 남자가 무덤 근처에서 잠들었다가 영혼들의 대화를 듣는다. 영혼은 '제사를 받으러 갔는데 제사를 지내지 않아 손자를 불 속에 집어넣고 왔다'고 말한다."
+      },
+      {
+        "title": "비극",
+        "content": "다음 날 마을에서 아이가 화재로 죽은 사건이 발생한다."
+      },
+      {
+        "title": "교훈",
+        "content": "아들은 이후 제사를 정성스럽게 지내게 된다."
+      }
+    ],
+
+    "themes": ["제사의 중요성", "영혼의 복수", "교훈"]
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "아버지", "role": "제사 부정론자"},
+      {"name": "아들", "role": "제사를 거부했다가 깨닫는 자"},
+      {"name": "영혼", "role": "복수하는 조상"}
+    ],
+    "locations": [
+      {"name": "용담동", "type": "마을", "relation": "전승지"},
+      {"name": "삼양동", "type": "마을", "relation": "구연지"}
+    ],
+    "keywords": ["제사", "영혼", "복수", "교훈"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00701798",
+      "item_id": "GC00701798"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도 민담』, 1996",
+      "informant": {"gender": "남", "age": 60, "location": "삼양동"},
+      "recorded": "1959년 8월",
+      "collector": "고윤삼"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

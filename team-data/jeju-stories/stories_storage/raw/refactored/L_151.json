@@ -1,0 +1,62 @@
+{
+  "id": "L_151",
+  "title": "초제탄",
+  "category": "전설",
+  "content": {
+    "clean": "",
+    "raw": "",
+    "commentary": null
+  },
+  "attributes": {
+    "summary": "이락당 이계징은 효자이자 우애 깊은 사람이었다. 아우 이후징이 고종 16년(1879년) 고기잡이 중 해난사고로 사망했다. 형이 서우봉 바닷가에서 '후징이야!' 부르자 동생의 시체가 떠올랐다. 형은 3일간 시체와 함께 지낸 후 묻었다. 그래서 '초제탄(招弟灘, 동생을 부른 여울)'이라 부른다.",
+    "emotion": "Sweet_Potato",
+    "conflict": "Lack",
+    "keywords": [
+      "초제탄",
+      "이락당",
+      "이계징",
+      "이후징",
+      "서우봉",
+      "우애",
+      "해난사고",
+      "지명유래",
+      "함덕리"
+    ],
+    "entities": [
+      {
+        "name": "이계징(이락당)",
+        "description": "효자이자 우애 깊은 형",
+        "type": "Human"
+      },
+      {
+        "name": "이후징",
+        "description": "해난사고로 사망한 동생",
+        "type": "Human"
+      }
+    ],
+    "roles": [
+      {
+        "entity_name": "이계징(이락당)",
+        "type": "Protagonist"
+      },
+      {
+        "entity_name": "이후징",
+        "type": "Victim"
+      }
+    ],
+    "terrains": [
+      {
+        "type": "Sea",
+        "description": "초제탄 - 동생 시체가 떠오른 바닷가"
+      },
+      {
+        "type": "Mountain",
+        "description": "서우봉 - 형이 동생을 부른 곳"
+      }
+    ],
+    "location_context": {
+      "primary_place": "초제탄",
+      "admin_region": "조천읍 함덕리"
+    }
+  }
+}

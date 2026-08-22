@@ -1,0 +1,70 @@
+{
+  "id": "L_155",
+  "title": "평대 부대각",
+  "category": "전설",
+  "content": {
+    "clean": "",
+    "raw": "",
+    "commentary": null
+  },
+  "attributes": {
+    "summary": "평대리 부씨 부인이 용 태몽을 꾸고 쌍둥이 아들을 낳았다. 아이들은 겨드랑이에 날개가 있어 부모 몰래 하늘을 날았다. '영웅이 나면 역적으로 몰려 삼족이 멸한다'고 걱정한 부모가 아이들을 취하게 한 뒤 날개를 자르려 했으나, 큰 아들은 날아가 버리고 작은 아들만 날개가 반쪽 잘려 남았다. 이 작은 아들이 부대각이며, 힘센 사람을 '부대각 자손'이라 부른다.",
+    "emotion": "Sweet_Potato",
+    "conflict": "Taboo",
+    "keywords": [
+      "부대각",
+      "평대리",
+      "쌍둥이",
+      "날개",
+      "역적",
+      "삼족",
+      "장사",
+      "아기장수"
+    ],
+    "entities": [
+      {
+        "name": "부대각",
+        "description": "날개 잘린 쌍둥이 중 작은 아들, 장사",
+        "type": "Human"
+      },
+      {
+        "name": "큰 아들",
+        "description": "날아간 쌍둥이 형",
+        "type": "Human"
+      },
+      {
+        "name": "부씨 부모",
+        "description": "아들들의 날개를 자른 부모",
+        "type": "Human"
+      }
+    ],
+    "roles": [
+      {
+        "entity_name": "부대각",
+        "type": "Victim"
+      },
+      {
+        "entity_name": "큰 아들",
+        "type": "Neutral"
+      },
+      {
+        "entity_name": "부씨 부모",
+        "type": "Antagonist"
+      }
+    ],
+    "terrains": [
+      {
+        "type": "Village",
+        "description": "평대리 - 부대각 탄생지"
+      },
+      {
+        "type": "Other",
+        "description": "부대각 묘 - 평대리 남쪽 3km"
+      }
+    ],
+    "location_context": {
+      "primary_place": "평대리",
+      "admin_region": "구좌읍 평대리"
+    }
+  }
+}

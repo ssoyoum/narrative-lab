@@ -1,0 +1,88 @@
+{
+  "id": "legend_yeongsilgiam",
+  "title": "영실기암과 오백장군",
+  "title_alt": ["오백나한", "병풍바위", "오백장군 전설"],
+  "type": "legend",
+  "category": "지명유래",
+
+  "content": {
+    "summary": "한라산 영실의 기암괴석이 오백 명의 아들이 어머니의 죽음을 슬퍼하다 바위로 변한 것이라는 전설.",
+
+    "episodes": [
+      {
+        "title": "가난한 가족",
+        "content": "옛날 제주도에 오백 명의 아들을 둔 부인이 살았다. 많은 식구로 인해 집안 형편이 좋지 못했고, 흉년까지 들어 자식들을 먹이기 힘들어졌다."
+      },
+      {
+        "title": "어머니의 희생",
+        "content": "부인은 아들들에게 양식을 구해 오라고 했다. 오백 명의 아들들이 사냥을 나간 사이, 부인은 아들들이 돌아와 먹을 죽을 끓였다. 아들이 오백이나 되다 보니 솥의 크기가 매우 컸다."
+      },
+      {
+        "title": "비극적 사고",
+        "content": "어머니는 펄펄 끓는 죽을 젓다가 그만 솥에 빠져 죽고 말았다."
+      },
+      {
+        "title": "형들의 실수",
+        "content": "사냥에서 돌아온 아들들은 배고픔에 어머니 찾을 생각을 잠시 잊고 죽을 먹었다."
+      },
+      {
+        "title": "막내의 발견",
+        "content": "막내아들만이 어머니를 찾으며 집안을 뒤지다가, 가마솥 바닥에서 뼈가 드러났다. 그 뼈가 어머니의 뼈임을 알게 되었다."
+      },
+      {
+        "title": "막내의 결별",
+        "content": "어머니의 고기로 만든 죽을 먹은 형들과는 살 수 없다며 집을 나간 막내아들은 울면서 달리다 한경면 고산리의 차귀도까지 갔고, 슬픔을 이기지 못하고 바위가 되어 버렸다."
+      },
+      {
+        "title": "형들의 비탄",
+        "content": "사실을 알게 된 형들도 여기저기 늘어서서 슬픔에 겨워 통곡하다 그대로 바위로 굳었다. 그래서 이 바위를 '오백장군'이라 부르게 되었다."
+      }
+    ],
+
+    "connection_to_seolmundae": "일설에 의하면 오백 아들의 어머니는 설문대할망이라고도 한다. 영실 오백장군이 있는 곳에서 큰 소리를 지르면 짙은 안개가 끼는데, 이는 설문대할망이 화를 내는 것이라고 한다."
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "어머니 (설문대할망)", "role": "오백 아들의 어머니"},
+      {"name": "오백장군 (형들)", "role": "499명의 형들"},
+      {"name": "막내아들", "role": "진실을 발견한 아들"}
+    ],
+    "locations": [
+      {"name": "영실기암", "type": "명승", "coords": {"lat": 33.35, "lng": 126.52}},
+      {"name": "차귀도", "type": "섬", "relation": "막내가 바위로 변한 곳"}
+    ],
+    "keywords": ["지명유래", "효도", "비극", "변신", "바위"],
+    "geographic_info": {
+      "position": "한라산 백록담 남서쪽 해발 1,600m",
+      "scale": "남북 약 1.5km, 동서 약 1km",
+      "features": "약 250m 수직 암벽, 약 1,200개 석주"
+    }
+  },
+
+  "related_stories": [
+    {"id": "myth_seolmundae", "title": "설문대할망", "relation": "어머니"}
+  ],
+
+  "heritage_status": [
+    {"year": 1966, "designation": "천연기념물"},
+    {"year": 1970, "designation": "국립공원"},
+    {"year": 2002, "designation": "UNESCO 생물권 보전지역"},
+    {"year": 2007, "designation": "유네스코 세계자연유산"},
+    {"year": 2011, "designation": "명승 제84호"}
+  ],
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "한국민족문화대백과",
+      "url": "https://encykorea.aks.ac.kr/Article/E0070033",
+      "file": "web-crawled/encykorea/yeongsilgiam.md"
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

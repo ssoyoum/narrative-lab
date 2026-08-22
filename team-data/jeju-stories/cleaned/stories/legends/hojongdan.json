@@ -1,0 +1,73 @@
+{
+  "id": "legend_hojongdan",
+  "title": "호종단",
+  "title_alt": ["지장샘과 차귀도"],
+  "type": "legend",
+  "category": "지명유래",
+
+  "content": {
+    "summary": "중국 풍수가 호종단이 제주의 지맥을 끊으려다 실패하고 귀국 중 죽음을 맞이했다는 전설.",
+
+    "episodes": [
+      {
+        "title": "호종단의 도래",
+        "content": "고려시대 중국 풍수가 호종단이 제주에 도착한다."
+      },
+      {
+        "title": "수맥 탐지",
+        "content": "'호종단이 수맥을 찾는 데 능한 개를 데려와 지하 수맥을 찾았다.'"
+      },
+      {
+        "title": "개의 혼란",
+        "content": "개가 다른 장소에서 혼란에 빠진다."
+      },
+      {
+        "title": "개의 죽음",
+        "content": "풍수가가 분노하여 안내견을 죽인다."
+      },
+      {
+        "title": "능력 상실과 죽음",
+        "content": "일을 계속할 능력을 잃고 중국으로 돌아가려다 바다에서 죽는다."
+      },
+      {
+        "title": "차귀도 명명",
+        "content": "섬 주민들이 근처 섬을 '돌아옴을 막는 섬'이라는 뜻의 '차귀도(遮歸島)'라 명명한다."
+      }
+    ],
+
+    "themes": ["단혈 모티프", "외래 풍수에 대한 저항", "지명유래"],
+    "symbolism": "제주 사람들이 지역의 고난이 자연 지리가 아닌 외부 착취에서 비롯됐다고 인식했음을 보여준다."
+  },
+
+  "elements": {
+    "characters": [
+      {"name": "호종단", "role": "중국 풍수가"},
+      {"name": "수맥 탐지견", "role": "도구"}
+    ],
+    "locations": [
+      {"name": "차귀도", "type": "섬"},
+      {"name": "지장샘", "type": "샘"},
+      {"name": "명월리", "type": "마을", "relation": "전승지"}
+    ],
+    "keywords": ["호종단", "풍수", "차귀도", "단혈"]
+  },
+
+  "sources": [
+    {
+      "type": "web",
+      "name": "디지털제주문화대전",
+      "url": "https://jeju.grandculture.net/jeju/toc/GC00711415",
+      "item_id": "GC00711415"
+    },
+    {
+      "type": "book",
+      "reference": "『제주도전설지』, 1985",
+      "informant": {"name": "오술생", "age": 72, "location": "명월리"}
+    }
+  ],
+
+  "metadata": {
+    "created_at": "2024-12-03",
+    "data_quality": "high"
+  }
+}

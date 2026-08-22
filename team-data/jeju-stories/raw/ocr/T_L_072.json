@@ -1,0 +1,38 @@
+{
+  "id": "story_L_072",
+  "title": "선문대할망3",
+  "type": "legend",
+  "category": "기타",
+  "content": {
+    "summary": "",
+    "full_text": "",
+    "features": "",
+    "raw_text": "TL_072 선문대할망3\n옛날 선문대활망이라는 키 근 할머니가 있없다.\n얼마나  키가 컴던지   한라산을 베개 삼고 누우면 다리는 제주시 앞바다에 잇는 관달심에  걸처\n젊다:\n북제주군 구좌움 서심넣리 안용인(남 79) 제보\n제주도 , '저 주도선설지]   1985, p,6g,"
+  },
+  "elements": {
+    "characters": [
+      "할머니",
+      "할망"
+    ],
+    "locations": [
+      "다리",
+      "서심넣리",
+      "한라산"
+    ],
+    "keywords": []
+  },
+  "sources": [
+    {
+      "type": "pdf",
+      "file": "T_L_072_선문대할망3.pdf",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "source_type": "text",
+    "source_id": "T_L_072",
+    "converted_at": "2025-12-04T00:21:15.098350",
+    "converter_version": "2.0.0",
+    "ocr_confidence": 0.93
+  }
+}
