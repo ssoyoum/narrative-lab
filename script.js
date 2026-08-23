@@ -138,9 +138,12 @@ function renderResult(data) {
   document.querySelector('#blueprint').innerHTML = blueprintFields.map(([label, value]) => `
     <div class="blueprint-card"><span>${label}</span><p>${escapeHtml(value)}</p></div>
   `).join('');
-  document.querySelector('#beat-plan').innerHTML = Object.entries(blueprint.beat_plan).map(([beat, purpose], index) => `
-    <div class="beat"><b>${String(index + 1).padStart(2, '0')} / ${escapeHtml(beat)}</b><p>${escapeHtml(purpose)}</p></div>
-  `).join('');
+  document.querySelector('#beat-plan').innerHTML = Object.entries(blueprint.beat_plan).map(([beat, purpose], index) => {
+    const binding = data.bound_beats?.[beat] || {};
+    return `
+      <div class="beat"><b>${String(index + 1).padStart(2, '0')} / ${escapeHtml(beat)}<small>DNA · ${escapeHtml(binding.dna_focus || 'blueprint')}</small></b><p>${escapeHtml(purpose)}<small>${escapeHtml(binding.event_text || '바인딩된 원천 사건 없음')} · ${escapeHtml(binding.source_story || '')}</small></p></div>
+    `;
+  }).join('');
   document.querySelector('#modules').innerHTML = data.retrieved.map((module) => {
     const source = [module.source_story, module.category].filter(Boolean).join(' · ');
     return `<article class="module"><div class="module-head"><h4>${escapeHtml(module.title)}</h4><span class="module-score">${module.score}</span></div><div class="module-source">${escapeHtml(source)}</div><p>${escapeHtml(module.text)}</p><div class="module-tags">${escapeHtml(module.beat)} · ${escapeHtml(module.match_reason || 'source resonance')}</div></article>`;
