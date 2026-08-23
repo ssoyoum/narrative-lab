@@ -1,19 +1,84 @@
-# Narrative AI — MVP1.1
+# Narrative AI — MVP1.3
 
-이 프로젝트는 사용자가 입력한 임의의 상황을 `Personal Narrative Context`로 구조화하고, 제주 설화 pack의 Story DNA·Beat·Module과 공명시키며, 새로운 서사로 재조합하는 로컬 MVP입니다.
+사용자의 상황을 하나의 심리 진단 결과로 고정하지 않고, 현재 지나고 있는 **이야기의 장면**으로 구조화하는 Personal Narrative AI입니다.
 
-현재 앱은 팀 프로젝트의 `team-data/jeju-stories/chroma_db/chroma.sqlite3`를 제주 설화 pack으로 읽습니다. 이 DB의 `story_catalog`, `story_full`, `story_beats`, `story_modules`, `plot_patterns` 중 MVP1.1에서는 설화 카탈로그·Story DNA·Beat·모듈 메타데이터를 사용합니다. Chroma 패키지나 외부 API 없이 SQLite의 저장 메타데이터를 읽고 TF-IDF lexical baseline으로 검색합니다.
+사용자 입력을 `Personal Narrative Context`로 정리한 뒤, 제주 설화 pack의 Story DNA·Beat·Module과 공명시키고 새로운 이야기로 재조합합니다.
 
-## 현재 흐름
+> 이 프로젝트는 임상 심리검사나 정신건강 진단 도구가 아닙니다. 입력한 이야기를 다시 바라보기 위한 비임상적 서사 자기점검 시스템입니다.
+
+## 프로젝트 질문
 
 ```text
-Personal TXT Input
-  → Personal Narrative Context Analysis
-  → Story DNA Resonance Matching
-  → Story Beat / Module Retrieval
-  → Context Recombination
-  → Generated Narrative
+무작위로 입력된 개인의 상황을
+어떻게 장면·정서·욕구·갈등의 구조로 바꾸고,
+기존 설화의 서사 모듈과 연결할 수 있을까?
 ```
+
+## 사용자 흐름
+
+```text
+소개 화면
+  → Narrative Check-in 한 질문씩 진행
+  → 선택적 자유 TXT 입력
+  → Personal Narrative Context 분석
+  → Narrative Assessment v1 생성
+  → 평가 근거 표시
+  → 제주 설화 Story Module 매칭
+  → 새로운 서사 재조합
+  → 평가 리포트 .txt 저장
+```
+
+선택이 번거로운 사용자를 위해 첫 화면에서 `랜덤 이야기 생성`도 제공합니다. 모든 선택값을 무작위로 채우고 결과까지 자동 생성합니다.
+
+## 핵심 기능
+
+- 장면·마음의 날씨·목적지·배경·시간·속도·내려놓을 것·가지고 갈 것·동행자·미래 장면을 사용하는 은유형 Check-in
+- 자유 TXT 입력 또는 Check-in 단독 입력
+- 장소·정서·심리적 부담·현재의 욕구·갈등·키워드 추출
+- `Narrative Assessment v1` 비임상적 자기평가 리포트
+- TXT 단서·Check-in 신호·도출된 해석을 분리한 평가 근거 표시
+- 평가 리포트 `.txt` 다운로드
+- 제주 설화 Story DNA와 사용자 Context 공명 매칭
+- 검색된 Beat와 Module을 새로운 이야기로 재조합
+- Ollama 로컬 LLM 선택 연결
+- 외부 API 없이 동작하는 규칙 기반 fallback
+
+## 시스템 구조
+
+```text
+Personal TXT / Narrative Check-in
+            ↓
+Personal Narrative Context
+  ├─ 현재 장면
+  ├─ 정서적 기후
+  ├─ 심리적 부담
+  ├─ 현재의 욕구
+  └─ 내적 긴장
+            ↓
+Narrative Assessment v1 + Evidence
+            ↓
+Story DNA Resonance Matching
+            ↓
+Beat / Module Retrieval
+            ↓
+Context Recombination
+            ↓
+Generated Narrative
+```
+
+## 데이터
+
+현재 MVP는 팀 프로젝트의 제주 설화 pack을 개인 프로젝트의 분석 데이터로 연결합니다.
+
+```text
+source: team-data/jeju-stories/chroma_db/chroma.sqlite3
+stories: 246
+beats: 1,264
+modules: 1,431
+plot_patterns: 246
+```
+
+MVP에서는 Chroma 패키지나 원격 임베딩 API를 호출하지 않습니다. SQLite에 저장된 설화 메타데이터를 읽고 TF-IDF lexical baseline으로 모듈을 검색합니다.
 
 ## 실행
 
@@ -23,30 +88,29 @@ Python 3.10 이상에서 외부 패키지 없이 실행할 수 있습니다.
 python app.py
 ```
 
-브라우저에서 `http://127.0.0.1:8000`을 엽니다.
+브라우저에서 [http://127.0.0.1:8000](http://127.0.0.1:8000)을 엽니다.
 
-## MVP1 범위
+서버 코드를 수정한 뒤에는 기존 서버를 `Ctrl + C`로 종료하고 다시 실행합니다. 브라우저는 `Ctrl + F5`로 새로고침합니다.
 
-- 장면·마음의 날씨·목적지·배경·시간·속도·내려놓을 것·가지고 갈 것·동행자·미래 장면을 사용하는 은유형 Narrative Check-in
-- 선택적 자유 TXT 입력 지원
-- 장소 / 감정 / 상처 / 욕망 / 갈등 / 키워드 추출
-- Ollama 로컬 LLM 선택 연결 (`NARRATIVE_USE_OLLAMA=1`)
-- Ollama가 없을 때 규칙 기반 fallback
-- 심리 진단이 아닌 서사적 자기 점검 UX
-- Narrative Assessment v1: 현재 장면·정서적 기후·심리적 부담·욕구·회복 자원을 정리하는 비임상적 TXT 리포트
-- 평가 근거 표시: TXT 단서·Check-in 신호·도출된 해석을 분리해 결과의 생성 근거를 설명
-- 팀 데이터의 Story DNA와 사용자 Context 공명 매칭
-- 팀 데이터의 246개 설화, 1,264개 Beat, 1,431개 Story Module 검색
-- TF-IDF lexical baseline 검색
-- Location / Mood / Tone / Ending Context 반영
-- 팀의 `Ki / Shō / Trial / Ten / Crisis / Climax / Ketsu` Beat를 MVP의 setup·transition·conflict·climax·resolution으로 매핑
-- 검색된 Beat와 관련 인물·장소·감정 모듈을 재조합
+## 테스트
 
-현재 기본 실행은 외부 임베딩 질의나 원격 LLM을 사용하지 않는 baseline입니다. 이미 저장된 Chroma 벡터 자체를 질의하지 않고 메타데이터를 사용하므로 실행이 단순합니다. 더 유연한 자연어 분석이 필요하면 Ollama를 로컬에서 실행하고 환경 변수로 선택할 수 있습니다. 원문/출처의 저작권 검증과 Beat·모듈 라벨의 품질 검수는 별도 데이터 작업으로 남아 있습니다.
+```bash
+python -m unittest discover -s tests -v
+```
+
+현재 자동 테스트는 다음을 검증합니다.
+
+- 코인 하락 후 도피한 사용자 시나리오
+- 퇴사 후 방향을 찾는 사용자 시나리오
+- 새로운 시작을 앞둔 사용자 시나리오
+- 자유 TXT 없이 Check-in만 입력하는 흐름
+- 평가 근거가 입력 단서를 포함하는지 여부
+- 5개의 설화 모듈과 생성 이야기 결과 계약
+- 기본 입력의 장소가 제주로 고정되지 않는지 여부
 
 ## 선택적 로컬 LLM
 
-Ollama가 설치되어 있고 모델이 준비되어 있다면:
+Ollama와 모델이 설치되어 있다면 자연어 분석을 선택적으로 사용할 수 있습니다.
 
 ```powershell
 $env:NARRATIVE_USE_OLLAMA = "1"
@@ -54,19 +118,21 @@ $env:NARRATIVE_OLLAMA_MODEL = "qwen2.5:3b"
 python app.py
 ```
 
-Ollama가 없거나 모델 호출에 실패하면 자동으로 규칙 기반 Personal Context 분석으로 처리합니다. 따라서 기본 MVP 실행에는 유료 API 키가 필요하지 않습니다.
+Ollama가 없거나 호출에 실패하면 규칙 기반 분석으로 자동 전환됩니다. 기본 MVP에는 유료 API 키가 필요하지 않습니다.
 
-## 데이터 연결 확인
+## 포트폴리오에서 보여줄 점
 
-앱을 실행한 뒤 `http://127.0.0.1:8000/api/health`에서 현재 연결된 데이터 규모를 확인할 수 있습니다.
+1. 임의의 개인 TXT를 입력한다.
+2. 입력에서 심리적 부담·현재의 욕구·갈등을 추출한다.
+3. 결과가 만들어진 근거를 TXT 단서와 Check-in 신호로 설명한다.
+4. 팀의 제주 설화 데이터와 개인 상황을 연결한다.
+5. 매칭된 서사 모듈을 새로운 이야기로 재조합한다.
+6. 평가 결과를 TXT 파일로 저장한다.
 
-```json
-{
-  "stories": 246,
-  "beats": 1264,
-  "modules": 1431,
-  "plot_patterns": 246
-}
-```
+## 한계와 다음 단계
 
-`team-data`가 없거나 Chroma DB를 읽지 못하면 `data/story_modules.json`의 fallback 모듈로 실행됩니다.
+- 현재 분석은 규칙 기반 키워드와 선택값 매핑 중심입니다.
+- 표준화 점수, 임상적 신뢰도, 위험도 판정은 제공하지 않습니다.
+- 설화 원문과 라벨의 출처·저작권 검수는 별도의 데이터 작업입니다.
+- 다음 단계는 테스트 케이스 확대, 실제 사용자 피드백, 결과 품질 비교입니다.
+- 이후 필요할 때만 로컬 LLM을 추가해 자연어 해석 범위를 넓힙니다.
