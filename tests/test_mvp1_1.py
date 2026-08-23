@@ -55,6 +55,8 @@ class PersonalNarrativeContextTests(unittest.TestCase):
         self.assertIn("direction", personal["desires"])
         self.assertIn("NARRATIVE ASSESSMENT v1", result["analysis"]["personal_assessment"])
         self.assertIn("비임상적 서사 자기평가", result["analysis"]["personal_assessment"])
+        self.assertIn("불안", result["analysis"]["personal_context"]["wounds_display"])
+        self.assertIn("방향", result["analysis"]["personal_context"]["desires_display"])
 
     def test_short_input_is_rejected(self):
         with self.assertRaises(ValueError):

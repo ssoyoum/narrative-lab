@@ -163,15 +163,17 @@ function renderResult(data) {
     wounds: [],
     desires: [],
   };
-  document.querySelector('#context-summary').textContent = `상황 요약 · ${context.summary} / 장소 · ${context.setting} / 상처 · ${context.wounds.join(' · ')} / 욕망 · ${context.desires.join(' · ')}`;
+  const displayWounds = context.wounds_display || context.wounds || [];
+  const displayDesires = context.desires_display || context.desires || [];
+  document.querySelector('#context-summary').textContent = `상황 요약 · ${context.summary} / 장소 · ${context.setting} / 심리적 부담 · ${displayWounds.join(' · ')} / 현재의 욕구 · ${displayDesires.join(' · ')}`;
   assessmentText.textContent = data.analysis.personal_assessment || [
     '[NARRATIVE ASSESSMENT v1]',
     '비임상적 서사 자기평가',
     '',
     `현재 장면: ${context.summary}`,
     `정서적 기후: ${context.emotions?.join(' · ') || '아직 확인되지 않음'}`,
-    `심리적 부담: ${context.wounds.join(' · ') || '아직 확인되지 않음'}`,
-    `현재의 욕구: ${context.desires.join(' · ') || '아직 확인되지 않음'}`,
+    `심리적 부담: ${displayWounds.join(' · ') || '아직 확인되지 않음'}`,
+    `현재의 욕구: ${displayDesires.join(' · ') || '아직 확인되지 않음'}`,
     `내적 긴장: ${context.conflict || '현재의 장면과 원하는 변화 사이의 간극'}`,
     '',
     '이 결과는 진단이 아니라 입력한 이야기를 다시 바라보기 위한 서사적 정리입니다.',
