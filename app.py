@@ -658,14 +658,8 @@ def compact_story_text(text: str, max_chars: int = 260) -> str:
     return compact
 
 
-def retrieve_modules(
-    dna: dict[str, Any],
-    context: dict[str, str],
-    personal_context: dict[str, Any] | None = None,
-    limit: int = 5,
-) -> list[dict[str, Any]]:
-    personal_context = personal_context or {}
-    query_text = " ".join([
+def _retrieval_query(dna: dict[str, Any], context: dict[str, str], personal_context: dict[str, Any]) -> str:
+    return " ".join([
         " ".join(dna["setting"]),
         " ".join(dna["characters"]),
         " ".join(dna["emotion"]),
@@ -687,7 +681,15 @@ def retrieve_modules(
         context.get("location", ""), context.get("mood", ""),
         context.get("tone", ""), context.get("ending", ""),
     ])
-    query_words = set(tokens(query_text))
+
+
+def _rank_retrieval_records(
+    dna: dict[str, Any],
+    context: dict[str, str],
+    personal_context: dict[str, Any] | None = None,
+) -> list[tuple[float, dict[str, Any], list[str]]]:
+    personal_context = personal_context or {}
+    query_words = set(tokens(_retrieval_query(dna, context, personal_context)))
     ranked = []
     for record in BEATS:
         record_words = set(tokens(record["search_text"]))
@@ -707,6 +709,58 @@ def retrieve_modules(
                     score += 3
         ranked.append((score, record, sorted(overlap)))
     ranked.sort(key=lambda item: (-item[0], item[1]["id"]))
+    return ranked
+
+
+def select_story_pack(
+    dna: dict[str, Any],
+    context: dict[str, str],
+    personal_context: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    """Choose one source story before selecting its Beat and Module references."""
+    ranked = _rank_retrieval_records(dna, context, personal_context)
+    packs: dict[str, dict[str, Any]] = {}
+    for score, record, matched in ranked:
+        story_id = record["story_id"] or record["story_title"]
+        pack = packs.setdefault(story_id, {
+            "source_story_id": story_id,
+            "source_story_title": record["story_title"],
+            "scores": [],
+            "beats": set(),
+            "matched_terms": set(),
+        })
+        pack["scores"].append(score)
+        pack["beats"].add(record["beat"])
+        pack["matched_terms"].update(matched)
+
+    candidates = []
+    for pack in packs.values():
+        top_scores = sorted(pack["scores"], reverse=True)[:5]
+        coverage = len(pack["beats"] & set(TARGET_BEATS))
+        aggregate = sum(score / (index + 1) for index, score in enumerate(top_scores)) + coverage * 2
+        candidates.append((aggregate, pack, coverage))
+    if not candidates:
+        return {"source_story_id": "", "source_story_title": "참고 설화 없음", "score": 0, "beat_coverage": 0, "matched_terms": []}
+    aggregate, pack, coverage = max(candidates, key=lambda item: (item[0], item[1]["source_story_id"]))
+    return {
+        "source_story_id": pack["source_story_id"],
+        "source_story_title": pack["source_story_title"],
+        "score": round(aggregate, 2),
+        "beat_coverage": coverage,
+        "matched_terms": sorted(pack["matched_terms"]),
+    }
+
+
+def retrieve_modules(
+    dna: dict[str, Any],
+    context: dict[str, str],
+    personal_context: dict[str, Any] | None = None,
+    limit: int = 5,
+    source_story_id: str | None = None,
+) -> list[dict[str, Any]]:
+    ranked = _rank_retrieval_records(dna, context, personal_context)
+    if source_story_id:
+        ranked = [item for item in ranked if item[1]["story_id"] == source_story_id]
 
     selected: list[tuple[float, dict[str, Any], list[str]]] = []
     selected_ids: set[str] = set()
@@ -939,7 +993,13 @@ def build_engine_result(payload: dict[str, Any], engine: dict[str, Any]) -> dict
         "beats": list(blueprint["beat_plan"].keys()),
         "keywords": personal_context["keywords"],
     }
-    retrieved = retrieve_modules(analysis["dna"], context, personal_context)
+    source_pack = select_story_pack(analysis["dna"], context, personal_context)
+    blueprint["source_pack"] = source_pack
+    analysis["narrative_blueprint"] = blueprint
+    retrieved = retrieve_modules(
+        analysis["dna"], context, personal_context,
+        source_story_id=source_pack["source_story_id"] or None,
+    )
     generated = generate_blueprint_story(dna, blueprint)
     return {
         "analysis": analysis,

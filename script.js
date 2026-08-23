@@ -132,6 +132,7 @@ function renderResult(data) {
   `).join('');
 
   const blueprintFields = [
+    ['SOURCE STORY PACK', `${blueprint.source_pack.source_story_title} · ${blueprint.source_pack.beat_coverage}/5 Beat coverage`],
     ['PROTAGONIST', blueprint.protagonist], ['GOAL', blueprint.goal], ['CONFLICT', blueprint.conflict], ['WORLD', blueprint.world],
   ];
   document.querySelector('#blueprint').innerHTML = blueprintFields.map(([label, value]) => `

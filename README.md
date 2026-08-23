@@ -125,6 +125,8 @@ plot_patterns: 246
 - 한 질문씩 진행하는 생성 조건 선택
 - 조건 없이 랜덤 설화 설계
 - Stored Story DNA 기반 Source Story Retrieval
+- 전체 후보 점수를 합산한 중심 Story Pack 선택
+- 선택된 원천 설화의 Beat·Module만 연결하는 일관성 제약
 - 연결된 4요소 Generative Story DNA 생성
 - Narrative Blueprint 생성
 - Beat별 DNA 제약 계획 생성
@@ -172,9 +174,9 @@ python app.py
 
 ## 다음 개발 단계
 
-### MVP2.0-B — Story Pack Selection
+### MVP2.0-B — DNA-aware Beat Binding
 
-Beat별로 서로 다른 설화를 가져오지 않고, 전체 점수를 기준으로 하나의 중심 설화 또는 구조적으로 호환되는 설화 그룹을 먼저 선택합니다.
+중심 Story Pack은 선택되었으므로, 이제 각 Beat가 The Question·Lack·Cost·Irony 중 어떤 DNA를 증명해야 하는지에 따라 Event Module을 바인딩합니다.
 
 ### MVP2.0-C — Module Binding
 
