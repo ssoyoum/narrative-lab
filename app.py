@@ -767,7 +767,196 @@ def generate_story(
     return {"title": title, "text": "\n\n".join(paragraphs), "controls": {"location": location, "mood": mood, "tone": tone, "ending": ending}}
 
 
+ENGINE_ATMOSPHERES = {
+    "mysterious": "신비로운",
+    "tense": "긴장되는",
+    "lyrical": "서정적인",
+    "dark": "어두운",
+    "warm": "따뜻한",
+    "adventurous": "모험적인",
+}
+ENGINE_THEMES = {
+    "loss_recovery": {
+        "label": "상실과 회복",
+        "question": "무언가를 잃은 뒤에도 다시 살아갈 수 있는가?",
+        "lack": "주인공은 잃어버린 것을 놓아주지 못한다.",
+        "cost": "되찾고 싶다면 자신이 붙잡고 있던 기억의 일부를 내려놓아야 한다.",
+        "irony": "되찾은 것은 과거의 물건이 아니라, 그것 없이도 걸어갈 수 있다는 사실이다.",
+        "goal": "잃어버린 것의 의미를 확인하고 다음 장면으로 나아간다.",
+        "conflict": "과거를 되찾으려는 마음과 앞으로 나아가야 하는 현실이 충돌한다.",
+    },
+    "forbidden_promise": {
+        "label": "금기와 약속",
+        "question": "약속을 지키기 위해 어디까지 감수할 수 있는가?",
+        "lack": "주인공은 자신이 한 약속의 의미를 끝까지 이해하지 못한다.",
+        "cost": "약속을 지키려면 가장 안전한 길과 익숙한 관계를 포기해야 한다.",
+        "irony": "금지된 문을 연 순간, 주인공은 약속이 자신을 묶은 것이 아니라 구했다는 것을 알게 된다.",
+        "goal": "오래된 약속의 진실을 찾아 그것을 완성한다.",
+        "conflict": "약속을 지키려는 의무와 현재의 안전을 지키려는 본능이 충돌한다.",
+    },
+    "departure_return": {
+        "label": "떠남과 귀환",
+        "question": "떠나야만 다시 돌아갈 수 있는가?",
+        "lack": "주인공은 자신이 어디에 속하는지 알지 못한다.",
+        "cost": "새로운 길을 택하려면 돌아갈 수 있다는 확신을 포기해야 한다.",
+        "irony": "멀리 떠난 뒤에야 주인공은 자신이 찾던 집이 장소가 아니었음을 깨닫는다.",
+        "goal": "낯선 곳을 지나 자신이 돌아갈 수 있는 의미를 찾는다.",
+        "conflict": "떠나고 싶은 욕망과 소속되고 싶은 마음이 서로를 밀어낸다.",
+    },
+    "transformation": {
+        "label": "변신과 통과의례",
+        "question": "새로운 내가 되기 위해 무엇을 버려야 하는가?",
+        "lack": "주인공은 자신의 가능성을 믿지 못한 채 오래된 모습에 머문다.",
+        "cost": "변화를 얻으려면 익숙한 이름과 역할을 벗어야 한다.",
+        "irony": "가장 두려워하던 변신이 사실은 잃어버린 본래의 모습을 되찾는 일이었다.",
+        "goal": "통과의례를 지나 자신의 새로운 역할을 받아들인다.",
+        "conflict": "변하고 싶은 마음과 지금의 모습으로 남고 싶은 마음이 충돌한다.",
+    },
+    "human_nature": {
+        "label": "인간과 자연의 균형",
+        "question": "자연을 이기지 않고도 원하는 것을 얻을 수 있는가?",
+        "lack": "주인공은 세계를 자신의 뜻대로 움직일 수 있다고 믿는다.",
+        "cost": "바라는 것을 얻으려면 소유하려는 태도와 힘을 내려놓아야 한다.",
+        "irony": "자연을 정복하려던 주인공이 결국 자연의 일부가 될 때 길을 얻는다.",
+        "goal": "자연의 경고를 이해하고 인간과 세계 사이의 균형을 회복한다.",
+        "conflict": "인간의 욕망과 자연의 질서가 하나의 장소에서 맞부딪힌다.",
+    },
+    "family_connection": {
+        "label": "가족과 연결",
+        "question": "서로를 이해하지 못해도 함께 남을 수 있는가?",
+        "lack": "주인공은 가장 가까운 사람에게 자신의 진심을 전하지 못한다.",
+        "cost": "연결을 회복하려면 오래 지켜온 자존심을 먼저 내려놓아야 한다.",
+        "irony": "상대가 떠난 줄 알았던 시간 동안, 두 사람은 같은 약속을 지키고 있었다.",
+        "goal": "단절된 관계의 흔적을 따라가 다시 대화할 기회를 만든다.",
+        "conflict": "말하지 못한 진심과 이미 벌어진 시간이 두 사람 사이를 가로막는다.",
+    },
+}
+ENGINE_LOCATIONS = {
+    "sea": "바다", "oreum": "오름", "cave": "동굴", "forest": "숲",
+    "village": "마을", "coast": "해안",
+}
+ENGINE_CHARACTERS = {
+    "traveler": "떠도는 여행자", "child": "마을의 아이", "haenyeo": "바다를 지키는 해녀",
+    "elder": "오래된 이야기를 기억하는 노인", "spirit": "경계에 머무는 수호신", "outsider": "마을에 들어온 이방인",
+}
+ENGINE_ENDINGS = {
+    "warm": "따뜻한 결말", "reversal": "반전의 결말", "open": "열린 결말", "echo": "여운이 남는 결말",
+}
+
+
+def build_generative_story_dna(engine: dict[str, Any]) -> dict[str, Any]:
+    theme = ENGINE_THEMES.get(str(engine.get("theme") or "loss_recovery"), ENGINE_THEMES["loss_recovery"])
+    atmosphere = ENGINE_ATMOSPHERES.get(str(engine.get("atmosphere") or "mysterious"), "신비로운")
+    location = ENGINE_LOCATIONS.get(str(engine.get("location") or "sea"), "바다")
+    character = ENGINE_CHARACTERS.get(str(engine.get("character") or "traveler"), "떠도는 여행자")
+    ending = ENGINE_ENDINGS.get(str(engine.get("ending") or "echo"), "여운이 남는 결말")
+    return {
+        "the_question": theme["question"],
+        "the_lack": theme["lack"],
+        "the_cost": theme["cost"],
+        "the_irony": theme["irony"],
+        "theme": theme["label"],
+        "atmosphere": atmosphere,
+        "location": location,
+        "character_type": character,
+        "ending_style": ending,
+    }
+
+
+def build_narrative_blueprint(engine: dict[str, Any], dna: dict[str, Any]) -> dict[str, Any]:
+    theme = ENGINE_THEMES.get(str(engine.get("theme") or "loss_recovery"), ENGINE_THEMES["loss_recovery"])
+    return {
+        "protagonist": dna["character_type"],
+        "goal": theme["goal"],
+        "conflict": theme["conflict"],
+        "world": f"{dna['atmosphere']} 분위기의 제주 {dna['location']}",
+        "question": dna["the_question"],
+        "lack": dna["the_lack"],
+        "cost": dna["the_cost"],
+        "irony": dna["the_irony"],
+        "beat_plan": {
+            "Ki": "주인공의 결핍과 세계의 규칙을 보여준다.",
+            "Shō": "핵심 질문을 발생시키는 징조와 사건을 만든다.",
+            "Trial": "목표를 위해 치러야 할 대가를 구체화한다.",
+            "Crisis": "주인공이 피하고 싶던 아이러니를 드러낸다.",
+            "Climax": "주인공이 질문에 대해 행동으로 답한다.",
+            "Ketsu": "선택의 결과와 새로운 질서를 남긴다.",
+        },
+    }
+
+
+def generate_blueprint_story(dna: dict[str, Any], blueprint: dict[str, Any]) -> dict[str, Any]:
+    location = dna["location"]
+    character = dna["character_type"]
+    atmosphere = dna["atmosphere"]
+    paragraphs = [
+        f"{atmosphere} 제주 {location}, {character}는 {dna['the_lack']}",
+        f"그곳에서 오래된 징조가 나타났다. {dna['the_question']}",
+        f"목표에 다가갈수록 대가는 분명해졌다. {dna['the_cost']}",
+        f"가장 어두운 순간, 진실은 예상과 다른 얼굴을 보였다. {dna['the_irony']}",
+        f"주인공은 그 질문에 행동으로 답했고, {dna['ending_style']} 속에 새로운 질서가 남았다.",
+    ]
+    return {
+        "title": f"{location}의 {dna['theme']}",
+        "text": "\n\n".join(paragraphs),
+        "controls": {
+            "location": location,
+            "mood": atmosphere,
+            "tone": "서사적인",
+            "ending": dna["ending_style"],
+        },
+        "generation_mode": "generative story DNA blueprint",
+    }
+
+
+def build_engine_result(payload: dict[str, Any], engine: dict[str, Any]) -> dict[str, Any]:
+    context = payload.get("context") or {}
+    dna = build_generative_story_dna(engine)
+    blueprint = build_narrative_blueprint(engine, dna)
+    planning_text = " ".join([
+        dna["theme"], dna["atmosphere"], dna["location"], dna["character_type"],
+        dna["the_question"], dna["the_lack"], dna["the_cost"], dna["the_irony"],
+    ])
+    analysis = analyze_story(planning_text)
+    personal_context = {
+        "summary": dna["theme"],
+        "setting": dna["location"],
+        "emotions": [dna["atmosphere"]],
+        "wounds": [],
+        "desires": [],
+        "conflict": blueprint["conflict"],
+        "keywords": [dna["theme"], dna["location"], dna["character_type"]],
+        "method": "generative story DNA baseline",
+    }
+    analysis["personal_context"] = personal_context
+    analysis["generative_story_dna"] = dna
+    analysis["narrative_blueprint"] = blueprint
+    analysis["dna"] = {
+        "setting": [dna["location"]],
+        "characters": [dna["character_type"]],
+        "emotion": [dna["atmosphere"]],
+        "conflict": [blueprint["conflict"]],
+        "beats": list(blueprint["beat_plan"].keys()),
+        "keywords": personal_context["keywords"],
+    }
+    retrieved = retrieve_modules(analysis["dna"], context, personal_context)
+    generated = generate_blueprint_story(dna, blueprint)
+    return {
+        "analysis": analysis,
+        "retrieved": retrieved,
+        "generated": generated,
+        "generative_story_dna": dna,
+        "narrative_blueprint": blueprint,
+        "retrieval_method": "User Intent → Stored Story DNA resonance / TF-IDF baseline",
+        "analysis_method": "generative story DNA baseline",
+        "data_source": DATA_STATS,
+    }
+
+
 def build_result(payload: dict[str, Any]) -> dict[str, Any]:
+    engine = payload.get("engine") or {}
+    if engine:
+        return build_engine_result(payload, engine)
     story = str(payload.get("story", "")).strip()
     free_text = story
     context = payload.get("context") or {}
