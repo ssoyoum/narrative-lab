@@ -413,6 +413,46 @@ def build_narrative_assessment(personal_context: dict[str, Any]) -> str:
     ])
 
 
+def build_assessment_evidence(
+    free_text: str,
+    survey: dict[str, Any],
+    personal_context: dict[str, Any],
+) -> dict[str, Any]:
+    """Expose the input signals behind the non-clinical narrative assessment."""
+    text_signals = _unique(tokens(free_text))[:8]
+    checkin_signals = []
+    if personal_context.get("summary"):
+        checkin_signals.append(f"현재 장면: {personal_context['summary']}")
+    if personal_context.get("emotions"):
+        checkin_signals.append(f"정서적 기후: {' · '.join(_coerce_list(personal_context['emotions']))}")
+    if personal_context.get("setting"):
+        checkin_signals.append(f"배경: {personal_context['setting']}")
+    if personal_context.get("time"):
+        checkin_signals.append(f"시간: {personal_context['time']}")
+    if personal_context.get("speed"):
+        checkin_signals.append(f"움직임: {personal_context['speed']}")
+    if personal_context.get("carry"):
+        checkin_signals.append(f"회복 자원: {personal_context['carry']}")
+    if personal_context.get("companion"):
+        checkin_signals.append(f"동행자: {personal_context['companion']}")
+    if personal_context.get("glimpse"):
+        checkin_signals.append(f"다음 장면: {personal_context['glimpse']}")
+    if not free_text:
+        text_signals = ["자유 TXT 미입력 · Check-in 선택값 기반"]
+    return {
+        "method": "규칙 기반 키워드·선택값 매핑",
+        "input_mode": "자유 TXT + Narrative Check-in" if free_text else "Narrative Check-in",
+        "text_signals": text_signals,
+        "checkin_signals": checkin_signals,
+        "derived_signals": [
+            f"심리적 부담 ← {' · '.join(personal_context.get('wounds_display', [])) or '아직 확인되지 않음'}",
+            f"현재의 욕구 ← {' · '.join(personal_context.get('desires_display', [])) or '아직 확인되지 않음'}",
+            f"내적 긴장 ← {personal_context.get('conflict') or '현재의 장면과 원하는 변화 사이의 간극'}",
+        ],
+        "survey_fields_used": [key for key, value in survey.items() if value],
+    }
+
+
 def _metadata_value(row: sqlite3.Row) -> Any:
     if row[2] is not None:
         return row[2]
@@ -729,6 +769,7 @@ def generate_story(
 
 def build_result(payload: dict[str, Any]) -> dict[str, Any]:
     story = str(payload.get("story", "")).strip()
+    free_text = story
     context = payload.get("context") or {}
     survey = payload.get("survey") or {}
     survey_text = " ".join(str(value) for value in survey.values() if value)
@@ -747,6 +788,7 @@ def build_result(payload: dict[str, Any]) -> dict[str, Any]:
     personal_context["desires_display"] = _display_context_terms(personal_context.get("desires"), "desire")
     analysis["personal_context"] = personal_context
     analysis["personal_assessment"] = build_narrative_assessment(personal_context)
+    analysis["assessment_evidence"] = build_assessment_evidence(free_text, survey, personal_context)
     analysis["dna"] = {
         "setting": [personal_context.get("setting") or "장소 미확인"],
         "characters": analysis["dna"]["characters"],

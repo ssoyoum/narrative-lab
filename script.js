@@ -197,6 +197,25 @@ function renderResult(data) {
     document.querySelector('.assessment-section .result-section-title').append(downloadButton);
   }
 
+  const evidence = data.analysis.assessment_evidence;
+  if (evidence && !document.querySelector('#assessment-evidence')) {
+    const evidenceSection = document.createElement('section');
+    const renderEvidenceList = (items) => items?.length
+      ? `<ul class="evidence-list">${items.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>`
+      : '<p class="evidence-empty">확인된 입력 신호가 없습니다.</p>';
+    evidenceSection.id = 'assessment-evidence';
+    evidenceSection.className = 'result-section evidence-section';
+    evidenceSection.innerHTML = `
+      <div class="result-section-title"><span>EVIDENCE</span><h3>WHY THIS RESULT?</h3></div>
+      <p class="evidence-method">${escapeHtml(evidence.input_mode)} · ${escapeHtml(evidence.method)}</p>
+      <div class="evidence-grid">
+        <div class="evidence-card"><strong>TXT 단서</strong>${renderEvidenceList(evidence.text_signals)}</div>
+        <div class="evidence-card"><strong>Check-in 신호</strong>${renderEvidenceList(evidence.checkin_signals)}</div>
+        <div class="evidence-card"><strong>도출된 해석</strong>${renderEvidenceList(evidence.derived_signals)}</div>
+      </div>`;
+    document.querySelector('.assessment-section').after(evidenceSection);
+  }
+
   const dnaLabels = { setting: 'SETTING', characters: 'CHARACTERS', emotion: 'EMOTION', conflict: 'CONFLICT', beats: 'BEATS' };
   document.querySelector('#dna-grid').innerHTML = Object.entries(dnaLabels).map(([key, label]) => `
     <div class="dna-item"><span>${label}</span><strong>${escapeHtml(data.analysis.dna[key].join(' · '))}</strong></div>

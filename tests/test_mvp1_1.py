@@ -57,6 +57,10 @@ class PersonalNarrativeContextTests(unittest.TestCase):
         self.assertIn("비임상적 서사 자기평가", result["analysis"]["personal_assessment"])
         self.assertIn("불안", result["analysis"]["personal_context"]["wounds_display"])
         self.assertIn("방향", result["analysis"]["personal_context"]["desires_display"])
+        evidence = result["analysis"]["assessment_evidence"]
+        self.assertEqual(evidence["input_mode"], "Narrative Check-in")
+        self.assertIn("현재 장면", " ".join(evidence["checkin_signals"]))
+        self.assertIn("심리적 부담", " ".join(evidence["derived_signals"]))
 
     def test_short_input_is_rejected(self):
         with self.assertRaises(ValueError):

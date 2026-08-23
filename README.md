@@ -34,6 +34,7 @@ python app.py
 - Ollama가 없을 때 규칙 기반 fallback
 - 심리 진단이 아닌 서사적 자기 점검 UX
 - Narrative Assessment v1: 현재 장면·정서적 기후·심리적 부담·욕구·회복 자원을 정리하는 비임상적 TXT 리포트
+- 평가 근거 표시: TXT 단서·Check-in 신호·도출된 해석을 분리해 결과의 생성 근거를 설명
 - 팀 데이터의 Story DNA와 사용자 Context 공명 매칭
 - 팀 데이터의 246개 설화, 1,264개 Beat, 1,431개 Story Module 검색
 - TF-IDF lexical baseline 검색
