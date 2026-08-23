@@ -8,6 +8,7 @@ const emptyState = document.querySelector('#empty-state');
 const result = document.querySelector('#result');
 const resultPanel = document.querySelector('.result-panel');
 const errorMessage = document.querySelector('#error-message');
+const assessmentText = document.querySelector('#assessment-text');
 let checkinSteps = [];
 let currentStep = 0;
 let nextButton;
@@ -163,7 +164,7 @@ function renderResult(data) {
     desires: [],
   };
   document.querySelector('#context-summary').textContent = `상황 요약 · ${context.summary} / 장소 · ${context.setting} / 상처 · ${context.wounds.join(' · ')} / 욕망 · ${context.desires.join(' · ')}`;
-  document.querySelector('#assessment-text').textContent = data.analysis.personal_assessment || [
+  assessmentText.textContent = data.analysis.personal_assessment || [
     '[NARRATIVE ASSESSMENT v1]',
     '비임상적 서사 자기평가',
     '',
@@ -175,6 +176,24 @@ function renderResult(data) {
     '',
     '이 결과는 진단이 아니라 입력한 이야기를 다시 바라보기 위한 서사적 정리입니다.',
   ].join('\n');
+
+  if (!document.querySelector('#download-assessment')) {
+    const downloadButton = document.createElement('button');
+    downloadButton.id = 'download-assessment';
+    downloadButton.type = 'button';
+    downloadButton.className = 'ghost-button';
+    downloadButton.textContent = 'SAVE .TXT ↗';
+    downloadButton.addEventListener('click', () => {
+      const blob = new Blob([assessmentText.textContent], { type: 'text/plain;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `narrative-assessment-v1-${new Date().toISOString().slice(0, 10)}.txt`;
+      link.click();
+      URL.revokeObjectURL(url);
+    });
+    document.querySelector('.assessment-section .result-section-title').append(downloadButton);
+  }
 
   const dnaLabels = { setting: 'SETTING', characters: 'CHARACTERS', emotion: 'EMOTION', conflict: 'CONFLICT', beats: 'BEATS' };
   document.querySelector('#dna-grid').innerHTML = Object.entries(dnaLabels).map(([key, label]) => `
