@@ -365,13 +365,31 @@ def analyze_personal_context(text: str, survey: dict[str, Any] | None = None) ->
     return context
 
 
+WOUND_DISPLAY_LABELS = {
+    "loss": "상실감", "fear": "불안", "exhaustion": "피로·소진",
+    "disconnection": "단절감", "stagnation": "정체감", "grief": "애도",
+    "insignificance": "무력감",
+}
+DESIRE_DISPLAY_LABELS = {
+    "rest": "휴식", "healing": "회복", "transformation": "변화",
+    "reconnection": "재연결", "meaning": "의미 찾기", "direction": "방향",
+    "courage": "용기",
+    "peace": "평온", "discovery": "탐색",
+}
+
+
+def _display_context_terms(values: Any, category: str) -> list[str]:
+    labels = WOUND_DISPLAY_LABELS if category == "wound" else DESIRE_DISPLAY_LABELS
+    return [labels.get(value, value) for value in _coerce_list(values)]
+
+
 def build_narrative_assessment(personal_context: dict[str, Any]) -> str:
     """Create a non-clinical, psychological-assessment-style narrative report."""
     setting = str(personal_context.get("setting") or "장소 미확인")
     summary = str(personal_context.get("summary") or "아직 이름 붙지 않은 장면")
     emotions = " · ".join(_coerce_list(personal_context.get("emotions"))) or "아직 확인되지 않음"
-    burdens = " · ".join(_coerce_list(personal_context.get("wounds"))) or "아직 확인되지 않음"
-    desires = " · ".join(_coerce_list(personal_context.get("desires"))) or "아직 확인되지 않음"
+    burdens = " · ".join(_display_context_terms(personal_context.get("wounds"), "wound")) or "아직 확인되지 않음"
+    desires = " · ".join(_display_context_terms(personal_context.get("desires"), "desire")) or "아직 확인되지 않음"
     conflict = str(personal_context.get("conflict") or "현재의 장면과 원하는 변화 사이의 간극")
     carry = str(personal_context.get("carry") or "아직 확인되지 않음")
     companion = str(personal_context.get("companion") or "아직 확인되지 않음")
@@ -725,6 +743,8 @@ def build_result(payload: dict[str, Any]) -> dict[str, Any]:
         personal_context["setting"] = str(context["location"])
     elif personal_context.get("landscape"):
         personal_context["setting"] = str(personal_context["landscape"])
+    personal_context["wounds_display"] = _display_context_terms(personal_context.get("wounds"), "wound")
+    personal_context["desires_display"] = _display_context_terms(personal_context.get("desires"), "desire")
     analysis["personal_context"] = personal_context
     analysis["personal_assessment"] = build_narrative_assessment(personal_context)
     analysis["dna"] = {
