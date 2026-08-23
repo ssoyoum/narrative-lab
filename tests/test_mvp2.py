@@ -39,6 +39,9 @@ class GenerativeStoryDnaTests(unittest.TestCase):
         result = self.make_result(atmosphere="warm", theme="family_connection", ending="warm")
         self.assertEqual(result["analysis_method"], "generative story DNA baseline")
         self.assertEqual(len(result["retrieved"]), 5)
+        source_ids = {module["source_story"] for module in result["retrieved"]}
+        self.assertEqual(len(source_ids), 1)
+        self.assertEqual(result["narrative_blueprint"]["source_pack"]["source_story_title"], next(iter(source_ids)))
         self.assertGreater(len(result["generated"]["text"]), 100)
         self.assertIn("generative story DNA", result["generated"]["generation_mode"])
         self.assertIn("가족과 연결", result["generated"]["title"])
