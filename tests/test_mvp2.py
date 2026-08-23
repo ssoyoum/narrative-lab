@@ -46,6 +46,17 @@ class GenerativeStoryDnaTests(unittest.TestCase):
         self.assertIn("generative story DNA", result["generated"]["generation_mode"])
         self.assertIn("가족과 연결", result["generated"]["title"])
 
+    def test_each_beat_is_bound_to_a_dna_role_and_source_story(self):
+        result = self.make_result(theme="human_nature", location="forest")
+        bound = result["bound_beats"]
+        self.assertEqual(list(bound), ["Ki", "Shō", "Trial", "Crisis", "Climax", "Ketsu"])
+        self.assertEqual(bound["Ki"]["dna_focus"], "the_lack")
+        self.assertEqual(bound["Trial"]["dna_focus"], "the_cost")
+        self.assertEqual(bound["Crisis"]["dna_focus"], "the_irony")
+        source_ids = {item["source_story_id"] for item in bound.values()}
+        self.assertEqual(len(source_ids), 1)
+        self.assertTrue(any(item["event_text"] in result["generated"]["text"] for item in bound.values()))
+
 
 if __name__ == "__main__":
     unittest.main()

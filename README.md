@@ -127,6 +127,7 @@ plot_patterns: 246
 - Stored Story DNA 기반 Source Story Retrieval
 - 전체 후보 점수를 합산한 중심 Story Pack 선택
 - 선택된 원천 설화의 Beat·Module만 연결하는 일관성 제약
+- Beat별 DNA 역할 바인딩: Lack·Question·Cost·Irony
 - 연결된 4요소 Generative Story DNA 생성
 - Narrative Blueprint 생성
 - Beat별 DNA 제약 계획 생성
@@ -174,17 +175,13 @@ python app.py
 
 ## 다음 개발 단계
 
-### MVP2.0-B — DNA-aware Beat Binding
+### MVP2.0-C — DNA Validation
 
-중심 Story Pack은 선택되었으므로, 이제 각 Beat가 The Question·Lack·Cost·Irony 중 어떤 DNA를 증명해야 하는지에 따라 Event Module을 바인딩합니다.
+각 Beat가 The Question·Lack·Cost·Irony 중 담당 DNA를 실제로 반영했는지, 생성 결과의 장소·인물·사건이 Blueprint와 일치하는지 자동 검증합니다.
 
-### MVP2.0-C — Module Binding
+### 이후 — Module Quality and Generation
 
-Blueprint의 주인공·장소·갈등을 실제 Character·Place·Event·Mood·Wisdom Module에 연결합니다.
-
-### MVP2.0-D — DNA Validation
-
-생성 결과가 처음 설계한 Question·Lack·Cost·Irony를 유지하는지 자동 검증합니다.
+Blueprint에 바인딩된 Character·Place·Event·Mood·Wisdom Module의 품질을 높이고, 원천 사건을 자연스러운 새 문장으로 변환합니다.
 
 ## 포트폴리오 핵심
 

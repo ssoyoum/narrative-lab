@@ -939,16 +939,89 @@ def build_narrative_blueprint(engine: dict[str, Any], dna: dict[str, Any]) -> di
     }
 
 
-def generate_blueprint_story(dna: dict[str, Any], blueprint: dict[str, Any]) -> dict[str, Any]:
+BEAT_DNA_BINDINGS = {
+    "Ki": ("setup", "the_lack"),
+    "Shō": ("transition", "the_question"),
+    "Trial": ("conflict", "the_cost"),
+    "Crisis": ("conflict", "the_irony"),
+    "Climax": ("climax", "the_question"),
+    "Ketsu": ("resolution", "the_irony"),
+}
+
+
+def bind_story_pack_to_dna(
+    source_story_id: str,
+    dna: dict[str, Any],
+    blueprint: dict[str, Any],
+    context: dict[str, str],
+    personal_context: dict[str, Any],
+) -> dict[str, dict[str, Any]]:
+    """Bind source-story events to the DNA role each Beat must prove."""
+    ranked = [
+        item for item in _rank_retrieval_records(dna={
+            "setting": [dna["location"]],
+            "characters": [dna["character_type"]],
+            "emotion": [dna["atmosphere"]],
+            "conflict": [blueprint["conflict"]],
+            "beats": [canonical for canonical, _ in BEAT_DNA_BINDINGS.values()],
+        }, context=context, personal_context=personal_context)
+        if item[1]["story_id"] == source_story_id
+    ]
+    bound: dict[str, dict[str, Any]] = {}
+    used_ids: set[str] = set()
+    for beat_name, (canonical, dna_focus) in BEAT_DNA_BINDINGS.items():
+        preferred = [item for item in ranked if item[1].get("raw_beat", "").lower() == beat_name.lower() and item[1]["id"] not in used_ids]
+        candidates = preferred or [item for item in ranked if item[1]["beat"] == canonical and item[1]["id"] not in used_ids]
+        if not candidates:
+            candidates = [item for item in ranked if item[1]["beat"] == canonical]
+        if not candidates:
+            bound[beat_name] = {
+                "beat": beat_name,
+                "dna_focus": dna_focus,
+                "purpose": blueprint["beat_plan"][beat_name],
+                "event_text": "이 Beat를 위한 원천 사건이 충분히 확보되지 않았습니다.",
+                "source_story_id": source_story_id,
+                "source_story": "원천 사건 미확인",
+                "score": 0,
+                "reused": False,
+            }
+            continue
+        score, record, matched = candidates[0]
+        reused = record["id"] in used_ids
+        used_ids.add(record["id"])
+        bound[beat_name] = {
+            "beat": beat_name,
+            "dna_focus": dna_focus,
+            "dna_value": dna[dna_focus],
+            "purpose": blueprint["beat_plan"][beat_name],
+            "event_text": compact_story_text(record["event_text"]),
+            "source_story_id": record["story_id"],
+            "source_story": record["story_title"],
+            "original_beat": record.get("raw_beat") or record["beat"],
+            "module_id": record["id"],
+            "score": round(score, 2),
+            "matched_terms": matched,
+            "reused": reused,
+        }
+    return bound
+
+
+def generate_blueprint_story(
+    dna: dict[str, Any],
+    blueprint: dict[str, Any],
+    bound_beats: dict[str, dict[str, Any]] | None = None,
+) -> dict[str, Any]:
     location = dna["location"]
     character = dna["character_type"]
     atmosphere = dna["atmosphere"]
+    bound_beats = bound_beats or {}
+    event = lambda beat: bound_beats.get(beat, {}).get("event_text", "")
     paragraphs = [
-        f"{atmosphere} 제주 {location}, {character}는 {dna['the_lack']}",
-        f"그곳에서 오래된 징조가 나타났다. {dna['the_question']}",
-        f"목표에 다가갈수록 대가는 분명해졌다. {dna['the_cost']}",
-        f"가장 어두운 순간, 진실은 예상과 다른 얼굴을 보였다. {dna['the_irony']}",
-        f"주인공은 그 질문에 행동으로 답했고, {dna['ending_style']} 속에 새로운 질서가 남았다.",
+        f"{atmosphere} 제주 {location}, {character}는 {dna['the_lack']} {event('Ki')}",
+        f"그곳에서 오래된 징조가 나타났다. {dna['the_question']} {event('Shō')}",
+        f"목표에 다가갈수록 대가는 분명해졌다. {dna['the_cost']} {event('Trial')}",
+        f"가장 어두운 순간, 진실은 예상과 다른 얼굴을 보였다. {dna['the_irony']} {event('Crisis')}",
+        f"주인공은 그 질문에 행동으로 답했고, {event('Climax')} {event('Ketsu')} {dna['ending_style']} 속에 새로운 질서가 남았다.",
     ]
     return {
         "title": f"{location}의 {dna['theme']}",
@@ -959,7 +1032,7 @@ def generate_blueprint_story(dna: dict[str, Any], blueprint: dict[str, Any]) -> 
             "tone": "서사적인",
             "ending": dna["ending_style"],
         },
-        "generation_mode": "generative story DNA blueprint",
+        "generation_mode": "generative story DNA + bound beats",
     }
 
 
@@ -1000,11 +1073,15 @@ def build_engine_result(payload: dict[str, Any], engine: dict[str, Any]) -> dict
         analysis["dna"], context, personal_context,
         source_story_id=source_pack["source_story_id"] or None,
     )
-    generated = generate_blueprint_story(dna, blueprint)
+    bound_beats = bind_story_pack_to_dna(
+        source_pack["source_story_id"], dna, blueprint, context, personal_context,
+    )
+    generated = generate_blueprint_story(dna, blueprint, bound_beats)
     return {
         "analysis": analysis,
         "retrieved": retrieved,
         "generated": generated,
+        "bound_beats": bound_beats,
         "generative_story_dna": dna,
         "narrative_blueprint": blueprint,
         "retrieval_method": "User Intent → Stored Story DNA resonance / TF-IDF baseline",
