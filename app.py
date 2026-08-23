@@ -1041,8 +1041,9 @@ class NarrativeHandler(SimpleHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    server = ThreadingHTTPServer(("127.0.0.1", 8000), NarrativeHandler)
-    print("Narrative AI MVP2.0 running at http://127.0.0.1:8000")
+    port = int(os.environ.get("NARRATIVE_PORT", "8000"))
+    server = ThreadingHTTPServer(("127.0.0.1", port), NarrativeHandler)
+    print(f"Narrative AI MVP2.0 running at http://127.0.0.1:{port}")
     print(f"Data source: {DATA_STATS}")
     try:
         server.serve_forever()
