@@ -1,4 +1,4 @@
-"""Narrative AI MVP1.1.
+"""Narrative AI MVP2.0.
 
 The app keeps the MVP dependency-free, but now reads the team's existing
 Chroma SQLite export. Chroma's vectors are not queried directly here: the
@@ -1017,8 +1017,8 @@ class NarrativeHandler(SimpleHTTPRequestHandler):
         if self.path == "/api/health":
             self.send_json(200, {
                 "status": "ok",
-                "version": "mvp1.1",
-                "analysis_mode": "local Ollama optional / rule-based fallback",
+                "version": "mvp2.0",
+                "analysis_mode": "generative Story DNA baseline / local Ollama optional",
                 "ollama_enabled": USE_OLLAMA,
                 "ollama_model": OLLAMA_MODEL if USE_OLLAMA else None,
                 "data_source": DATA_STATS,
@@ -1042,7 +1042,7 @@ class NarrativeHandler(SimpleHTTPRequestHandler):
 
 if __name__ == "__main__":
     server = ThreadingHTTPServer(("127.0.0.1", 8000), NarrativeHandler)
-    print("Narrative AI MVP1.1 running at http://127.0.0.1:8000")
+    print("Narrative AI MVP2.0 running at http://127.0.0.1:8000")
     print(f"Data source: {DATA_STATS}")
     try:
         server.serve_forever()
