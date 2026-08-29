@@ -22,6 +22,10 @@ Stored Story DNA
 재조합 이야기의 일관성을 개선할 수 있는가?
 ```
 
+## 기능별 문서
+
+구현 기능의 목적·입력·처리 흐름·출력·현재 한계는 [기능 문서 목록](docs/features/README.md)에서 확인할 수 있습니다.
+
 ## 사용자 흐름
 
 사용자는 자기 상황이나 감정을 입력하지 않습니다. 다음 생성 의도만 선택합니다.
@@ -126,6 +130,12 @@ plot_patterns: 246
 - 조건 없이 랜덤 설화 설계
 - Stored Story DNA 기반 Source Story Retrieval
 - 전체 후보 점수를 합산한 중심 Story Pack 선택
+- 선택 근거를 보여주는 Match Report: 상대 적합도, Beat 커버리지, DNA 바인딩률, 원천 일관성
+- 후보 설화 순위와 매칭 단어, 데이터셋 규모 통계 표시
+- Beat별 독립 재매칭 후보 추천과 중심 Story Pack의 분리
+- 후보 카드 클릭을 통한 Beat별 Cross-Story Remix 재생성
+- 모듈별 raw TF-IDF 점수와 점수 구성요소 표시
+- 사용자 선택 조건과 생성용 DNA의 관계 표시
 - 선택된 원천 설화의 Beat·Module만 연결하는 일관성 제약
 - Beat별 DNA 역할 바인딩: Lack·Question·Cost·Irony
 - 연결된 4요소 Generative Story DNA 생성
@@ -134,6 +144,23 @@ plot_patterns: 246
 - 설화 모듈과 생성용 Blueprint 결과 표시
 - Blueprint 기반 Narrative Draft 생성
 - 기존 MVP1 API 입력과 테스트의 하위 호환
+
+## Match Report 해석
+
+생성 결과의 Match Report는 결과를 설명하기 위한 MVP 지표입니다.
+
+- `Story Pack 적합도`: 전체 후보 설화 중 선택된 원천 설화의 상대 순위
+- `Beat 구조 커버리지`: 선택된 설화가 setup·transition·conflict·climax·resolution 중 제공하는 구조 수
+- `DNA 바인딩률`: 생성용 DNA 역할이 실제 원천 사건에 연결된 비율
+- `원천 일관성`: 여러 설화를 섞지 않고 하나의 Story Pack에서 모듈을 선택했는지
+
+점수는 의미 품질에 대한 절대적인 심리·문학 평가가 아니라, 검색과 생성 연결 과정을 투명하게 보여주는 설명 지표입니다.
+
+Beat별 재매칭 후보는 각 단계에 더 잘 맞을 수 있는 다른 설화를 보여주는 탐색용 결과입니다. 실제 생성에는 여전히 하나의 중심 Story Pack만 사용하므로, 후보를 다양하게 탐색하면서도 생성 서사의 원천 일관성은 유지합니다.
+
+후보 카드를 클릭하면 선택한 Beat만 다른 설화의 사건으로 교체해 즉시 다시 생성합니다. 이때 결과는 `Cross-Story Remix`로 표시됩니다. 기본 모드에서는 `원천 일관성`을 평가하지만, 리믹스 모드에서는 혼합을 감점하지 않고 `리믹스 적용 범위`와 실제 혼합 원천 수를 표시합니다.
+
+`Generative DNA`는 사용자가 선택한 분위기·주제·장소·인물·결말에서 설계되는 이번 생성 요청의 제약입니다. 후보 설화가 바뀌어도 자동으로 바뀌지 않으며, 후보 사건이 이 제약을 얼마나 잘 뒷받침하는지를 별도의 매칭 점수로 평가합니다. 모듈의 `7.1` 같은 값은 퍼센트가 아니라 raw TF-IDF 검색 점수이며, 화면에서 `matched terms`, `location`, `beat structure` 등의 구성요소를 함께 확인할 수 있습니다.
 
 ## 실행
 
@@ -151,6 +178,13 @@ python app.py
 
 ```bash
 python -m unittest discover -s tests -v
+```
+
+서버가 실행 중일 때 기본 생성부터 Remix API까지 확인하려면 다음 smoke test를 실행합니다.
+
+```powershell
+$env:NARRATIVE_BASE_URL = "http://127.0.0.1:8000"
+python scripts/smoke_test.py
 ```
 
 현재 테스트는 다음을 검증합니다.
@@ -192,3 +226,24 @@ Blueprint에 바인딩된 Character·Place·Event·Mood·Wisdom Module의 품질
 생성용 DNA를 Narrative Blueprint와 Beat 제약으로 변환하여,
 설화 재조합의 일관성을 개선하는 Engine 구조를 설계했다.
 ```
+
+## LLM 기반 신규 설화 생성
+
+기본 생성 경로는 기존 `recombined baseline`으로 유지됩니다. `OPENAI_API_KEY`가 설정되면 검색된 Beat의 원문 대신 구조적으로 추상화한 서사 패턴, Story DNA, Narrative Blueprint, Beat Plan을 OpenAI Responses API에 전달해 새 설화를 생성합니다. 키가 없거나 요청이 실패하면 서버를 중단하지 않고 baseline 결과를 표시합니다.
+
+PowerShell에서 실행:
+
+```powershell
+$env:OPENAI_API_KEY = "your_api_key_here"
+$env:NARRATIVE_OPENAI_MODEL = "gpt-4o-mini"  # 선택 사항
+python app.py
+```
+
+API key 없이도 다음 명령으로 baseline fallback을 사용할 수 있습니다.
+
+```powershell
+Remove-Item Env:OPENAI_API_KEY -ErrorAction SilentlyContinue
+python app.py
+```
+
+비교를 위해 `generated.generation_mode`는 `LLM Generated` 또는 `recombined baseline`으로 반환되며, 생성 프롬프트에는 원본 Beat의 `event_text`를 넣지 않습니다.
