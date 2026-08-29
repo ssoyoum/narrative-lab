@@ -57,6 +57,59 @@ class GenerativeStoryDnaTests(unittest.TestCase):
         self.assertEqual(len(source_ids), 1)
         self.assertTrue(any(item["event_text"] in result["generated"]["text"] for item in bound.values()))
 
+    def test_result_explains_story_pack_fit_and_retrieval_statistics(self):
+        result = self.make_result(theme="forbidden_promise", location="cave")
+        report = result["match_report"]
+        self.assertIn(report["grade"], {"높음", "보통", "낮음"})
+        self.assertGreaterEqual(report["overall_score"], 0)
+        self.assertLessEqual(report["overall_score"], 100)
+        self.assertEqual(len(report["dimensions"]), 4)
+        self.assertGreater(report["statistics"]["candidate_stories"], 0)
+        self.assertGreater(report["statistics"]["retrieved_modules"], 0)
+        self.assertEqual(len(report["top_candidates"]), 3)
+
+    def test_each_beat_has_independent_rematch_candidates(self):
+        result = self.make_result(theme="forbidden_promise", location="cave")
+        recommendations = result["beat_recommendations"]
+        self.assertEqual(list(recommendations), ["Ki", "Shō", "Trial", "Crisis", "Climax", "Ketsu"])
+        self.assertTrue(all(item["candidates"] for item in recommendations.values()))
+        story_ids = {
+            candidate["source_story_id"]
+            for item in recommendations.values()
+            for candidate in item["candidates"]
+        }
+        self.assertGreater(len(story_ids), 1)
+
+    def test_scores_and_intent_are_explainable(self):
+        result = self.make_result(theme="forbidden_promise", location="cave", character="outsider")
+        module = result["retrieved"][0]
+        self.assertEqual(module["score_type"], "raw TF-IDF retrieval score")
+        self.assertTrue(module["score_breakdown"])
+        self.assertEqual(result["generative_story_dna"]["user_intent"]["location"], "동굴")
+        self.assertEqual(result["bound_beats"]["Shō"]["dna_focus"], "the_question")
+
+    def test_clicking_a_beat_candidate_creates_a_cross_story_remix(self):
+        base = self.make_result(theme="forbidden_promise", location="cave")
+        alternative = base["beat_recommendations"]["Ki"]["candidates"][1]
+        result = app.build_result({
+            "engine": {
+                "atmosphere": "mysterious", "theme": "forbidden_promise", "location": "cave",
+                "character": "traveler", "ending": "echo",
+            },
+            "context": {},
+            "beat_overrides": {"Ki": alternative["module_id"]},
+        })
+        self.assertTrue(result["remix"]["active"])
+        self.assertEqual(result["remix"]["selected_overrides"]["Ki"], alternative["module_id"])
+        self.assertEqual(result["bound_beats"]["Ki"]["module_id"], alternative["module_id"])
+        self.assertIn("remix", result["generated"]["generation_mode"])
+        report_keys = {item["key"] for item in result["match_report"]["dimensions"]}
+        self.assertIn("remix_coverage", report_keys)
+        self.assertNotIn("source_coherence", report_keys)
+        self.assertEqual(result["remix"]["selected_count"], 1)
+        self.assertEqual(result["active_modules"][0]["id"], alternative["module_id"])
+        self.assertNotEqual(result["active_modules"][0]["source_story"], result["retrieved"][0]["source_story"])
+
 
 if __name__ == "__main__":
     unittest.main()

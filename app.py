@@ -29,6 +29,12 @@ FALLBACK_MODULE_FILE = ROOT / "data" / "story_modules.json"
 OLLAMA_URL = os.environ.get("NARRATIVE_OLLAMA_URL", "http://127.0.0.1:11434/api/chat")
 OLLAMA_MODEL = os.environ.get("NARRATIVE_OLLAMA_MODEL", "qwen2.5:3b")
 USE_OLLAMA = os.environ.get("NARRATIVE_USE_OLLAMA", "0").lower() in {"1", "true", "yes"}
+OPENAI_URL = os.environ.get("NARRATIVE_OPENAI_URL", "https://api.openai.com/v1/responses")
+OPENAI_MODEL = os.environ.get("NARRATIVE_OPENAI_MODEL", "gpt-4o-mini")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "").strip()
+LLM_UNAVAILABLE_MESSAGE = (
+    "LLM generation is unavailable. Set OPENAI_API_KEY to enable generative folktale generation."
+)
 
 TOKEN_RE = re.compile(r"[A-Za-z0-9가-힣]{1,}")
 SENTENCE_RE = re.compile(r"(?<=[.!?。！？])\s+|\n+")
@@ -37,6 +43,10 @@ STOPWORDS = {
     "하며", "했다", "에서", "으로", "에게", "그날", "누군가", "모든", "이후", "때문에", "the", "and",
 }
 TARGET_BEATS = ("setup", "transition", "conflict", "climax", "resolution")
+
+
+class LLMUnavailableError(RuntimeError):
+    """Raised when optional LLM generation cannot be completed."""
 
 
 def tokens(text: str) -> list[str]:
@@ -620,6 +630,11 @@ def load_team_data() -> tuple[list[dict[str, Any]], list[dict[str, Any]], dict[s
             "raw_beat": str(record.get("beat") or ""),
             "search_text": search_text,
             "story_dna": story_dna_text,
+            "structural_attributes": {
+                key: str(record[key])
+                for key in ("function", "conflict", "emotion")
+                if record.get(key) not in (None, "")
+            },
             "supporting_modules": module_names.get(story_id, [])[:8],
         })
 
@@ -708,8 +723,38 @@ def _rank_retrieval_records(
                 if value.lower() in record.get("story_dna", "").lower():
                     score += 3
         ranked.append((score, record, sorted(overlap)))
-    ranked.sort(key=lambda item: (-item[0], item[1]["id"]))
+    # Deterministic tie-break: raw score → number of matched terms → stable module id.
+    ranked.sort(key=lambda item: (-item[0], -len(item[2]), item[1]["id"]))
     return ranked
+
+
+def retrieval_score_breakdown(
+    score: float,
+    record: dict[str, Any],
+    matched: list[str],
+    dna: dict[str, Any],
+    context: dict[str, str],
+    personal_context: dict[str, Any] | None = None,
+) -> list[dict[str, Any]]:
+    """Explain the raw lexical score instead of presenting it as a quality percentage."""
+    personal_context = personal_context or {}
+    parts: list[dict[str, Any]] = []
+    lexical = sum(IDF.get(word, 1) for word in matched)
+    if lexical:
+        parts.append({"label": "matched terms", "value": round(lexical, 2), "terms": matched})
+    if record["beat"] in dna["beats"]:
+        parts.append({"label": "beat structure", "value": 1.5})
+    if personal_context.get("setting") and personal_context["setting"] in record["search_text"]:
+        parts.append({"label": "setting", "value": 2})
+    if context.get("location") and context["location"] in record["search_text"]:
+        parts.append({"label": "location", "value": 2})
+    if context.get("mood") and context["mood"] in record["search_text"]:
+        parts.append({"label": "mood", "value": 2})
+    for dimension in ("wounds", "desires"):
+        for value in _coerce_list(personal_context.get(dimension)):
+            if value.lower() in record.get("story_dna", "").lower():
+                parts.append({"label": dimension, "value": 3, "terms": [value]})
+    return parts or [{"label": "no lexical overlap", "value": round(score, 2)}]
 
 
 def select_story_pack(
@@ -741,13 +786,109 @@ def select_story_pack(
         candidates.append((aggregate, pack, coverage))
     if not candidates:
         return {"source_story_id": "", "source_story_title": "참고 설화 없음", "score": 0, "beat_coverage": 0, "matched_terms": []}
-    aggregate, pack, coverage = max(candidates, key=lambda item: (item[0], item[1]["source_story_id"]))
+    candidates.sort(key=lambda item: (-item[0], -item[2], -len(item[1]["matched_terms"]), item[1]["source_story_id"]))
+    aggregate, pack, coverage = candidates[0]
+    max_score = max(candidate[0] for candidate in candidates) or 1
+    score_values = [candidate[0] for candidate in candidates]
     return {
         "source_story_id": pack["source_story_id"],
         "source_story_title": pack["source_story_title"],
         "score": round(aggregate, 2),
+        "fit_score": round((aggregate / max_score) * 100),
+        "candidate_rank": 1,
+        "selection_rule": "aggregate score → Beat coverage → matched term count → stable story id",
+        "candidate_count": len(candidates),
+        "candidate_score_max": round(max(score_values), 2),
+        "candidate_score_min": round(min(score_values), 2),
+        "candidate_score_average": round(sum(score_values) / len(score_values), 2),
         "beat_coverage": coverage,
+        "beat_coverage_percent": round((coverage / len(TARGET_BEATS)) * 100),
         "matched_terms": sorted(pack["matched_terms"]),
+        "matched_term_count": len(pack["matched_terms"]),
+        "top_candidates": [
+            {
+                "rank": index + 1,
+                "source_story_title": item[1]["source_story_title"],
+                "score": round(item[0], 2),
+                "fit_score": round((item[0] / max_score) * 100),
+                "beat_coverage": item[2],
+                "matched_term_count": len(item[1]["matched_terms"]),
+            }
+            for index, item in enumerate(candidates[:3])
+        ],
+    }
+
+
+def build_match_report(
+    source_pack: dict[str, Any],
+    retrieved: list[dict[str, Any]],
+    bound_beats: dict[str, dict[str, Any]],
+    beat_overrides: dict[str, str] | None = None,
+) -> dict[str, Any]:
+    """Turn retrieval traces into a user-facing, explainable match report."""
+    beat_overrides = beat_overrides or {}
+    remix_active = bool(beat_overrides)
+    beat_total = len(BEAT_DNA_BINDINGS)
+    bound_count = sum(1 for item in bound_beats.values() if item.get("module_id"))
+    coherent_sources = {
+        item.get("source_story") for item in bound_beats.values() if item.get("module_id") and item.get("source_story")
+    } or {item.get("source_story") for item in retrieved if item.get("source_story")}
+    coherence = 100 if len(coherent_sources) <= 1 else round(100 / len(coherent_sources))
+    dimensions = [
+        {
+            "key": "story_pack_fit",
+            "label": "Story Pack 적합도",
+            "score": source_pack.get("fit_score", 0),
+            "detail": f"전체 후보 {source_pack.get('candidate_count', 0)}개 중 {source_pack.get('candidate_rank', 1)}위",
+        },
+        {
+            "key": "beat_coverage",
+            "label": "기준 Story Pack 커버리지" if remix_active else "Beat 구조 커버리지",
+            "score": source_pack.get("beat_coverage_percent", 0),
+            "detail": f"리믹스 전 기준 Pack: {source_pack.get('beat_coverage', 0)} / {len(TARGET_BEATS)}개 구조 확보" if remix_active else f"{source_pack.get('beat_coverage', 0)} / {len(TARGET_BEATS)}개 구조 확보",
+        },
+        {
+            "key": "dna_binding",
+            "label": "DNA 바인딩률",
+            "score": round((bound_count / beat_total) * 100) if beat_total else 0,
+            "detail": f"{bound_count} / {beat_total}개 Beat에 원천 사건 연결",
+        },
+    ]
+    if remix_active:
+        dimensions.append({
+            "key": "remix_coverage",
+            "label": "리믹스 적용 범위",
+            "score": round((len(beat_overrides) / beat_total) * 100) if beat_total else 0,
+            "detail": f"{len(beat_overrides)} / {beat_total}개 Beat를 후보 설화로 교체",
+        })
+    else:
+        dimensions.append({
+            "key": "source_coherence",
+            "label": "원천 일관성",
+            "score": coherence,
+            "detail": "하나의 원천 설화에서 모듈을 선택" if coherence == 100 else f"{len(coherent_sources)}개 원천 설화가 혼합됨",
+        })
+    overall = round(sum(item["score"] for item in dimensions) / len(dimensions)) if dimensions else 0
+    return {
+        "overall_score": overall,
+        "grade": "높음" if overall >= 80 else "보통" if overall >= 60 else "낮음",
+        "mode": "cross-story remix" if remix_active else "coherent story pack",
+        "dimensions": dimensions,
+        "matched_terms": source_pack.get("matched_terms", []),
+        "statistics": {
+            "candidate_stories": source_pack.get("candidate_count", 0),
+            "candidate_rank": source_pack.get("candidate_rank", 0),
+            "retrieved_modules": len(retrieved),
+            "bound_beats": bound_count,
+            "remix_beats": len(beat_overrides),
+            "remix_sources": len(coherent_sources),
+            "dataset_stories": DATA_STATS.get("stories", 0),
+            "dataset_beats": DATA_STATS.get("beats", 0),
+            "dataset_modules": DATA_STATS.get("modules", 0),
+        },
+        "top_candidates": source_pack.get("top_candidates", []),
+        "selection_rule": source_pack.get("selection_rule", "raw score → stable id"),
+        "method_note": "TF-IDF 기반 단어 공명 + Beat 커버리지 + 생성용 DNA 바인딩률을 평균낸 MVP 설명 지표입니다. 100%는 해당 후보군 안의 상대 점수입니다.",
     }
 
 
@@ -783,17 +924,71 @@ def retrieve_modules(
         "source_story": record["story_title"],
         "category": record["category"],
         "score": round(score, 2),
+        "score_type": "raw TF-IDF retrieval score",
+        "score_breakdown": retrieval_score_breakdown(score, record, matched, dna, context, personal_context),
         "matched_terms": matched,
         "match_reason": " · ".join(matched) if matched else "서사 구조와 Story DNA의 기본 공명",
         "supporting_modules": record.get("supporting_modules", []),
     } for score, record, matched in selected[:limit]]
 
 
+def retrieve_beat_recommendations(
+    dna: dict[str, Any],
+    context: dict[str, str],
+    personal_context: dict[str, Any] | None = None,
+    limit: int = 3,
+    selected_overrides: dict[str, str] | None = None,
+) -> dict[str, dict[str, Any]]:
+    """Return independent story candidates for each Beat without changing the coherent generation pack."""
+    ranked = _rank_retrieval_records(dna, context, personal_context)
+    selected_overrides = selected_overrides or {}
+    recommendations: dict[str, dict[str, Any]] = {}
+    for beat_name, (canonical, dna_focus) in BEAT_DNA_BINDINGS.items():
+        preferred = [
+            item for item in ranked
+            if item[1].get("raw_beat", "").lower() == beat_name.lower()
+        ]
+        candidates = preferred or [item for item in ranked if item[1]["beat"] == canonical]
+        unique: list[tuple[float, dict[str, Any], list[str]]] = []
+        seen_stories: set[str] = set()
+        for item in candidates:
+            story_id = item[1]["story_id"] or item[1]["story_title"]
+            if story_id in seen_stories:
+                continue
+            seen_stories.add(story_id)
+            unique.append(item)
+            if len(unique) == limit:
+                break
+        max_score = max((item[0] for item in unique), default=0) or 1
+        recommendations[beat_name] = {
+            "beat": beat_name,
+            "canonical_beat": canonical,
+            "dna_focus": dna_focus,
+            "candidates": [
+                {
+                    "rank": index + 1,
+                    "source_story_id": record["story_id"],
+                    "source_story": record["story_title"],
+                    "module_id": record["id"],
+                    "event_text": compact_story_text(record["event_text"]),
+                    "score": round(score, 2),
+                    "fit_score": round((score / max_score) * 100) if score else 0,
+                    "score_type": "raw TF-IDF retrieval score",
+                    "score_breakdown": retrieval_score_breakdown(score, record, matched, dna, context, personal_context),
+                    "matched_terms": matched,
+                    "selected": record["id"] == str(selected_overrides.get(beat_name) or ""),
+                }
+                for index, (score, record, matched) in enumerate(unique)
+            ],
+        }
+    return recommendations
+
+
 def module_for(beat: str, retrieved: list[dict[str, Any]], fallback: dict[str, Any]) -> dict[str, Any]:
     return next((module for module in retrieved if module["beat"] == beat), fallback)
 
 
-def generate_story(
+def generate_recombined_story(
     analysis: dict[str, Any],
     retrieved: list[dict[str, Any]],
     context: dict[str, str],
@@ -818,7 +1013,22 @@ def generate_story(
         f"선택을 미룰 수 없게 된 순간, {climax}",
         f"그 뒤의 {ending} 속에서 {resolution}",
     ]
-    return {"title": title, "text": "\n\n".join(paragraphs), "controls": {"location": location, "mood": mood, "tone": tone, "ending": ending}}
+    return {
+        "title": title,
+        "text": "\n\n".join(paragraphs),
+        "controls": {"location": location, "mood": mood, "tone": tone, "ending": ending},
+        "generation_mode": "recombined baseline",
+    }
+
+
+def generate_story(
+    analysis: dict[str, Any],
+    retrieved: list[dict[str, Any]],
+    context: dict[str, str],
+    personal_context: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    """Backward-compatible name for the original MVP1 recombination path."""
+    return generate_recombined_story(analysis, retrieved, context, personal_context)
 
 
 ENGINE_ATMOSPHERES = {
@@ -914,6 +1124,13 @@ def build_generative_story_dna(engine: dict[str, Any]) -> dict[str, Any]:
         "location": location,
         "character_type": character,
         "ending_style": ending,
+        "user_intent": {
+            "atmosphere": atmosphere,
+            "theme": theme["label"],
+            "location": location,
+            "character": character,
+            "ending": ending,
+        },
     }
 
 
@@ -955,8 +1172,17 @@ def bind_story_pack_to_dna(
     blueprint: dict[str, Any],
     context: dict[str, str],
     personal_context: dict[str, Any],
+    beat_overrides: dict[str, str] | None = None,
 ) -> dict[str, dict[str, Any]]:
     """Bind source-story events to the DNA role each Beat must prove."""
+    beat_overrides = beat_overrides or {}
+    all_ranked = _rank_retrieval_records(dna={
+        "setting": [dna["location"]],
+        "characters": [dna["character_type"]],
+        "emotion": [dna["atmosphere"]],
+        "conflict": [blueprint["conflict"]],
+        "beats": [canonical for canonical, _ in BEAT_DNA_BINDINGS.values()],
+    }, context=context, personal_context=personal_context)
     ranked = [
         item for item in _rank_retrieval_records(dna={
             "setting": [dna["location"]],
@@ -970,6 +1196,15 @@ def bind_story_pack_to_dna(
     bound: dict[str, dict[str, Any]] = {}
     used_ids: set[str] = set()
     for beat_name, (canonical, dna_focus) in BEAT_DNA_BINDINGS.items():
+        override_id = str(beat_overrides.get(beat_name) or "")
+        override = next(
+            (
+                item for item in all_ranked
+                if item[1]["id"] == override_id
+                and (item[1].get("raw_beat", "").lower() == beat_name.lower() or item[1]["beat"] == canonical)
+            ),
+            None,
+        )
         preferred = [item for item in ranked if item[1].get("raw_beat", "").lower() == beat_name.lower() and item[1]["id"] not in used_ids]
         candidates = preferred or [item for item in ranked if item[1]["beat"] == canonical and item[1]["id"] not in used_ids]
         if not candidates:
@@ -986,7 +1221,7 @@ def bind_story_pack_to_dna(
                 "reused": False,
             }
             continue
-        score, record, matched = candidates[0]
+        score, record, matched = override or candidates[0]
         reused = record["id"] in used_ids
         used_ids.add(record["id"])
         bound[beat_name] = {
@@ -1001,12 +1236,13 @@ def bind_story_pack_to_dna(
             "module_id": record["id"],
             "score": round(score, 2),
             "matched_terms": matched,
+            "structural_attributes": record.get("structural_attributes", {}),
             "reused": reused,
         }
     return bound
 
 
-def generate_blueprint_story(
+def generate_recombined_story_from_blueprint(
     dna: dict[str, Any],
     blueprint: dict[str, Any],
     bound_beats: dict[str, dict[str, Any]] | None = None,
@@ -1015,6 +1251,7 @@ def generate_blueprint_story(
     character = dna["character_type"]
     atmosphere = dna["atmosphere"]
     bound_beats = bound_beats or {}
+    source_count = len({item.get("source_story_id") for item in bound_beats.values() if item.get("module_id")})
     event = lambda beat: bound_beats.get(beat, {}).get("event_text", "")
     paragraphs = [
         f"{atmosphere} 제주 {location}, {character}는 {dna['the_lack']} {event('Ki')}",
@@ -1024,7 +1261,7 @@ def generate_blueprint_story(
         f"주인공은 그 질문에 행동으로 답했고, {event('Climax')} {event('Ketsu')} {dna['ending_style']} 속에 새로운 질서가 남았다.",
     ]
     return {
-        "title": f"{location}의 {dna['theme']}",
+        "title": f"{location}의 {dna['theme']}" + (" · Cross-Story Remix" if source_count > 1 else ""),
         "text": "\n\n".join(paragraphs),
         "controls": {
             "location": location,
@@ -1032,12 +1269,249 @@ def generate_blueprint_story(
             "tone": "서사적인",
             "ending": dna["ending_style"],
         },
-        "generation_mode": "generative story DNA + bound beats",
+        "generation_mode": "cross-story remix + generative story DNA" if source_count > 1 else "generative story DNA + bound beats",
     }
+
+
+def generate_blueprint_story(
+    dna: dict[str, Any],
+    blueprint: dict[str, Any],
+    bound_beats: dict[str, dict[str, Any]] | None = None,
+) -> dict[str, Any]:
+    """Backward-compatible name for the blueprint recombination baseline."""
+    return generate_recombined_story_from_blueprint(dna, blueprint, bound_beats)
+
+
+BEAT_PATTERN_RULES = {
+    "setup": [
+        "주인공이 결핍을 품은 채 특정한 자연 환경에 들어선다",
+        "일상의 질서와 다른 징조가 나타나 새로운 가능성을 연다",
+    ],
+    "transition": [
+        "주인공이 낯선 존재 또는 정보와 접촉한다",
+        "작은 선택이 핵심 질문을 이야기 안으로 끌어들인다",
+    ],
+    "conflict": [
+        "목표를 이루기 위한 시험과 대가가 구체화된다",
+        "욕망과 공동체 또는 자연의 질서가 충돌한다",
+    ],
+    "climax": [
+        "주인공이 피할 수 없는 선택 앞에서 행동으로 답한다",
+        "이전의 믿음이 뒤집히며 갈등의 의미가 드러난다",
+    ],
+    "resolution": [
+        "선택의 결과가 인물과 세계의 새로운 질서로 남는다",
+        "설명되지 않은 여운이 공동체의 기억 또는 풍경에 스민다",
+    ],
+}
+
+
+def abstract_story_beat(beat: dict[str, Any]) -> dict[str, Any]:
+    """Convert source metadata into reusable narrative patterns without source prose."""
+    beat_name = str(beat.get("beat") or beat.get("original_beat") or "transition")
+    canonical = canonical_beat(beat_name)
+    patterns = list(BEAT_PATTERN_RULES.get(canonical, BEAT_PATTERN_RULES["transition"]))
+    attributes = beat.get("structural_attributes") or {}
+    if isinstance(attributes, dict):
+        function = str(attributes.get("function") or "").strip()
+        conflict = str(attributes.get("conflict") or "").strip()
+        emotion = str(attributes.get("emotion") or "").strip()
+        if function:
+            patterns.append(f"서사 기능: {function}")
+        if conflict:
+            patterns.append(f"갈등 축: {conflict}")
+        if emotion:
+            patterns.append(f"정서적 방향: {emotion}")
+    return {
+        "beat": str(beat.get("beat") or beat_name),
+        "canonical_beat": canonical,
+        "patterns": patterns,
+        "dna_focus": str(beat.get("dna_focus") or "blueprint"),
+        "purpose": str(beat.get("purpose") or ""),
+    }
+
+
+def build_source_patterns(bound_beats: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
+    """Build a prose-free pattern list for the generation prompt."""
+    return [abstract_story_beat(bound_beats[beat]) for beat in BEAT_DNA_BINDINGS if beat in bound_beats]
+
+
+def _prompt_json(value: Any) -> str:
+    return json.dumps(value, ensure_ascii=False, indent=2)
+
+
+def build_generation_prompt(
+    user_intent: dict[str, Any],
+    generative_dna: dict[str, Any],
+    blueprint: dict[str, Any],
+    beat_plan: dict[str, Any],
+    bound_beats: dict[str, dict[str, Any]],
+) -> str:
+    """Build an LLM prompt from intent and abstracted structure, never source Beat prose."""
+    user_intent = user_intent or {}
+    tone = user_intent.get("tone") or user_intent.get("atmosphere") or generative_dna.get("atmosphere") or "신비로운"
+    character = user_intent.get("protagonist") or user_intent.get("character") or generative_dna.get("character_type") or "주인공"
+    intent = {
+        "tone": tone,
+        "theme": user_intent.get("theme") or generative_dna.get("theme") or "",
+        "location": user_intent.get("location") or generative_dna.get("location") or "",
+        "protagonist / character": character,
+        "ending preference": user_intent.get("ending") or generative_dna.get("ending_style") or "",
+    }
+    dna = {
+        "Question": generative_dna.get("the_question", ""),
+        "Lack": generative_dna.get("the_lack", ""),
+        "Cost": generative_dna.get("the_cost", ""),
+        "Irony": generative_dna.get("the_irony", ""),
+    }
+    blueprint_data = {
+        key: blueprint.get(key, "")
+        for key in ("protagonist", "world", "goal", "conflict")
+    }
+    blueprint_data["ending direction"] = intent["ending preference"]
+    plan_data = {str(key): value for key, value in (beat_plan or {}).items()}
+    patterns = build_source_patterns(bound_beats)
+    return """당신은 제주 설화의 서사적 특징을 바탕으로 새로운 설화를 만드는 작가입니다.
+
+아래 정보는 실제 제주 설화 데이터에서 추출한 구조적 특징입니다.
+기존 설화의 문장, 고유 인물, 고유 사건, 원천 설화의 제목을 그대로 복사하지 마세요.
+구조적 특징과 설화적 패턴만 참고하여 새로운 인물 관계, 새로운 사건, 새로운 갈등을 만드세요.
+사용자가 선택한 인물, 장소, 분위기, 주제, 결말 조건을 적극적으로 반영하세요.
+Story DNA의 Question, Lack, Cost, Irony가 이야기 전체에 자연스럽게 드러나야 합니다.
+이야기는 하나의 독립적인 설화로 읽혀야 합니다.
+
+응답 형식:
+- 첫 줄에 새 설화의 제목만 작성하세요.
+- 빈 줄 뒤에 6개 단락 내외의 한국어 설화 본문을 작성하세요.
+- 설명, 분석, 원천 설화 언급, 메타데이터는 출력하지 마세요.
+
+[USER INTENT]
+""" + _prompt_json(intent) + """
+
+[STORY DNA]
+""" + _prompt_json(dna) + """
+
+[NARRATIVE BLUEPRINT]
+""" + _prompt_json(blueprint_data) + """
+
+[BEAT PLAN]
+""" + _prompt_json(plan_data) + """
+
+[FOLKTALE PATTERNS]
+""" + _prompt_json(patterns)
+
+
+def call_llm(prompt: str) -> str:
+    """Call the OpenAI Responses API without hard-coding credentials or requiring an SDK."""
+    api_key = os.environ.get("OPENAI_API_KEY", "").strip() or OPENAI_API_KEY
+    if not api_key:
+        raise LLMUnavailableError(LLM_UNAVAILABLE_MESSAGE)
+    model = os.environ.get("NARRATIVE_OPENAI_MODEL", OPENAI_MODEL)
+    body = json.dumps({
+        "model": model,
+        "instructions": "Return only the requested Korean folktale title and story.",
+        "input": prompt,
+        "temperature": 0.85,
+        "max_output_tokens": 1400,
+        "store": False,
+    }).encode("utf-8")
+    request = urllib.request.Request(
+        os.environ.get("NARRATIVE_OPENAI_URL", OPENAI_URL),
+        data=body,
+        headers={"Content-Type": "application/json", "Authorization": f"Bearer {api_key}"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=45) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as error:
+        raise LLMUnavailableError("LLM generation is unavailable. The OpenAI request failed.") from error
+    except (OSError, urllib.error.URLError, TimeoutError, json.JSONDecodeError) as error:
+        raise LLMUnavailableError("LLM generation is unavailable. The OpenAI request could not be completed.") from error
+    output_text = payload.get("output_text")
+    if not isinstance(output_text, str):
+        parts = []
+        for item in payload.get("output", []):
+            for content in item.get("content", []) if isinstance(item, dict) else []:
+                if content.get("type") == "output_text" and content.get("text"):
+                    parts.append(str(content["text"]))
+        output_text = "\n".join(parts)
+    if not str(output_text or "").strip():
+        raise LLMUnavailableError("LLM generation is unavailable. The OpenAI response was empty.")
+    return str(output_text).strip()
+
+
+def _parse_generated_folktale(story: str, location: str, theme: str) -> tuple[str, str]:
+    lines = [line.strip() for line in story.splitlines() if line.strip()]
+    if not lines:
+        return f"{location}의 새 설화", ""
+    title = lines[0].lstrip("# ").strip()
+    body = "\n\n".join(lines[1:]).strip()
+    if not body:
+        body = title
+        title = f"{location}의 {theme or '새 설화'}"
+    return title, body
+
+
+def generate_llm_folktale(
+    user_intent: dict[str, Any],
+    generative_dna: dict[str, Any],
+    blueprint: dict[str, Any],
+    beat_plan: dict[str, Any],
+    bound_beats: dict[str, dict[str, Any]],
+) -> dict[str, Any]:
+    """Generate an original folktale from constraints and abstract patterns."""
+    prompt = build_generation_prompt(user_intent, generative_dna, blueprint, beat_plan, bound_beats)
+    story = call_llm(prompt)
+    location = str(user_intent.get("location") or generative_dna.get("location") or "제주")
+    theme = str(user_intent.get("theme") or generative_dna.get("theme") or "")
+    title, text = _parse_generated_folktale(story, location, theme)
+    return {
+        "title": title,
+        "text": text,
+        "controls": {
+            "location": location,
+            "mood": user_intent.get("atmosphere") or user_intent.get("tone") or generative_dna.get("atmosphere", ""),
+            "tone": user_intent.get("tone") or user_intent.get("atmosphere") or generative_dna.get("atmosphere", ""),
+            "ending": user_intent.get("ending") or generative_dna.get("ending_style", ""),
+        },
+        "generation_mode": "LLM Generated",
+        "generation_provider": "OpenAI Responses API",
+        "source_patterns_count": len(build_source_patterns(bound_beats)),
+    }
+
+
+def generate_engine_folktale(
+    dna: dict[str, Any],
+    blueprint: dict[str, Any],
+    bound_beats: dict[str, dict[str, Any]],
+    baseline: dict[str, Any],
+) -> dict[str, Any]:
+    """Use LLM generation when available and keep the old result as a safe fallback."""
+    try:
+        return generate_llm_folktale(
+            dna.get("user_intent", {}), dna, blueprint, blueprint.get("beat_plan", {}), bound_beats,
+        )
+    except LLMUnavailableError as error:
+        fallback = dict(baseline)
+        source_count = len({item.get("source_story_id") for item in bound_beats.values() if item.get("module_id")})
+        remix_prefix = "cross-story remix + " if source_count > 1 else ""
+        fallback.update({
+            "generation_mode": f"{remix_prefix}recombined baseline + generative story DNA (LLM unavailable)",
+            "generation_provider": "recombined baseline",
+            "generation_status": "fallback",
+            "generation_notice": str(error),
+            "source_patterns_count": len(build_source_patterns(bound_beats)),
+        })
+        return fallback
 
 
 def build_engine_result(payload: dict[str, Any], engine: dict[str, Any]) -> dict[str, Any]:
     context = payload.get("context") or {}
+    beat_overrides = {
+        str(key): str(value) for key, value in (payload.get("beat_overrides") or {}).items()
+        if value
+    }
     dna = build_generative_story_dna(engine)
     blueprint = build_narrative_blueprint(engine, dna)
     planning_text = " ".join([
@@ -1073,20 +1547,56 @@ def build_engine_result(payload: dict[str, Any], engine: dict[str, Any]) -> dict
         analysis["dna"], context, personal_context,
         source_story_id=source_pack["source_story_id"] or None,
     )
-    bound_beats = bind_story_pack_to_dna(
-        source_pack["source_story_id"], dna, blueprint, context, personal_context,
+    beat_recommendations = retrieve_beat_recommendations(
+        analysis["dna"], context, personal_context, selected_overrides=beat_overrides,
     )
-    generated = generate_blueprint_story(dna, blueprint, bound_beats)
+    bound_beats = bind_story_pack_to_dna(
+        source_pack["source_story_id"], dna, blueprint, context, personal_context, beat_overrides,
+    )
+    active_modules = retrieved
+    if beat_overrides:
+        active_modules = [
+            {
+                "id": item.get("module_id"),
+                "title": f"{item.get('source_story', '원천 설화 미확인')} · {beat}",
+                "text": item.get("event_text", ""),
+                "beat": beat,
+                "source_story": item.get("source_story", "원천 설화 미확인"),
+                "category": "remix binding",
+                "score": item.get("score", 0),
+                "matched_terms": item.get("matched_terms", []),
+                "match_reason": "사용자가 선택한 Cross-Story Remix 사건",
+                "score_breakdown": [],
+            }
+            for beat, item in bound_beats.items()
+            if item.get("module_id")
+        ]
+    match_report = build_match_report(source_pack, retrieved, bound_beats, beat_overrides)
+    baseline = generate_recombined_story_from_blueprint(dna, blueprint, bound_beats)
+    generated = generate_engine_folktale(dna, blueprint, bound_beats, baseline)
     return {
         "analysis": analysis,
         "retrieved": retrieved,
+        "active_modules": active_modules,
+        "beat_recommendations": beat_recommendations,
         "generated": generated,
         "bound_beats": bound_beats,
+        "match_report": match_report,
         "generative_story_dna": dna,
         "narrative_blueprint": blueprint,
         "retrieval_method": "User Intent → Stored Story DNA resonance / TF-IDF baseline",
         "analysis_method": "generative story DNA baseline",
         "data_source": DATA_STATS,
+        "remix": {
+            "active": bool(beat_overrides),
+            "selected_overrides": beat_overrides,
+            "selected_count": len(beat_overrides),
+            "total_beats": len(BEAT_DNA_BINDINGS),
+            "source_stories": sorted({
+                item.get("source_story") for item in bound_beats.values()
+                if item.get("module_id") and item.get("source_story")
+            }),
+        },
     }
 
 
@@ -1158,6 +1668,8 @@ class NarrativeHandler(SimpleHTTPRequestHandler):
                 "analysis_mode": "generative Story DNA baseline / local Ollama optional",
                 "ollama_enabled": USE_OLLAMA,
                 "ollama_model": OLLAMA_MODEL if USE_OLLAMA else None,
+                "openai_enabled": bool(os.environ.get("OPENAI_API_KEY", "").strip() or OPENAI_API_KEY),
+                "openai_model": os.environ.get("NARRATIVE_OPENAI_MODEL", OPENAI_MODEL),
                 "data_source": DATA_STATS,
             })
             return
