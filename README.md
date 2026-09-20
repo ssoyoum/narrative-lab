@@ -176,6 +176,8 @@ python app.py
 
 ## 테스트
 
+`evaluation/cases.jsonl`에는 고정된 생성 조건 36개가 있습니다. `python scripts/evaluate_generation.py`로 동일한 조건의 baseline 결과와 구조적 점검값, 사람이 채점할 `review.csv`를 만들 수 있습니다. [평가 기준과 한계](evaluation/README.md)를 먼저 확인하세요. 자동 점검값은 문학적 품질 점수가 아닙니다.
+
 ```bash
 python -m unittest discover -s tests -v
 ```
