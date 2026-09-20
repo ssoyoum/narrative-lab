@@ -12,6 +12,7 @@
 - [x] Active Remix Modules 응답
 - [x] 규칙 기반 Narrative Draft 생성
 - [x] MVP1 하위 호환 테스트
+- [x] 고정 생성 조건 36개와 baseline 평가·수동 채점 양식
 
 ## 현재 안 되는 것
 
@@ -19,6 +20,7 @@
 - [ ] 생성문에 대한 자동 DNA Validation
 - [ ] 원천 사건을 자연스러운 새 문장으로 변환
 - [ ] Remix 결과 저장·공유
+- [ ] 실제 설화 DB 기준 수동 품질 평가와 독립 채점자 간 일치도 기록
 
 ## 현재 blocker
 
