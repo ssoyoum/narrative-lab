@@ -1,0 +1,970 @@
+{
+  "identity": {
+    "source": "fallback",
+    "data_sha256": "87398ffb4c3fa5fcae3c5af78d798354785c6cbaff59891572596519bca332cb",
+    "cases_sha256": "1a8d77843514c9a9d561d1de74f7f57627fa036c21decc2f25811f3e5e5de42d"
+  },
+  "variant": "baseline",
+  "data_stats": {
+    "source": "local fallback modules",
+    "stories": 0,
+    "beats": 4,
+    "modules": 4,
+    "plot_patterns": 0
+  },
+  "code_commit": "cfea2a1b711e5423eb6d98a075fd5e485d1f6921",
+  "harness_sha256": "edcbf93721afc0aa703b4cce69f583e6279740458d91b1aa311766915f470640",
+  "app_sha256": "bd4edfe25f9ab29d1130c3c6e150d52433d10d8a062932366d62c054103b55dd",
+  "annotation_review": "human review pending; text evidence only",
+  "summary": {
+    "cases": 18,
+    "answerable_cases": 16,
+    "no_answer_cases": 2,
+    "recall_at_1": 0.59375,
+    "recall_at_3": 0.84375,
+    "mrr_at_3": 0.7708333333333334,
+    "all_evidence_at_3": 0.75,
+    "abstention_rate": null,
+    "model_requests": 0
+  },
+  "rows": [
+    {
+      "id": "Q01",
+      "kind": "exact",
+      "query": "흥부와 놀부는 어떤 사이인가?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-setup"
+      ],
+      "evidence": [
+        "형제"
+      ],
+      "answerable": true,
+      "effective_query": "흥부와 놀부는 어떤 사이인가?",
+      "raw_top3": [
+        {
+          "id": "heungbu-1865-gyeongpan-25-setup",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 3.83258146374831,
+          "matched_terms": [
+            "놀부는",
+            "흥부와"
+          ]
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-climax",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-conflict",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        }
+      ],
+      "pack_id": "heungbu-1865-gyeongpan-25",
+      "selected_ids": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict",
+        "heungbu-1865-gyeongpan-25-climax",
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "metrics": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 0.218,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "Q02",
+      "kind": "exact",
+      "query": "흥부가 형에게 도움을 청한 뒤 어떻게 됐나?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-conflict"
+      ],
+      "evidence": [
+        "거절당했습니다"
+      ],
+      "answerable": true,
+      "effective_query": "흥부가 형에게 도움을 청한 뒤 어떻게 됐나?",
+      "raw_top3": [
+        {
+          "id": "heungbu-1865-gyeongpan-25-conflict",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 3.83258146374831,
+          "matched_terms": [
+            "도움을",
+            "형에게"
+          ]
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-climax",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-resolution",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        }
+      ],
+      "pack_id": "heungbu-1865-gyeongpan-25",
+      "selected_ids": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict",
+        "heungbu-1865-gyeongpan-25-climax",
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "metrics": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 0.211,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "Q03",
+      "kind": "exact",
+      "query": "흥부는 다친 제비를 어떻게 했나?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-climax"
+      ],
+      "evidence": [
+        "치료해"
+      ],
+      "answerable": true,
+      "effective_query": "흥부는 다친 제비를 어떻게 했나?",
+      "raw_top3": [
+        {
+          "id": "heungbu-1865-gyeongpan-25-climax",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 3.4271163556401456,
+          "matched_terms": [
+            "다친",
+            "흥부는"
+          ]
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-resolution",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 1.916290731874155,
+          "matched_terms": [
+            "제비를"
+          ]
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-conflict",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 1.5108256237659907,
+          "matched_terms": [
+            "흥부는"
+          ]
+        }
+      ],
+      "pack_id": "heungbu-1865-gyeongpan-25",
+      "selected_ids": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict",
+        "heungbu-1865-gyeongpan-25-climax",
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "metrics": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 0.166,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "Q04",
+      "kind": "exact",
+      "query": "놀부의 박에서는 무엇이 나왔나?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "evidence": [
+        "재앙과 꾸지람"
+      ],
+      "answerable": true,
+      "effective_query": "놀부의 박에서는 무엇이 나왔나?",
+      "raw_top3": [
+        {
+          "id": "heungbu-1865-gyeongpan-25-resolution",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 1.916290731874155,
+          "matched_terms": [
+            "박에서는"
+          ]
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-climax",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-conflict",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        }
+      ],
+      "pack_id": "heungbu-1865-gyeongpan-25",
+      "selected_ids": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict",
+        "heungbu-1865-gyeongpan-25-climax",
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "metrics": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 0.149,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "Q05",
+      "kind": "synonym",
+      "query": "부모의 유산을 혼자 차지한 사람은?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-setup"
+      ],
+      "evidence": [
+        "놀부는 부모의 재산을 독차지"
+      ],
+      "answerable": true,
+      "effective_query": "부모의 유산을 혼자 차지한 사람은?",
+      "raw_top3": [
+        {
+          "id": "heungbu-1865-gyeongpan-25-setup",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 1.916290731874155,
+          "matched_terms": [
+            "부모의"
+          ]
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-climax",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-conflict",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        }
+      ],
+      "pack_id": "heungbu-1865-gyeongpan-25",
+      "selected_ids": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict",
+        "heungbu-1865-gyeongpan-25-climax",
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "metrics": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 0.167,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "Q06",
+      "kind": "synonym",
+      "query": "가족의 생계를 위해 노동한 대목은?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-conflict"
+      ],
+      "evidence": [
+        "가족을 먹여 살리기 위해 품을 팔고"
+      ],
+      "answerable": true,
+      "effective_query": "가족의 생계를 위해 노동한 대목은?",
+      "raw_top3": [
+        {
+          "id": "heungbu-1865-gyeongpan-25-climax",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-conflict",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-resolution",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        }
+      ],
+      "pack_id": "heungbu-1865-gyeongpan-25",
+      "selected_ids": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict",
+        "heungbu-1865-gyeongpan-25-climax",
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "metrics": {
+        "recall_at_1": 0.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 0.5,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 0.148,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "Q07",
+      "kind": "synonym",
+      "query": "상처 입은 새를 돌보는 장면을 찾아줘.",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-climax"
+      ],
+      "evidence": [
+        "다친 제비"
+      ],
+      "answerable": true,
+      "effective_query": "상처 입은 새를 돌보는 장면을 찾아줘.",
+      "raw_top3": [
+        {
+          "id": "heungbu-1865-gyeongpan-25-climax",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-conflict",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-resolution",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        }
+      ],
+      "pack_id": "heungbu-1865-gyeongpan-25",
+      "selected_ids": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict",
+        "heungbu-1865-gyeongpan-25-climax",
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "metrics": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 0.159,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "Q08",
+      "kind": "synonym",
+      "query": "빈곤에서 벗어나는 결말은?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "evidence": [
+        "가난에서 벗어났습니다"
+      ],
+      "answerable": true,
+      "effective_query": "빈곤에서 벗어나는 결말은?",
+      "raw_top3": [
+        {
+          "id": "heungbu-1865-gyeongpan-25-climax",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-conflict",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-resolution",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        }
+      ],
+      "pack_id": "heungbu-1865-gyeongpan-25",
+      "selected_ids": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict",
+        "heungbu-1865-gyeongpan-25-climax",
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "metrics": {
+        "recall_at_1": 0.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 0.3333333333333333,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 0.158,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "Q09",
+      "kind": "alias",
+      "query": "'형'은 어느 인물을 가리키나?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict"
+      ],
+      "evidence": [
+        "흥부와 놀부 형제",
+        "형에게 도움"
+      ],
+      "answerable": true,
+      "effective_query": "'형'은 어느 인물을 가리키나?",
+      "raw_top3": [
+        {
+          "id": "heungbu-1865-gyeongpan-25-climax",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 1.5108256237659907,
+          "matched_terms": [
+            "어느"
+          ]
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-setup",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 1.5108256237659907,
+          "matched_terms": [
+            "어느"
+          ]
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-conflict",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        }
+      ],
+      "pack_id": "heungbu-1865-gyeongpan-25",
+      "selected_ids": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict",
+        "heungbu-1865-gyeongpan-25-climax",
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "metrics": {
+        "recall_at_1": 0.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 0.5,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 0.261,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "Q10",
+      "kind": "alias",
+      "query": "'동생'으로 해석할 인물의 가족이 쫓겨난 장면은?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-setup"
+      ],
+      "evidence": [
+        "흥부 가족을 집에서 내쫓았습니다"
+      ],
+      "answerable": true,
+      "effective_query": "'동생'으로 해석할 인물의 가족이 쫓겨난 장면은?",
+      "raw_top3": [
+        {
+          "id": "heungbu-1865-gyeongpan-25-climax",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-conflict",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-resolution",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        }
+      ],
+      "pack_id": "heungbu-1865-gyeongpan-25",
+      "selected_ids": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict",
+        "heungbu-1865-gyeongpan-25-climax",
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "metrics": {
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "mrr_at_3": 0,
+        "all_evidence_at_3": 0.0
+      },
+      "raw_retrieval_ms": 0.162,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "Q11",
+      "kind": "relation",
+      "query": "누가 누구의 가족을 집에서 내쫓았나?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-setup"
+      ],
+      "evidence": [
+        "놀부는",
+        "흥부 가족을 집에서 내쫓았습니다"
+      ],
+      "answerable": true,
+      "effective_query": "누가 누구의 가족을 집에서 내쫓았나?",
+      "raw_top3": [
+        {
+          "id": "heungbu-1865-gyeongpan-25-setup",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 3.4271163556401456,
+          "matched_terms": [
+            "가족을",
+            "집에서"
+          ]
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-conflict",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 1.5108256237659907,
+          "matched_terms": [
+            "가족을"
+          ]
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-climax",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        }
+      ],
+      "pack_id": "heungbu-1865-gyeongpan-25",
+      "selected_ids": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict",
+        "heungbu-1865-gyeongpan-25-climax",
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "metrics": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 0.174,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "Q12",
+      "kind": "relation",
+      "query": "흥부의 도움 요청을 거절한 사람과 두 사람 관계는?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict"
+      ],
+      "evidence": [
+        "흥부와 놀부 형제",
+        "거절당했습니다"
+      ],
+      "answerable": true,
+      "effective_query": "흥부의 도움 요청을 거절한 사람과 두 사람 관계는?",
+      "raw_top3": [
+        {
+          "id": "heungbu-1865-gyeongpan-25-climax",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-conflict",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-resolution",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        }
+      ],
+      "pack_id": "heungbu-1865-gyeongpan-25",
+      "selected_ids": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict",
+        "heungbu-1865-gyeongpan-25-climax",
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "metrics": {
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.5,
+        "mrr_at_3": 0.5,
+        "all_evidence_at_3": 0.0
+      },
+      "raw_retrieval_ms": 0.15,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "Q13",
+      "kind": "sequence",
+      "query": "치료와 박씨를 심는 일 중 무엇이 먼저인가?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-climax"
+      ],
+      "evidence": [
+        "치료해",
+        "이듬해",
+        "심고"
+      ],
+      "answerable": true,
+      "effective_query": "치료와 박씨를 심는 일 중 무엇이 먼저인가?",
+      "raw_top3": [
+        {
+          "id": "heungbu-1865-gyeongpan-25-climax",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 1.916290731874155,
+          "matched_terms": [
+            "박씨를"
+          ]
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-conflict",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-resolution",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        }
+      ],
+      "pack_id": "heungbu-1865-gyeongpan-25",
+      "selected_ids": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict",
+        "heungbu-1865-gyeongpan-25-climax",
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "metrics": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 0.173,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "Q14",
+      "kind": "sequence",
+      "query": "축출과 형에게 도움 요청을 연결하는 두 장면은?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict"
+      ],
+      "evidence": [
+        "내쫓았습니다",
+        "형에게 도움"
+      ],
+      "answerable": true,
+      "effective_query": "축출과 형에게 도움 요청을 연결하는 두 장면은?",
+      "raw_top3": [
+        {
+          "id": "heungbu-1865-gyeongpan-25-conflict",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 1.916290731874155,
+          "matched_terms": [
+            "형에게"
+          ]
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-climax",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-resolution",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        }
+      ],
+      "pack_id": "heungbu-1865-gyeongpan-25",
+      "selected_ids": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict",
+        "heungbu-1865-gyeongpan-25-climax",
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "metrics": {
+        "recall_at_1": 0.5,
+        "recall_at_3": 0.5,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 0.0
+      },
+      "raw_retrieval_ms": 0.144,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "Q15",
+      "kind": "causal_boundary",
+      "query": "박씨를 얻은 이유가 제비 치료의 보답이라고 명시돼 있나?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-climax"
+      ],
+      "evidence": [
+        "치료해",
+        "이듬해"
+      ],
+      "answerable": true,
+      "effective_query": "박씨를 얻은 이유가 제비 치료의 보답이라고 명시돼 있나?",
+      "raw_top3": [
+        {
+          "id": "heungbu-1865-gyeongpan-25-climax",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 1.916290731874155,
+          "matched_terms": [
+            "박씨를"
+          ]
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-conflict",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-resolution",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        }
+      ],
+      "pack_id": "heungbu-1865-gyeongpan-25",
+      "selected_ids": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict",
+        "heungbu-1865-gyeongpan-25-climax",
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "metrics": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 0.272,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "Q16",
+      "kind": "context",
+      "query": "가족이 배척당한 뒤 생계를 버티는 이야기의 근거는?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict"
+      ],
+      "evidence": [
+        "내쫓았습니다",
+        "하루하루를 버티며"
+      ],
+      "answerable": true,
+      "effective_query": "가족이 배척당한 뒤 생계를 버티는 이야기의 근거는?",
+      "raw_top3": [
+        {
+          "id": "heungbu-1865-gyeongpan-25-climax",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-conflict",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-resolution",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        }
+      ],
+      "pack_id": "heungbu-1865-gyeongpan-25",
+      "selected_ids": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict",
+        "heungbu-1865-gyeongpan-25-climax",
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "metrics": {
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.5,
+        "mrr_at_3": 0.5,
+        "all_evidence_at_3": 0.0
+      },
+      "raw_retrieval_ms": 0.189,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "Q17",
+      "kind": "no_answer",
+      "query": "제비 다리에 바른 약 이름은?",
+      "gold": [],
+      "evidence": [],
+      "answerable": false,
+      "effective_query": "제비 다리에 바른 약 이름은?",
+      "raw_top3": [
+        {
+          "id": "heungbu-1865-gyeongpan-25-climax",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-conflict",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-resolution",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        }
+      ],
+      "pack_id": "heungbu-1865-gyeongpan-25",
+      "selected_ids": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict",
+        "heungbu-1865-gyeongpan-25-climax",
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "metrics": {
+        "recall_at_1": null,
+        "recall_at_3": null,
+        "mrr_at_3": null,
+        "all_evidence_at_3": null
+      },
+      "raw_retrieval_ms": 0.167,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "Q18",
+      "kind": "no_answer",
+      "query": "흥부가 박씨를 심은 정확한 연월일은?",
+      "gold": [],
+      "evidence": [],
+      "answerable": false,
+      "effective_query": "흥부가 박씨를 심은 정확한 연월일은?",
+      "raw_top3": [
+        {
+          "id": "heungbu-1865-gyeongpan-25-climax",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 1.916290731874155,
+          "matched_terms": [
+            "박씨를"
+          ]
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-conflict",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        },
+        {
+          "id": "heungbu-1865-gyeongpan-25-resolution",
+          "story_id": "heungbu-1865-gyeongpan-25",
+          "score": 0,
+          "matched_terms": []
+        }
+      ],
+      "pack_id": "heungbu-1865-gyeongpan-25",
+      "selected_ids": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict",
+        "heungbu-1865-gyeongpan-25-climax",
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "metrics": {
+        "recall_at_1": null,
+        "recall_at_3": null,
+        "mrr_at_3": null,
+        "all_evidence_at_3": null
+      },
+      "raw_retrieval_ms": 0.148,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    }
+  ]
+}

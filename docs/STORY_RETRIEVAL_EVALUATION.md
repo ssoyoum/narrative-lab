@@ -113,3 +113,8 @@ python evaluation/retrieval.py --source team --cases evaluation/team_cases.json 
 후보는 fallback Q10/Q14/Q16의 Recall@3를 높였고 회귀 문항은 없었으나 팀 질문에서는 개선이 없었다. **기본 검색에 채택하지 않는다.** GraphRAG/벡터 DB 도입도 정당화되지 않는다. 어휘·조사 차이와 다중 근거 누락을 추가 gold에서 분리할 필요가 있다.
 
 자료 없음 질문은 검색 후보가 반환돼도 사실 답변으로 처리하지 않는다. 현재 QA 보류 계약이 없어 abstention은 null/N/A로 기록했다. 생성문·근거 주장·의미 일관성 평가도 미실행으로 분리했다. Live LLM 호출은 0회다. `.github/workflows/ci.yml`은 unittest와 동일 질문의 raw 기준선을 매번 실행하고 보고서를 7일 보관한다. CI가 실행된 사실·결과는 해당 commit Actions에서 별도 확인한다.
+
+
+### 커밋된 코드로 재고정한 보고서
+
+`evaluation/results/*-cfea2a1.json` 4개는 실제 commit `cfea2a1b711e5423eb6d98a075fd5e485d1f6921`에서 질문·자료를 바꾸지 않고 다시 측정했다. 각 app/평가기 SHA-256이 그 commit의 Git blob 내용과 일치함을 확인했다. 최초 편집 중 raw 보고서는 덮어쓰지 않고 보존했다. 재측정의 Recall/MRR/전체 근거 회수·후보 판단은 위 표와 동일했다. 이 4개를 재현 증거의 기준으로 사용하며, 최초 보고서의 미커밋 평가기 상태와 구분한다.
