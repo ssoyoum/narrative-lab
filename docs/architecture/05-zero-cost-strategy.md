@@ -1,5 +1,7 @@
 # Zero-Cost Strategy
 
+> 2026-10-20 코드 대조: 비용 0 표는 외부 모델을 사용하지 않는 baseline 실행 조건이다. 현재 app.py:generate_engine_folktale은 OpenAI 키가 있으면 유료 호출을 시도하므로 전체 앱이 언제나 무료라는 뜻은 아니다. Live 실행 전 승인·예산·키 유입 차단 조건은 [평가 문서](../STORY_RETRIEVAL_EVALUATION.md)를 따른다.
+
 ## Runtime Strategy
 
 ```mermaid
@@ -38,3 +40,4 @@ graph LR
 - 검색 점수의 설명 가능성
 - 로컬 실행 가능성
 - 포트폴리오에서 구조를 직접 설명할 수 있는 코드
+

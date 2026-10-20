@@ -1,5 +1,7 @@
 # Technology Stack
 
+> 2026-10-20 코드 대조: 아래 표는 초기 baseline 중심이다. 현재 생성은 app.py:call_llm의 선택적 OpenAI Responses API 경로가 있으며, 키/연결 문제 시 규칙 초안으로 돌아온다. Ollama 옵션은 개인 맥락 분석 경로와 구분한다. 최신 흐름은 [검색 문서](../features/03-story-pack-retrieval.md)를 따른다.
+
 | Layer | Technology | Purpose |
 |---|---|---|
 | UI | HTML5 | Wizard와 결과 영역 구조 |
@@ -31,3 +33,4 @@ python app.py
 $env:NARRATIVE_PORT = "8133"
 python app.py
 ```
+
