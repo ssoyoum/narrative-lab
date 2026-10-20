@@ -247,3 +247,17 @@ python app.py
 ```
 
 비교를 위해 `generated.generation_mode`는 `LLM Generated` 또는 `recombined baseline`으로 반환되며, 생성 프롬프트에는 원본 Beat의 `event_text`를 넣지 않습니다.
+
+## 반복 검증 (2026-10-20)
+
+검색의 고정 질문·raw 결과·지표와 비교 판단은 [검색 평가](docs/STORY_RETRIEVAL_EVALUATION.md), 실제 Remix 입력 검증은 [일관성 규칙](docs/STORY_CONSISTENCY_RULES.md)을 참조한다. `python -m unittest discover -s tests -v`에서 27개가 통과했고 키 없는 API smoke도 성공했다. Live 생성 성능 수치가 아니다.
+
+Chromium 실제 클릭 검사도 `scripts/browser_smoke.cjs`로 추가했다. 새 앱 의존성 없이 기존 Playwright 1.63.0 설치를 테스트 도구로 재사용한다. 로컬에서는 모델을 끈 서버를 먼저 실행하고, FloodOps의 기존 node_modules가 있는 이 작업 환경에서 다음 명령을 검증했다.
+
+```bash
+OPENAI_API_KEY= NARRATIVE_USE_OLLAMA=0 python app.py
+# 별도 터미널 — 기존 브라우저 테스트 도구의 실제 설치 경로
+NODE_PATH=../Flood-Disaster-Digital-Twin/node_modules node scripts/browser_smoke.cjs
+```
+
+다른 환경에서는 Playwright를 별도 도구 경로에 설치하고 NODE_PATH를 지정한다. GitHub Actions는 임시 경로에 고정 버전을 설치한다. 검사기는 health에서 OpenAI/Ollama 비활성 여부를 확인한 뒤 랜덤 설계 → 중심 Pack 외 후보 클릭 → applied module ID·active_modules·remix 모드 → 선택 카드 갱신을 확인한다. 실제 로컬 검사는 Ki/L_076_Ki 적용과 함께 통과했다. 의미·문학적 일관성이나 독립 사람 검토는 별도다.

@@ -15,7 +15,7 @@
 
 ## 현재 안 되는 것
 
-- [ ] 실제 브라우저 클릭을 자동 검증하는 E2E 테스트
+- [x] 실제 브라우저 클릭 자동 검증 — scripts/browser_smoke.cjs, 키 없는 Chromium 생성·Cross-Story 후보 클릭 통과
 - [ ] 생성문에 대한 자동 DNA Validation
 - [ ] 원천 사건을 자연스러운 새 문장으로 변환
 - [ ] Remix 결과 저장·공유
@@ -29,7 +29,7 @@
 ## 다음 작업 1~3개
 
 1. [x] 로컬 서버 실행과 `/api/generate` 기본·Remix 요청을 검증하는 smoke test 추가
-2. [ ] 브라우저에서 후보 클릭 후 결과 갱신을 확인하는 최소 E2E 검증 방법 결정
+2. [x] Chromium에서 후보 클릭 후 API 적용 ID·active_modules·선택 카드 갱신 검증 구현
 3. [ ] E2E 확인 후 DNA Validation 설계
 
 ## 완료된 작업
@@ -55,10 +55,21 @@
 - [x] 현재 검색 점수·SQLite metadata 로딩·생성 연결을 코드와 대조해 기존 검색/데이터 모델 문서 보완
 - [x] 흥부전 fallback 근거를 명시한 검색 평가 18문항 및 이야기 일관성 규칙 설계
 - [x] 선택적 OpenAI 생성 경로와 초기 무료 baseline 설명 구분
-- [ ] 동일 데이터·질문으로 raw 검색 기준선 저장 및 동의어 개선 비교 — **미실행**
-- [ ] 팀 SQLite의 실제 Pack/Beat gold 확정 — 이번 환경에서는 DB 내부 미조회
+- [x] 동일 데이터·질문으로 raw 검색 기준선 저장 및 동의어 개선 비교 — fallback/팀 DB 각 18문항, evaluation/results. 팀 질문 개선 없어 기본 검색 미채택
+- [x] 팀 SQLite 246 Story/1,264 Beat 조회 및 개발 gold 18문항 고정 — 독립 사람 검토 미완료
 - [ ] 생성 본문 자동 DNA Validation — **미구현**, 규칙/판독 설계만 완료
 
 이 작업은 Markdown 변경만 수행했다. 테스트·API smoke·브라우저·Live 생성 결과를 새로 얻지 않았다. 기존 E2E 우선순위와 완료된 기능 표시를 변경하지 않는다.
 
 
+
+## 2026-10-20 실행 검증 보완
+
+- [x] 무료·오프라인 unittest 27개 통과 (기존 21 + 평가 지표/근거 3 + Remix 계약 3)
+- [x] Remix의 기본 Pack에 없는 Beat 보충과 잘못된 ID/Beat 요청 거절 구현
+- [x] unittest·고정 검색 질문을 실행하는 GitHub Actions 추가
+- [ ] 인물·시간·인과를 판독하는 의미 validator와 독립 gold 검토 — 단순 바인딩 검사를 완료로 세지 않음
+
+위 최초 문서 작업의 미실행 기록 이후 수행한 결과다. Live 생성·DB 변경·검색 알고리즘 변경은 하지 않았다.
+
+- [x] Chromium 실제 클릭: 랜덤 설계 → 중심 Pack 밖 후보 → API 적용 ID와 선택 카드 확인 (L_076_Ki). CI browser job에도 같은 검사 추가. 외부 모델 비활성 확인 후에만 실행한다.

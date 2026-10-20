@@ -1176,6 +1176,14 @@ def bind_story_pack_to_dna(
 ) -> dict[str, dict[str, Any]]:
     """Bind source-story events to the DNA role each Beat must prove."""
     beat_overrides = beat_overrides or {}
+    by_id = {record["id"]: record for record in BEATS}
+    for name, module_id in beat_overrides.items():
+        if name not in BEAT_DNA_BINDINGS:
+            raise ValueError(f"Unknown remix Beat: {name}")
+        record = by_id.get(module_id)
+        canonical = BEAT_DNA_BINDINGS[name][0]
+        if not record or not (record.get("raw_beat", "").lower() == name.lower() or record["beat"] == canonical):
+            raise ValueError(f"Unknown or incompatible remix module for {name}: {module_id}")
     all_ranked = _rank_retrieval_records(dna={
         "setting": [dna["location"]],
         "characters": [dna["character_type"]],
@@ -1209,7 +1217,7 @@ def bind_story_pack_to_dna(
         candidates = preferred or [item for item in ranked if item[1]["beat"] == canonical and item[1]["id"] not in used_ids]
         if not candidates:
             candidates = [item for item in ranked if item[1]["beat"] == canonical]
-        if not candidates:
+        if not candidates and override is None:
             bound[beat_name] = {
                 "beat": beat_name,
                 "dna_focus": dna_focus,
