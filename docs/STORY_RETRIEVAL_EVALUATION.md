@@ -1,6 +1,6 @@
 # Story 검색 평가: 기준선·gold·동일 질문 비교
 
-기준 commit: `88a8208b7183b578568e860d481df51291e87861`, 확인일 2026-10-20. **평가 설계이며 실행 결과가 아니다.** 현재 검색·생성 코드와 데이터는 변경하지 않았다. 모델 호출, 테스트, smoke, 검색 기준선 측정은 미실행이다.
+기준 commit: `88a8208b7183b578568e860d481df51291e87861`, 확인일 2026-10-20. 최초 설계 이후 아래 실행 가능한 평가기를 추가해 2026-10-20 기준선을 측정했다. 기존 검색 알고리즘·데이터는 유지하며 모델 호출은 하지 않았다.
 
 ## 평가 대상과 데이터 고정
 
@@ -87,3 +87,29 @@ Q09/Q12/Q14/Q16은 관계/다중 근거 질문이지만 작은 동일 Pack 내 �
 
 B의 18문항 raw 기준선을 저장해 어휘 실패와 두 근거 회수 실패를 분류한다. 이후 A DB에서 실제 제주 Story Pack ID와 원문을 확보한 gold를 추가한 뒤 동의어 정규화와 비교한다. 단일 Pack 결과만으로 embedding/ontology/GraphRAG 채택을 결정하지 않는다.
 
+
+## 실제 구현·실행 기록 (2026-10-20)
+
+`evaluation/retrieval.py`는 기존 검색 함수에 위 진단 adapter를 적용한다. corpus와 gold ID·본문 근거를 검사하고 자료/질문/app/평가기의 SHA-256, 원시 top3와 Pack·최종 선택, 분모가 다른 지표를 JSON에 남긴다. 기존 결과 파일을 덮어쓰지 않으며 후보 실험은 동일 자료·gold·코드의 baseline을 먼저 요구한다. 후보는 평가기 내부의 제한된 동의어 확장이며 앱 기본 검색은 바꾸지 않았다.
+
+```bash
+python evaluation/retrieval.py --output /tmp/fallback-baseline.json
+python evaluation/retrieval.py --variant synonyms --baseline /tmp/fallback-baseline.json --output /tmp/fallback-synonyms.json
+python evaluation/retrieval.py --source team --cases evaluation/team_cases.json --output /tmp/team-baseline.json
+python evaluation/retrieval.py --source team --cases evaluation/team_cases.json --variant synonyms --baseline /tmp/team-baseline.json --output /tmp/team-synonyms.json
+```
+
+새 출력 경로로 실행한다. import 시 팀 metadata를 읽지만 생성 함수는 호출하지 않는다. 보고서는 [evaluation/results](../evaluation/results/)에 보존했다. 최초 보고서의 app/평가기 해시는 해당 실행 당시 버전이며 이후 Remix 수정과 평가기 hash guard 추가를 현재 실행과 혼동하지 않는다.
+
+| 데이터·개발용 질문 | Recall@1 | Recall@3 | MRR@3 | All-evidence@3 |
+|---|---:|---:|---:|---:|
+| fallback 기준선 — 16 answerable + 2 자료 없음 | 0.59375 | 0.84375 | 0.77083 | 0.75000 |
+| 같은 fallback·동의어 후보 | 0.81250 | 0.96875 | 0.93750 | 0.93750 |
+| 팀 DB 기준선 — 15 answerable + 3 자료 없음 | 0.63333 | 0.76667 | 0.78889 | 0.66667 |
+| 같은 팀 DB·동의어 후보 | 0.63333 | 0.76667 | 0.78889 | 0.66667 |
+
+실제 로드 수는 246 Story·1,264 Beat·1,431 Module·246 plot pattern이다. 팀 gold는 F_001~F_005의 저장 event_text를 먼저 읽고 정의한 개발용 18문항이다. 독립 사람 검토·holdout이 아니며 원전의 역사적 사실성도 검증하지 않았다. 전체 제주 설화 성능으로 일반화하지 않는다. 두 자료의 지표를 합산하지 않는다.
+
+후보는 fallback Q10/Q14/Q16의 Recall@3를 높였고 회귀 문항은 없었으나 팀 질문에서는 개선이 없었다. **기본 검색에 채택하지 않는다.** GraphRAG/벡터 DB 도입도 정당화되지 않는다. 어휘·조사 차이와 다중 근거 누락을 추가 gold에서 분리할 필요가 있다.
+
+자료 없음 질문은 검색 후보가 반환돼도 사실 답변으로 처리하지 않는다. 현재 QA 보류 계약이 없어 abstention은 null/N/A로 기록했다. 생성문·근거 주장·의미 일관성 평가도 미실행으로 분리했다. Live LLM 호출은 0회다. `.github/workflows/ci.yml`은 unittest와 동일 질문의 raw 기준선을 매번 실행하고 보고서를 7일 보관한다. CI가 실행된 사실·결과는 해당 commit Actions에서 별도 확인한다.
