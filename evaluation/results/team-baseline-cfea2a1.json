@@ -1,0 +1,1146 @@
+{
+  "identity": {
+    "source": "team",
+    "data_sha256": "30236f73bfed63f1ed3fb906bfac42d5144edf28f7ff11e8df6b5fb56c6d46e5",
+    "cases_sha256": "bfed1b999add8c60857c36d73c9b6f0b7a28e3f8f3ae80a20f1a028a4210f892"
+  },
+  "variant": "baseline",
+  "data_stats": {
+    "source": "team-data/jeju-stories/chroma_db/chroma.sqlite3",
+    "stories": 246,
+    "beats": 1264,
+    "modules": 1431,
+    "plot_patterns": 246
+  },
+  "code_commit": "cfea2a1b711e5423eb6d98a075fd5e485d1f6921",
+  "harness_sha256": "edcbf93721afc0aa703b4cce69f583e6279740458d91b1aa311766915f470640",
+  "app_sha256": "bd4edfe25f9ab29d1130c3c6e150d52433d10d8a062932366d62c054103b55dd",
+  "annotation_review": "development gold from stored event_text; independent human review pending; no source-edition truth claim",
+  "summary": {
+    "cases": 18,
+    "answerable_cases": 15,
+    "no_answer_cases": 3,
+    "recall_at_1": 0.6333333333333333,
+    "recall_at_3": 0.7666666666666667,
+    "mrr_at_3": 0.788888888888889,
+    "all_evidence_at_3": 0.6666666666666666,
+    "abstention_rate": null,
+    "model_requests": 0
+  },
+  "rows": [
+    {
+      "id": "T01",
+      "kind": "exact",
+      "query": "개와 닭의 원한에서 닭과 개는 누구를 찾아가 복수를 청했나?",
+      "gold": [
+        "F_001_Trial"
+      ],
+      "evidence": [
+        "뱀왕을 찾아가 복수를 청했고"
+      ],
+      "answerable": true,
+      "effective_query": "개와 닭의 원한에서 닭과 개는 누구를 찾아가 복수를 청했나?",
+      "raw_top3": [
+        {
+          "id": "F_001_Trial",
+          "story_id": "F_001",
+          "score": 31.755339659667825,
+          "matched_terms": [
+            "개와",
+            "닭과",
+            "닭의",
+            "복수를",
+            "찾아가"
+          ]
+        },
+        {
+          "id": "F_001_Ki",
+          "story_id": "F_001",
+          "score": 19.053203795800698,
+          "matched_terms": [
+            "개와",
+            "닭과",
+            "닭의"
+          ]
+        },
+        {
+          "id": "F_001_Climax",
+          "story_id": "F_001",
+          "score": 12.008988683307185,
+          "matched_terms": [
+            "개와",
+            "닭의"
+          ]
+        }
+      ],
+      "pack_id": "F_001",
+      "selected_ids": [
+        "F_001_Ki",
+        "F_001_Shō",
+        "F_001_Trial",
+        "F_001_Climax",
+        "F_001_Ketsu"
+      ],
+      "metrics": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 25.712,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "T02",
+      "kind": "exact",
+      "query": "개와 닭의 원한에서 주인은 집 주위에 무엇을 뿌렸나?",
+      "gold": [
+        "F_001_Crisis"
+      ],
+      "evidence": [
+        "삼해유를 사와 집 주위에 뿌렸다"
+      ],
+      "answerable": true,
+      "effective_query": "개와 닭의 원한에서 주인은 집 주위에 무엇을 뿌렸나?",
+      "raw_top3": [
+        {
+          "id": "F_001_Crisis",
+          "story_id": "F_001",
+          "score": 23.990578392426258,
+          "matched_terms": [
+            "개와",
+            "닭의",
+            "주위에",
+            "집"
+          ]
+        },
+        {
+          "id": "F_001_Climax",
+          "story_id": "F_001",
+          "score": 12.008988683307185,
+          "matched_terms": [
+            "개와",
+            "닭의"
+          ]
+        },
+        {
+          "id": "F_001_Ketsu",
+          "story_id": "F_001",
+          "score": 12.008988683307185,
+          "matched_terms": [
+            "개와",
+            "닭의"
+          ]
+        }
+      ],
+      "pack_id": "F_001",
+      "selected_ids": [
+        "F_001_Ki",
+        "F_001_Shō",
+        "F_001_Crisis",
+        "F_001_Climax",
+        "F_001_Ketsu"
+      ],
+      "metrics": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 23.184,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "T03",
+      "kind": "sequence",
+      "query": "개와 닭의 원한에서 장남의 보고 뒤 주인이 준비한 것은?",
+      "gold": [
+        "F_001_Ten",
+        "F_001_Crisis"
+      ],
+      "evidence": [
+        "부친에게 보고했다",
+        "삼해유를 사와"
+      ],
+      "answerable": true,
+      "effective_query": "개와 닭의 원한에서 장남의 보고 뒤 주인이 준비한 것은?",
+      "raw_top3": [
+        {
+          "id": "F_001_Crisis",
+          "story_id": "F_001",
+          "score": 17.666909434680804,
+          "matched_terms": [
+            "개와",
+            "닭의",
+            "주인이"
+          ]
+        },
+        {
+          "id": "F_001_Climax",
+          "story_id": "F_001",
+          "score": 12.008988683307185,
+          "matched_terms": [
+            "개와",
+            "닭의"
+          ]
+        },
+        {
+          "id": "F_001_Ketsu",
+          "story_id": "F_001",
+          "score": 12.008988683307185,
+          "matched_terms": [
+            "개와",
+            "닭의"
+          ]
+        }
+      ],
+      "pack_id": "F_001",
+      "selected_ids": [
+        "F_001_Ki",
+        "F_001_Shō",
+        "F_001_Crisis",
+        "F_001_Climax",
+        "F_001_Ketsu"
+      ],
+      "metrics": {
+        "recall_at_1": 0.5,
+        "recall_at_3": 0.5,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 0.0
+      },
+      "raw_retrieval_ms": 23.49,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "T04",
+      "kind": "relation",
+      "query": "개와 닭의 원한에서 주인의 횡포를 호소하고 원수를 갚자고 한 대상은?",
+      "gold": [
+        "F_001_Shō"
+      ],
+      "evidence": [
+        "닭이 개에게"
+      ],
+      "answerable": true,
+      "effective_query": "개와 닭의 원한에서 주인의 횡포를 호소하고 원수를 갚자고 한 대상은?",
+      "raw_top3": [
+        {
+          "id": "F_001_Shō",
+          "story_id": "F_001",
+          "score": 41.114562385153945,
+          "matched_terms": [
+            "갚자고",
+            "개와",
+            "닭의",
+            "원수를",
+            "주인의",
+            "횡포를"
+          ]
+        },
+        {
+          "id": "F_001_Climax",
+          "story_id": "F_001",
+          "score": 12.008988683307185,
+          "matched_terms": [
+            "개와",
+            "닭의"
+          ]
+        },
+        {
+          "id": "F_001_Crisis",
+          "story_id": "F_001",
+          "score": 12.008988683307185,
+          "matched_terms": [
+            "개와",
+            "닭의"
+          ]
+        }
+      ],
+      "pack_id": "F_001",
+      "selected_ids": [
+        "F_001_Ki",
+        "F_001_Shō",
+        "F_001_Crisis",
+        "F_001_Climax",
+        "F_001_Ketsu"
+      ],
+      "metrics": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 24.749,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "T05",
+      "kind": "exact",
+      "query": "겸손을 배운 제자에서 여인은 제자의 비문을 어떻게 평가했나?",
+      "gold": [
+        "F_002_Ten"
+      ],
+      "evidence": [
+        "거렁청하다"
+      ],
+      "answerable": true,
+      "effective_query": "겸손을 배운 제자에서 여인은 제자의 비문을 어떻게 평가했나?",
+      "raw_top3": [
+        {
+          "id": "F_002_Ten",
+          "story_id": "F_002",
+          "score": 25.92751987149881,
+          "matched_terms": [
+            "겸손을",
+            "배운",
+            "비문을",
+            "제자의"
+          ]
+        },
+        {
+          "id": "F_002_Ally",
+          "story_id": "F_002",
+          "score": 18.477839650897135,
+          "matched_terms": [
+            "겸손을",
+            "배운",
+            "비문을"
+          ]
+        },
+        {
+          "id": "F_002_Trial",
+          "story_id": "F_002",
+          "score": 18.477839650897135,
+          "matched_terms": [
+            "겸손을",
+            "배운",
+            "비문을"
+          ]
+        }
+      ],
+      "pack_id": "F_002",
+      "selected_ids": [
+        "F_002_Ki",
+        "F_002_Ten",
+        "F_002_Trial",
+        "F_002_Climax",
+        "F_002_Ketsu"
+      ],
+      "metrics": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 23.525,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "T06",
+      "kind": "sequence",
+      "query": "겸손을 배운 제자에서 자신만만하게 쓴 비문과 여인의 반응은?",
+      "gold": [
+        "F_002_Trial",
+        "F_002_Ten"
+      ],
+      "evidence": [
+        "자신만만하게 비문을 작성했다",
+        "퇴짜 놓았다"
+      ],
+      "answerable": true,
+      "effective_query": "겸손을 배운 제자에서 자신만만하게 쓴 비문과 여인의 반응은?",
+      "raw_top3": [
+        {
+          "id": "F_002_Trial",
+          "story_id": "F_002",
+          "score": 19.17098683145708,
+          "matched_terms": [
+            "겸손을",
+            "배운",
+            "자신만만하게"
+          ]
+        },
+        {
+          "id": "F_002_Ally",
+          "story_id": "F_002",
+          "score": 11.721306610855404,
+          "matched_terms": [
+            "겸손을",
+            "배운"
+          ]
+        },
+        {
+          "id": "F_002_Climax",
+          "story_id": "F_002",
+          "score": 11.721306610855404,
+          "matched_terms": [
+            "겸손을",
+            "배운"
+          ]
+        }
+      ],
+      "pack_id": "F_002",
+      "selected_ids": [
+        "F_002_Ki",
+        "F_002_Ally",
+        "F_002_Trial",
+        "F_002_Climax",
+        "F_002_Ketsu"
+      ],
+      "metrics": {
+        "recall_at_1": 0.5,
+        "recall_at_3": 0.5,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 0.0
+      },
+      "raw_retrieval_ms": 24.227,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "T07",
+      "kind": "context",
+      "query": "겸손을 배운 제자에서 마지막에 깨달은 교훈은?",
+      "gold": [
+        "F_002_Ketsu"
+      ],
+      "evidence": [
+        "근본 배운 하르방을 나무라지 말라"
+      ],
+      "answerable": true,
+      "effective_query": "겸손을 배운 제자에서 마지막에 깨달은 교훈은?",
+      "raw_top3": [
+        {
+          "id": "F_002_Ally",
+          "story_id": "F_002",
+          "score": 11.721306610855404,
+          "matched_terms": [
+            "겸손을",
+            "배운"
+          ]
+        },
+        {
+          "id": "F_002_Climax",
+          "story_id": "F_002",
+          "score": 11.721306610855404,
+          "matched_terms": [
+            "겸손을",
+            "배운"
+          ]
+        },
+        {
+          "id": "F_002_Ketsu",
+          "story_id": "F_002",
+          "score": 11.721306610855404,
+          "matched_terms": [
+            "겸손을",
+            "배운"
+          ]
+        }
+      ],
+      "pack_id": "F_002",
+      "selected_ids": [
+        "F_002_Ki",
+        "F_002_Ally",
+        "F_002_Trial",
+        "F_002_Climax",
+        "F_002_Ketsu"
+      ],
+      "metrics": {
+        "recall_at_1": 0.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 0.3333333333333333,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 22.824,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "T08",
+      "kind": "exact",
+      "query": "계모의 모략(1)에서 종에게 훔쳐오라고 시킨 물건은?",
+      "gold": [
+        "F_003_Shō"
+      ],
+      "evidence": [
+        "홍포(붉은 치마)"
+      ],
+      "answerable": true,
+      "effective_query": "계모의 모략(1)에서 종에게 훔쳐오라고 시킨 물건은?",
+      "raw_top3": [
+        {
+          "id": "F_003_Ally",
+          "story_id": "F_003",
+          "score": 16.370471402682774,
+          "matched_terms": [
+            "1",
+            "계모의",
+            "모략"
+          ]
+        },
+        {
+          "id": "F_003_Climax",
+          "story_id": "F_003",
+          "score": 16.370471402682774,
+          "matched_terms": [
+            "1",
+            "계모의",
+            "모략"
+          ]
+        },
+        {
+          "id": "F_003_Crisis",
+          "story_id": "F_003",
+          "score": 16.370471402682774,
+          "matched_terms": [
+            "1",
+            "계모의",
+            "모략"
+          ]
+        }
+      ],
+      "pack_id": "F_003",
+      "selected_ids": [
+        "F_003_Ki",
+        "F_003_Ally",
+        "F_003_Crisis",
+        "F_003_Climax",
+        "F_003_Ketsu"
+      ],
+      "metrics": {
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "mrr_at_3": 0,
+        "all_evidence_at_3": 0.0
+      },
+      "raw_retrieval_ms": 31.693,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "T09",
+      "kind": "relation",
+      "query": "계모의 모략(1)에서 홍포를 찾아 신랑에게 보여 준 사람은?",
+      "gold": [
+        "F_003_Climax"
+      ],
+      "evidence": [
+        "시아버지가",
+        "신랑에게 보이니"
+      ],
+      "answerable": true,
+      "effective_query": "계모의 모략(1)에서 홍포를 찾아 신랑에게 보여 준 사람은?",
+      "raw_top3": [
+        {
+          "id": "F_003_Climax",
+          "story_id": "F_003",
+          "score": 37.014763972249376,
+          "matched_terms": [
+            "1",
+            "계모의",
+            "모략",
+            "신랑에게",
+            "찾아",
+            "홍포를"
+          ]
+        },
+        {
+          "id": "F_003_Ally",
+          "story_id": "F_003",
+          "score": 16.370471402682774,
+          "matched_terms": [
+            "1",
+            "계모의",
+            "모략"
+          ]
+        },
+        {
+          "id": "F_003_Crisis",
+          "story_id": "F_003",
+          "score": 16.370471402682774,
+          "matched_terms": [
+            "1",
+            "계모의",
+            "모략"
+          ]
+        }
+      ],
+      "pack_id": "F_003",
+      "selected_ids": [
+        "F_003_Ki",
+        "F_003_Ally",
+        "F_003_Crisis",
+        "F_003_Climax",
+        "F_003_Ketsu"
+      ],
+      "metrics": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 25.025,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "T10",
+      "kind": "sequence",
+      "query": "계모의 모략(1)에서 신랑의 회복과 계모의 결말은?",
+      "gold": [
+        "F_003_Climax",
+        "F_003_Ketsu"
+      ],
+      "evidence": [
+        "신랑이 곧바로 회복했다",
+        "계모가 내쫓기고"
+      ],
+      "answerable": true,
+      "effective_query": "계모의 모략(1)에서 신랑의 회복과 계모의 결말은?",
+      "raw_top3": [
+        {
+          "id": "F_003_Ally",
+          "story_id": "F_003",
+          "score": 16.370471402682774,
+          "matched_terms": [
+            "1",
+            "계모의",
+            "모략"
+          ]
+        },
+        {
+          "id": "F_003_Climax",
+          "story_id": "F_003",
+          "score": 16.370471402682774,
+          "matched_terms": [
+            "1",
+            "계모의",
+            "모략"
+          ]
+        },
+        {
+          "id": "F_003_Crisis",
+          "story_id": "F_003",
+          "score": 16.370471402682774,
+          "matched_terms": [
+            "1",
+            "계모의",
+            "모략"
+          ]
+        }
+      ],
+      "pack_id": "F_003",
+      "selected_ids": [
+        "F_003_Ki",
+        "F_003_Ally",
+        "F_003_Crisis",
+        "F_003_Climax",
+        "F_003_Ketsu"
+      ],
+      "metrics": {
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.5,
+        "mrr_at_3": 0.5,
+        "all_evidence_at_3": 0.0
+      },
+      "raw_retrieval_ms": 23.864,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "T11",
+      "kind": "exact",
+      "query": "과거보는 선비 이야기에서 신선이 알려준 정답은?",
+      "gold": [
+        "F_004_Ally"
+      ],
+      "evidence": [
+        "매연자"
+      ],
+      "answerable": true,
+      "effective_query": "과거보는 선비 이야기에서 신선이 알려준 정답은?",
+      "raw_top3": [
+        {
+          "id": "F_004_Ally",
+          "story_id": "F_004",
+          "score": 11.903628167649359,
+          "matched_terms": [
+            "과거보는",
+            "선비"
+          ]
+        },
+        {
+          "id": "F_004_Climax",
+          "story_id": "F_004",
+          "score": 11.903628167649359,
+          "matched_terms": [
+            "과거보는",
+            "선비"
+          ]
+        },
+        {
+          "id": "F_004_Crisis",
+          "story_id": "F_004",
+          "score": 11.903628167649359,
+          "matched_terms": [
+            "과거보는",
+            "선비"
+          ]
+        }
+      ],
+      "pack_id": "F_004",
+      "selected_ids": [
+        "F_004_Ki",
+        "F_004_Ally",
+        "F_004_Crisis",
+        "F_004_Climax",
+        "F_004_Ketsu"
+      ],
+      "metrics": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 23.506,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "T12",
+      "kind": "alias",
+      "query": "과거보는 선비 이야기의 백발 노인은 어떤 존재로 표시되나?",
+      "gold": [
+        "F_004_Ally"
+      ],
+      "evidence": [
+        "백발 노인(신선)"
+      ],
+      "answerable": true,
+      "effective_query": "과거보는 선비 이야기의 백발 노인은 어떤 존재로 표시되나?",
+      "raw_top3": [
+        {
+          "id": "F_004_Ally",
+          "story_id": "F_004",
+          "score": 18.254696099582926,
+          "matched_terms": [
+            "과거보는",
+            "백발",
+            "선비"
+          ]
+        },
+        {
+          "id": "F_004_Climax",
+          "story_id": "F_004",
+          "score": 11.903628167649359,
+          "matched_terms": [
+            "과거보는",
+            "선비"
+          ]
+        },
+        {
+          "id": "F_004_Crisis",
+          "story_id": "F_004",
+          "score": 11.903628167649359,
+          "matched_terms": [
+            "과거보는",
+            "선비"
+          ]
+        }
+      ],
+      "pack_id": "F_004",
+      "selected_ids": [
+        "F_004_Ki",
+        "F_004_Ally",
+        "F_004_Crisis",
+        "F_004_Climax",
+        "F_004_Ketsu"
+      ],
+      "metrics": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 24.996,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "T13",
+      "kind": "relation",
+      "query": "과거보는 선비 이야기에서 마지막에 급제한 사람은?",
+      "gold": [
+        "F_004_Ketsu"
+      ],
+      "evidence": [
+        "두 선비 모두 동시에 과거에 급제했다"
+      ],
+      "answerable": true,
+      "effective_query": "과거보는 선비 이야기에서 마지막에 급제한 사람은?",
+      "raw_top3": [
+        {
+          "id": "F_004_Ally",
+          "story_id": "F_004",
+          "score": 11.903628167649359,
+          "matched_terms": [
+            "과거보는",
+            "선비"
+          ]
+        },
+        {
+          "id": "F_004_Climax",
+          "story_id": "F_004",
+          "score": 11.903628167649359,
+          "matched_terms": [
+            "과거보는",
+            "선비"
+          ]
+        },
+        {
+          "id": "F_004_Crisis",
+          "story_id": "F_004",
+          "score": 11.903628167649359,
+          "matched_terms": [
+            "과거보는",
+            "선비"
+          ]
+        }
+      ],
+      "pack_id": "F_004",
+      "selected_ids": [
+        "F_004_Ki",
+        "F_004_Ally",
+        "F_004_Crisis",
+        "F_004_Climax",
+        "F_004_Ketsu"
+      ],
+      "metrics": {
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "mrr_at_3": 0,
+        "all_evidence_at_3": 0.0
+      },
+      "raw_retrieval_ms": 23.499,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "T14",
+      "kind": "exact",
+      "query": "괴상한 세 동무에서 무죄를 입증한 능력은?",
+      "gold": [
+        "F_005_Climax"
+      ],
+      "evidence": [
+        "짐승말 친구가 번역하여 무죄를 입증했다"
+      ],
+      "answerable": true,
+      "effective_query": "괴상한 세 동무에서 무죄를 입증한 능력은?",
+      "raw_top3": [
+        {
+          "id": "F_005_Climax",
+          "story_id": "F_005",
+          "score": 17.894693365551518,
+          "matched_terms": [
+            "괴상한",
+            "무죄를",
+            "세"
+          ]
+        },
+        {
+          "id": "F_005_Ally",
+          "story_id": "F_005",
+          "score": 10.445013144949844,
+          "matched_terms": [
+            "괴상한",
+            "세"
+          ]
+        },
+        {
+          "id": "F_005_Crisis",
+          "story_id": "F_005",
+          "score": 10.445013144949844,
+          "matched_terms": [
+            "괴상한",
+            "세"
+          ]
+        }
+      ],
+      "pack_id": "F_005",
+      "selected_ids": [
+        "F_005_Ki",
+        "F_005_Ally",
+        "F_005_Crisis",
+        "F_005_Climax",
+        "F_005_Ketsu"
+      ],
+      "metrics": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 23.655,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "T15",
+      "kind": "sequence",
+      "query": "괴상한 세 동무에서 제비새로 능력을 시험하는 제안과 무죄 입증 장면은?",
+      "gold": [
+        "F_005_Ally",
+        "F_005_Climax"
+      ],
+      "evidence": [
+        "제비새 새끼를 주머니에 넣어",
+        "무죄를 입증했다"
+      ],
+      "answerable": true,
+      "effective_query": "괴상한 세 동무에서 제비새로 능력을 시험하는 제안과 무죄 입증 장면은?",
+      "raw_top3": [
+        {
+          "id": "F_005_Ally",
+          "story_id": "F_005",
+          "score": 25.344373586153193,
+          "matched_terms": [
+            "괴상한",
+            "능력을",
+            "세",
+            "시험하는"
+          ]
+        },
+        {
+          "id": "F_005_Climax",
+          "story_id": "F_005",
+          "score": 10.445013144949844,
+          "matched_terms": [
+            "괴상한",
+            "세"
+          ]
+        },
+        {
+          "id": "F_005_Crisis",
+          "story_id": "F_005",
+          "score": 10.445013144949844,
+          "matched_terms": [
+            "괴상한",
+            "세"
+          ]
+        }
+      ],
+      "pack_id": "F_005",
+      "selected_ids": [
+        "F_005_Ki",
+        "F_005_Ally",
+        "F_005_Crisis",
+        "F_005_Climax",
+        "F_005_Ketsu"
+      ],
+      "metrics": {
+        "recall_at_1": 0.5,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "all_evidence_at_3": 1.0
+      },
+      "raw_retrieval_ms": 23.313,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "T16",
+      "kind": "no_answer",
+      "query": "개와 닭의 원한에서 삼해유를 구입한 정확한 연월일은?",
+      "gold": [],
+      "evidence": [],
+      "answerable": false,
+      "effective_query": "개와 닭의 원한에서 삼해유를 구입한 정확한 연월일은?",
+      "raw_top3": [
+        {
+          "id": "F_001_Crisis",
+          "story_id": "F_001",
+          "score": 19.458668903908862,
+          "matched_terms": [
+            "개와",
+            "닭의",
+            "삼해유를"
+          ]
+        },
+        {
+          "id": "F_001_Climax",
+          "story_id": "F_001",
+          "score": 12.008988683307185,
+          "matched_terms": [
+            "개와",
+            "닭의"
+          ]
+        },
+        {
+          "id": "F_001_Ketsu",
+          "story_id": "F_001",
+          "score": 12.008988683307185,
+          "matched_terms": [
+            "개와",
+            "닭의"
+          ]
+        }
+      ],
+      "pack_id": "F_001",
+      "selected_ids": [
+        "F_001_Ki",
+        "F_001_Shō",
+        "F_001_Crisis",
+        "F_001_Climax",
+        "F_001_Ketsu"
+      ],
+      "metrics": {
+        "recall_at_1": null,
+        "recall_at_3": null,
+        "mrr_at_3": null,
+        "all_evidence_at_3": null
+      },
+      "raw_retrieval_ms": 22.944,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "T17",
+      "kind": "no_answer",
+      "query": "겸손을 배운 제자의 태학관 학번은?",
+      "gold": [],
+      "evidence": [],
+      "answerable": false,
+      "effective_query": "겸손을 배운 제자의 태학관 학번은?",
+      "raw_top3": [
+        {
+          "id": "F_002_Ten",
+          "story_id": "F_002",
+          "score": 25.234372690938866,
+          "matched_terms": [
+            "겸손을",
+            "배운",
+            "제자의",
+            "태학관"
+          ]
+        },
+        {
+          "id": "F_002_Ally",
+          "story_id": "F_002",
+          "score": 17.78469247033719,
+          "matched_terms": [
+            "겸손을",
+            "배운",
+            "태학관"
+          ]
+        },
+        {
+          "id": "F_002_Climax",
+          "story_id": "F_002",
+          "score": 17.78469247033719,
+          "matched_terms": [
+            "겸손을",
+            "배운",
+            "태학관"
+          ]
+        }
+      ],
+      "pack_id": "F_002",
+      "selected_ids": [
+        "F_002_Ki",
+        "F_002_Ten",
+        "F_002_Trial",
+        "F_002_Climax",
+        "F_002_Ketsu"
+      ],
+      "metrics": {
+        "recall_at_1": null,
+        "recall_at_3": null,
+        "mrr_at_3": null,
+        "all_evidence_at_3": null
+      },
+      "raw_retrieval_ms": 22.647,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    },
+    {
+      "id": "T18",
+      "kind": "no_answer",
+      "query": "괴상한 세 동무에서 거금의 정확한 원화 환산 금액은?",
+      "gold": [],
+      "evidence": [],
+      "answerable": false,
+      "effective_query": "괴상한 세 동무에서 거금의 정확한 원화 환산 금액은?",
+      "raw_top3": [
+        {
+          "id": "F_005_Ally",
+          "story_id": "F_005",
+          "score": 10.445013144949844,
+          "matched_terms": [
+            "괴상한",
+            "세"
+          ]
+        },
+        {
+          "id": "F_005_Climax",
+          "story_id": "F_005",
+          "score": 10.445013144949844,
+          "matched_terms": [
+            "괴상한",
+            "세"
+          ]
+        },
+        {
+          "id": "F_005_Crisis",
+          "story_id": "F_005",
+          "score": 10.445013144949844,
+          "matched_terms": [
+            "괴상한",
+            "세"
+          ]
+        }
+      ],
+      "pack_id": "F_005",
+      "selected_ids": [
+        "F_005_Ki",
+        "F_005_Ally",
+        "F_005_Crisis",
+        "F_005_Climax",
+        "F_005_Ketsu"
+      ],
+      "metrics": {
+        "recall_at_1": null,
+        "recall_at_3": null,
+        "mrr_at_3": null,
+        "all_evidence_at_3": null
+      },
+      "raw_retrieval_ms": 24.108,
+      "abstained": null,
+      "answer_evaluation": "not_run",
+      "consistency_evaluation": "not_run"
+    }
+  ]
+}
