@@ -1,5 +1,7 @@
 # 08. Narrative Blueprint와 생성
 
+> 2026-10-20 코드 대조: 아래 규칙 생성 설명 외에 app.py:generate_engine_folktale → generate_llm_folktale → call_llm의 선택적 OpenAI 생성 경로가 있다. 원문 대신 abstract_story_beat의 패턴을 보내며 실패 시 규칙 초안을 반환한다. 자동 DNA 의미 검증은 미구현이다. [검증 경계](../STORY_CONSISTENCY_RULES.md)를 참고한다.
+
 ## 목적
 
 Generative DNA와 Bound Beat를 실제 이야기의 설계도와 문장으로 변환한다.
@@ -51,3 +53,4 @@ Question에 대한 선택 + Climax/Ketsu event
 - 사건 문장을 새 문체로 변환하지 않고 원문 요약을 삽입한다.
 - 일부 사건은 선택한 인물·장소와 의미적으로 충돌할 수 있다.
 - 다음 단계는 사건 변환, 문장 연결, DNA Validation이다.
+

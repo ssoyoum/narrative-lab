@@ -4,7 +4,9 @@
 
 Narrative Engine은 제주 설화 데이터의 검색용 Narrative Metadata를 이용해 새로운 이야기의 생성용 Story DNA를 설계하고, 원천 사건을 Beat 제약에 연결한 뒤 새로운 서사를 생성하는 로컬 Narrative AI입니다.
 
-현재 MVP는 외부 유료 API 없이 Python 표준 라이브러리와 팀 프로젝트의 SQLite 데이터만으로 실행됩니다.
+현재 검색·DNA·규칙 초안은 Python 표준 라이브러리와 팀 SQLite metadata(부재 시 로컬 fallback)로 실행됩니다. 다만 `app.py:generate_engine_folktale → generate_llm_folktale → call_llm`은 키가 있으면 OpenAI Responses API를 호출하고, 사용 불가 시 규칙 초안으로 돌아옵니다. 아래 도식과 Zero-Cost/미구현 목록은 초기 baseline 설명이며 선택적 모델 경로의 현재 상태와 구분해야 합니다.
+
+2026-10-20 코드 대조: [실제 검색 흐름·개선 선택지](features/03-story-pack-retrieval.md), [실제 필드·제안 관계](features/09-score-and-data-model.md), [검색 평가 18문항](STORY_RETRIEVAL_EVALUATION.md), [일관성 규칙](STORY_CONSISTENCY_RULES.md). 자동 DNA 의미 검증·벡터/그래프 검색은 미구현이며 이번에는 테스트·모델 호출을 실행하지 않았습니다.
 
 세부 문서는 [architecture 문서 목록](architecture/README.md)에서 확인할 수 있습니다.
 
@@ -304,3 +306,4 @@ The architecture should be evaluated with the following checks:
 ---
 
 *Last updated: 2026-08-25*
+
