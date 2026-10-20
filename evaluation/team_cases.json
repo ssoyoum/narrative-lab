@@ -1,0 +1,219 @@
+{
+  "source": "team",
+  "annotation_review": "development gold from stored event_text; independent human review pending; no source-edition truth claim",
+  "cases": [
+    {
+      "id": "T01",
+      "kind": "exact",
+      "query": "개와 닭의 원한에서 닭과 개는 누구를 찾아가 복수를 청했나?",
+      "gold": [
+        "F_001_Trial"
+      ],
+      "evidence": [
+        "뱀왕을 찾아가 복수를 청했고"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "T02",
+      "kind": "exact",
+      "query": "개와 닭의 원한에서 주인은 집 주위에 무엇을 뿌렸나?",
+      "gold": [
+        "F_001_Crisis"
+      ],
+      "evidence": [
+        "삼해유를 사와 집 주위에 뿌렸다"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "T03",
+      "kind": "sequence",
+      "query": "개와 닭의 원한에서 장남의 보고 뒤 주인이 준비한 것은?",
+      "gold": [
+        "F_001_Ten",
+        "F_001_Crisis"
+      ],
+      "evidence": [
+        "부친에게 보고했다",
+        "삼해유를 사와"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "T04",
+      "kind": "relation",
+      "query": "개와 닭의 원한에서 주인의 횡포를 호소하고 원수를 갚자고 한 대상은?",
+      "gold": [
+        "F_001_Shō"
+      ],
+      "evidence": [
+        "닭이 개에게"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "T05",
+      "kind": "exact",
+      "query": "겸손을 배운 제자에서 여인은 제자의 비문을 어떻게 평가했나?",
+      "gold": [
+        "F_002_Ten"
+      ],
+      "evidence": [
+        "거렁청하다"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "T06",
+      "kind": "sequence",
+      "query": "겸손을 배운 제자에서 자신만만하게 쓴 비문과 여인의 반응은?",
+      "gold": [
+        "F_002_Trial",
+        "F_002_Ten"
+      ],
+      "evidence": [
+        "자신만만하게 비문을 작성했다",
+        "퇴짜 놓았다"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "T07",
+      "kind": "context",
+      "query": "겸손을 배운 제자에서 마지막에 깨달은 교훈은?",
+      "gold": [
+        "F_002_Ketsu"
+      ],
+      "evidence": [
+        "근본 배운 하르방을 나무라지 말라"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "T08",
+      "kind": "exact",
+      "query": "계모의 모략(1)에서 종에게 훔쳐오라고 시킨 물건은?",
+      "gold": [
+        "F_003_Shō"
+      ],
+      "evidence": [
+        "홍포(붉은 치마)"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "T09",
+      "kind": "relation",
+      "query": "계모의 모략(1)에서 홍포를 찾아 신랑에게 보여 준 사람은?",
+      "gold": [
+        "F_003_Climax"
+      ],
+      "evidence": [
+        "시아버지가",
+        "신랑에게 보이니"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "T10",
+      "kind": "sequence",
+      "query": "계모의 모략(1)에서 신랑의 회복과 계모의 결말은?",
+      "gold": [
+        "F_003_Climax",
+        "F_003_Ketsu"
+      ],
+      "evidence": [
+        "신랑이 곧바로 회복했다",
+        "계모가 내쫓기고"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "T11",
+      "kind": "exact",
+      "query": "과거보는 선비 이야기에서 신선이 알려준 정답은?",
+      "gold": [
+        "F_004_Ally"
+      ],
+      "evidence": [
+        "매연자"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "T12",
+      "kind": "alias",
+      "query": "과거보는 선비 이야기의 백발 노인은 어떤 존재로 표시되나?",
+      "gold": [
+        "F_004_Ally"
+      ],
+      "evidence": [
+        "백발 노인(신선)"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "T13",
+      "kind": "relation",
+      "query": "과거보는 선비 이야기에서 마지막에 급제한 사람은?",
+      "gold": [
+        "F_004_Ketsu"
+      ],
+      "evidence": [
+        "두 선비 모두 동시에 과거에 급제했다"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "T14",
+      "kind": "exact",
+      "query": "괴상한 세 동무에서 무죄를 입증한 능력은?",
+      "gold": [
+        "F_005_Climax"
+      ],
+      "evidence": [
+        "짐승말 친구가 번역하여 무죄를 입증했다"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "T15",
+      "kind": "sequence",
+      "query": "괴상한 세 동무에서 제비새로 능력을 시험하는 제안과 무죄 입증 장면은?",
+      "gold": [
+        "F_005_Ally",
+        "F_005_Climax"
+      ],
+      "evidence": [
+        "제비새 새끼를 주머니에 넣어",
+        "무죄를 입증했다"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "T16",
+      "kind": "no_answer",
+      "query": "개와 닭의 원한에서 삼해유를 구입한 정확한 연월일은?",
+      "gold": [],
+      "evidence": [],
+      "answerable": false
+    },
+    {
+      "id": "T17",
+      "kind": "no_answer",
+      "query": "겸손을 배운 제자의 태학관 학번은?",
+      "gold": [],
+      "evidence": [],
+      "answerable": false
+    },
+    {
+      "id": "T18",
+      "kind": "no_answer",
+      "query": "괴상한 세 동무에서 거금의 정확한 원화 환산 금액은?",
+      "gold": [],
+      "evidence": [],
+      "answerable": false
+    }
+  ]
+}

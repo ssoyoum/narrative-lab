@@ -1,0 +1,34 @@
+name: Offline regression
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      OPENAI_API_KEY: ""
+      NARRATIVE_USE_OLLAMA: "0"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit and generation contract tests (no external model)
+        run: python -m unittest discover -s tests -v
+      - name: Frozen retrieval questions
+        run: |
+          python evaluation/retrieval.py --output reports/fallback-baseline.json
+          python evaluation/retrieval.py --source team --cases evaluation/team_cases.json --output reports/team-baseline.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: retrieval-${{ github.sha }}
+          path: reports/
+          retention-days: 7

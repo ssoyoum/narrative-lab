@@ -1,0 +1,226 @@
+{
+  "source": "fallback",
+  "annotation_review": "human review pending; text evidence only",
+  "cases": [
+    {
+      "id": "Q01",
+      "kind": "exact",
+      "query": "흥부와 놀부는 어떤 사이인가?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-setup"
+      ],
+      "evidence": [
+        "형제"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "Q02",
+      "kind": "exact",
+      "query": "흥부가 형에게 도움을 청한 뒤 어떻게 됐나?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-conflict"
+      ],
+      "evidence": [
+        "거절당했습니다"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "Q03",
+      "kind": "exact",
+      "query": "흥부는 다친 제비를 어떻게 했나?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-climax"
+      ],
+      "evidence": [
+        "치료해"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "Q04",
+      "kind": "exact",
+      "query": "놀부의 박에서는 무엇이 나왔나?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "evidence": [
+        "재앙과 꾸지람"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "Q05",
+      "kind": "synonym",
+      "query": "부모의 유산을 혼자 차지한 사람은?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-setup"
+      ],
+      "evidence": [
+        "놀부는 부모의 재산을 독차지"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "Q06",
+      "kind": "synonym",
+      "query": "가족의 생계를 위해 노동한 대목은?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-conflict"
+      ],
+      "evidence": [
+        "가족을 먹여 살리기 위해 품을 팔고"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "Q07",
+      "kind": "synonym",
+      "query": "상처 입은 새를 돌보는 장면을 찾아줘.",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-climax"
+      ],
+      "evidence": [
+        "다친 제비"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "Q08",
+      "kind": "synonym",
+      "query": "빈곤에서 벗어나는 결말은?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-resolution"
+      ],
+      "evidence": [
+        "가난에서 벗어났습니다"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "Q09",
+      "kind": "alias",
+      "query": "'형'은 어느 인물을 가리키나?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict"
+      ],
+      "evidence": [
+        "흥부와 놀부 형제",
+        "형에게 도움"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "Q10",
+      "kind": "alias",
+      "query": "'동생'으로 해석할 인물의 가족이 쫓겨난 장면은?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-setup"
+      ],
+      "evidence": [
+        "흥부 가족을 집에서 내쫓았습니다"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "Q11",
+      "kind": "relation",
+      "query": "누가 누구의 가족을 집에서 내쫓았나?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-setup"
+      ],
+      "evidence": [
+        "놀부는",
+        "흥부 가족을 집에서 내쫓았습니다"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "Q12",
+      "kind": "relation",
+      "query": "흥부의 도움 요청을 거절한 사람과 두 사람 관계는?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict"
+      ],
+      "evidence": [
+        "흥부와 놀부 형제",
+        "거절당했습니다"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "Q13",
+      "kind": "sequence",
+      "query": "치료와 박씨를 심는 일 중 무엇이 먼저인가?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-climax"
+      ],
+      "evidence": [
+        "치료해",
+        "이듬해",
+        "심고"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "Q14",
+      "kind": "sequence",
+      "query": "축출과 형에게 도움 요청을 연결하는 두 장면은?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict"
+      ],
+      "evidence": [
+        "내쫓았습니다",
+        "형에게 도움"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "Q15",
+      "kind": "causal_boundary",
+      "query": "박씨를 얻은 이유가 제비 치료의 보답이라고 명시돼 있나?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-climax"
+      ],
+      "evidence": [
+        "치료해",
+        "이듬해"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "Q16",
+      "kind": "context",
+      "query": "가족이 배척당한 뒤 생계를 버티는 이야기의 근거는?",
+      "gold": [
+        "heungbu-1865-gyeongpan-25-setup",
+        "heungbu-1865-gyeongpan-25-conflict"
+      ],
+      "evidence": [
+        "내쫓았습니다",
+        "하루하루를 버티며"
+      ],
+      "answerable": true
+    },
+    {
+      "id": "Q17",
+      "kind": "no_answer",
+      "query": "제비 다리에 바른 약 이름은?",
+      "gold": [],
+      "evidence": [],
+      "answerable": false
+    },
+    {
+      "id": "Q18",
+      "kind": "no_answer",
+      "query": "흥부가 박씨를 심은 정확한 연월일은?",
+      "gold": [],
+      "evidence": [],
+      "answerable": false
+    }
+  ]
+}
