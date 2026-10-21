@@ -1434,30 +1434,55 @@ def call_llm(prompt: str) -> str:
             payload = json.loads(response.read().decode("utf-8"))
     except urllib.error.HTTPError as error:
         raise LLMUnavailableError("LLM generation is unavailable. The OpenAI request failed.") from error
-    except (OSError, urllib.error.URLError, TimeoutError, json.JSONDecodeError) as error:
+    except (OSError, urllib.error.URLError, TimeoutError, json.JSONDecodeError, UnicodeDecodeError) as error:
         raise LLMUnavailableError("LLM generation is unavailable. The OpenAI request could not be completed.") from error
+    return _extract_openai_text(payload)
+
+
+def _extract_openai_text(payload: Any) -> str:
+    """Accept completed textual responses without trusting provider JSON shapes."""
+    invalid = "LLM generation is unavailable. The OpenAI response was invalid or incomplete."
+    if not isinstance(payload, dict):
+        raise LLMUnavailableError(invalid)
+    if payload.get("error") is not None or payload.get("status") not in (None, "completed"):
+        raise LLMUnavailableError(invalid)
     output_text = payload.get("output_text")
     if not isinstance(output_text, str):
         parts = []
-        for item in payload.get("output", []):
-            for content in item.get("content", []) if isinstance(item, dict) else []:
-                if content.get("type") == "output_text" and content.get("text"):
-                    parts.append(str(content["text"]))
+        output = payload.get("output", [])
+        if not isinstance(output, list):
+            raise LLMUnavailableError(invalid)
+        for item in output:
+            if not isinstance(item, dict):
+                raise LLMUnavailableError(invalid)
+            if item.get("type") != "message" or item.get("role") != "assistant":
+                continue
+            if item.get("status") not in (None, "completed"):
+                raise LLMUnavailableError(invalid)
+            contents = item.get("content", [])
+            if not isinstance(contents, list):
+                raise LLMUnavailableError(invalid)
+            for content in contents:
+                if not isinstance(content, dict) or content.get("type") == "refusal":
+                    raise LLMUnavailableError(invalid)
+                if content.get("type") == "output_text":
+                    if not isinstance(content.get("text"), str):
+                        raise LLMUnavailableError(invalid)
+                    parts.append(content["text"])
         output_text = "\n".join(parts)
-    if not str(output_text or "").strip():
+    if not output_text.strip():
         raise LLMUnavailableError("LLM generation is unavailable. The OpenAI response was empty.")
-    return str(output_text).strip()
+    return output_text.strip()
 
 
 def _parse_generated_folktale(story: str, location: str, theme: str) -> tuple[str, str]:
     lines = [line.strip() for line in story.splitlines() if line.strip()]
-    if not lines:
-        return f"{location}의 새 설화", ""
+    if len(lines) < 2:
+        raise LLMUnavailableError("LLM generation is unavailable. The response needs a title and story body.")
     title = lines[0].lstrip("# ").strip()
     body = "\n\n".join(lines[1:]).strip()
-    if not body:
-        body = title
-        title = f"{location}의 {theme or '새 설화'}"
+    if not title or not body:
+        raise LLMUnavailableError("LLM generation is unavailable. The response needs a title and story body.")
     return title, body
 
 
