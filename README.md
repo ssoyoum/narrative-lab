@@ -261,3 +261,5 @@ NODE_PATH=../Flood-Disaster-Digital-Twin/node_modules node scripts/browser_smoke
 ```
 
 다른 환경에서는 Playwright를 별도 도구 경로에 설치하고 NODE_PATH를 지정한다. GitHub Actions는 임시 경로에 고정 버전을 설치한다. 검사기는 health에서 OpenAI/Ollama 비활성 여부를 확인한 뒤 랜덤 설계 → 중심 Pack 외 후보 클릭 → applied module ID·active_modules·remix 모드 → 선택 카드 갱신을 확인한다. 실제 로컬 검사는 Ki/L_076_Ki 적용과 함께 통과했다. 의미·문학적 일관성이나 독립 사람 검토는 별도다.
+
+2026-10-21에는 선택적 모델의 잘못된 JSON 구조·불완전 응답·제목만 있는 출력을 기존 규칙 초안으로 대체하도록 보완했다. `tests/test_provider_boundary.py`의 mock 회귀 검사를 포함해 unittest 31개가 통과했다. 응답 형식 검증이며 생성 본문의 DNA·인과 일관성 검증은 아니다. 상세 실패 경계는 [일관성 규칙](docs/STORY_CONSISTENCY_RULES.md)을 참조한다.

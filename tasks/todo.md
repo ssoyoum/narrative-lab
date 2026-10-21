@@ -24,7 +24,7 @@
 
 ### 핵심 흐름의 실행 검증 부족 — 해결됨
 
-백엔드 단위 테스트만으로는 전체 흐름을 재현할 수 없었으나, `scripts/smoke_test.py`를 추가해 홈페이지·기본 생성·후보·Remix API·Active Remix Modules 응답을 한 번에 검증할 수 있게 했다. 브라우저 실제 클릭 검증은 아직 남아 있다.
+`scripts/smoke_test.py`로 홈페이지·기본 생성·후보·Remix API·Active Remix Modules 응답을 검증하고, `scripts/browser_smoke.cjs`로 Chromium 실제 후보 클릭까지 확인했다. 생성 본문 의미 검증은 별도 미완료 작업이다.
 
 ## 다음 작업 1~3개
 
@@ -73,3 +73,12 @@
 위 최초 문서 작업의 미실행 기록 이후 수행한 결과다. Live 생성·DB 변경·검색 알고리즘 변경은 하지 않았다.
 
 - [x] Chromium 실제 클릭: 랜덤 설계 → 중심 Pack 밖 후보 → API 적용 ID와 선택 카드 확인 (L_076_Ki). CI browser job에도 같은 검사 추가. 외부 모델 비활성 확인 후에만 실행한다.
+
+## 2026-10-21 선택적 모델 응답 오류 처리
+
+- [x] 잘못된 provider JSON 구조·불완전 응답·제목만 있는 출력을 기존 baseline fallback으로 처리
+- [x] 정상 중첩 assistant 응답/기존 output_text 호환 및 오류 상세 미노출 검사
+- [x] 변경 전 회귀 재현 후 전체 unittest 31개 통과, 고정 검색 질문 36개 지표 유지 — 실제 모델 호출 없음
+- [ ] 생성 본문 자동 DNA Validation — 응답 형식 검증을 의미 검증 완료로 세지 않음
+
+- [x] 같은 변경에서 키 없는 API smoke와 Chromium 실제 Cross-Story 후보 클릭 재검증 통과 (Ki/L_076_Ki), 서버 종료 확인

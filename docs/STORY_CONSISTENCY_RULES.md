@@ -14,7 +14,7 @@
 | 생성 prompt | `build_generation_prompt`가 선택 조건·DNA·추상 패턴을 전달, 원문/고유 사건 복사 금지 지시 | 지시 준수·표절 방지·환각 검증. prompt는 validator가 아님 |
 | 모델 장애 | `generate_engine_folktale`가 LLMUnavailableError를 규칙 초안으로 대체 | fallback의 문학적 일관성과 모든 기능 품질 |
 
-현재 `_parse_generated_folktale`는 첫 줄 제목·나머지 본문을 나눌 뿐 의미 검증을 하지 않는다. Match Report는 연결/커버리지 설명이며 설정 위반률 검증 결과가 아니다.
+현재 `_parse_generated_folktale`는 비어 있지 않은 제목·본문 형식만 확인하며 의미 검증을 하지 않는다. Match Report는 연결/커버리지 설명이며 설정 위반률 검증 결과가 아니다.
 
 ## 제안 규칙을 테스트 가능한 관찰로 바꾸기
 
@@ -54,3 +54,11 @@
 ## 재현 후 수정한 규칙 (2026-10-20)
 
 C08/C09는 `tests/test_remix_contract.py`의 합성 fixture로 검증했다. 기본 Pack에 climax가 없어도 다른 Pack의 유효한 override를 먼저 적용한다. 알 수 없는 Beat·없는 ID·호환되지 않는 Beat는 ValueError로 거절하며 기존 API가 HTTP 400으로 반환한다. 요청 성공/Remix 표시만 보고 적용됐다고 추정하던 위험을 줄인다. 누락 원천은 계속 placeholder로 남긴다. 전체 unittest 27개 통과. 인물 성격·시간·인과·생성 본문 DNA 반영의 의미 검증은 여전히 미구현이다.
+
+## 선택적 모델의 실패 격리 (2026-10-21)
+
+`app.py:call_llm` → `_extract_openai_text` → `_parse_generated_folktale`에서 응답 구조와 최소 형식을 확인한다. JSON 최상위가 객체가 아니거나 output/content 타입이 잘못된 경우, 명시된 응답/메시지 상태가 completed가 아닌 경우, provider error·refusal·잘못된 UTF-8/JSON·빈 응답·제목만 있는 출력은 `LLMUnavailableError`로 정리한다. 상태 필드가 없는 기존 output_text 응답은 호환성을 유지한다. 중첩 output에서는 assistant message의 문자열 output_text만 사용하고 reasoning 등은 본문으로 만들지 않는다.
+
+`generate_engine_folktale`는 기존 `generation_status=fallback`, `generation_provider=recombined baseline`과 규칙 초안을 유지한다. provider 응답 본문·오류 상세를 generation_notice에 복사하지 않는다. API의 새로운 상태나 자동 재시도는 추가하지 않았다. 정상 제목·본문을 가진 출력도 인물·장소·DNA·시간·인과의 의미 검사를 통과했다는 뜻은 아니다. 6개 단락 조건이나 한국어 여부를 자동으로 판정하지 않는다.
+
+`tests/test_provider_boundary.py`는 네트워크 함수를 mock하여 정상 출력 2형식, 구조/타입 오류, 불완전/실패 응답, refusal, UTF-8/JSON 오류, HTTP 429·시간 초과·연결 오류, 제목만 있는 출력을 검사한다. 같은 테스트를 변경 전 코드에 적용했을 때 하위 사례 실패 6건·오류 9건을 재현했고, 수정 후 전체 unittest 31개가 통과했다. 고정 검색 질문은 fallback 18개·팀 DB 18개에서 기존 지표와 같았다. 이 결과는 모델 호출 성공률이나 이야기 의미 정확도가 아니다. Live 모델은 호출하지 않았다.
